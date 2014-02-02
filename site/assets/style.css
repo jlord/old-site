@@ -1,0 +1,6 @@
+body {font-family: Andale Mono; margin: 0 auto;}
+
+.main-container {max-width: 900px; margin: 0 auto; padding: 20px 0px; border: 1px solid #eee;}
+
+.top-nav li {display: inline;}
+ul.top-nav {text-align: center; list-style: none; margin: 0px; padding: 0px;}

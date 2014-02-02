@@ -1,0 +1,19 @@
+/* GENERAL */
+/* ------------------------------------------------------------ */
+body {font-family: CentSchbook Mono BT; margin: 0 auto; color: #333;}
+a {color: #0091FF; text-decoration: none; transition: color 0.2s ease;}
+a:hover {color: #e4e4e4;}
+img {width: 100%;}
+pre {padding: 20px; background: #efefef; -webkit-border-radius: 2px; line-height: 18px;}
+code {font-family: Andale Mono; font-size: 12px;}
+/* PAGE */
+/* ------------------------------------------------------------ */
+.main-container {max-width: 900px; margin: 0 auto; padding: 20px 0px; /*border: 1px solid #eee;*/}
+
+
+/* HEADER */
+/* ------------------------------------------------------------ */
+
+.name {}
+.top-nav li {display: inline;}
+ul.top-nav {text-align: center; list-style: none; margin: 0 auto; padding: 0 0 4px 0;  /*border-bottom: 2px solid #0091FF;*/}
