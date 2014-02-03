@@ -1,10 +1,11 @@
 /* GENERAL */
 /* ------------------------------------------------------------ */
 body {font-family: CentSchbook Mono BT; margin: 0 auto; color: #333;}
-a {color: #0091FF; text-decoration: none; transition: color 0.2s ease;}
+a {color: #FF585E; text-decoration: none; transition: color 0.2s ease;}
+/* #0091FF orange #FF5200 #FF6103 #FF4040 #FF3333 #FF585E #FF7216 #FF5333 red #FF3333 */
 a:hover {color: #e4e4e4;}
 img {width: 100%;}
-pre {padding: 20px; background: #efefef; -webkit-border-radius: 2px; line-height: 18px;}
+pre {padding: 20px; background: #fafafa; -webkit-border-radius: 2px; line-height: 18px;}
 code {font-family: Andale Mono; font-size: 12px;}
 /* PAGE */
 /* ------------------------------------------------------------ */
