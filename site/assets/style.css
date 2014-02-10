@@ -1,6 +1,32 @@
-body {font-family: Andale Mono; margin: 0 auto;}
+/* GENERAL */
+/* ------------------------------------------------------------ */
+body {font-family: 'IM Fell French Canon', serif; margin: 0 auto; color: #333;}
+a { color: #007aff; text-decoration: none; transition: color 0.2s ease;}
+/* #0091FF orange #FF5200 #FF6103 #FF4040 #FF3333 #FF585E #FF7216 #FF5333 red #FF3333 */
+a:hover {color: #e4e4e4;}
+img {width: 100%;}
+pre {padding: 20px; background: #fafafa; -webkit-border-radius: 2px; line-height: 18px; word-wrap: break-word; font-family: Courier New; font-size: 12px; }
+code {font-family: Courier New; font-size: 12px;}
+/*p {font-family: Vollkorn;}*/
 
-.main-container {max-width: 900px; margin: 0 auto; padding: 20px 0px; border: 1px solid #eee;}
+/* PAGE */
+/* ------------------------------------------------------------ */
+.main-container {max-width: 700px; margin: 0 auto; padding: 60px 90px; background: #f9f9f9; /*border: 1px solid #eee;*/}
 
+
+/* HEADER */
+/* ------------------------------------------------------------ */
+
+.name {padding-left: 10px; left: -10px; position: relative;}
+header {font-size: 32px; color: #007aff; font-style: italic; position: fixed;}
 .top-nav li {display: inline;}
-ul.top-nav {text-align: center; list-style: none; margin: 0px; padding: 0px;}
+ul.top-nav {list-style: none; margin: 0 auto; padding: 0 0 4px 0;  /*border-bottom: 2px solid #0091FF;*/}
+.allthe {font-size: 12px; line-height: 16px; display: inline-block; padding-left: 6px; text-transform: uppercase;}
+
+/* BODY */
+/* ------------------------------------------------------------ */
+
+
+h1 {color: #007aff; font-style: italic; font-weight: normal; font-size: 230%;}
+
+#content {padding-top: 60px;}
