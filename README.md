@@ -1,4 +1,6 @@
 jlord.github.io
 ===============
 
-COOOL
+Total Work in Progress.
+
+Making a site with [Balrog](http://www.github.com/jlord/balrog).
