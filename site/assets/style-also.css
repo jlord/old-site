@@ -1,6 +1,6 @@
 /* GENERAL */
 /* ------------------------------------------------------------ */
-body {font-family: Garamond, 'IM Fell French Canon', serif; margin: 0 auto; color: #444; background: #FDFDFD; border-left: 38px solid #fff; border-right: 38px solid #fff;}
+body {font-family: Open Sans; font-size: 13px; letter-spacing: .01em; margin: 0 auto; color: #444; background: #FDFDFD; border-left: 38px solid #fff; border-right: 38px solid #fff;}
 a { color: #666; text-decoration: none; transition: color 0.2s ease; border-bottom: 1px solid #dadada;}
 /* #0091FF orange #FF5200 #FF6103 #FF4040 #FF3333 #FF585E #FF7216 #FF5333 red #FF3333 */
 /* blue #007aff */
@@ -9,13 +9,13 @@ img {width: 100%;}
 pre {padding: 20px; background: #fafafa; -webkit-border-radius: 2px; line-height: 18px; word-wrap: break-word; font-family: Courier New; font-size: 12px; }
 code {font-family: Courier New; font-size: 12px;}
 /*p {font-family: Vollkorn;}*/
-p {line-height: 1.4em;}
-h2, h3, h4, h5, h6 {font-weight: 500; font-family: "Helvetica Neue", Arial, Open Sans; padding-top: 1.2em;}
-h1 {font-family: Baskerville; text-align: center; font-style: italic; font-weight: normal; font-size: 260%;}
-blockquote {font-style: italic; margin: 20px; border-left: 1px solid #dadada; padding-left: 10px;}
+p {line-height: 1.6em;}
+h2, h3, h4, h5, h6 {font-weight: 500; font-family: Baskerville; font-style: italic; font-size: 180%; padding-top: 1.2em;}
+h1 {font-family: Baskerville; text-align: center; font-style: italic; font-weight: normal; font-size: 360%; padding-bottom: 10px;}
+blockquote {font-style: italic; margin: 30px 20px; border-left: 1px solid #dadada; padding-left: 10px;}
 /* PAGE */
 /* ------------------------------------------------------------ */
-.main-container {max-width: 550px; margin: 0 auto; padding: 60px 90px; background: #f9f9f9; /*border: 1px solid #eee;*/}
+.main-container {max-width: 700px; margin: 0 auto; padding: 60px 90px; background: #Fff; /*border: 1px solid #eee;*/}
 
 
 /* HEADER */
@@ -30,6 +30,7 @@ ul.top-nav {list-style: none; margin: 0 auto; padding: 0 0 4px 0;  /*border-bott
 /* BODY */
 /* ------------------------------------------------------------ */
 
-
-
+.meta { margin: 0 auto; font-family: Open Sans; font-size: 10px; color: #c6c6c6; letter-spacing: .1em; font-weight: 300; text-transform: uppercase;}
+ul.meta {list-style: none; display: inline-block; text-align: center; margin: 0 auto; padding: 0 0 10px 0; }
+.meta li {float: left; padding-right: 10px;}
 #content {padding-top: 60px;}
