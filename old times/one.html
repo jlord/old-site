@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="jlord">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>jlord</title>
+    <link rel="shortcut icon" href=""/>
+    <link href='assets/style-also.css' rel='stylesheet'>
+    <link href='http://fonts.googleapis.com/css?family=IM+Fell+French+Canon:400,400italic' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <div class="main-container">
+      <header>
+        <div class="nav">
+          <ul class="top-nav">
+          </ul>
+        </div>
+      </header>
+  
+      <div id="content">
+        <h1>Sheetsee.js v3.0</h1>
+        <div style="text-align: center;">
+        <ul class="meta">
+          <li>Jessica Lord</li>
+          <li>Feb. 20, 2014</li>
+          <li>open source, sheetsee, web dev</li>
+        </ul>
+      </div>
+          
+        <p>I&#8217;ve just updated <a title="sheetsee.js" href="http://www.github.com/jlord/sheetsee.js" target="_blank">Sheetsee.js</a> with new features and all new docs. I&#8217;ve been waiting to ship this, it feels like, for far too long. I&#8217;m hoping now Sheetsee is at a solid enough place that I can focus spare time on making more <a title="fork-n-go" href="http://www.jlord.us/fork-n-go" target="_blank">fork-n-go</a> examples.</p>
+<p>I&#8217;ll get straight to the most exciting point: the new <a title="penny data" href="https://docs.google.com/spreadsheet/ccc?key=0Ao5u1U6KYND7dGN5QngweVJUWE16bTRob0d2a3dCbnc&amp;usp=drive_web&amp;pli=1#gid=0" target="_blank">sample data</a> for the demos is of my <a title="pennies" href="http://www.flickr.com/photos/jessllord/sets/72157640471928365/" target="_blank">flattened penny collection</a>. Below are the other things.</p>
+<blockquote>
+  <p>Maps now support polygons and lines. So long as you have the correct coordinate structure in your cells, Sheetsee will add them to the geoJSON it creates for your maps. More details for coordinates of lines</p>
+</blockquote>
+<h3>New Features</h3>
+<p>Yay!</p>
+<h3>Tables: Pagination, Multi Table Sorting and Filtering</h3>
+<p>Tables can now be paginated so that you don&#8217;t have to display your entire spreadsheet of data in one go. Unless you want to.</p>
+<p>Tables now supports having multiple tables with sorting and filtering. So long as you keep your table IDs straight, you&#8217;re golden.</p>
+<p>See: <a title="sheetsee table demo" href="http://jlord.github.io/sheetsee.js/demos/demo-table.html" target="_blank">table demo</a>.</p>
+<h3>Maps: Polygons and Lines</h3>
+<p>Maps now support polygons and lines. So long as you have the correct coordinate structure in your cells, Sheetsee will add them to the geoJSON it creates for your maps. More details for coordinates of lines and polygons in geoJSON are <a title="geojson" href="http://leafletjs.com/examples/geojson.html" target="_blank">here</a>, but briefly:</p>
+<p>A linestring:</p>
+<pre>[-122.41722106933594, 37.7663045891584], [-122.40477561950684, 37.77695634643178]</pre>
+<p>A polygon:</p>
+<pre>[-122.41790771484375, 37.740381166384914], [-122.41790771484375, 37.74520008134973], [-122.40966796874999, 37.74520008134973],[-122.40966796874999, 37.740381166384914], [-122.41790771484375, 37.740381166384914]</pre>
+<p>A Multipolygon:</p>
+<pre>[[-122.431640625, 37.79106586542567], [-122.431640625, 37.797441398913286], [-122.42666244506835, 37.797441398913286],[-122.42666244506835, 37.79106586542567], [-122.431640625, 37.79106586542567]], 
+[[-122.43352890014648, 37.78197638783258], [-122.43352890014648, 37.789031004883654], [-122.42443084716797, 37.789031004883654], [-122.42443084716797, 37.78197638783258], [-122.43352890014648, 37.78197638783258]]</pre>
+<p>See: <a title="sheetsee map demo" href="http://jlord.github.io/sheetsee.js/demos/demo-map.html" target="_blank">map demo</a>.</p>
+<h3>Documentation</h3>
+<p>I redid the documentation and website for Sheetsee. Instead of one <em>gigantic</em> readme file/website, all of the different elements are given their own file/page. Now you can find docs, demos, tips and such all filed away nicely here in the <a title="sheetsee" href="http://www.github.com/jlord/sheetsee.js">repository</a> and on the <a href="http://jlord.github.io/sheetsee.js">website</a>.</p>
+<h3 style="font-size: 140%;">Modules</h3>
+<p>The other big thing that has happened to Sheetsee is that I&#8217;ve taken each component (core, maps, tables and charts) and made them into their own Node.js module. This makes for smaller, more manageable code files and it makes it so that users can build their own version of Sheetsee with just the elements they want to use. For instance, if you&#8217;re only making maps, just build a Sheetsee with the map component.</p>
+<p>All builds come with the `sheetsee-core` module which contains all of the data organizing functions.</p>
+<p>The module `sheetsee` is a command line module that builds your custom sheetsee for you.</p>
+<p>If you&#8217;re not interested in Node modules or building anything, that&#8217;s ok, too. I&#8217;ll always keep a full build (with all the components) <a title="sheetsee full" href="https://github.com/jlord/sheetsee.js/tree/master/js" target="_blank">here in the sheetsee.js repository</a> (which from here on out exists to be the consolidated documentation and source of a full build).</p>
+<p>If you need to file an issue for a bug or feature, try and file it on the repository with the component it relates to (they each have their own repository now):</p>
+<p><a title="sheetsee maps" href="http://www.github.com/jlord/sheetsee-maps" target="_blank">sheetsee-maps</a><br />
+<a title="sheetsee tables" href="http://www.github.com/jlord/sheetsee-tables" target="_blank">sheetsee-tables</a><br />
+<a title="sheetsee charts" href="http://www.github.com/jlord/sheetsee-charts" target="_blank">sheetsee-charts</a><br />
+<a title="sheetsee core" href="http://www.github.com/jlord/sheetsee-core" target="_blank">sheetsee-core</a><br />
+<a title="sheetsee" href="http://www.github.com/jlord/sheetsee" target="_blank">sheetsee</a></p>
+<p>Thanks!</p>
+        
+<pre><code>if (!outputDir) {
+  err = new Error('You must pass a path for the `output` option.')
+  err.code = 'E_NO_OUTPUT'
+  return callback(err)
+}</code></pre>
+      </div>
+
+      <div class="footer">
+        <p>Thanks.</p>
+      </div>
+    </div>
+  </body>
+</html>

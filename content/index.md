@@ -1,3 +1,3 @@
 # Hi
 
-Hello, welcome to my [site](#).
+Hello, welcome to my [site](/about.html).

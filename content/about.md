@@ -1,3 +1,2 @@
-# About Me  
-
-I'm Balrog, hello.
+# About Me 
+Oh, hello.

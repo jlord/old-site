@@ -7,15 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>jlord</title>
     <link rel="shortcut icon" href=""/>
-    <link href='assets/style.css' rel='stylesheet'>
+    <link href='../assets/style.css' rel='stylesheet'>
   </head>
   <body>
     <div class="main-container">
       {{> header}}
   
       <div id="content">
-        <p>MAIN TEMPLATE</p>
-        {{{content}}}
+        {{#posts}}
+          {{{content.content}}}
+        {{/posts}}
+        {{> pagination}}
       </div>
 
       {{> footer}}
