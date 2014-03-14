@@ -1,7 +1,7 @@
 # Hello Title
-## By Balrog
-## 2013-01-03
-## tag, tag, tag
+#### By Balrog
+#### 2013-01-03
+#### tag, tag, tag
 
 I love balrogin. This is a sample post. I'm going to include some [links](#) and an image.
 
