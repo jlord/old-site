@@ -29,7 +29,7 @@ header {font-family: 'Playfair Display'; margin: 0 auto; text-align: center; fon
 .upper-bold-italic {font-weight: bold; font-style: italic; font-size: 150%;}
 .row {margin: -8px 0; padding: 0px;}
 header .row:nth-child(even) {padding-left: 28px;}
-header a {color: #333; border: none;}
+header a {color: #444; border: none;}
 
 /* BODY */
 /* ------------------------------------------------------------ */
