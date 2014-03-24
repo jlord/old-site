@@ -15,6 +15,7 @@ h2, h3, h4, h5, h6 {font-weight: 700; font-family: 'Playfair Display'; font-size
 h1,h3,h4,h5,h6 { font-family: 'Playfair Display'; font-weight: 900; font-style: italic; text-align: left; font-size: 150%;}
 h1 {font-family: 'Playfair Display'; text-align: center; font-style: italic; font-weight: 900; font-size: 360%; margin-bottom: 12px;}
 blockquote {font-style: italic; margin: 30px 20px; border-left: 1px solid #dadada; padding-left: 10px;}
+ul {text-align: left;}
 /* PAGE */
 /* ------------------------------------------------------------ */
 .main-container {max-width: 700px; margin: 0 auto; padding: 60px 90px; background: #Fff; overflow: auto;}
@@ -52,8 +53,8 @@ h2:nth-of-type(1), h2:nth-of-type(2), h2:nth-of-type(3) {
 
 /* FOOTER */
 /* ------------------------------------------------------------ */
-footer {margin: 50px auto; padding-top: 20px; auto; font-family: Open Sans; font-size: 10px; color: #777; letter-spacing: .1em; font-weight: 300; text-transform: uppercase; border-top: 1px solid #777;}
-footer ul {list-style: none; padding: 0 30px 0 0; display: inline-block;
+footer {margin: 50px auto; padding-top: 20px; auto; font-family: Open Sans; font-size: 10px; color: #777; letter-spacing: .1em; font-weight: 300; text-transform: uppercase; border-top: 1px solid #c6c6c6;}
+footer ul {list-style: none; padding: 0 15px; display: inline-block;
 vertical-align: top;}
 footer li {text-align: left;}
 footer a {border: none;}
