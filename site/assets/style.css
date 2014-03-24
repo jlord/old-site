@@ -15,6 +15,7 @@ h2, h3, h4, h5, h6 {font-weight: 700; font-family: 'Playfair Display'; font-size
 h1,h3,h4,h5,h6 { font-family: 'Playfair Display'; font-weight: 900; font-style: italic; text-align: left; font-size: 150%;}
 h1 {font-family: 'Playfair Display'; text-align: center; font-style: italic; font-weight: 900; font-size: 360%; margin-bottom: 12px;}
 blockquote {font-style: italic; margin: 30px 20px; border-left: 1px solid #dadada; padding-left: 10px;}
+
 /* PAGE */
 /* ------------------------------------------------------------ */
 .main-container {max-width: 700px; margin: 0 auto; padding: 60px 90px; background: #Fff; overflow: auto;}
@@ -43,12 +44,14 @@ ul.meta {list-style: none; display: inline-block; text-align: center; margin: 0 
 /* POST */
 /* ------------------------------------------------------------ */
 .content {padding-top: 60px;}
-.content h2 {text-align: center;}
+
 h2:nth-of-type(1), h2:nth-of-type(2), h2:nth-of-type(3) {
   color: red; display: inline-block; margin: 0 auto; font-family: Open Sans; font-size: 10px; color: #c6c6c6; letter-spacing: .1em; font-weight: 300; text-transform: uppercase;}
-.post-header ul {
-    list-style: none; color: red; margin: 0 auto; padding: 0px; font-family: Open Sans; font-size: 10px; color: #c6c6c6; letter-spacing: .1em; font-weight: 300; text-transform: uppercase;}
-.post-header li {display: inline-block; padding-right: 6px;}
+.content h1 + a + ul {
+    list-style: none; text-align: center; color: red; margin: 0 auto; padding: 0px; font-family: Open Sans; font-size: 10px; color: #c6c6c6; letter-spacing: .1em; font-weight: 300; text-transform: uppercase;}
+.content .post-header li {display: inline-block; padding-right: 6px;}
+.content ul {text-align: left;}
+
 
 /* FOOTER */
 /* ------------------------------------------------------------ */
