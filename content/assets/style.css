@@ -7,27 +7,28 @@ a { color: #444; text-decoration: none; transition: color 0.2s ease; border-bott
 /* bright seafoam #44FFB4 */
 a:hover {color: #09cc40; border-color: #09cc40;}
 img {width: 100%;}
-pre {white-space: pre-wrap; word-break: break-all; word-wrap: break-word; padding: 20px; background: #fafafa; -webkit-border-radius: 2px; line-height: 1.6em;}
+pre { font-family: 'Andale Mono', Liberation Mono, monospace; white-space: pre-wrap; word-break: break-all; word-wrap: break-word; padding: 20px; background: #fafafa; -webkit-border-radius: 2px; line-height: 1.6em;}
 pre code {padding: 0; color: inherit; background-color: transparent; border: 0;}
 code {padding: 2px 4px; border: 1px solid #dadada; border-radius: 2px; font-family: 'Andale Mono', Liberation Mono, monospace; font-weight: 900; font-size: 12px;}
 p { font-size: 15px; line-height: 1.6em; text-align: left;}
 h2, h3, h4, h5, h6 {font-weight: 700; font-family: 'Playfair Display'; font-size: 180%; padding-top: 1.2em;}
 h1,h3,h4,h5,h6 { font-family: 'Courier New', Helvetica, Arial, sans-serif; font-weight: 900; text-align: left; font-size: 134%;}
 h1 {font-family: 'Playfair Display'; letter-spacing: .01em; text-align: center; font-weight: 900; color: #09cc40; font-size: 300%; margin: 12px 0;}
-blockquote {font-style: italic; font-family: 'Playfair Display'; margin: 30px 20px; /*border-left: 1px solid #dadada;*/ padding-left: 10px;}
+blockquote {font-style: italic; font-family: 'Playfair Display'; margin: 30px 20px;}
 blockquote::before {content: "・"; color: #09cc40; float: left; padding-right: 10px; top: 4px; position: relative;}
+blockquote p {padding-left: 21px;}
 li {line-height: 1.6em;}
-ul {list-style: circle; color: #09cc40; padding-left: 18px;}
+ul {list-style: circle; padding-left: 18px;}
 
 /* PAGE */
 /* ------------------------------------------------------------ */
-.main-container {max-width: 620px; margin: 0 auto; padding: 60px 90px; background: #Fff; overflow: auto;}
+.main-container {max-width: 620px; margin: 0 auto; padding: 20px; background: #Fff; overflow: auto;}
 
 
 /* HEADER */
 /* ------------------------------------------------------------ */
 
-header {font-family: 'Playfair Display'; margin: 0 auto; text-align: center; font-size: 130%;}
+header {font-family: 'Playfair Display'; margin: 0 auto; text-align: center; font-size: 130%; padding-top: 40px;}
 .float-box {display: inline;}
 .lower-italic {font-style: italic; position: relative; top: -3px;}
 .upper-bold-italic {font-weight: bold; font-style: italic; font-size: 150%;}

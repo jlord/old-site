@@ -31,61 +31,172 @@
   
       <div id="content">
         
-          <div class="post-header"><a href="third-post.html"><h1>Hello Title</h1></a><ul><li>By Balrog</li> <li>2013-01-03</li> <li>tag, tag, tag</li></ul></div><p>I love balrogin. This is a sample post. I&#39;m going to include some <a href="#">links</a> and an image.</p>
-<p><img src="http://sibirskiy.com/yahoo_site_admin/assets/images/Deema_002.164170715.jpg" alt="img"></p>
-<p><em>source helmi on Flickr</em></p>
-<p>Here is a quote about something:</p>
-<blockquote>
-<p>I heard that was really cool. Is it cool? Sounds cool. I&#39;ll give it a try.</p>
-</blockquote>
-<p>Now we&#39;ll move on.</p>
-<h3 id="here-is-a-topic-header">Here is a topic header</h3>
-<p>And more text about that. Wow, cool.</p>
-
-        
-          <div class="post-header"><a href="second-post.html"><h1>Wow, Love Bloggin</h1></a><ul><li>By Balrog</li> <li>2013-01-03</li> <li>tag, tag, tag</li></ul></div><p>Cool, cool, cool. Some <a href="#">links</a>.</p>
-<p><em>source helmi on Flickr</em></p>
-<p>Here is a quote about something:</p>
-<blockquote>
-<p>I heard that was really cool. Is it cool? Sounds cool. I&#39;ll give it a try.</p>
-</blockquote>
-<p>Now we&#39;ll move on.</p>
-<h3 id="here-is-a-topic-header">Here is a topic header</h3>
-<p>And more text about that. Wow, cool.</p>
-
-        
-          <div class="post-header"><a href="sheetsee-3.html"><h1>Sheetsee.js v3.0</h1></a><ul><li>By Jessica Lord </li> <li>2014-28-02</li> <li>Open Source, Sheetsee.js</li></ul></div><p>I&#39;ll get straight to the most exciting point: the new <a href="https://docs.google.com/spreadsheet/ccc?key=0Ao5u1U6KYND7dGN5QngweVJUWE16bTRob0d2a3dCbnc&amp;usp=drive_web&amp;pli=1#gid=0">sample data</a> for the demos is of my <a href="http://www.flickr.com/photos/jessllord/sets/72157640471928365/">flattened penny collection</a>. Below are the other things.</p>
-<h3 id="new-features">New Features</h3>
-<p>Yay!</p>
-<h4 id="tables-pagination-multi-table-sorting-and-filtering">Tables: Pagination, Multi Table Sorting and Filtering</h4>
-<p>Tables can now be paginated so that you don&#8217;t have to display your entire spreadsheet of data in one go. Unless you want to.</p>
-<p>Tables now supports having multiple tables with sorting and filtering. So long as you keep your table IDs straight, you&#8217;re golden.</p>
-See: <a href="http://jlord.github.io/sheetsee.js/demos/demo-table.html">table demo</a>
-<h4 id="maps-polygons-and-lines">Maps: Polygons and Lines</h4>
-<p>Maps now support polygons and lines. So long as you have the correct coordinate structure in your cells, Sheetsee will add them to the geoJSON it creates for your maps. More details for coordinates of lines and polygons in geoJSON are <a href="http://leafletjs.com/examples/geojson.html">here</a>, but briefly:</p>
-<p>A linestring:</p>
-<pre><code>[-122.41722106933594, 37.7663045891584], [-122.40477561950684, 37.77695634643178]</code></pre>
-<p>A polygon:</p>
-<pre><code>[-122.41790771484375, 37.740381166384914], [-122.41790771484375, 37.74520008134973], [-122.40966796874999, 37.74520008134973],[-122.40966796874999, 37.740381166384914], [-122.41790771484375, 37.740381166384914]</code></pre>
-<p>A Multipolygon:</p>
-<pre><code>[[-122.431640625, 37.79106586542567], [-122.431640625, 37.797441398913286], [-122.42666244506835, 37.797441398913286],[-122.42666244506835, 37.79106586542567], [-122.431640625, 37.79106586542567]],
-[[-122.43352890014648, 37.78197638783258], [-122.43352890014648, 37.789031004883654], [-122.42443084716797, 37.789031004883654], [-122.42443084716797, 37.78197638783258], [-122.43352890014648, 37.78197638783258]]</code></pre>
-<p>See: <a href="http://jlord.github.io/sheetsee.js/demos/demo-map.html">map demo</a>.</p>
-<h3 id="documentation">Documentation</h3>
-<p>I redid the documentation and website for Sheetsee. Instead of one <em>gigantic</em> readme file/website, all of the different elements are given their own file/page. Now you can find docs, demos, tips and such all filed away nicely here in the <a href="http://www.github.com/jlord/sheetsee.js">repository</a> and on the <a href="http://jlord.github.io/sheetsee.js">website</a>.</p>
-<h3 id="modules">Modules</h3>
-<p>The other big thing that has happened to Sheetsee is that I&#39;ve taken each component (core, maps, tables and charts) and made them into their own Node.js module. This makes for smaller, more manageable code files and it makes it so that users can build their own version of Sheetsee with just the elements they want to use. For instance, if you&#39;re only making maps, just build a Sheetsee with the map component.</p>
-<p>All builds come with the <code>sheetsee-core</code> module which contains all of the data organizing functions.</p>
-<p>The module <code>sheetsee</code> is a command line module that builds your custom sheetsee for you.</p>
-<p>If you&#39;re not interested in Node modules or building anything, that&#39;s ok, too. I&#39;ll always keep a full build (with all the components) here in <a href="https://github.com/jlord/sheetsee.js/tree/master/js">the sheetsee.js repository</a> (which from here on out exists to be the consolidated documentation and source of a full build).</p>
-<p>If you need to file an issue for a bug or feature, try and file it on the repository with the component it relates to (they each have their own repository now):</p>
+          <div class="post-header"><a href="wordpress-heroku.html"><h1>WordPress on Heroku and S3</h1></a><ul><li>By Jessica Lord</li> <li>2012-09-11</li> <li>heroku, web dev, wordpress</li></ul></div><p>The other week I moved two WordPress sites to Heroku and their media uploads to S3. How happy it&#8217;s made me!</p>
+<p>For the first I used this <a title="Install WordPress on Heroku in 2 Minutes" href="http://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0CDAQFjAA&url=http%3A%2F%2Fwpnyc.org%2Fvideo%2Finstall-wordpress-on-heroku-in-two-minutes%2F&ei=Y0CcUIbbEqTD0QXDtYDgCg&usg=AFQjCNED1BcBQsljGybnb4kmHuuZwpSWaQ" target="_blank">tutorial</a>, which sets up WordPress with Postgres using <a title="Wordpress-Heroku Github Repo" href="https://github.com/mhoofman/wordpress-heroku" target="_blank">this Github repo</a> - but then I moved the other site (this one!) with this <a title="Migrating a WordPress blog to Heroku" href="http://blog.pardner.com/2012/04/migrating-a-wordpress-blog-to-heroku/" target="_blank">tutorial</a> and used  the new-ish on Heroku ClearDB for mySQL. I used the <a title="tantan-s3" href="http://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0CC4QFjAA&url=http%3A%2F%2Fwordpress.org%2Fextend%2Fplugins%2Ftantan-s3%2F&ei=-UGcUOb4GcmGhQerkYCoBQ&usg=AFQjCNE1M27-xI4UMbhHGCyUSYUzivDgAA" target="_blank">tantan-s3</a> Wordpress plugin to connect to a bucket on my S3 account. And BAM.</p>
+<p>A couple of notes:</p>
 <ul>
-<li><a href="http://www.github.com/jlord/sheetsee-maps">sheetsee-maps</a></li>
-<li><a href="http://www.github.com/jlord/sheetsee-tables">sheetsee-tables</a></li>
-<li><a href="http://www.github.com/jlord/sheetsee-charts">sheetsee-charts</a></li>
-<li><a href="http://www.github.com/jlord/sheetsee-core">sheetsee-core</a></li>
-<li><a href="http://www.github.com/jlord/sheetsee">sheetsee</a></li>
+<li>If you&#8217;re using the second tutorial, on step 8, I changed the database creds in my wp-config.php file (not wp-admin.php).</li>
+<li>Also, remember, you won&#8217;t be able to update WordPress or add themes or plugins when hosting on Heroku. But it&#8217;s not hard, you&#8217;ll just add the files/folders to your set of WordPress files and re-push them to Heroku.</li>
 </ul>
+<h3 id="multiple-ssh-keys">Multiple SSH Keys</h3>
+<p>Unfortunately, it turned out to be a hot mess for me because the first site is a project for work, so it&#8217;s on an Heroku account with my work email, the second is this site, my site, so it&#8217;s on my personal Heroku account. Actively working on both and needing different SSH keys is a pain. If you run into this, here&#8217;s what I&#8217;m doing (suggestions welcome!). First, add a new key. Then, when you&#8217;re trying to push and it tells you:</p>
+<pre><code class="rainbow" data-language="javascript">!  Your key with fingerprint blahblahblah is not authorized to access blahblah</code></pre>
+
+<p>Remove that key and add the one your stored earlier.</p>
+<pre><code class="rainbow" data-language="javascript">ssh-add -d ssh-add ~/.ssh/heroku_rsa</code></pre>
+
+<p>Pointing your domain to the site is easy, too. Heroku has the steps <a title="Point domain to Heroku" href="https://devcenter.heroku.com/articles/custom-domains" target="_blank">here</a>.</p>
+<div id="sources">
+  <h3>
+    Sources
+  </h3>
+
+  <ol>
+    <li>
+      <a title="Wordpress on Heroku in 2mins" href="http://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0CDAQFjAA&url=http%3A%2F%2Fwpnyc.org%2Fvideo%2Finstall-wordpress-on-heroku-in-two-minutes%2F&ei=Y0CcUIbbEqTD0QXDtYDgCg&usg=AFQjCNED1BcBQsljGybnb4kmHuuZwpSWaQ" target="_blank">WordPress on Heroku in 2mins</a> video
+    </li>
+    <li>
+      <a title="Wordpress Heroku" href="https://github.com/mhoofman/wordpress-heroku" target="_blank">WordPress Heroku</a> Github Repo by mhoofman
+    </li>
+    <li>
+      <a title="Migrating a WordPress Blog to Heroku" href="http://blog.pardner.com/2012/04/migrating-a-wordpress-blog-to-heroku/" target="_blank">Migrating WordPress Blog to Heroku</a> by Pardner Wynn
+    </li>
+    <li>
+      <a title="Custom Domans - Heroku" href="https://devcenter.heroku.com/articles/custom-domains" target="_blank">Custom Domains</a> on Heroku
+    </li>
+  </ol>
+</div>
+        
+          <div class="post-header"><a href="multiple-heroku-accounts.html"><h1>Multiple Heroku Accounts</h1></a><ul><li>By Jessica Lord </li> <li>2012-11-25</li> <li>heroku, web dev</li></ul></div><p>First, create new keys for each of the accounts you&#8217;re setting up. For me that&#8217;s a work account and personal account.</p>
+<pre>ssh-keygen -t rsa -C "your@email.com"</pre>
+
+<p>When it asks what to name it, give it a name that&#8217;s easy to recall, like identity.heroku.work.</p>
+<h3 id="configure-your-system-ssh">Configure your system .ssh</h3>
+<p>Next, you have to edit your <code>.ssh/config</code> file and set up new hosts. If you use Textmate, you can type <code>mate ~/.ssh/config</code> in terminal. Add these lines, changing out the work/personal and IdentityFile to match your needs/keys.</p>
+<pre><code data-language="shell">Host heroku.work
+ HostName heroku.com
+ IdentityFile ~/.ssh/identity.heroku.work
+ IdentitiesOnly yes
+Host heroku.personal
+ HostName heroku.com
+ IdentityFile ~/.ssh/identity.heroku.personal
+ IdentitiesOnly yes</code></pre>
+
+<h3 id="configure-your-git-repo">Configure your git repo</h3>
+<p>Now edit the <code>.git/config</code> files. Inside of your root directory for the repo, type <code>mate .git/config</code> to open the file. It will look something like this, but under <code>[remote &quot;heroku&quot;]</code> you will change the url from heroku.<strong>com</strong> to heroku.<strong>work</strong> (or whatever you&#8217;re calling your different accounts).</p>
+<pre><code data-language="shell">[core]
+ repositoryformatversion = 0
+ filemode = true
+ bare = false
+ logallrefupdates = true
+ ignorecase = true
+[branch "master"]
+[remote "heroku"]
+ url = git@heroku.work:splost.git
+ fetch = +refs/heads/*:refs/remotes/heroku/*
+[remote "origin"]
+ url = git@github.com:jllord/splost-heroku.git
+ fetch = +refs/heads/*:refs/remotes/origin/*</code></pre>
+
+<h3 id="tell-heroku-which-keys-to-use">Tell Heroku which keys to use</h3>
+<p>In Terminal, navigate to the root directory for the repo and <code>heroku login</code> to the account associated with that repo. You&#8217;ll need to tell heroku what key to use with that account.</p>
+<pre>heroku keys:add ~/.ssh/identity.heroku.work.pub</pre>
+
+<p>Repeat for other repos you have associated with that account. Then navigate to the root of a repo with a different account, make sure to now <code>heroku login</code> with your other account login information. Repeat the steps for adding the keys to this account (only add the other account, ie, identity.heroku.personal).</p>
+<p>So many keys, so much fun. If you are like me and had made a hot mess of keys, it may be useful to list your keys (in heroku and on your computer), see what&#8217;s going on and clean up. Now I have one key that github uses and two keys for my two Heroku accounts and things are running much more smoothly.</p>
+<div id="sources">
+  <h3>
+    Sources
+  </h3>
+
+  <ol>
+    <li>
+      <a title="Heroku Accounts Plugin Github" href="https://github.com/ddollar/heroku-accounts" target="_blank">Heroku Accounts</a> plugin Github
+    </li>
+    <li>
+      <a title="Multiple Heroku Accounts Stack Overflow" href="http://stackoverflow.com/a/8856271" target="_blank">Multiple Heroku Accounts</a> Stackoverflow Answer
+    </li>
+    <li>
+      <a title="Keys in Heroku" href="https://devcenter.heroku.com/articles/keys" target="_blank">Keys</a> in Heroku Dev
+    </li>
+  </ol>
+</div>
+        
+          <div class="post-header"><a href="san-franniversary.html"><h1>San Franniversary</h1></a><ul><li>By Jessica Lord </li> <li>2012-11-26</li> <li>general</li></ul></div><p><img src="http://farm9.staticflickr.com/8486/8221049917_abc97c6b2a_c.jpg" alt="san franniversary"></p>
+<p>It&#8217;s my San Franniversary! A year ago today I flew to California for the first time to do this <a title="Code for America" href="http://www.codeforamerica.org" target="_blank">CfA</a> thing. Of course, I now live in the warmer, flatter, node.js-ier and according to me, all around nicer Oakland, but that doesn&#8217;t play as nicely with &#8216;anniversary&#8217;. Also, what a year!</p>
+
+        
+          <div class="post-header"><a href="your-own-instagram.html"><h1>Your Own Instagram Feed</h1></a><ul><li>By Jessica Lord</li> <li>2012-13-11</li> <li>web dev, spreadsheets, sheetsee, instagram</li></ul></div><p>I  know Instagram&#39;s just come out with web profiles, but they&#8217;re not on <em>my</em> page and they&#8217;re not in circles. So quick and dirty (it took longer to write this post, see note on code) I put up my photos, <a href="http://jlord.us/instagram" title="jlord instagram">here</a>, and in circles. Some weeks ago I started using an ifttt.com (which is so, so awesome) <a title="ifttt.com recipe" href="https://ifttt.com/recipes/65778" target="_blank">recipe</a> that sends my Instagram photos (dates and captions as well) to a Google Spreadsheet. I&#8217;m all about Google Spreadsheets. The same spreadsheet powers the Instagram portion on my <a title="Dashboard" href="http://jlord.us/dashboard" target="_blank">dashboard</a> page.</p>
+<h3 id="the-parts">The Parts</h3>
+<p>I use <a title="tabletop javascript" href="http://builtbybalance.com/Tabletop/" target="_blank">tabletop.js</a> to get my spreadsheet data into usable json. Once I&#8217;ve got that data, I tell <a title="mustache js" href="http://mustache.github.com" target="_blank">mustache.js</a> to take it, format each piece (I&#8217;m using just the url for the Instagram photo) into a div and then place all of those divs into the holder waiting patiently for it in my html. I use CSS to format it into circles.</p>
+<h3 id="the-code">The Code</h3>
+<p>Don&#8217;t even get me started on trying to format code snippets in WordPress. Ugh. So, sorry there are no indents right now.</p>
+<p>The HTML/CSS</p>
+<div class="wp-cc wp-cc-html">
+  <pre><code data-language="html">&lt;head&gt;
+&lt;!-- just showing the important parts, you&#039;ll obvs have a few more things on your page --&gt;
+&lt;!-- load in tabletop and mustache --&gt;
+&lt;script src=&quot;/wp-content/themes/Starkers/tabletop.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;/wp-content/themes/Starkers/ICanHaz.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;style&gt;
+/<em> confine your image to a circle </em>/
+.instaImgCirc img {border-radius: 1000px;}
+&lt;/style&gt;
+&lt;body&gt;
+&lt;!-- this dude waits patiently to be filled with stuff --&gt;
+&lt;div id=&quot;instagram&quot;&gt;&lt;/div&gt;
+&lt;/body&gt;</code></pre>
+</div>
+
+<p>The JS</p>
+<div class="wp-cc wp-cc-javascript">
+  <pre><code data-language="javascript">&lt;script id=&quot;instagram&quot; type=&quot;text/html&quot;&gt;
+{{#rows}}
+&lt;div class=&quot;instaImgCirc&quot;&gt;&lt;img src=&quot;{{instasource}}&quot; width=&quot;100%&quot;/&gt;&lt;/div&gt;
+{{/rows}}
+&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+// Your spreadsheets URL
+var URL=&#039;<a href="https://docs.google.com/spreadsheet/pubkey=0Ao5u1U6KYND7dGRZbTUwd3JQZ1k3OE9KTVZqZUYwZHc&amp;single=true&amp;gid=0&amp;output=html&amp;#039">https://docs.google.com/spreadsheet/pubkey=0Ao5u1U6KYND7dGRZbTUwd3JQZ1k3OE9KTVZqZUYwZHc&amp;single=true&amp;gid=0&amp;output=html&amp;#039</a>;;
+//
+function loadSpreadsheet() {
+// let&#039;s get this party started
+Tabletop.init( { key: URL, callback: showData, simpleSheet: true } ) }
+//
+// use this if you want to use a specific number of your most recent Instagrams
+function getLast(array, howMany) {
+start = array.length cut = start - howMany
+if (start &lt; 20) {
+return array
+} else {
+array = array.splice(cut) return array.reverse()
+}
+}
+//
+document.addEventListener(&#039;DOMContentLoaded&#039;, function() {
+loadSpreadsheet() })
+//
+showData = function(data) {
+var instagram = ich.instagram({
+&quot;rows&quot;: getLast(data, 12)
+// use &quot;rows&quot;: data.reverse() if you want to use all the Instagrams in your spreadsheet
+})
+document.getElementById(&#039;instagram&#039;).innerHTML = instagram;
+}
+&lt;/script&gt;
+&lt;/html&gt;</code></pre>
+</div>
+
+<h3 id="later-ons">Later Ons</h3>
+<p>I&#8217;d like have my captions appear when hovering over the image and to cue up, say, just 20 photos at a time and have new photos automatically appear without refresh. Perhaps this will happen on the 12 hour plane ride I have tomorrow.</p>
+<p>&nbsp;</p>
+
+        
+          <div class="post-header"><a href="twenty-twelve.html"><h1>Twenty Twelve</h1></a><ul><li>By Jessica Lord</li> <li>2012-31-12</li> <li>general</li></ul></div><p><img src="http://jlord.s3.amazonaws.com/wp-content/uploads/map-of-year-szd.png" alt="map of year"></p>
+<p>Farewell, 2012! It&#8217;s been real. Went a lot of places during my Code for America fellowship this year, but not in middle America, which is just as well, I needed a place to drop a vertical calendar in this map.</p>
+<p><a title="Code for America" href="http://www.codeforamerica.org" target="_blank">Code for America</a> was the best decision I&#8217;ve made and this has been the best year I&#8217;ve had. That&#8217;s it and that&#8217;s all. #woowoo</p>
+<p>Happy New Year!</p>
 
         
         <!--   <div class="turn-page">
