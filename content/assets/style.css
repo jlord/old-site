@@ -12,7 +12,7 @@ pre, code {font-family: 'Courier New'; font-weight: 900; font-size: 12px;}
 /*p {font-family: Vollkorn;}*/
 p { font-size: 18px; line-height: 1.6em; text-align: left;}
 h2, h3, h4, h5, h6 {font-weight: 700; font-family: 'Playfair Display'; font-size: 180%; padding-top: 1.2em;}
-h1,h3,h4,h5,h6 { font-family: 'Playfair Display'; font-weight: 900; font-style: italic; text-align: left; font-size: 150%;}
+h1,h3,h4,h5,h6 { font-family: 'Open Sans', Helvetica, Arial, sans-serif; font-weight: 900; text-align: left; font-size: 150%;}
 h1 {font-family: 'Playfair Display'; text-align: center; font-style: italic; font-weight: 900; font-size: 360%; margin-bottom: 12px;}
 blockquote {font-style: italic; margin: 30px 20px; border-left: 1px solid #dadada; padding-left: 10px;}
 
