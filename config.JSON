@@ -5,7 +5,7 @@
  "templateDir": "./templates",
  "partialsDir": "./partials",
  "templates": {
-   "feed": "index.html",
+   "feed": ["index.html", "/blog/page/1.html"],
    "post": "/blog/*",
    "main": "/"
  },
