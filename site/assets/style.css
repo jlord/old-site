@@ -77,3 +77,7 @@ vertical-align: top;}
 footer li {text-align: left;}
 footer a {border: none;}
 
+/* INSTAGRAM */
+/* ------------------------------------------------------------ */
+
+.instaImgCirc img {border-radius: 1000px; margin: 10px; width: 200px; display: inline-block;}
