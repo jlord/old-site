@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="jlord">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>jlord</title>
+    <link rel="shortcut icon" href="assets/favicon.png">
+    <link href='assets/style.css' rel='stylesheet'>
+  </head>
+  <body>
+    <div class="main-container">
+      {{> header}}
+  
+      <div id="content">
+        {{{content}}}
+      <div id="instagram" class="span4"><span class="spinner"><img src="http://jlord.s3.amazonaws.com/wp-content/uploads/fbi_spinner1.gif"></span></div><div class="clear"></div>
+      <div class="span3"><p>These are the last 16 pictures in my Instagram feed. Here is my <a href="http://jlord.us/your-own-instagram-feed/">blog post</a> on how.</p></div>
+
+      <script type="text/javascript" src="assets/js/sheetsee.js"></script>
+      <script type="text/javascript" src="assets/js/tabletop1.3.3.js"></script> 
+
+      <script id="instagram" type="text/javascript">
+        {{#rows}}
+          <div class="span1 instaImgCirc"><img src="{{instasource}}" width="100%"/></div>
+        {{/rows}}
+      </script>
+
+      <script type="text/javascript">    
+        document.addEventListener('DOMContentLoaded', function() {
+          var URL = '0Ao5u1U6KYND7dG9CRWdjeVB6dGYyN3c3RktocExUV1E'
+          Tabletop.init( { key: URL, callback: buildPage, simpleSheet: true } )
+
+          function buildPage(data) {
+            var instagram = Sheetsee.ich.instagram({
+              "rows": getLast(data,16)
+            })
+            document.getElementById('instagram').innerHTML = instagram;
+          }
+
+          function getLast(array, howMany) {
+            start = array.length
+            cut = start - howMany
+            if (start < 12) {
+            return array
+            } else {
+              array = array.splice(cut)
+              return array.reverse()
+            }
+          }
+        }) 
+      </script>
+      </div>
+
+      {{> footer}}
+    </div>
+  </body>
+</html>
+

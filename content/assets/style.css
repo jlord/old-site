@@ -71,7 +71,7 @@ ul.meta {list-style: none; display: inline-block; text-align: center; margin: 0 
 
 /* FOOTER */
 /* ------------------------------------------------------------ */
-footer {text-align: center; margin: 30px auto; width: 300px; display: table; padding-top: 20px; auto; font-family: Open Sans; font-size: 10px; color: #777; letter-spacing: .1em; font-weight: 300; text-transform: uppercase; border-top: 4px solid #09cc40;}
+footer {text-align: center; margin: 30px auto; width: 300px; /*display: table;*/ padding-top: 20px; auto; font-family: Open Sans; font-size: 10px; color: #777; letter-spacing: .1em; font-weight: 300; text-transform: uppercase; border-top: 4px solid #09cc40;}
 footer ul {list-style: none; padding: 0 15px; display: inline-block;
 vertical-align: top;}
 footer li {text-align: left;}
@@ -79,5 +79,42 @@ footer a {border: none;}
 
 /* INSTAGRAM */
 /* ------------------------------------------------------------ */
+#instagram {margin: 0 auto; text-align: center; overflow: auto; padding-bottom: 20px;}
+.instaImgCirc img {border-radius: 1000px; margin: 10px; width: 186px; display: inline-block; float: left;}
 
-.instaImgCirc img {border-radius: 1000px; margin: 10px; width: 200px; display: inline-block;}
+.animated {
+-webkit-animation-duration: 1s;
+animation-duration: 1s;
+-webkit-animation-fill-mode: both;
+animation-fill-mode: both;
+}
+
+/*!
+Animate.css - http://daneden.me/animate
+Licensed under the MIT license
+*/
+
+@-webkit-keyframes flash {
+  0%, 50%, 100% {
+    opacity: 1;
+  }
+
+  25%, 75% {
+    opacity: 0;
+  }
+}
+
+@keyframes flash {
+  0%, 50%, 100% {
+    opacity: 1;
+  }
+
+  25%, 75% {
+    opacity: 0;
+  }
+}
+
+.flash {
+  -webkit-animation-name: flash;
+  animation-name: flash;
+}
