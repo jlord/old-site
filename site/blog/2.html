@@ -31,81 +31,94 @@
   
       <div id="content">
         
-          <div class="post-header"><a href="horizontal-web.html"><h1>Horizontal Web</h1></a><ul><li>By Jessica Lord</li> <li>2013-24-01</li> <li>web dev, design</li></ul></div><p><img src="http://jlord.s3.amazonaws.com/wp-content/uploads/horiz-diagram1.png" alt="diagram"></p>
-<p>I recently re-did <a title="Mikeal Rogers" href="http://twitter.com/mikeal" target="_blank">Mikeal Rogers</a> website, <a title="Future Aloof, Mikeal Rogers" href="http://www.futurealoof.com" target="_blank">Future Aloof</a>. As the person who came up with the designs, I have only myself to blame for the crazy mess that is the horizontal reading website I&#8217;d envisioned. Let&#8217;s talk about it. Below is the structure of the important components for Future Aloof:<br><!--more--></p>
-<p><img src="http://jlord.s3.amazonaws.com/wp-content/uploads/horiz-key.png" alt="key"></p>
-<h3 id="css-multi-column-video-bar">CSS Multi-Column, Video Bar</h3>
-<p>I needed the text to expand right in columns in a predetermined area of the page subject to change depending on if the video bar is toggled on and off. Video bar should be the width of the site and not end awkwardly in the middle. The path I took to making this work is what I discuss below, ignoring a lot of the overflow, white-space and other tribulations. The site also does a few other things like respond to your screen and at 1024px and under the video bar is eliminated and &#8216;video&#8217; in the menu no longer toggles the bar but becomes a link to a video page. But those weren&#8217;t as finicky as these other bits.</p>
-<h4 id="issue-force-columns-to-expand-right">Issue: Force Columns to Expand Right</h4>
-<p>Multi-column, and it seems the web in general, wants to expand down &#8211; not right. The only way I found to constrain the multi-column element <code>#entries</code> where I wanted it and force it to expand right was to wrap it in a container <code>#entryWrapper</code> with padding . There is a max-height option, which I may or may not have tried, it&#8217;s a haze, but in the end I chose to keep all constraining forces together in <code>#entryWrapper</code>.</p>
-<p>On <code>#entries</code> I&#8217;m using <code>column-width: 300px;</code> so that it generates as many columns as it needs (rather than prescribing a number of columns with <code>column-count: x;</code>). Note, it uses this as a min-width suggestion and in my case generated columns that are 387px wide. I&#8217;m happy to say that the column-gap will remain true to you.</p>
-<h4 id="issue-no-self-awareness">Issue: No Self Awareness</h4>
-<p>Now that we&#8217;ve got the columns constrained to where we want them on the page and they&#8217;re expanding right, we must solve the issue that it <code>#entries</code> has no idea how many columns it&#8217;s generated and how wide that&#8217;s made it or its parent <code>#entryWrapper</code>. This means other children like <code>#videoWrapper</code> won&#8217;t fill to match this unknown width.</p>
-<p>So I set empty span &#8220;markers&#8221; at the start <code>#theStart</code> and end <code>#theEnd</code> of the text in <code>#entries</code>. I then used jquery to find the distance between the two, adjusting for negative numbers if the page has been scrolled right and the remaining column width to the right of <code>#theEnd</code>.</p>
-<pre>var start = Math.abs($('#theStart').offset().left)
-var end = ($('#theEnd').offset().left) + 400
-var pageWidth = start + end</pre>
-
-<p>I use this the give <code>#videoWrapper</code> a width on load and when the video bar is toggled on and off (because when the text has more or less vertical space, it takes up more or less horizontal space).</p>
-<p>Also, forget having any control over things like particular columns or every other column or nth column&#8230;</p>
-<h4 id="issue-firefox">Issue: Firefox</h4>
-<p>While Firefox supports the multi-column in general, it doesn&#8217;t seem to support <code>column-break-before</code> or <code>column-break-after</code>, which is a shame, because in webkit that&#8217;s how you can tell it to avoid breaking in the middle of lists or block quotes and to always break for new posts.</p>
-<p>Those damn scrollbars. In webkit I can hide the scrollbar <code>::-webkit-scrollbar {height: 0px; width: 0px;}</code> and keep things looking the way I want while still having scrolling available through trackpad, mice, arrow keys or on-screen arrow clicks. Since the scrolling element is behind the right and left column navigation elements, in Firefox the scrollbar was awkwardly cut off on each end and made the center portion of the page however many pixels taller than the two right and left elements. Not wanting to use major plugins for dealing with scroll bars I sacrificed some of the single-frame experience of the page and used jquery to check for Firefox and then change the CSS structure so that the entire page scrolled and a more tolerable-full-screen-width scrollbar is used.</p>
-<h3 id="tell-me-there-is-a-better-way">Tell Me There is a Better Way</h3>
-<p>Things seems fairly straightforward now, but it was quite a process. I did a lot of internet-researching, friend&#8217;s brains picking and general starting over and trying again before I came to these solutions. There doesn&#8217;t seem to be many horizontal reading-based (not just photography portfolios) websites out there &#8211; perhaps there is a reason. I&#8217;ll also mention that I was very much trying to keep the site as light and simple as I could. I didn&#8217;t want to bulk up on plugins or write mega js to parse text and generate columns. I like it being mostly CSS and 69 lines of jquery (half of which is unrelated to columns and scrolling right but handles toggling of the video bar and menu navigation) But, alas, there now exists one! A horizontal reading site! Push the web right!</p>
-<p>But seriously, share experiences and insights, please.</p>
-<div id="sources">
-  <h3>
-    Links
-  </h3>
-
-  <ol>
-    <li>
-      Mikeal Rogers&#8217; <a title="Future Aloof" href="http://www.futurealoof.com" target="_blank">Future Aloof</a>
-    </li>
-    <li>
-      <a title="Multi-Column Layout on MDN" href="https://developer.mozilla.org/en-US/docs/CSS/Using_CSS_multi-column_layouts" target="_blank">Multi-Column Layout</a> on MDN
-    </li>
-    <li>
-      <a title="Thinking for a Living" href="http://www.thinkingforaliving.org/" target="_blank">Thinking for A Living</a>, the only really good, not strictly photos, horizontal website I know of
-    </li>
-  </ol>
+          <div class="post-header"><a href="your-own-instagram.html"><h1>Your Own Instagram Feed</h1></a><ul><li>By Jessica Lord</li> <li>2012-13-11</li> <li>web dev, spreadsheets, sheetsee, instagram</li></ul></div><p><img src="http://jlord.s3.amazonaws.com/wp-content/uploads/insta_ss.png" alt="instagram ss"></p>
+<p>I  know Instagram&#39;s just come out with web profiles, but they&#8217;re not on <em>my</em> page and they&#8217;re not in circles. So quick and dirty (it took longer to write this post, see note on code) I put up my photos, <a href="http://jlord.us/instagram" title="jlord instagram">here</a>, and in circles. Some weeks ago I started using an ifttt.com (which is so, so awesome) <a title="ifttt.com recipe" href="https://ifttt.com/recipes/65778" target="_blank">recipe</a> that sends my Instagram photos (dates and captions as well) to a Google Spreadsheet. I&#8217;m all about Google Spreadsheets. The same spreadsheet powers the Instagram portion on my <a title="Dashboard" href="http://jlord.us/dashboard" target="_blank">dashboard</a> page.</p>
+<h3 id="the-parts">The Parts</h3>
+<p>I use <a title="tabletop javascript" href="http://builtbybalance.com/Tabletop/" target="_blank">tabletop.js</a> to get my spreadsheet data into usable json. Once I&#8217;ve got that data, I tell <a title="mustache js" href="http://mustache.github.com" target="_blank">mustache.js</a> to take it, format each piece (I&#8217;m using just the url for the Instagram photo) into a div and then place all of those divs into the holder waiting patiently for it in my html. I use CSS to format it into circles.</p>
+<h3 id="the-code">The Code</h3>
+<p>Don&#8217;t even get me started on trying to format code snippets in WordPress. Ugh. So, sorry there are no indents right now.</p>
+<p>The HTML/CSS</p>
+<div class="wp-cc wp-cc-html">
+  <pre><code data-language="html">&lt;head&gt;
+&lt;!-- just showing the important parts, you&#039;ll obvs have a few more things on your page --&gt;
+&lt;!-- load in tabletop and mustache --&gt;
+&lt;script src=&quot;/wp-content/themes/Starkers/tabletop.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;/wp-content/themes/Starkers/ICanHaz.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;style&gt;
+/<em> confine your image to a circle </em>/
+.instaImgCirc img {border-radius: 1000px;}
+&lt;/style&gt;
+&lt;body&gt;
+&lt;!-- this dude waits patiently to be filled with stuff --&gt;
+&lt;div id=&quot;instagram&quot;&gt;&lt;/div&gt;
+&lt;/body&gt;</code></pre>
 </div>
+
+<p>The JS</p>
+<div class="wp-cc wp-cc-javascript">
+  <pre><code data-language="javascript">&lt;script id=&quot;instagram&quot; type=&quot;text/html&quot;&gt;
+{{#rows}}
+&lt;div class=&quot;instaImgCirc&quot;&gt;&lt;img src=&quot;{{instasource}}&quot; width=&quot;100%&quot;/&gt;&lt;/div&gt;
+{{/rows}}
+&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+// Your spreadsheets URL
+var URL=&#039;<a href="https://docs.google.com/spreadsheet/pubkey=0Ao5u1U6KYND7dGRZbTUwd3JQZ1k3OE9KTVZqZUYwZHc&amp;single=true&amp;gid=0&amp;output=html&amp;#039">https://docs.google.com/spreadsheet/pubkey=0Ao5u1U6KYND7dGRZbTUwd3JQZ1k3OE9KTVZqZUYwZHc&amp;single=true&amp;gid=0&amp;output=html&amp;#039</a>;;
+//
+function loadSpreadsheet() {
+// let&#039;s get this party started
+Tabletop.init( { key: URL, callback: showData, simpleSheet: true } ) }
+//
+// use this if you want to use a specific number of your most recent Instagrams
+function getLast(array, howMany) {
+start = array.length cut = start - howMany
+if (start &lt; 20) {
+return array
+} else {
+array = array.splice(cut) return array.reverse()
+}
+}
+//
+document.addEventListener(&#039;DOMContentLoaded&#039;, function() {
+loadSpreadsheet() })
+//
+showData = function(data) {
+var instagram = ich.instagram({
+&quot;rows&quot;: getLast(data, 12)
+// use &quot;rows&quot;: data.reverse() if you want to use all the Instagrams in your spreadsheet
+})
+document.getElementById(&#039;instagram&#039;).innerHTML = instagram;
+}
+&lt;/script&gt;
+&lt;/html&gt;</code></pre>
+</div>
+
+<h3 id="later-ons">Later Ons</h3>
+<p>I&#8217;d like have my captions appear when hovering over the image and to cue up, say, just 20 photos at a time and have new photos automatically appear without refresh. Perhaps this will happen on the 12 hour plane ride I have tomorrow.</p>
+<p>&nbsp;</p>
+
         
-          <div class="post-header"><a href="sheetsee-3.html"><h1>Sheetsee.js v3.0</h1></a><ul><li>By Jessica Lord </li> <li>2014-28-02</li> <li>Open Source, Sheetsee.js</li></ul></div><p><img src="http://jlord.s3.amazonaws.com/wp-content/uploads/pennyzoom.png" alt="penny"></p>
-<p>I&#39;ve just updated <a href="http://www.github.com/jlord/sheetsee.js">Sheetsee.js</a> with new features and all new docs. I&#39;ve been waiting to ship this, it feels like, for far too long. I&#8217;m hoping now Sheetsee is at a solid enough place that I can focus spare time on making more <a href="http://www.jlord.us/fork-n-go">fork-n-go</a> examples.</p>
-<p>I&#39;ll get straight to the most exciting point: the new <a href="https://docs.google.com/spreadsheet/ccc?key=0Ao5u1U6KYND7dGN5QngweVJUWE16bTRob0d2a3dCbnc&amp;usp=drive_web&amp;pli=1#gid=0">sample data</a> for the demos is of my <a href="http://www.flickr.com/photos/jessllord/sets/72157640471928365/">flattened penny collection</a>. Below are the other things.</p>
-<h3 id="new-features">New Features</h3>
-<p>Yay!</p>
-<h4 id="tables-pagination-multi-table-sorting-and-filtering">Tables: Pagination, Multi Table Sorting and Filtering</h4>
-<p>Tables can now be paginated so that you don&#8217;t have to display your entire spreadsheet of data in one go. Unless you want to.</p>
-<p>Tables now supports having multiple tables with sorting and filtering. So long as you keep your table IDs straight, you&#8217;re golden.</p>
-See: <a href="http://jlord.github.io/sheetsee.js/demos/demo-table.html">table demo</a>
-<h4 id="maps-polygons-and-lines">Maps: Polygons and Lines</h4>
-<p>Maps now support polygons and lines. So long as you have the correct coordinate structure in your cells, Sheetsee will add them to the geoJSON it creates for your maps. More details for coordinates of lines and polygons in geoJSON are <a href="http://leafletjs.com/examples/geojson.html">here</a>, but briefly:</p>
-<p>A linestring:</p>
-<pre><code>[-122.41722106933594, 37.7663045891584], [-122.40477561950684, 37.77695634643178]</code></pre>
-<p>A polygon:</p>
-<pre><code>[-122.41790771484375, 37.740381166384914], [-122.41790771484375, 37.74520008134973], [-122.40966796874999, 37.74520008134973],[-122.40966796874999, 37.740381166384914], [-122.41790771484375, 37.740381166384914]</code></pre>
-<p>A Multipolygon:</p>
-<pre><code>[[-122.431640625, 37.79106586542567], [-122.431640625, 37.797441398913286], [-122.42666244506835, 37.797441398913286],[-122.42666244506835, 37.79106586542567], [-122.431640625, 37.79106586542567]],
-[[-122.43352890014648, 37.78197638783258], [-122.43352890014648, 37.789031004883654], [-122.42443084716797, 37.789031004883654], [-122.42443084716797, 37.78197638783258], [-122.43352890014648, 37.78197638783258]]</code></pre>
-<p>See: <a href="http://jlord.github.io/sheetsee.js/demos/demo-map.html">map demo</a>.</p>
-<h3 id="documentation">Documentation</h3>
-<p>I redid the documentation and website for Sheetsee. Instead of one <em>gigantic</em> readme file/website, all of the different elements are given their own file/page. Now you can find docs, demos, tips and such all filed away nicely here in the <a href="http://www.github.com/jlord/sheetsee.js">repository</a> and on the <a href="http://jlord.github.io/sheetsee.js">website</a>.</p>
-<h3 id="modules">Modules</h3>
-<p>The other big thing that has happened to Sheetsee is that I&#39;ve taken each component (core, maps, tables and charts) and made them into their own Node.js module. This makes for smaller, more manageable code files and it makes it so that users can build their own version of Sheetsee with just the elements they want to use. For instance, if you&#39;re only making maps, just build a Sheetsee with the map component.</p>
-<p>All builds come with the <code>sheetsee-core</code> module which contains all of the data organizing functions.</p>
-<p>The module <code>sheetsee</code> is a command line module that builds your custom sheetsee for you.</p>
-<p>If you&#39;re not interested in Node modules or building anything, that&#39;s ok, too. I&#39;ll always keep a full build (with all the components) here in <a href="https://github.com/jlord/sheetsee.js/tree/master/js">the sheetsee.js repository</a> (which from here on out exists to be the consolidated documentation and source of a full build).</p>
-<p>If you need to file an issue for a bug or feature, try and file it on the repository with the component it relates to (they each have their own repository now):</p>
-<ul>
-<li><a href="http://www.github.com/jlord/sheetsee-maps">sheetsee-maps</a></li>
-<li><a href="http://www.github.com/jlord/sheetsee-tables">sheetsee-tables</a></li>
-<li><a href="http://www.github.com/jlord/sheetsee-charts">sheetsee-charts</a></li>
-<li><a href="http://www.github.com/jlord/sheetsee-core">sheetsee-core</a></li>
-<li><a href="http://www.github.com/jlord/sheetsee">sheetsee</a></li>
-</ul>
+          <div class="post-header"><a href="dat.html"><h1>Dat</h1></a><ul><li>By Jessica Lord</li> <li>2013-03-07</li> <li>web dev, open data, science, gov</li></ul></div><p><img src="http://jlord.s3.amazonaws.com/dat-diagram.png" alt="dat diagram"></p>
+<p><em>Disclaimer: I know <a href="http://twitter.com/maxogden">@maxogden</a> very well, but that doesn&#8217;t mean I like everything that he does. But I do like <a href="http://www.github.com/maxogden/dat">Dat</a>.</em></p>
+<p>It&#39;s really exciting to see all the discussion that&#39;s started based on one <a href="https://github.com/maxogden/dat#dat">GitHub readme</a>. The more perspectives, the better Dat will be. In the back and forth I&#39;ve noticed a few misunderstandings about Dat and as it often goes for me, I felt the urge to diagram.</p>
+<p>The diagram above illustrates that Dat will be an ecosystem of modules that can be tacked on and synced with different datasets; importantly, this includes very big datasets. Modules and combination of modules can be shared. These modules will use a common API but can be written in any language and hosted anywhere. The ecosystem exists for the benefit of data consumers and lives outside the realm of data producers.</p>
+<h3 id="dat-and-government">Dat and Government</h3>
+<p>Dat is being built to solve a problem that exists today without a good solution: collaborating on really large datasets and sharing data transformations. While Dat can be used by anyone and government certainly fits the <em>anyone</em> bucket, it isn&#39;t <em>a new tool for government</em>. It is a <strong>new tool for those who work everyday with data</strong>, government or other.</p>
+<p>Because Dat will be a platform that works with <strong>any</strong> type of tabular data, it prefers no one type, it is completely <strong>independent of the government data standards and liberation efforts</strong> that are ongoing. And yes, this effort is a cultural effort. I <a href="http://jlord.us/a-government-more-like-the-people/">know this to be very true</a> as I&#39;ve been involved with government all of my career from the City of Boston to Code for America (<a href="http://www.codeforamerica.org/apply">apply now</a>!) and am still active in this important cultural shift.</p>
+<p>Dat will exist outside of and in parallel to whatever comes of this effort and therefore will work no matter what standards emerge from the effort; that&#39;s awesome!</p>
+<h3 id="build-dat">Build Dat</h3>
+<p>Because nothing like Dat exists today, I absolutely believe someone should give something like Dat a go. I believe we should always try to make things -- because things make other, better things possible. E.O Wilison says it much more eloquently:</p>
+<blockquote>
+<p>The reason is that the adoption of any one innovation made adoption of certain others possible, which then, if useful, were more likely to spread. Bands and communities of bands with better combinations of cultural innovations became more productive and better equipped for competition and war. <em>Wilson, Edward O. (2012-04-02). The Social Conquest of Earth (Kindle Locations 1496-1498). Norton. Kindle Edition</em></p>
+</blockquote>
+<h3 id="git">Git</h3>
+<p>Remember, Git wasn&#39;t the first version control and most of us wouldn&#39;t know it like we do today if weren&#39;t that years after it was built someone built an interface on top of it.</p>
+<p>While Git works for many of us, it doesn&#39;t work for everyone. And those that it doesn&#39;t work for are doing awesome work in the civic, science or legal space. They have huge, huge datasets that move slow on Git. They have realtime data constantly updating and yielding too many commits for Git to handle. They have no good way to share this data or the transformation algorithms they used. This transformation algorithm aspect is really awesome because it also helps the majority of us who work with small or medium sized datasets that are routinely published in the same file and text formats that require frequent transforming. With Dat you can create a transformation module in your favorite language that can be hooked up to your data sync so that you don&#39;t have to constantly re-transform -- and you can share that modules with others. It&#39;s simply a script hosted somewhere. There is a <a href="https://github.com/blog/1504-jessica-lord-is-a-githubber">place for hosting code</a> that I love.</p>
+<h3 id="open-community-built">Open + Community Built</h3>
+<p>I&#39;m excited that Dat will not only be built in the open but embody its own ideals and be structured so that contributing is easy. Similar to <a href="http://www.npmjs.org">NPM</a>, the package manager for the <a href="http://www.nodejs.org">Node.js</a> community, Dat will be made up of small modules related through a common API. The community can submit modules to transform data or submit pull requests to the API. There are already <a href="https://github.com/maxogden/dat/pulls?direction=desc&amp;page=1&amp;sort=created&amp;state=closed">pull requests</a> and <a href="https://github.com/maxogden/dat/issues">issues</a> (and forks?!) on the readme.</p>
+<h3 id="-3">&lt;3</h3>
+<p>Dat doesn&#39;t change how groups are publishing data -- it changes how people interact with it and share it with others.  I can&#39;t wait to see what comes from all the brains on this!</p>
 
         
             <div class="turn-page">

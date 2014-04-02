@@ -1,6 +1,6 @@
 # Sheetsee.js v3.0
 #### By Jessica Lord 
-#### 2014-28-02
+#### 2014-02-28
 #### Open Source, Sheetsee.js
 
 ![penny](http://jlord.s3.amazonaws.com/wp-content/uploads/pennyzoom.png)

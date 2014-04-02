@@ -1,6 +1,6 @@
 # WordPress on Heroku and S3
 ###### By Jessica Lord
-###### 2012-09-11
+###### 2012-11-09
 ###### heroku, web dev, wordpress
 
 The other week I moved two WordPress sites to Heroku and their media uploads to S3. How happy it&#8217;s made me!

@@ -1,6 +1,6 @@
 # Twenty Twelve
 #### By Jessica Lord
-#### 2012-31-12
+#### 2012-12-31
 #### general
 
 ![map of year](http://jlord.s3.amazonaws.com/wp-content/uploads/map-of-year-szd.png)

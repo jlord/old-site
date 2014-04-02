@@ -1,6 +1,6 @@
 # Horizontal Web
 #### By Jessica Lord
-#### 2013-24-01
+#### 2013-01-24
 #### web dev, design
 
 ![diagram](http://jlord.s3.amazonaws.com/wp-content/uploads/horiz-diagram1.png)

@@ -1,6 +1,6 @@
 # Fork-n-go
 #### Jessica Lord
-#### 2013-11-08
+#### 2013-08-11
 #### github, pages, open source, sheetsee.js
 
 ![fork-n-go](http://jlord.s3.amazonaws.com/wp-content/uploads/forkngoheader.png)
