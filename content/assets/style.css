@@ -82,17 +82,19 @@ footer a {border: none;}
 #instagram {margin: 0 auto; text-align: center; overflow: auto; padding-bottom: 20px;}
 .instaImgCirc img {border-radius: 1000px; margin: 10px; width: 186px; display: inline-block; float: left;}
 
+
+
+/*!
+Animate.css - http://daneden.me/animate
+Licensed under the MIT license
+*/  
+
 .animated {
 -webkit-animation-duration: 1s;
 animation-duration: 1s;
 -webkit-animation-fill-mode: both;
 animation-fill-mode: both;
 }
-
-/*!
-Animate.css - http://daneden.me/animate
-Licensed under the MIT license
-*/
 
 @-webkit-keyframes flash {
   0%, 50%, 100% {
