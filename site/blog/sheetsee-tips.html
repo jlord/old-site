@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="jlord">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>jlord</title>
+    <link rel="shortcut icon" href="../assets/favicon.png">
+    <link href='../assets/style.css' rel='stylesheet'>
+  </head>
+  <body class="post">
+    <div class="main-container">
+      <header>
+	<div class="row">
+	  <div class="float-box lower-italic">
+	    <a href="/">jlord</a>
+	  </div>
+	  <div class="float-box upper-bold-italic">
+	    <a href="/blog">POSTS</a>
+	  </div>
+	</div>
+	<div class="row">
+	  <div class="float-box upper-bold-italic">
+	    <a href="/work.html">WORK</a>
+	  </div>
+	  <div class="float-box lower-italic">
+	    <a href="/about.html">about</a>
+	</div>
+</header>
+  
+      <div class="content">
+        <div class='post-header'><a href='sheetsee-tips.html'><h1>Sheetsee.js Tips</h1></a><ul><li>Jessica Lord</li> <li>2013-15-09</li> <li>web dev, open source, sheetsee.js</li></ul></div><p><img src="http://jlord.s3.amazonaws.com/wp-content/uploads/querystring.png" alt="google maps"></p>
+<p>There are lots of ways you can take data from you Google Spreadsheet and use it in a website in cool ways. I&#8217;m going to do a few posts on such things. Neat!</p>
+<p>If your spreadsheet contains address information, using templates (<a href="http://jlord.github.io/sheetsee.js">Sheetsee.js</a> uses a form of <a href="https://github.com/janl/mustache.js">Mustache</a>), you can embed those elements into a Google Maps URL query string (this is the same URL that is generated when you type in an address into the search bar yourself) and create links/buttons that will open locations up directly in Google Maps on desktops and phones. Similarly you can put them in Yelp queries, too.</p>
+<p>The basic elements are: <em>a spreadsheet with address info + HTML template to create the query string</em>.</p>
+<h3 id="par-exemple">Par Exemple</h3>
+<p>The Sheetsee <a href="http://jlord.github.io/hack-spots/">Hack-Spots</a> is an does such a thing. Here is the <a href="https://docs.google.com/spreadsheet/ccc?key=0Ao5u1U6KYND7dFVkcnJRNUtHWUNKamxoRGg4ZzNiT3c#gid=0">spreadsheet</a>, with address information:</p>
+<p><img src="http://jlord.s3.amazonaws.com/wp-content/uploads/Screen-Shot-2013-09-15-at-6.49.19-PM.png" alt="spreadsheet"></p>
+<p>In the HTML template for the table on the <a href="http://jlord.github.io/hack-spots/">Hack-Spots page</a>, the button&#39;s links look like this:</p>
+<pre><code class="lang-HTML">&lt;a class=&quot;button&quot; href=&quot;https://maps.google.com/maps?q={{address}},{{city}},{{state}}&quot; target=&quot;_blank&quot;&gt;View in Google Maps&lt;/a&gt;
+&lt;a class=&quot;button&quot; href=&quot;http://www.yelp.com/search?find_desc={{name}}&amp;find_loc={{city}},{{state}}&quot; target=&quot;_blank&quot;&gt;Find on Yelp&lt;/a&gt;</code></pre>
+<p><a href="https://github.com/jlord/hack-spots/blob/gh-pages/index.html#L62">Here</a> is the exact line of code on GitHub.</p>
+<p>We&#39;re inserting the <strong>address</strong>, <strong>city</strong>, and <strong>state</strong> details from the spreadsheet into the structure of a query string for Google maps and Yelp. You can figure out the query string of a service by just using it (type in an address in Google Maps) and looking at the resulting URL.</p>
+<p>With a some CSS and such, the resulting website has a table with the hack spots and a button for viewing in Google Maps or Yelp:</p>
+<p><img src="http://jlord.s3.amazonaws.com/wp-content/uploads/Screen-Shot-2013-09-15-at-6.43.54-PM.png" alt="table"></p>
+<p>When the page builds, it creates the correct link for each row. When someone clicks on the buttons it takes them directly to the Google Map search result for that address. BAM!</p>
+
+      </div>
+
+      <footer>
+  <ul>
+    <li><a href="rss.html">RSS</a></li>
+    <li><a href="/blog">Posts</a></li>
+  </ul>
+  <ul>
+    <li><a href="/work.html">Work</a></li>
+    <li><a href="/about.html">About</a></li>
+  </ul>
+  <ul>
+    <li><a href="http://www.twitter.com/jllord" target="_blank">@jllord</a></li>
+    <li><a href="http://www.github.com/jlord" target="_blank">gh/jlord</a></li>
+  </ul>
+  <ul>
+    <li><a href="/" target="_blank">Home</a></li>
+  </ul>
+</footer>
+    </div>
+  </body>
+</html>
