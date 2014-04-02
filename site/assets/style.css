@@ -22,9 +22,12 @@ blockquote p em:before {content: "\2014  "; display: inline;}
 li {line-height: 1.6em;}
 ul {list-style: circle; padding-left: 18px;}
 
+a.green {color: #09cc40;}
+a.green:hover {color: #444;}
+
 /* PAGINATION */
 /* ------------------------------------------------------------ */
-.turn-page {margin: 30px auto; text-align: center; padding-top: 30px; max-width: 300px; border-top: 4px solid #09cc40;}
+.turn-page {margin: 30px auto; text-align: center; padding-top: 30px; max-width: 314px; border-top: 4px solid #09cc40;}
 a.button {border: none; color: #fff;}
 a.button:hover {color: #444; color: #fff;}
 .button {padding: 2px 6px; background-color: #444; border-radius: 2px; border: none; transition: background-color 0.2s ease;}
@@ -65,13 +68,13 @@ ul.meta {list-style: none; display: inline-block; text-align: center; margin: 0 
     list-style: none; text-align: center; color: red; margin: 0 auto; padding: 0px; font-family: Open Sans; font-size: 10px; color: #c6c6c6; letter-spacing: .1em; font-weight: 300; text-transform: uppercase;}
 .post-header li {display: inline-block; padding-right: 6px; margin: 0 auto; color: #09cc40;}
 /*.content ul {text-align: left;}*/
-.post-header {border-top: 4px solid #09cc40; display: table; margin: 60px auto; min-width: 300px; text-align: center;}
+.post-header {border-top: 4px solid #09cc40; display: table; margin: 60px auto; min-width: 314px; text-align: center;}
 
 /*#32ff00*/
 
 /* FOOTER */
 /* ------------------------------------------------------------ */
-footer {text-align: center; margin: 30px auto; width: 300px; /*display: table;*/ padding-top: 20px; auto; font-family: Open Sans; font-size: 10px; color: #777; letter-spacing: .1em; font-weight: 300; text-transform: uppercase; border-top: 4px solid #09cc40;}
+footer {text-align: center; margin: 30px auto; width: 314px; /*display: table;*/ padding-top: 20px; auto; font-family: Open Sans; font-size: 10px; color: #777; letter-spacing: .1em; font-weight: 300; text-transform: uppercase; border-top: 4px solid #09cc40;}
 footer ul {list-style: none; padding: 0 15px; display: inline-block;
 vertical-align: top;}
 footer li {text-align: left;}
