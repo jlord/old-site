@@ -1,6 +1,6 @@
 # Dat
 #### By Jessica Lord
-#### 2013-03-07
+#### 2013-07-03
 #### web dev, open data, science, gov
 
 ![dat diagram](http://jlord.s3.amazonaws.com/dat-diagram.png)

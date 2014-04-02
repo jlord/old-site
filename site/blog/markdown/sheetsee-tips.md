@@ -1,6 +1,6 @@
 # Sheetsee.js Tips
 #### Jessica Lord
-#### 2013-15-09
+#### 2013-09-15
 #### web dev, open source, sheetsee.js
 
 ![google maps](http://jlord.s3.amazonaws.com/wp-content/uploads/querystring.png)
