@@ -11,8 +11,8 @@ pre { font-family: 'Andale Mono', Liberation Mono, monospace; white-space: pre-w
 pre code {padding: 0; color: inherit; background-color: transparent; border: 0;}
 code {padding: 2px 4px; border: 1px solid #dadada; border-radius: 2px; font-family: 'Andale Mono', Liberation Mono, monospace; font-weight: 900; font-size: 12px;}
 p { font-size: 15px; line-height: 1.6em; text-align: left;}
-h2, h3, h4, h5, h6 {font-weight: 700; font-family: 'Playfair Display'; font-size: 180%; padding-top: 1.2em;}
-h1, h2, h3,h4,h5,h6 { font-family: 'Courier New', Helvetica, Arial, sans-serif; font-weight: 900; text-align: left; font-size: 134%;}
+h2, h3, h4, h5, h6 {font-weight: 700; font-family: 'Playfair Display'; padding-top: 1.2em;}
+h1, h2, h3,h4,h5,h6 { font-family: 'Courier New', Helvetica, Arial, sans-serif; font-weight: 900; text-align: left;}
 h1 {font-family: 'Playfair Display'; letter-spacing: .01em; text-align: center; font-weight: 900; color: #09cc40; font-size: 300%; margin: 12px 0;}
 blockquote {font-style: italic; font-family: 'Playfair Display'; margin: 30px 20px;}
 blockquote::before {content: "・"; color: #09cc40; float: left; padding-right: 10px; top: 4px; position: relative;}
@@ -36,7 +36,10 @@ a.button:hover {color: #444; color: #fff;}
 /* PAGE */
 /* ------------------------------------------------------------ */
 .main-container {max-width: 620px; margin: 0 auto; padding: 20px; background: #Fff; overflow: auto;}
+.half {width: 48%; display: inline-block; vertical-align: top;}
+.whole {border-top: 2px solid #09cc40; padding-bottom: 20px;}
 
+#tweet p {font-family: 'Playfair Display'; text-align: center; font-weight: 500; font-size: 20px;}
 
 /* HEADER */
 /* ------------------------------------------------------------ */
@@ -72,6 +75,11 @@ ul.meta {list-style: none; display: inline-block; text-align: center; margin: 0 
 
 /*#32ff00*/
 
+/* PAGE */
+/* ------------------------------------------------------------ */
+
+/*.post-header .page {border-top: 4px solid #09cc40; display: table; margin: 60px auto; min-width: 314px; text-align: center;}*/
+
 /* FOOTER */
 /* ------------------------------------------------------------ */
 footer {text-align: center; margin: 30px auto; width: 314px; /*display: table;*/ padding-top: 20px; auto; font-family: Open Sans; font-size: 10px; color: #777; letter-spacing: .1em; font-weight: 300; text-transform: uppercase; border-top: 4px solid #09cc40;}
@@ -90,7 +98,7 @@ footer a {border: none;}
 /*!
 Animate.css - http://daneden.me/animate
 Licensed under the MIT license
-*/  
+*/
 
 .animated {
 -webkit-animation-duration: 1s;

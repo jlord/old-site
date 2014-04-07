@@ -7,6 +7,7 @@
  "templates": {
    "feed": ["index.html", "/blog/page/1.html"],
    "post": "/blog/*",
+   "home": "index.md",
    "main": "/",
    "instagram": "instagram.md",
    "archives": "archive.html"
