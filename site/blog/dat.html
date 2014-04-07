@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="jlord">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>jlord</title>
+    <link rel="shortcut icon" href="../assets/favicon.png">
+    <link href='http://fonts.googleapis.com/css?family=Playfair+Display:900,400italic,700italic|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='../assets/style.css' rel='stylesheet'>
+  </head>
+  <body class="post">
+    <div class="main-container">
+      <header>
+	<div class="row">
+	  <div class="float-box lower-italic">
+	    <a href="/">jlord</a>
+	  </div>
+	  <div class="float-box upper-bold-italic">
+	    <a href="/blog">POSTS</a>
+	  </div>
+	</div>
+	<div class="row">
+	  <div class="float-box upper-bold-italic">
+	    <a href="/work.html">WORK</a>
+	  </div>
+	  <div class="float-box lower-italic">
+	    <a href="/about.html">about</a>
+	</div>
+</header>
+
+      <div id="content">
+        <div class='post-header'><a href='dat.html'><h1>Dat</h1></a><ul><li>By Jessica Lord</li> <li>2013-07-03</li> <li>web dev, open data, science, gov</li></ul></div><p><img src="http://jlord.s3.amazonaws.com/dat-diagram.png" alt="dat diagram"></p>
+<p><em>Disclaimer: I know <a href="http://twitter.com/maxogden">@maxogden</a> very well, but that doesn&#8217;t mean I like everything that he does. But I do like <a href="http://www.github.com/maxogden/dat">Dat</a>.</em></p>
+<p>It&#39;s really exciting to see all the discussion that&#39;s started based on one <a href="https://github.com/maxogden/dat#dat">GitHub readme</a>. The more perspectives, the better Dat will be. In the back and forth I&#39;ve noticed a few misunderstandings about Dat and as it often goes for me, I felt the urge to diagram.</p>
+<p>The diagram above illustrates that Dat will be an ecosystem of modules that can be tacked on and synced with different datasets; importantly, this includes very big datasets. Modules and combination of modules can be shared. These modules will use a common API but can be written in any language and hosted anywhere. The ecosystem exists for the benefit of data consumers and lives outside the realm of data producers.</p>
+<h3 id="dat-and-government">Dat and Government</h3>
+<p>Dat is being built to solve a problem that exists today without a good solution: collaborating on really large datasets and sharing data transformations. While Dat can be used by anyone and government certainly fits the <em>anyone</em> bucket, it isn&#39;t <em>a new tool for government</em>. It is a <strong>new tool for those who work everyday with data</strong>, government or other.</p>
+<p>Because Dat will be a platform that works with <strong>any</strong> type of tabular data, it prefers no one type, it is completely <strong>independent of the government data standards and liberation efforts</strong> that are ongoing. And yes, this effort is a cultural effort. I <a href="http://jlord.us/a-government-more-like-the-people/">know this to be very true</a> as I&#39;ve been involved with government all of my career from the City of Boston to Code for America (<a href="http://www.codeforamerica.org/apply">apply now</a>!) and am still active in this important cultural shift.</p>
+<p>Dat will exist outside of and in parallel to whatever comes of this effort and therefore will work no matter what standards emerge from the effort; that&#39;s awesome!</p>
+<h3 id="build-dat">Build Dat</h3>
+<p>Because nothing like Dat exists today, I absolutely believe someone should give something like Dat a go. I believe we should always try to make things -- because things make other, better things possible. E.O Wilison says it much more eloquently:</p>
+<blockquote>
+<p>The reason is that the adoption of any one innovation made adoption of certain others possible, which then, if useful, were more likely to spread. Bands and communities of bands with better combinations of cultural innovations became more productive and better equipped for competition and war. <em>Wilson, Edward O. (2012-04-02). The Social Conquest of Earth (Kindle Locations 1496-1498). Norton. Kindle Edition</em></p>
+</blockquote>
+<h3 id="git">Git</h3>
+<p>Remember, Git wasn&#39;t the first version control and most of us wouldn&#39;t know it like we do today if weren&#39;t that years after it was built someone built an interface on top of it.</p>
+<p>While Git works for many of us, it doesn&#39;t work for everyone. And those that it doesn&#39;t work for are doing awesome work in the civic, science or legal space. They have huge, huge datasets that move slow on Git. They have realtime data constantly updating and yielding too many commits for Git to handle. They have no good way to share this data or the transformation algorithms they used. This transformation algorithm aspect is really awesome because it also helps the majority of us who work with small or medium sized datasets that are routinely published in the same file and text formats that require frequent transforming. With Dat you can create a transformation module in your favorite language that can be hooked up to your data sync so that you don&#39;t have to constantly re-transform -- and you can share that modules with others. It&#39;s simply a script hosted somewhere. There is a <a href="https://github.com/blog/1504-jessica-lord-is-a-githubber">place for hosting code</a> that I love.</p>
+<h3 id="open-community-built">Open + Community Built</h3>
+<p>I&#39;m excited that Dat will not only be built in the open but embody its own ideals and be structured so that contributing is easy. Similar to <a href="http://www.npmjs.org">NPM</a>, the package manager for the <a href="http://www.nodejs.org">Node.js</a> community, Dat will be made up of small modules related through a common API. The community can submit modules to transform data or submit pull requests to the API. There are already <a href="https://github.com/maxogden/dat/pulls?direction=desc&amp;page=1&amp;sort=created&amp;state=closed">pull requests</a> and <a href="https://github.com/maxogden/dat/issues">issues</a> (and forks?!) on the readme.</p>
+<h3 id="-3">&lt;3</h3>
+<p>Dat doesn&#39;t change how groups are publishing data -- it changes how people interact with it and share it with others.  I can&#39;t wait to see what comes from all the brains on this!</p>
+
+      </div>
+
+      <footer>
+  <ul>
+    <li><a href="rss.xml">RSS</a></li>
+    <li><a href="/blog">Posts</a></li>
+  </ul>
+  <ul>
+    <li><a href="/work.html">Work</a></li>
+    <li><a href="/about.html">About</a></li>
+  </ul>
+  <ul>
+    <li><a href="http://www.twitter.com/jllord" target="_blank">@jllord</a></li>
+    <li><a href="http://www.github.com/jlord" target="_blank">gh/jlord</a></li>
+  </ul>
+  <ul>
+    <li><a href="/blog/archive.html">Archive</a></li>
+    <li><a href="/" class="green"><strong>Home</strong></a></li>
+  </ul>
+</footer>
+    </div>
+  </body>
+</html>
