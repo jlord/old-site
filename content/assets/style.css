@@ -19,6 +19,11 @@ blockquote::before {content: "・"; color: #09cc40; float: left; padding-right: 
 blockquote p {padding-left: 21px;}
 blockquote p em {font-family: 'Open Sans'; font-size: 10px; color: #777; letter-spacing: .1em; font-weight: 300; text-transform: uppercase; font-style: normal;}
 blockquote p em:before {content: "\2014  "; display: inline;}
+
+.half blockquote p {padding-left: 0px;}
+.half blockquote {margin: 0 20px 0 0;}
+.half blockquote::before {content: none;}
+
 li {line-height: 1.6em;}
 ul {list-style: circle; padding-left: 18px;}
 

@@ -16,7 +16,13 @@
 
       <div id="content">
         {{{content}}}
-        <p><a href="#">Read More</a> // <a href="#">Go to Feed</a></p>
+        <div class="whole" style="border: none;">
+          <h2>Post</h2>
+          <h3>Sheetsee.js v3.0</h3>
+
+          <p>I've just updated Sheetsee with new features and all new docs. I've been waiting to ship this, it feels like, for far too long. I&#8217;m hoping now Sheetsee is at a solid enough place that I can focus spare time on making more fork-n-go examples.</p>
+          <p><a href="#">Read More</a> // <a href="#">Go to Feed</a></p>
+      </div>
       <div class="whole">
         <div id="tweet">
           <h2>Twitter</h2>
@@ -25,13 +31,20 @@
         </div>
       </div>
       <div class="whole">
-        <div class="half">
           <h2>Instagram<h2>
             <div id="instagram"><p class="flash animated">LOADING...</p></div>
             <div style="display: block;"></div>
-          </div>
+      </div>
+      <div class="whole">
+        <div class="half">
+          <h2>Highlight</h2>
+          <blockquote>
+            <p>“We have more avenues to express immediate displeasure than ever before, and may thus find ourselves more likely to hit send or tweet when we would have done better to hit save or delete.”
+<em>The Lost Art of the Unsent Angry Letter</em></p></blockquote>
+        </div>
+
           <div class="half">
-            <h2>Instapaper<h2>
+            <h2>Instapaper</h2>
               <div id="instapaper">
 
                 <span class="meta">FEBRUARY 14, 2014 AT 11:06PM</span>
@@ -42,6 +55,7 @@
                 </a></p>                </h5>
               <div style="display: block;"></div>
             </div>
+            
         </div>
 
       <script type="text/javascript" src="assets/js/sheetsee.js"></script>
@@ -57,7 +71,7 @@
 
         function buildPage(data) {
           var compiledTemplate = Handlebars.templates['instatemplates']
-          var html = compiledTemplate({"rows": getLast(data,1)}, {});
+          var html = compiledTemplate({"rows": getLast(data,3)}, {});
           document.getElementById('instagram').innerHTML = html
         }
 
