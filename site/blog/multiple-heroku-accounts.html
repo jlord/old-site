@@ -9,6 +9,8 @@
     <link rel="shortcut icon" href="../assets/favicon.png">
     <link href='http://fonts.googleapis.com/css?family=Playfair+Display:900,400italic,700italic|Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link href='../assets/style.css' rel='stylesheet'>
+    <link href='../assets/highlight.css' rel='stylesheet'>
+    <script src="../assets/js/highlight.js"></script>
   </head>
   <body class="post">
     <div class="main-container">
@@ -39,7 +41,7 @@
 <p>When it asks what to name it, give it a name that&#39;s easy to recall, like identity.heroku.work.</p>
 <h3 id="configure-your-system-ssh">Configure your system .ssh</h3>
 <p>Next, you have to edit your <code>.ssh/config</code> file and set up new hosts. If you use Textmate, you can type <code>mate ~/.ssh/config</code> in terminal. Add these lines, changing out the work/personal and IdentityFile to match your needs/keys.</p>
-<pre><code data-language="shell">Host heroku.work
+<pre><code class="lang-shell">Host heroku.work
  HostName heroku.com
  IdentityFile ~/.ssh/identity.heroku.work
  IdentitiesOnly yes
@@ -47,29 +49,26 @@ Host heroku.personal
  HostName heroku.com
  IdentityFile ~/.ssh/identity.heroku.personal
  IdentitiesOnly yes</code></pre>
-
 <h3 id="configure-your-git-repo">Configure your git repo</h3>
-<p>Now edit the <code>.git/config</code> files. Inside of your root directory for the repo, type <code>mate .git/config</code> to open the file. It will look something like this, but under <code>[remote &quot;heroku&quot;]</code> you will change the url from heroku.<strong>com</strong> to heroku.<strong>work</strong> (or whatever you&#8217;re calling your different accounts).</p>
-<pre><code data-language="shell">[core]
+<p>Now edit the <code>.git/config</code> files. Inside of your root directory for the repo, type <code>mate .git/config</code> to open the file. It will look something like this, but under <code>[remote &quot;heroku&quot;]</code> you will change the url from heroku.<strong>com</strong> to heroku.<strong>work</strong> (or whatever you&#39;re calling your different accounts).</p>
+<pre><code class="lang-shell">[core]
  repositoryformatversion = 0
  filemode = true
  bare = false
  logallrefupdates = true
  ignorecase = true
-[branch "master"]
-[remote "heroku"]
+[branch &quot;master&quot;]
+[remote &quot;heroku&quot;]
  url = git@heroku.work:splost.git
  fetch = +refs/heads/*:refs/remotes/heroku/*
-[remote "origin"]
+[remote &quot;origin&quot;]
  url = git@github.com:jllord/splost-heroku.git
  fetch = +refs/heads/*:refs/remotes/origin/*</code></pre>
-
 <h3 id="tell-heroku-which-keys-to-use">Tell Heroku which keys to use</h3>
-<p>In Terminal, navigate to the root directory for the repo and <code>heroku login</code> to the account associated with that repo. You&#8217;ll need to tell heroku what key to use with that account.</p>
-<pre>heroku keys:add ~/.ssh/identity.heroku.work.pub</pre>
-
+<p>In Terminal, navigate to the root directory for the repo and <code>heroku login</code> to the account associated with that repo. You&#39;ll need to tell heroku what key to use with that account.</p>
+<p><code>heroku keys:add ~/.ssh/identity.heroku.work.pub</code></p>
 <p>Repeat for other repos you have associated with that account. Then navigate to the root of a repo with a different account, make sure to now <code>heroku login</code> with your other account login information. Repeat the steps for adding the keys to this account (only add the other account, ie, identity.heroku.personal).</p>
-<p>So many keys, so much fun. If you are like me and had made a hot mess of keys, it may be useful to list your keys (in heroku and on your computer), see what&#8217;s going on and clean up. Now I have one key that github uses and two keys for my two Heroku accounts and things are running much more smoothly.</p>
+<p>So many keys, so much fun. If you are like me and had made a hot mess of keys, it may be useful to list your keys (in heroku and on your computer), see what&#39;s going on and clean up. Now I have one key that github uses and two keys for my two Heroku accounts and things are running much more smoothly.</p>
 <div id="sources">
   <h3>
     Sources
@@ -108,5 +107,6 @@ Host heroku.personal
   </ul>
 </footer>
     </div>
+    <script>hljs.initHighlightingOnLoad();</script>
   </body>
 </html>

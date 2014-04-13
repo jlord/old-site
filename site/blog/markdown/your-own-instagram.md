@@ -18,62 +18,61 @@ Don&#8217;t even get me started on trying to format code snippets in WordPress. 
 
 The HTML/CSS
 
-<div class="wp-cc wp-cc-html">
-  <pre><code data-language="html">&lt;head&gt;
-&lt;!-- just showing the important parts, you&#039;ll obvs have a few more things on your page --&gt;
-&lt;!-- load in tabletop and mustache --&gt;
-&lt;script src="/wp-content/themes/Starkers/tabletop.js" type="text/javascript"&gt;&lt;/script&gt;
-&lt;script src="/wp-content/themes/Starkers/ICanHaz.js" type="text/javascript"&gt;&lt;/script&gt;
-&lt;/head&gt;
-&lt;style&gt;
-/* confine your image to a circle */
-.instaImgCirc img {border-radius: 1000px;}
-&lt;/style&gt;
-&lt;body&gt;
-&lt;!-- this dude waits patiently to be filled with stuff --&gt;
-&lt;div id="instagram"&gt;&lt;/div&gt;
-&lt;/body&gt;</code></pre>
-</div>
+```HTML
+<head>
+  <!-- just showing the important parts, you'll obvs have a few more things on your page -->
+  <!-- load in tabletop and mustache -->
+  <script src="/wp-content/themes/Starkers/tabletop.js" type="text/javascript"></script>
+  <script src="/wp-content/themes/Starkers/ICanHaz.js" type="text/javascript"></script>
+</head>
+<style>
+  /* confine your image to a circle */
+  .instaImgCirc img {border-radius: 1000px;}
+</style>
+<body>
+  <!-- this dude waits patiently to be filled with stuff -->
+  <div id="instagram"></div>
+</body>
+```
 
 The JS
 
-<div class="wp-cc wp-cc-javascript">
-  <pre><code data-language="javascript">&lt;script id="instagram" type="text/html"&gt;
-{{#rows}}
-&lt;div class="instaImgCirc"&gt;&lt;img src="{{instasource}}" width="100%"/&gt;&lt;/div&gt;
-{{/rows}}
-&lt;/script&gt;
-&lt;script type="text/javascript"&gt;
-// Your spreadsheets URL
-var URL=&#039;https://docs.google.com/spreadsheet/pubkey=0Ao5u1U6KYND7dGRZbTUwd3JQZ1k3OE9KTVZqZUYwZHc&single=true&gid=0&output=html&#039;;
-//
-function loadSpreadsheet() {
-// let&#039;s get this party started
-Tabletop.init( { key: URL, callback: showData, simpleSheet: true } ) }
-//
-// use this if you want to use a specific number of your most recent Instagrams
-function getLast(array, howMany) {
-start = array.length cut = start - howMany
-if (start &lt; 20) {
-return array
-} else {
-array = array.splice(cut) return array.reverse()
-}
-}
-//
-document.addEventListener(&#039;DOMContentLoaded&#039;, function() {
-loadSpreadsheet() })
-//
-showData = function(data) {
-var instagram = ich.instagram({
-"rows": getLast(data, 12)
-// use "rows": data.reverse() if you want to use all the Instagrams in your spreadsheet
-})
-document.getElementById(&#039;instagram&#039;).innerHTML = instagram;
-}
-&lt;/script&gt;
-&lt;/html&gt;</code></pre>
-</div>
+```javascript
+<script id="instagram" type="text/html">
+  {{#rows}}
+  <div class="instaImgCirc"><img src="{{instasource}}" width="100%"/></div>
+  {{/rows}}
+</script>
+<script type="text/javascript">
+  // Your spreadsheets URL
+  var URL='https://docs.google.com/spreadsheet/pubkey=0Ao5u1U6KYND7dGRZbTUwd3JQZ1k3OE9KTVZqZUYwZHc&single=true&gid=0&output=html';
+  //
+  function loadSpreadsheet() {
+    // let's get this party started
+    Tabletop.init( { key: URL, callback: showData, simpleSheet: true } ) }
+    //
+    // use this if you want to use a specific number of your most recent Instagrams
+    function getLast(array, howMany) {
+      start = array.length cut = start - howMany
+      if (start < 20) {
+        return array
+      } else {
+        array = array.splice(cut) return array.reverse()
+      }
+    }
+  
+  document.addEventListener('DOMContentLoaded', function() {
+    loadSpreadsheet() })
+  
+  showData = function(data) {
+    var instagram = ich.instagram({
+    "rows": getLast(data, 12)
+    // use "rows": data.reverse() if you want to use all the Instagrams in your spreadsheet
+  })
+  document.getElementById('instagram').innerHTML = instagram;
+  }
+</script>
+```
 
 ### Later Ons
 

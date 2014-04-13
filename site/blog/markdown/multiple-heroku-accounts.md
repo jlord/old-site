@@ -17,20 +17,23 @@ When it asks what to name it, give it a name that's easy to recall, like identit
 
 Next, you have to edit your `.ssh/config` file and set up new hosts. If you use Textmate, you can type `mate ~/.ssh/config` in terminal. Add these lines, changing out the work/personal and IdentityFile to match your needs/keys.
 
-<pre><code data-language="shell">Host heroku.work
+```shell
+Host heroku.work
  HostName heroku.com
  IdentityFile ~/.ssh/identity.heroku.work
  IdentitiesOnly yes
 Host heroku.personal
  HostName heroku.com
  IdentityFile ~/.ssh/identity.heroku.personal
- IdentitiesOnly yes</code></pre>
+ IdentitiesOnly yes
+ ```
 
 ### Configure your git repo
 
-Now edit the `.git/config` files. Inside of your root directory for the repo, type `mate .git/config` to open the file. It will look something like this, but under `[remote "heroku"]` you will change the url from heroku.**com** to heroku.**work** (or whatever you&#8217;re calling your different accounts).
+Now edit the `.git/config` files. Inside of your root directory for the repo, type `mate .git/config` to open the file. It will look something like this, but under `[remote "heroku"]` you will change the url from heroku.**com** to heroku.**work** (or whatever you're calling your different accounts).
 
-<pre><code data-language="shell">[core]
+```shell
+[core]
  repositoryformatversion = 0
  filemode = true
  bare = false
@@ -42,17 +45,18 @@ Now edit the `.git/config` files. Inside of your root directory for the repo, ty
  fetch = +refs/heads/*:refs/remotes/heroku/*
 [remote "origin"]
  url = git@github.com:jllord/splost-heroku.git
- fetch = +refs/heads/*:refs/remotes/origin/*</code></pre>
+ fetch = +refs/heads/*:refs/remotes/origin/*
+ ```
 
 ### Tell Heroku which keys to use
 
-In Terminal, navigate to the root directory for the repo and `heroku login` to the account associated with that repo. You&#8217;ll need to tell heroku what key to use with that account.
+In Terminal, navigate to the root directory for the repo and `heroku login` to the account associated with that repo. You'll need to tell heroku what key to use with that account.
 
-<pre>heroku keys:add ~/.ssh/identity.heroku.work.pub</pre>
+`heroku keys:add ~/.ssh/identity.heroku.work.pub`
 
 Repeat for other repos you have associated with that account. Then navigate to the root of a repo with a different account, make sure to now `heroku login` with your other account login information. Repeat the steps for adding the keys to this account (only add the other account, ie, identity.heroku.personal).
 
-So many keys, so much fun. If you are like me and had made a hot mess of keys, it may be useful to list your keys (in heroku and on your computer), see what&#8217;s going on and clean up. Now I have one key that github uses and two keys for my two Heroku accounts and things are running much more smoothly.
+So many keys, so much fun. If you are like me and had made a hot mess of keys, it may be useful to list your keys (in heroku and on your computer), see what's going on and clean up. Now I have one key that github uses and two keys for my two Heroku accounts and things are running much more smoothly.
 
 <div id="sources">
   <h3>

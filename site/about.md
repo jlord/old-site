@@ -1,5 +1,4 @@
 # Jessica Lord
-
 ## of the Warner Robins, Georgia Lords
 
 ![chemex](assets/chemex-round.png)
