@@ -40,23 +40,18 @@
           <p><a href="#">Read More</a> // <a href="#">Go to Feed</a></p>
       </div>
       <div class="whole">
-        <div id="tweet">
-          <h2>Twitter</h2>
-          <p>Added a new <a href="#">@nodeschool</a> event page with sheetsee.js and <a href="#">@muan</a>'s         calendar! <a href="#">http://t.co/LHfPyH6Aes</a>
-
-        </div>
+        <h2>Twitter</h2>
+        <div id="tweet"><span class="flash animated">LOADING...</span></div>
       </div>
       <div class="whole">
           <h2>Instagram<h2>
-            <div id="instagram"><p class="flash animated">LOADING...</p></div>
+            <div id="instagram"><span class="flash animated">LOADING...</span></div>
             <div style="display: block;"></div>
       </div>
       <div class="whole">
         <div class="half">
           <h2>Highlight</h2>
-          <blockquote>
-            <p>“We have more avenues to express immediate displeasure than ever before, and may thus find ourselves more likely to hit send or tweet when we would have done better to hit save or delete.”
-<em>The Lost Art of the Unsent Angry Letter</em></p></blockquote>
+          <div id="quote"><span class="flash animated">LOADING...</span></div>
         </div>
 
           <div class="half">
@@ -73,6 +68,18 @@
             </div>
             
         </div>
+        <div class="whole">
+          <div class="half">
+            <h3>Me</h3>
+            <p>My heart is in the open web, knowledge sharing, javascript and node.</p> 
+            <p>I live in Oakland, Ca and work at <a href="">GitHub</a>.</p>
+            <span class="meta"><a href="about.html">More details</a></span>
+          </div>
+          <div class="half">
+            <h3>Site</h3>
+            <p>Lovingly and frustratingly made by me, including my own <a href="http://github.com/jlord/balrog" target=" _blank">static site generator</a> (don't even get me started). Go ahead, <a href="">view source</a>, see the complete <a href="">code on GitHub</a> or checkout the <a href="">blog</a> for posts related to specific bits.</p>
+          </div>
+        </div>
 
       <script type="text/javascript" src="assets/js/sheetsee.js"></script>
       <script type="text/javascript" src="assets/js/handlebars.js"></script>
@@ -81,14 +88,31 @@
 
       <script type="text/javascript">
         document.addEventListener('DOMContentLoaded', function() {
-          var URL = '0Ao5u1U6KYND7dG9CRWdjeVB6dGYyN3c3RktocExUV1E'
-          Tabletop.init( { key: URL, callback: buildPage, simpleSheet: true } )
+          var URL = '0Ao5u1U6KYND7dG9CRWdjeVB6dGYyN3c3RktocExUV1E' // insta
+          var URL2 = '0Ao5u1U6KYND7dDd2RTBwajZrT3pEc2p2LVVWc0o0WVE' // tweet
+          var URL3 = '0Ao5u1U6KYND7dFR4aDRFb1RsZmlHRXc3ZnFHa3ltTXc' // quotes
+          Tabletop.init({ key: URL, callback: buildInsta, simpleSheet: true })
+          Tabletop.init({ key: URL2, callback: buildTweet, simpleSheet: true })
+          Tabletop.init({ key: URL3, callback: buildQuote, simpleSheet: true })
         })
 
-        function buildPage(data) {
-          var compiledTemplate = Handlebars.templates['instatemplates']
+        function buildInsta(data) {
+          var compiledTemplate = Handlebars.templates['instagram']
           var html = compiledTemplate({"rows": getLast(data,3)}, {});
           document.getElementById('instagram').innerHTML = html
+        }
+
+        function buildTweet(data) {
+          var template = Handlebars.templates['twitter']
+          var html = template({"rows": getLast(data,1)}, {});
+          document.getElementById('tweet').innerHTML = html
+        }
+
+        function buildQuote(data) {
+          console.log(data)
+          var template = Handlebars.templates['quote']
+          var html = template({"rows": data.reverse()[0]}, {});
+          document.getElementById('quote').innerHTML = html
         }
 
         function getLast(array, howMany) {
