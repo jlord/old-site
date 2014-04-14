@@ -100,11 +100,12 @@
 
         function buildTweet(data) {
           var lastTweet = data[data.length - 1]
-          var parsedTweet = findLinks(lastTweet)
-          // have parsed tweet save the date
-          // var template = Handlebars.templates['twitter']
-          // var html = template({"rows": parsedTweet}, {});
-          var html = '<p>' + parsedTweet + '</p>'
+          var date = lastTweet.date
+          var parsedTweet = {
+            'tweet': findLinks(lastTweet), 
+            'date': date }
+          var template = Handlebars.templates['twitter']
+          var html = template({"rows": parsedTweet}, {});
           document.getElementById('tweet').innerHTML = html
         }
 
@@ -136,8 +137,8 @@
 
         function findLinks(tweet) {
           if (!tweet.tweet) return
-            var linkPattern = /(^|\s)((https?:\/\/)?[\w-]+(\.[\w-]+)+\.?(:\d+)?(\/\S*)?)/gi
-            
+          var linkPattern = /(^|\s)((https?:\/\/)?[\w-]+(\.[\w-]+)+\.?(:\d+)?(\/\S*)?)/gi
+           
             if (!tweet.tweet.match(linkPattern)) {
               return tweetMentions(tweet.tweet)
             } else {
@@ -148,7 +149,7 @@
             }       
         }
 
-        function tweetMentions(tweet) {
+        function tweetMentions(tweet, date) {
           if (!tweet) return
           var mentionPattern = /\B@[a-z0-9_-]+/gi
           
