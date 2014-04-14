@@ -23,35 +23,29 @@
           <p>I've just updated Sheetsee with new features and all new docs. I've been waiting to ship this, it feels like, for far too long. I&#8217;m hoping now Sheetsee is at a solid enough place that I can focus spare time on making more fork-n-go examples.</p>
           <p><a href="#">Read More</a> // <a href="#">Go to Feed</a></p>
       </div>
+
       <div class="whole">
         <h2>Twitter</h2>
-        <div id="tweet"><span class="flash animated">LOADING...</span></div>
+        <div id="tweet"><span class="load flash animated">LOADING...</span></div>
       </div>
       <div class="whole">
           <h2>Instagram<h2>
-            <div id="instagram"><span class="flash animated">LOADING...</span></div>
+            <div id="instagram"><span class="load flash animated">LOADING...</span></div>
             <div style="display: block;"></div>
       </div>
+
       <div class="whole">
         <div class="half">
           <h2>Highlight</h2>
-          <div id="quote"><span class="flash animated">LOADING...</span></div>
+          <div id="quote"><span class="load flash animated">LOADING...</span></div>
         </div>
 
-          <div class="half">
-            <h2>Instapaper</h2>
-              <div id="instapaper">
-
-                <span class="meta">FEBRUARY 14, 2014 AT 11:06PM</span>
-                <p><a href="#">The Secluded Homeless Camps of Baltimore
-</a></p>
-                <span class="meta">FEBRUARY 14, 2014 AT 11:06PM</span>
-                <p><a href="#">The Secluded Homeless Camps of Baltimore
-                </a></p>                </h5>
-              <div style="display: block;"></div>
-            </div>
-            
+        <div class="half">
+          <h2>Instapaper</h2>
+          <div id="pocket"><span class="load flash animated">LOADING...</span></div>
         </div>
+        </div>
+
         <div class="whole">
           <div class="half">
             <h3>Me</h3>
@@ -72,12 +66,14 @@
 
       <script type="text/javascript">
         document.addEventListener('DOMContentLoaded', function() {
-          var URL = '0Ao5u1U6KYND7dG9CRWdjeVB6dGYyN3c3RktocExUV1E' // insta
+          var URL  = '0Ao5u1U6KYND7dG9CRWdjeVB6dGYyN3c3RktocExUV1E' // insta
           var URL2 = '0Ao5u1U6KYND7dDd2RTBwajZrT3pEc2p2LVVWc0o0WVE' // tweet
           var URL3 = '0Ao5u1U6KYND7dFR4aDRFb1RsZmlHRXc3ZnFHa3ltTXc' // quotes
-          Tabletop.init({ key: URL, callback: buildInsta, simpleSheet: true })
-          Tabletop.init({ key: URL2, callback: buildTweet, simpleSheet: true })
-          Tabletop.init({ key: URL3, callback: buildQuote, simpleSheet: true })
+          var URL4 = '0Ao5u1U6KYND7dFM4R1RKSUNZSXdNbkhpRUVZZ3pRTEE' // pocket
+          Tabletop.init({ key: URL,  callback: buildInsta,  simpleSheet: true })
+          Tabletop.init({ key: URL2, callback: buildTweet,  simpleSheet: true })
+          Tabletop.init({ key: URL3, callback: buildQuote,  simpleSheet: true })
+          Tabletop.init({ key: URL4, callback: buildPocket, simpleSheet: true })
         })
 
         function buildInsta(data) {
@@ -93,10 +89,15 @@
         }
 
         function buildQuote(data) {
-          console.log(data)
           var template = Handlebars.templates['quote']
           var html = template({"rows": data.reverse()[0]}, {});
           document.getElementById('quote').innerHTML = html
+        }
+
+        function buildPocket(data) {
+          var template = Handlebars.templates['pocket']
+          var html = template({"rows": getLast(data,2)}, {});
+          document.getElementById('pocket').innerHTML = html
         }
 
         function getLast(array, howMany) {
