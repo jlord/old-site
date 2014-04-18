@@ -94,6 +94,7 @@
         }
 
         function buildQuote(data) {
+          console.log(data)
           var template = Handlebars.templates['quote']
           var html = template({"rows": data.reverse()[0]}, {});
           document.getElementById('quote').innerHTML = html
