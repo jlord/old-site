@@ -14,19 +14,22 @@
     <div class="main-container">
       {{> header}}
 
+      <div class="home-header"><h1>Welcome</h1></div>
+
       <div id="content">
       <div class="whole latest-post" style="border: none;">
         <h2>Post</h2>
         <span class="meta">{{title}} {{date}}</span>
         <div class="latest-post-content">
-        {{{fixed}}}
+          {{{fixed}}}
         </div>
-        <span class=""><a href="blog/{{{url}}}">Read More</a> // <a href="/blog">All Posts</a>
+        <span class="meta"><a href="blog/{{{url}}}">Read More</a> // <a href="blog">All Posts</a></span>
       </div>
       <div class="whole">
-        <h2>Instagram<h2>
+        <h2>Instagram</h2>
           <div id="instagram"><span class="load flash animated">LOADING...</span></div>
           <div style="display: block;"></div>
+          <span class="meta"><a href="instagram.html">More</a></span>
       </div>
 
       <div class="whole">

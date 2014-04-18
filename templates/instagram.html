@@ -31,7 +31,7 @@
         }) 
 
         function buildPage(data) {
-          var compiledTemplate = Handlebars.templates['instatemplates']
+          var compiledTemplate = Handlebars.templates['instagram']
           var html = compiledTemplate({"rows": getLast(data,18)}, {});
           document.getElementById('instagram').innerHTML = html
         }
