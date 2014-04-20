@@ -1,6 +1,6 @@
 {
  "source": "./content",
- "output": "./site",
+ "output": "./",
  "pagination": 5,
  "templateDir": "./templates",
  "partialsDir": "./partials",
