@@ -44,8 +44,8 @@ a.button:hover {color: #333; color: #fff;}
 
 /* PAGE */
 /* ------------------------------------------------------------ */
-.main-container {max-width: 620px; margin: 0 auto; padding: 20px; background: #Fff; overflow: auto;}
-.half {width: 48%; display: inline-block; vertical-align: top;}
+.main-container {max-width: 620px; margin: 0 auto; padding: 20px; overflow: auto;}
+.half {width: 47%; display: inline-block; vertical-align: top;}
 .whole {border-top: 2px solid #09cc40; padding-bottom: 30px;}
 
 #tweet p {font-family: 'Playfair Display'; text-align: center; font-weight: 500; font-size: 20px;}
