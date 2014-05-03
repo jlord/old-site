@@ -1,2 +1,2 @@
-# Welcome
-## Recent Bits of Internet
+# Hello!
+## Recent Things

@@ -25,6 +25,7 @@ hr {border: 0; border-bottom: 2px solid #09cc40; padding-top: 20px;}
 .half blockquote p {padding-left: 0px;}
 .half blockquote {margin: 0 20px 0 0;}
 .half blockquote::before {content: none;}
+.r.half {float: right;}
 
 li {line-height: 1.6em;}
 ul {list-style: circle; padding-left: 18px;}
@@ -113,6 +114,7 @@ footer a {border: none;}
 .home-header li {display: inline-block; padding-right: 6px; margin: 0 auto; color: #09cc40;}
 /*.content ul {text-align: left;}*/
 .home-header {border-top: 4px solid #09cc40; display: table; margin: 60px auto 0px; min-width: 314px; text-align: center;}
+.home-header .meta {color: #09cc40;}
 
 
 /* WORK PAGE */
