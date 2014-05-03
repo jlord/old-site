@@ -5,7 +5,7 @@
 
 I am a developer and designer at [GitHub](http://www.github.com/about). I made my way here via open government development at [Code for America](http://codeforamerica.org/), urban design at the City of [Boston's Redevelopment Authority](http://www.bostonredevelopmentauthority.org/) and architecture in Atlanta and [Georgia Tech](http://www.coa.gatech.edu/). It all makes perfect sense.
 
-I [develop in the open](http://www.github.com/jlord) and try to [share](/blog) what I learn. I've got a little open source library, [sheetsee.js](http://jlord.github.io/sheetsee.js), I wrote for using Google Spreadsheets to power charts, maps and tables on websites real easy-like. My work from life before development can be found [here](http://jlord.us/hello/). 
+I [develop in the open](http://www.github.com/jlord) and try to [share](/blog) what I learn. I've got a little open source library, [sheetsee.js](http://jlord.github.io/sheetsee.js), I wrote for using Google Spreadsheets to power charts, maps and tables on websites real easy-like. My work from life before development can be found [here](http://jlord.us/hello/).
 
 I hail from the heart of Georgia but for now I live in Oakland, California. I love open source, JavaScript & Node.js, and stories of Tudor England.
 
@@ -17,7 +17,7 @@ I hail from the heart of Georgia but for now I live in Oakland, California. I lo
 
 **IRC**: freenode, #nerdtracker, #stackvm
 
-**IRL**: GitHub HQ, Oakland Coffee shops
+**IRL**: GitHub HQ, Oakland coffee shops
 
 **Talks/Workshops/Panels**
 

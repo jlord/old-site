@@ -69,13 +69,13 @@
         <div class="whole">
           <div class="half">
             <h3>Me</h3>
-            <p>My heart is in the open web, knowledge sharing, javascript and node.</p> 
+            <p>My heart is in the open web, knowledge sharing, javascript and node.</p>
             <p>I live in Oakland, Ca and work at <a href="">GitHub</a>.</p>
             <span class="meta"><a href="about.html">More details</a></span>
           </div>
           <div class="half">
             <h3>Site</h3>
-            <p>Lovingly and frustratingly made by me, including my own <a href="http://github.com/jlord/balrog" target=" _blank">static site generator</a>. See the <a href="http://github.com/jlord/jlord.github.io">code on GitHub</a> or checkout the <a href="/blog">blog</a> for posts related to specific bits.</p> 
+            <p>Lovingly and frustratingly made by me, including my own <a href="http://github.com/jlord/balrog" target=" _blank">static site generator</a>. See the <a href="http://github.com/jlord/jlord.github.io">code on GitHub</a> or checkout the <a href="/blog">blog</a> for posts related to specific bits.</p>
             <p>Data uses <a href="http://www.ifttt.com">IFTTT</a> and <a href="http://jlord.github.io/sheetsee.js">sheetsee.js</a>.</p>
           </div>
         </div>
@@ -91,10 +91,12 @@
           var URL2 = '0Ao5u1U6KYND7dDd2RTBwajZrT3pEc2p2LVVWc0o0WVE' // tweet
           var URL3 = '0Ao5u1U6KYND7dFR4aDRFb1RsZmlHRXc3ZnFHa3ltTXc' // quotes
           var URL4 = '0Ao5u1U6KYND7dERheVpFZThEUkdPZnFXXzMxTzJ3dEE' // pocket
+          var URL5 = '0Ao5u1U6KYND7dFM4R1RKSUNZSXdNbkhpRUVZZ3pRTEE' // pocket2
+
           Tabletop.init({ key: URL,  callback: buildInsta,  simpleSheet: true })
           Tabletop.init({ key: URL2, callback: buildTweet,  simpleSheet: true })
           Tabletop.init({ key: URL3, callback: buildQuote,  simpleSheet: true })
-          Tabletop.init({ key: URL4, callback: buildPocket, simpleSheet: true })
+          Tabletop.init({ key: URL5, callback: buildPocket, simpleSheet: true })
         })
 
         function buildInsta(data) {
@@ -107,7 +109,7 @@
           var lastTweet = data[data.length - 1]
           var date = lastTweet.date
           var parsedTweet = {
-            'tweet': findLinks(lastTweet), 
+            'tweet': findLinks(lastTweet),
             'date': date }
           var template = Handlebars.templates['twitter']
           var html = template({"rows": parsedTweet}, {});
@@ -138,13 +140,13 @@
           }
         }
 
-        // parse tweets 
+        // parse tweets
         // move to sep. file
 
         function findLinks(tweet) {
           if (!tweet.tweet) return
           var linkPattern = /(^|\s)((https?:\/\/)?[\w-]+(\.[\w-]+)+\.?(:\d+)?(\/\S*)?)/gi
-           
+
             if (!tweet.tweet.match(linkPattern)) {
               return tweetMentions(tweet.tweet)
             } else {
@@ -152,13 +154,13 @@
               var linkLinks = linkLink(links)
               var newTweet = injectLinks(tweet.tweet, links, linkLinks)
               return tweetMentions(newTweet)
-            }       
+            }
         }
 
         function tweetMentions(tweet, date) {
           if (!tweet) return
           var mentionPattern = /\B@[a-z0-9_-]+/gi
-          
+
           if (tweet.match(mentionPattern)) {
             var mentions = tweet.match(mentionPattern)
             var linkMentions = linkMention(mentions)
@@ -166,7 +168,7 @@
             return newTweet
           } else { return tweet }
         }
-        
+
         function linkMention(mentions) {
           if (!mentions) return
           var linkMentions = []
@@ -176,7 +178,7 @@
           })
           return linkMentions
         }
-        
+
         function linkLink(links) {
           if (!links) return
           var linkLinks = []
@@ -186,12 +188,12 @@
           })
           return linkLinks
         }
-        
+
         function injectLinks(tweet, mentions, linkMentions) {
           for (var i = 0; i <= mentions.length; i++) {
             tweet = tweet.replace(mentions[i], linkMentions[i])
             if (i === mentions.length) return tweet
-          }    
+          }
         }
       </script>
       </div>

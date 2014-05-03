@@ -32,6 +32,7 @@ ul {list-style: circle; padding-left: 18px;}
 a.green {color: #09cc40;}
 a.green:hover {color: #333;}
 
+
 .load.flash.animated {font-family: Courier New; font-size: 16px; font-weight: normal;}
 
 /* PAGINATION */
@@ -100,7 +101,9 @@ footer a {border: none;}
 /* INSTAGRAM */
 /* ------------------------------------------------------------ */
 #instagram {margin: 0 auto; text-align: center; overflow: auto; padding-bottom: 20px;}
-.instaImgCirc img {border-radius: 1000px; margin: 10px; width: 186px; display: inline-block; float: left;}
+.instaImgCirc {float: left;}
+.instaImgCirc img {border-radius: 1000px; margin: 10px; width: 186px; }
+.instaImgCirc a {border: none;}
 
 /* HOME PAGE */
 /* ------------------------------------------------------------ */
@@ -111,6 +114,14 @@ footer a {border: none;}
 /*.content ul {text-align: left;}*/
 .home-header {border-top: 4px solid #09cc40; display: table; margin: 60px auto 0px; min-width: 314px; text-align: center;}
 
+
+/* WORK PAGE */
+/* ------------------------------------------------------------ */
+
+/*#work-photos img {
+  max-width: 250px;
+  float: left;
+}*/
 
 
 /*!
@@ -148,4 +159,10 @@ animation-fill-mode: both;
 .flash {
   -webkit-animation-name: flash;
   animation-name: flash;
+}
+
+
+@media (max-width: 550px) {
+  .half {width: 100%}
+  #work-photos {display: none;}
 }
