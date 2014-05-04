@@ -10,7 +10,7 @@
     <link href='http://fonts.googleapis.com/css?family=Playfair+Display:900,400italic,700italic|Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link href='assets/style.css' rel='stylesheet'>
   </head>
-  <body>
+  <body class="instagram-template">
     <div class="main-container">
       <header>
 	<div class="row">
@@ -29,22 +29,22 @@
 	    <a href="/about.html">about</a>
 	</div>
 </header>
-  
+
       <div id="content">
         <div class='post-header'><a href='instagram.html'><h1>Instagram Feed</h1></a><ul></ul></div>
       <div id="instagram" class="span4"><span class="flash animated">LOADING...</span></div>
-      <div style="display: block;"><p>These are the last 16 pictures in my Instagram feed. Here is my <a href="http://jlord.us/your-own-instagram-feed/">blog post</a> on how.</p></div>
+      <div style="display: block;"><p>These are the last 16 pictures in my Instagram feed. Here is my <a href="http://localhost:5567/blog/your-own-instagram.html">blog post</a> on how.</p></div>
 
       <script type="text/javascript" src="assets/js/sheetsee.js"></script>
       <script type="text/javascript" src="assets/js/handlebars.js"></script>
-      <script type="text/javascript" src="assets/js/tabletop1.3.3.js"></script> 
+      <script type="text/javascript" src="assets/js/tabletop1.3.3.js"></script>
       <script type="text/javascript" src="assets/js/templates.js"></script>
 
-      <script type="text/javascript">    
+      <script type="text/javascript">
         document.addEventListener('DOMContentLoaded', function() {
           var URL = '0Ao5u1U6KYND7dG9CRWdjeVB6dGYyN3c3RktocExUV1E'
           Tabletop.init( { key: URL, callback: buildPage, simpleSheet: true } )
-        }) 
+        })
 
         function buildPage(data) {
           var compiledTemplate = Handlebars.templates['instagram']
@@ -86,4 +86,3 @@
     </div>
   </body>
 </html>
-

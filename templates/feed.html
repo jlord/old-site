@@ -9,11 +9,13 @@
     <link rel="shortcut icon" href="../assets/favicon.png">
     <link href='http://fonts.googleapis.com/css?family=Playfair+Display:900,400italic,700italic|Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link href='../assets/style.css' rel='stylesheet'>
+    <link href='../assets/highlight.css' rel='stylesheet'>
+    <script src="../assets/js/highlight.js"></script>
   </head>
-  <body>
+  <body class="feed-template">
     <div class="main-container">
       {{> header}}
-  
+
       <div id="content">
         {{#posts}}
           {{{content.content}}}
@@ -23,5 +25,6 @@
 
       {{> footer}}
     </div>
+    <script>hljs.initHighlightingOnLoad();</script>
   </body>
 </html>
