@@ -10,7 +10,7 @@ img {width: 100%;}
 pre { font-family: 'Andale Mono', Liberation Mono, monospace; white-space: pre-wrap; word-break: break-all; word-wrap: break-word; padding: 20px; background: #fafafa; -webkit-border-radius: 2px; line-height: 1.6em;}
 pre code {padding: 0; color: inherit; background-color: transparent; border: 0;}
 code {padding: 2px 4px; border: 1px solid #dadada; border-radius: 2px; font-family: 'Andale Mono', Liberation Mono, monospace; font-weight: 900; font-size: 12px;}
-p { font-size: 15px; line-height: 1.6em; text-align: left;}
+p { font-size: 15px; line-height: 1.6em; text-align: left; word-break: break-word;}
 h2, h3, h4, h5, h6 {font-weight: 700; font-family: 'Playfair Display'; padding-top: 1.2em;}
 h1, h2, h3,h4,h5,h6 { font-family: 'Courier New', Helvetica, Arial, sans-serif; font-weight: 900; text-align: left;}
 h1 {font-family: 'Playfair Display'; letter-spacing: .01em; text-align: center; font-weight: 900; color: #09cc40; font-size: 300%; margin: 12px 0;}
@@ -48,7 +48,7 @@ a.button:hover {color: #333; color: #fff;}
 /* ------------------------------------------------------------ */
 .main-container {max-width: 620px; margin: 0 auto; padding: 20px; overflow: auto;}
 .half {width: 47%; display: inline-block; vertical-align: top;}
-.whole {border-top: 2px solid #09cc40; padding-bottom: 30px;}
+.whole {border-top: 2px solid #09cc40; padding-bottom: 30px; display: inline-block}
 
 #tweet p {font-family: 'Playfair Display'; text-align: center; font-weight: 500; font-size: 20px;}
 
@@ -82,7 +82,7 @@ ul.meta {list-style: none; display: inline-block; text-align: center; margin: 0 
     list-style: none; text-align: center; color: red; margin: 0 auto; padding: 0px; font-family: Open Sans; font-size: 10px; color: #c6c6c6; letter-spacing: .1em; font-weight: 300; text-transform: uppercase;}
 .post-header li {display: inline-block; padding-right: 6px; margin: 0 auto; color: #09cc40;}
 /*.content ul {text-align: left;}*/
-.post-header {border-top: 4px solid #09cc40; display: table; margin: 60px auto; min-width: 314px; text-align: center;}
+.post-header {border-top: 4px solid #09cc40; display: table; margin: 60px auto; min-width: 280px; text-align: center;}
 
 /*#32ff00*/
 
@@ -93,7 +93,7 @@ ul.meta {list-style: none; display: inline-block; text-align: center; margin: 0 
 
 /* FOOTER */
 /* ------------------------------------------------------------ */
-footer {text-align: center; margin: 30px auto; width: 314px; /*display: table;*/ padding-top: 20px; auto; font-family: Open Sans; font-size: 10px; color: #777; letter-spacing: .1em; font-weight: 300; text-transform: uppercase; border-top: 4px solid #09cc40;}
+footer {text-align: center; margin: 30px auto; width: 320px; /*display: table;*/ padding-top: 20px; auto; font-family: Open Sans; font-size: 10px; color: #777; letter-spacing: .1em; font-weight: 300; text-transform: uppercase; border-top: 4px solid #09cc40;}
 footer ul {list-style: none; padding: 0 15px; display: inline-block;
 vertical-align: top;}
 footer li {text-align: left;}
@@ -113,7 +113,7 @@ footer a {border: none;}
     list-style: none; text-align: center; color: red; margin: 0 auto; padding: 0px; font-family: Open Sans; font-size: 10px; color: #c6c6c6; letter-spacing: .1em; font-weight: 300; text-transform: uppercase;}
 .home-header li {display: inline-block; padding-right: 6px; margin: 0 auto; color: #09cc40;}
 /*.content ul {text-align: left;}*/
-.home-header {border-top: 4px solid #09cc40; display: table; margin: 60px auto 0px; min-width: 314px; text-align: center;}
+.home-header {border-top: 4px solid #09cc40; display: table; margin: 60px auto 0px; width: 320px; text-align: center;}
 .home-header .meta {color: #09cc40;}
 
 
@@ -167,4 +167,6 @@ animation-fill-mode: both;
 @media (max-width: 550px) {
   .half {width: 100%}
   #work-photos {display: none;}
+  .socials {display: none;}
+  footer, .home-header, .post-header {width: 280px;}
 }
