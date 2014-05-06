@@ -5,8 +5,8 @@ a {color: #333; text-decoration: none; transition: color 0.2s ease; border-botto
 /* #0091FF orange #FF5200 #FF6103 #FF4040 #FF3333 #FF585E #FF7216 #FF5333 red #FF3333 */
 /* blue #007aff */
 /* bright seafoam #44FFB4 */
-/* dusty navy #1075A5 */
-a:hover {color: #449DC7; border-color: #44FFB4;}
+/* dusty navy #1075A5 307AFD */
+a:hover {color: #307AFD; border-color: #307AFD;}
 img {width: 100%;}
 pre { font-family: 'Andale Mono', Liberation Mono, monospace; white-space: pre-wrap; word-break: break-all; word-wrap: break-word; padding: 20px; background: #fafafa; -webkit-border-radius: 2px; line-height: 1.6em;}
 pre code {padding: 0; color: inherit; background-color: transparent; border: 0;}
@@ -33,8 +33,8 @@ blockquote p em:before {content: "\2014  "; display: inline;}
 li {line-height: 1.6em;}
 ul {list-style: circle; padding-left: 18px;}
 
-a.green {color: #333;}
-a.green:hover {color: #333;}
+a.green {color: #307AFD;}
+a.green:hover {color: #444;}
 
 
 .load.flash.animated {font-family: Courier New; font-size: 16px; font-weight: normal;}
@@ -51,12 +51,8 @@ a.button:hover {color: #333; color: #fff;}
 /* ------------------------------------------------------------ */
 .main-container {max-width: 620px; margin: 0 auto; padding: 20px; overflow: auto;}
 .half {width: 47%; display: inline-block; vertical-align: top;}
-<<<<<<< HEAD
 .whole {border-top: 2px solid #CCC8C8; padding-bottom: 30px;}
 .whole {border-top: 1px dotted #CCC8C8; padding-bottom: 30px;}
-=======
-.whole {border-top: 2px solid #09cc40; padding-bottom: 30px; display: table; width: 100%;}
->>>>>>> master
 
 #tweet p {font-family: 'Playfair Display'; text-align: center; font-weight: 500; font-size: 20px;}
 
@@ -69,7 +65,8 @@ header {font-family: 'Playfair Display'; margin: 0 auto; text-align: center; fon
 .upper-bold-italic {font-weight: bold; font-style: italic; font-size: 150%;}
 .row {margin: -8px 0; padding: 0px;}
 header .row:nth-child(even) {padding-left: 28px;}
-header a {color: #1075A5; border: none;}
+header a {color: #307AFD; border: none;}
+header a:hover {color: #444;}
 
 /* BODY */
 /* ------------------------------------------------------------ */
@@ -90,13 +87,9 @@ ul.meta {list-style: none; display: inline-block; text-align: center; margin: 0 
     list-style: none; text-align: center; color: red; margin: 0 auto; padding: 0px; font-family: Open Sans; font-size: 10px; color: #c6c6c6; letter-spacing: .1em; font-weight: 300; text-transform: uppercase;}
 .post-header li {display: inline-block; padding-right: 6px; margin: 0 auto; color: #333;}
 /*.content ul {text-align: left;}*/
-<<<<<<< HEAD
 .post-header {border-top: 3px solid #CCC8C8; display: table; margin: 60px auto; min-width: 314px; text-align: center;}
 .post-header {border-top: 1px dotted #CCC8C8; display: table; margin: 60px auto; min-width: 314px; text-align: center;}
 
-=======
-.post-header {border-top: 4px solid #09cc40; display: table; margin: 60px auto; min-width: 280px; text-align: center;}
->>>>>>> master
 
 /*#32ff00*/
 
@@ -107,11 +100,7 @@ ul.meta {list-style: none; display: inline-block; text-align: center; margin: 0 
 
 /* FOOTER */
 /* ------------------------------------------------------------ */
-<<<<<<< HEAD
-footer {text-align: center; margin: 30px auto; width: 314px; /*display: table;*/ padding-top: 20px; auto; font-family: Open Sans; font-size: 10px; color: #777; letter-spacing: .1em; font-weight: 300; text-transform: uppercase; border-top: 4px solid #333;}
-=======
-footer {text-align: center; margin: 30px auto; width: 320px; /*display: table;*/ padding-top: 20px; auto; font-family: Open Sans; font-size: 10px; color: #777; letter-spacing: .1em; font-weight: 300; text-transform: uppercase; border-top: 4px solid #09cc40;}
->>>>>>> master
+footer {text-align: center; margin: 30px auto; width: 314px; /*display: table;*/ padding-top: 20px; auto; font-family: Open Sans; font-size: 10px; color: #777; letter-spacing: .1em; font-weight: 300; text-transform: uppercase; border-top: 1px dotted #CCC8C8;}
 footer ul {list-style: none; padding: 0 15px; display: inline-block;
 vertical-align: top;}
 footer li {text-align: left;}
@@ -131,15 +120,10 @@ footer a {border: none;}
     list-style: none; text-align: center; color: red; margin: 0 auto; padding: 0px; font-family: Open Sans; font-size: 10px; color: #c6c6c6; letter-spacing: .1em; font-weight: 300; text-transform: uppercase;}
 .home-header li {display: inline-block; padding-right: 6px; margin: 0 auto; color: #333;}
 /*.content ul {text-align: left;}*/
-<<<<<<< HEAD
 /*.home-header {border-top: 3px solid #CCC8C8; display: table; margin: 60px auto 0px; min-width: 314px; text-align: center;}*/
 .home-header {border-top: 1px dotted #CCC8C8; display: table; margin: 60px auto 0px; min-width: 314px; text-align: center;}
 
 .home-header .meta {color: #333;}
-=======
-.home-header {border-top: 4px solid #09cc40; display: table; margin: 60px auto 0px; width: 320px; text-align: center;}
-.home-header .meta {color: #09cc40;}
->>>>>>> master
 
 
 /* WORK PAGE */
