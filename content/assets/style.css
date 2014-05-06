@@ -16,7 +16,7 @@ h2, h3, h4, h5, h6 {font-weight: 700; font-family: 'Playfair Display'; padding-t
 h1, h2, h3,h4,h5,h6 { font-family: 'Courier New', Helvetica, Arial, sans-serif; font-weight: 600; text-align: left;}
 h1 {font-family: 'Playfair Display'; letter-spacing: .01em; text-align: center; font-weight: 900; color: #333; font-size: 340%; margin: 12px 0;}
 blockquote {font-style: italic; font-family: 'Playfair Display'; margin: 30px 20px;}
-blockquote::before {content: "・"; color: #333; float: left; padding-right: 10px; top: 4px; position: relative;}
+blockquote::before {content: "・"; color: #307AFD; float: left; padding-right: 10px; top: 4px; position: relative;}
 blockquote p {padding-left: 21px;}
 blockquote p em {font-family: 'Open Sans'; font-size: 10px; color: #777; letter-spacing: .1em; font-weight: 300; text-transform: uppercase; font-style: normal;}
 blockquote p em:before {content: "\2014  "; display: inline;}
