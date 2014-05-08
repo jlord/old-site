@@ -68,6 +68,7 @@ header .row:nth-child(even) {padding-left: 28px;}
 header a {color: #307AFD; border: none;}
 header a:hover {color: #B0CCFF;}
 
+
 /* BODY */
 /* ------------------------------------------------------------ */
 
@@ -85,7 +86,8 @@ ul.meta {list-style: none; display: inline-block; text-align: center; margin: 0 
 /* this is not a good idea */
 .post-header ul {
     list-style: none; text-align: center; color: red; margin: 0 auto; padding: 0px; font-family: Open Sans; font-size: 10px; color: #c6c6c6; letter-spacing: .1em; font-weight: 300; text-transform: uppercase;}
-.post-header li {display: inline-block; padding-right: 6px; margin: 0 auto; color: #333;}
+.post-header li {display: inline-block;  margin: 0; color: #333;}
+.post-header li+li {padding-right: 6px;}
 /*.content ul {text-align: left;}*/
 .post-header {border-top: 3px solid #CCC8C8; display: table; margin: 60px auto; min-width: 314px; text-align: center;}
 .post-header {border-top: 1px dotted #CCC8C8; display: table; margin: 60px auto; min-width: 314px; text-align: center;}
