@@ -71,10 +71,9 @@
 <h4 id="issue-no-self-awareness">Issue: No Self Awareness</h4>
 <p>Now that we&#8217;ve got the columns constrained to where we want them on the page and they&#8217;re expanding right, we must solve the issue that it <code>#entries</code> has no idea how many columns it&#8217;s generated and how wide that&#8217;s made it or its parent <code>#entryWrapper</code>. This means other children like <code>#videoWrapper</code> won&#8217;t fill to match this unknown width.</p>
 <p>So I set empty span &#8220;markers&#8221; at the start <code>#theStart</code> and end <code>#theEnd</code> of the text in <code>#entries</code>. I then used jquery to find the distance between the two, adjusting for negative numbers if the page has been scrolled right and the remaining column width to the right of <code>#theEnd</code>.</p>
-<pre>var start = Math.abs($('#theStart').offset().left)
-var end = ($('#theEnd').offset().left) + 400
-var pageWidth = start + end</pre>
-
+<pre><code class="lang-JavaScript">var start = Math.abs($(&#39;#theStart&#39;).offset().left)
+var end = ($(&#39;#theEnd&#39;).offset().left) + 400
+var pageWidth = start + end</code></pre>
 <p>I use this the give <code>#videoWrapper</code> a width on load and when the video bar is toggled on and off (because when the text has more or less vertical space, it takes up more or less horizontal space).</p>
 <p>Also, forget having any control over things like particular columns or every other column or nth column&#8230;</p>
 <h4 id="issue-firefox">Issue: Firefox</h4>

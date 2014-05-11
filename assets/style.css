@@ -12,8 +12,8 @@ pre { font-family: 'Andale Mono', Liberation Mono, monospace; white-space: pre-w
 pre code {padding: 0; color: inherit; background-color: transparent; border: 0;}
 code {padding: 2px 4px; border: 1px solid #dadada; border-radius: 2px; font-family: 'Andale Mono', Liberation Mono, monospace; font-weight: 900; font-size: 12px;}
 p { font-size: 15px; line-height: 1.6em; text-align: left; word-break: break-word;}
-h2, h3, h4, h5, h6 {font-weight: 700; font-family: 'Playfair Display'; padding-top: 1.2em;}
-h1, h2, h3,h4,h5,h6 { font-family: 'Courier New', Helvetica, Arial, sans-serif; font-weight: 600; text-align: left;}
+h2, h3 {font-weight: 700; font-family: 'Playfair Display'; padding-top: 1.2em;}
+h1, h2, h3, h4 { font-family: 'Courier New', Helvetica, Arial, sans-serif; font-weight: 600; text-align: left;}
 h1 {font-family: 'Playfair Display'; letter-spacing: .01em; text-align: center; font-weight: 900; color: #333; font-size: 340%; margin: 12px 0;}
 blockquote {font-style: italic; font-family: 'Playfair Display'; margin: 30px 20px;}
 blockquote::before {content: "・"; color: #307AFD; float: left; padding-right: 10px; top: 4px; position: relative;}
@@ -43,9 +43,9 @@ a.green:hover {color: #444;}
 /* ------------------------------------------------------------ */
 .turn-page {margin: 30px auto; text-align: center; padding-top: 30px; max-width: 314px; border-top: 4px solid #CCC8C8;}
 a.button {border: none; color: #fff;}
-a.button:hover {color: #333; color: #fff;}
+a.button:hover {background-color: #307AFD; color: #fff;}
 .button {padding: 2px 6px; background-color: #333; border-radius: 2px; border: none; transition: background-color 0.2s ease;}
-.button:hover {background-color: #333;}
+.button:hover {background-color: #307AFD;}
 
 /* PAGE */
 /* ------------------------------------------------------------ */

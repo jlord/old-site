@@ -21,18 +21,19 @@ I hail from the heart of Georgia but for now I live in Oakland, California. I lo
 
 **Talks/Workshops/Panels**
 
-- **JSFest**, 2014
-- **Mozilla Festival**, 2013
-- [**Aspen Institute, FOCAS**](http://www.aspeninstitute.org/policy-work/communications-society/FOCAS2013), 2013
-- **State of the Map**, 2012
-- [**Code for America Summit**](http://www.youtube.com/watch?v=Q76bKK229aM), 2012
-- **Farmhouse Conf** 4
+- **Web Rebels**, Oslo, 2014
+- **JSFest**, San Francisco, 2014
+- **Mozilla Festival**, London, 2013
+- [**Aspen Institute, FOCAS**](http://www.aspeninstitute.org/policy-work/communications-society/FOCAS2013), Aspen, 2013
+- **State of the Map**, Portland, 2012
+- [**Code for America Summit**](http://www.youtube.com/watch?v=Q76bKK229aM), San Francisco, 2012
+- **Farmhouse Conf**, Los Angeles, 2012
 
 **Work**
 
 - **GitHub, Inc**, Internet Coder, San Francisco
 - **Mozilla-Knight Open News Code Sprint**, Sheetsee.js
-- **DIY.org**, Maker-in-Residence: Haker Skills, San Francisco
+- **DIY.org**, Maker-in-Residence: Hacker Skills, San Francisco
 - **Code for America**, 2012 Fellow, San Francisco
 - **Jr. Urban Designer**, Boston Redevelopment Auth., City of Boston
 - **Intern Architect**, Rutledge-Alcock Architects, Atlanta

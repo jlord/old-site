@@ -26,9 +26,11 @@ Now that we&#8217;ve got the columns constrained to where we want them on the pa
 
 So I set empty span &#8220;markers&#8221; at the start `#theStart` and end `#theEnd` of the text in `#entries`. I then used jquery to find the distance between the two, adjusting for negative numbers if the page has been scrolled right and the remaining column width to the right of `#theEnd`.
 
-<pre>var start = Math.abs($('#theStart').offset().left)
+```JavaScript
+var start = Math.abs($('#theStart').offset().left)
 var end = ($('#theEnd').offset().left) + 400
-var pageWidth = start + end</pre>
+var pageWidth = start + end
+```
 
 I use this the give `#videoWrapper` a width on load and when the video bar is toggled on and off (because when the text has more or less vertical space, it takes up more or less horizontal space).
 
