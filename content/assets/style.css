@@ -22,7 +22,7 @@ blockquote p em {font-family: 'Open Sans'; font-size: 10px; color: #777; letter-
 blockquote p em:before {content: "\2014  "; display: inline;}
 
 /*hr {border: 0; border-bottom: 2px solid #CCC8C8; padding-top: 20px;}
-*/hr {border: 0; border-bottom: 1px dashed #CCC8C8; padding-top: 20px;}
+*/hr {border: 0; border-bottom: 1px dotted #CCC8C8; padding-top: 20px;}
 
 
 .half blockquote p {padding-left: 0px;}
@@ -89,8 +89,7 @@ ul.meta {list-style: none; display: inline-block; text-align: center; margin: 0 
 .post-header li {display: inline-block;  margin: 0; color: #333;}
 .post-header li+li {padding-right: 6px;}
 /*.content ul {text-align: left;}*/
-.post-header {border-top: 3px solid #CCC8C8; display: table; margin: 60px auto; min-width: 314px; text-align: center;}
-.post-header {border-top: 1px dotted #CCC8C8; display: table; margin: 60px auto; min-width: 314px; text-align: center;}
+.post-header {border-top: 1px dotted #CCC8C8; display: table; margin: 60px auto; min-width: 314px; max-width: 530px; text-align: center;}
 
 
 /*#32ff00*/
@@ -179,5 +178,5 @@ animation-fill-mode: both;
   .half {width: 100%}
   #work-photos {display: none;}
   .socials {display: none;}
-  footer, .home-header, .post-header {width: 280px;}
+  footer, .home-header, .post-header {width: 270px; min-width: 270px;}
 }
