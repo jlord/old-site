@@ -178,5 +178,5 @@ animation-fill-mode: both;
   .half {width: 100%}
   #work-photos {display: none;}
   .socials {display: none;}
-  footer, .home-header, .post-header {width: 270px; min-width: 270px;}
+  footer, .home-header, .post-header {width: 100%; min-width: 100%;}
 }
