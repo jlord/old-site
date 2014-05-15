@@ -5,7 +5,7 @@
 
 I've been at [GitHub](http://www.github.com/about) a year! That's 365 days of learning, laughing and working on something I care about. That's lucky!
 
-A little over two years ago I was an urban designer for a lovely city on the east coast. Then I spent 2012 as a [Code for America](http://www.codeforamerica.org) fellow and fell hard for open source and GitHub. 
+A little over two years ago I was an urban designer for a lovely city on the east coast. Then I spent 2012 as a Code for America [fellow](http://www.codeforamerica.org) and fell hard for open source and GitHub. 
 
 Open source and GitHub were the community and mindset missing from my way of working before, only I didn't know it then. I did know, however, that I wanted to build more and ship more (only I didn't know it was called 'ship' then). Hello, GitHub!
 
