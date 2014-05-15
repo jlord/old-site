@@ -41,7 +41,7 @@ a.green:hover {color: #444;}
 
 /* PAGINATION */
 /* ------------------------------------------------------------ */
-.turn-page {margin: 30px auto; text-align: center; padding-top: 30px; max-width: 314px; border-top: 4px solid #CCC8C8;}
+.turn-page {margin: 30px auto; text-align: center; padding-top: 30px; max-width: 314px; border-top: 1px dashed #CCC8C8;}
 a.button {border: none; color: #fff;}
 a.button:hover {background-color: #307AFD; color: #fff;}
 .button {padding: 2px 6px; background-color: #333; border-radius: 2px; border: none; transition: background-color 0.2s ease;}
