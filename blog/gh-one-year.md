@@ -1,6 +1,6 @@
 # 365 days a GitHubber
 #### Jessica Lord
-#### 2014-05-13
+#### 2014-05-15
 #### GitHub, Development
 
 I've been at [GitHub](http://www.github.com/about) a year! That's 365 days of learning, laughing and working on something I care about. That's lucky!
