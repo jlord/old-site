@@ -128,19 +128,15 @@
 
         function buildPocket(data) {
           var template = Handlebars.templates['pocket']
-          var html = template({"rows": getLast(data,3)}, {});
+          var html = template({"rows": getLast(data,  3)}, {});
           document.getElementById('pocket').innerHTML = html
         }
 
         function getLast(array, howMany) {
           start = array.length
           cut = start - howMany
-          if (start < 12) {
-          return array
-          } else {
-            array = array.splice(cut)
-            return array.reverse()
-          }
+          array = array.splice(cut)
+          return array.reverse()
         }
 
         // parse tweets
