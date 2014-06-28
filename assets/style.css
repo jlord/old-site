@@ -51,8 +51,7 @@ a.button:hover {background-color: #307AFD; color: #fff;}
 /* ------------------------------------------------------------ */
 .main-container {max-width: 620px; margin: 0 auto; padding: 20px; overflow: auto;}
 .half {width: 47%; display: inline-block; vertical-align: top;}
-.whole {border-top: 2px solid #CCC8C8; padding-bottom: 30px;}
-.whole {border-top: 1px dotted #CCC8C8; padding-bottom: 30px;}
+.whole {border-top: 1px dotted #CCC8C8; padding-bottom: 30px; overflow: auto;}
 
 #tweet p {font-family: 'Playfair Display'; text-align: center; font-weight: 500; font-size: 20px;}
 
@@ -179,4 +178,5 @@ animation-fill-mode: both;
   #work-photos {display: none;}
   .socials {display: none;}
   footer, .home-header, .post-header {width: 100%; min-width: 100%;}
+  .instaImgCirc {float: none;}
 }
