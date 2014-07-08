@@ -13,7 +13,7 @@ I hail from the heart of Georgia but for now I live in Oakland, California. I lo
 
 ## Contact & History
 
-[to.jlord@gmail.com](mailto: to.jlord@gmail.com) | [twitter/jllord](http://www.twitter.com/jlord) | [github/jlord](http://www.github.com/jlord)
+[to.jlord@gmail.com](mailto: to.jlord@gmail.com) | [twitter/jllord](http://www.twitter.com/jllord) | [github/jlord](http://www.github.com/jlord)
 
 **IRC**: freenode, #nerdtracker, #stackvm
 
