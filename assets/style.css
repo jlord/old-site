@@ -18,7 +18,7 @@ h1 {font-family: 'Playfair Display'; letter-spacing: .01em; text-align: center; 
 blockquote {font-style: italic; font-family: 'Playfair Display'; margin: 30px 20px;}
 blockquote::before {content: "・"; color: #307AFD; float: left; padding-right: 10px; top: 4px; position: relative;}
 blockquote p {padding-left: 21px;}
-blockquote p em {font-family: 'Open Sans'; font-size: 10px; color: #777; letter-spacing: .1em; font-weight: 300; text-transform: uppercase; font-style: normal; white-space: nowrap;}
+blockquote p em {font-family: 'Open Sans'; font-size: 10px; color: #777; letter-spacing: .1em; font-weight: 300; text-transform: uppercase; font-style: normal;}
 blockquote p em:before {content: "\2014  "; display: inline;}
 
 /*hr {border: 0; border-bottom: 2px solid #CCC8C8; padding-top: 20px;}
