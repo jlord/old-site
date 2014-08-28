@@ -14,6 +14,8 @@
 
 [**Sheetsee.js**](https://jlord.github.io/sheetsee.js) A library for visualizing data from Google Spreadsheets.
 
+[Git-it](https://jlord.github.io/sheetsee.js) A terminal based interactive tutorial for learning Git and GitHub.
+
 [**Fork-n-Go**](https://jlord.github.io/forkngo) Building and showcasing web projects that can be forked and used and hosted with minimal effort.
 
 [**Sheetdown**](https://github.com/jlord/sheetdown) Command line tool for converting Google Spreadsheets into Markdown tables.
