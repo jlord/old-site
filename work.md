@@ -14,6 +14,8 @@
 
 [**Sheetsee.js**](https://jlord.github.io/sheetsee.js) A library for visualizing data from Google Spreadsheets.
 
+[Git-it](https://jlord.github.io/sheetsee.js) A terminal based interactive tutorial for learning Git and GitHub.
+
 [**Fork-n-Go**](https://jlord.github.io/forkngo) Building and showcasing web projects that can be forked and used and hosted with minimal effort.
 
 [**Sheetdown**](https://github.com/jlord/sheetdown) Command line tool for converting Google Spreadsheets into Markdown tables.
@@ -22,7 +24,7 @@
 
 [**Hack Spots**](https://jlord.github.io/hack-spots) Fork-n-Go site for mapping and listing locations (of coffeeshops).
 
-<small class="meta">More on <a href="http://github.com/jlord" target="_blank">github/jlord</a></small>
+<small class="meta">More on <a href="http://github.com/jlord" target="_blank">github/jlord</a> and <a href="http://www.npmjs.org/jlord">npm/jlord</a>.</small>
 
 ## Coming Soon
 
