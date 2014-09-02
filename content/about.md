@@ -47,4 +47,4 @@ I hail from the heart of Georgia but for now I live in Oakland, California. I lo
 
 ## About the Site
 
-I built a [static site generator](http://www.github.com/jlord/balrog) and built [this site](http://www.github.com/jlord/jlord.github.io). It took forever. Type are default on your computer (Courier New) or from Google Web Fonts (Playfair Display and Open Sans). More detailed blog post forthcoming.
+I built a [static site generator](http://www.github.com/jlord/balrog) and built [this site](http://www.github.com/jlord/jlord.github.io). It took forever. Types are Courier New or from Google Web Fonts, Playfair Display and Open Sans.
