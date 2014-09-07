@@ -1,9 +1,9 @@
 # Node & npm Basics via a Simple Module
 #### Jessica Lord
 #### 2014-09-06
-#### Node.js, NPM, Development
+#### Node.js, npm, Development
 
-The other day I wrote a simple node module and thought it may be useful and digestible enough to look into and learn about some Node and npm Basics. If you have some questions about this module, you can [open an issue](http://www.github.com/jlord/cli-boilerplate/issues) on the repo.
+The other day I wrote a simple Node module and thought it may be useful and digestible enough to look into and learn about some Node and npm Basics. If you have some questions about this module, you can [open an issue](http://www.github.com/jlord/cli-boilerplate/issues) on the repo.
 
 Before anything, of course you'll need [Node.js](http://www.nodejs.org) and npm (which comes with the Node install).
 
@@ -15,7 +15,7 @@ In terminal there is already a command for sending text to the clipboard and wit
 
 ## Initialize
 
-[npm](http://www.npmjs.org) (nice people matter) is Node.js's package manager. It's what you use if you want publish your project so that others can easily use it. It's a registry of all the published modules and their versions. You can see the latest activity here [npmjs.org](https://www.npmjs.org) (at time of writing, 93,291 packages!). You can write projects in node and run it on your computer without npm, but if you intend to publish it as we do, you'll use npm.
+[npm](http://www.npmjs.org) (nice people matter) is Node.js's package manager. It's what you use if you want publish your project so that others can easily use it. It's a registry of all the published modules and their versions. You can see the latest activity here [npmjs.org](https://www.npmjs.org) (at time of writing, 93,291 packages!). You can write projects in Node and run it on your computer without npm, but if you intend to publish it as we do, you'll use npm.
 
 ### npm init
 
@@ -177,7 +177,7 @@ Using `exec` we spawn a new independent shell process to which we can give our s
 
 ## Try it out and Publish
 
-Now that the file is done, we can test it by running it on our computer. If we're in the `cli-clipboard` directory we can type `npm link` so that NPM will use this version we've made as the global module.
+Now that the file is done, we can test it by running it on our computer. If we're in the `cli-clipboard` directory we can type `npm link` so that npm will use this version we've made as the global module.
 
 ```bash
 $ cd cli-clipboard
@@ -187,7 +187,7 @@ $ boilme
 # it should work!
 ```
 
-Next publish what you've done to your NPM account (if you don't have one, [set one up](https://www.npmjs.org/signup)):
+Next publish what you've done to your npm account (if you don't have one, [set one up](https://www.npmjs.org/signup)):
 
 ```bash
 $ npm publish
@@ -195,7 +195,7 @@ $ npm publish
 
 ## Tada
 
-That's the whole thing! We have a `package.json` so that we can register our module with NPM and others can use it, we have our `boilerplate.html` file with our dream boilerplate, and we have the itty bitty `index.js` script to make what we want to happen, happen.
+That's the whole thing! We have a `package.json` so that we can register our module with npm and others can use it, we have our `boilerplate.html` file with our dream boilerplate, and we have the itty bitty `index.js` script to make what we want to happen, happen.
 
 This post is way longer than I thought it would be. I tried to save space and didn't mention it, but you should also being using Git when you're building something and checking-in often to save your work and push it to GitHub.
 
