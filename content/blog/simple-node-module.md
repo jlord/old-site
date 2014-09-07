@@ -141,6 +141,8 @@ fs.readFile(path.join(__dirname, 'boilerplate.html'), function read(err, data) {
 })
 ```
 
+#### Read file
+
 We use `fs` to read the file, it wants to know where the file is and what to do after it has read it, the callback. The callback is a function that is run after the main task (reading the file contents) has completed. It will automatically get passed in first an error, if there was one, and the the contents of the file, but buffered, which means numbers (we'll change that later). Here's what the basic format looks like: `fs.readFile('filelocation', callback)`.
 
 The `boilerplate.html` will be located wherever this module exists on the users computer, so we'll use `__dirname` to get the location of the module on the computer and `path.join` to add `boilerplate.html` to that. That gives us the full address of the file on the computer.
@@ -148,6 +150,8 @@ The `boilerplate.html` will be located wherever this module exists on the users 
 Then we pass in our callback, a function we create called 'read' because it's going to get run when the file has finished being read. Next is a common pattern in Node -- we check to see if there were any errors reading the file. If there were, we want give up because there's no use doing the rest of the work. So if there is an error, we return, but we print with `console.log()`out what the error was.
 
 But, if there were no errors, we'll move right along!
+
+#### Run copy command
 
 We create a string to contain what the full command would be in terminal if we were doing this manually. In Mac terminals you can type `echo "Hello World!"` and it will print out the string you gave it. You can feed that text directly into another function using a "pipe" which is this "|" character. We want to feed it into the copy command which is `pbcopy` on Macs. So typing `echo "Hello World!" | pbcopy` will put "Hello World" in our clipboard and and the next time we paste, we'll get "Hello World".
 
