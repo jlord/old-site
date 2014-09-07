@@ -3,20 +3,27 @@
 #### 2014-09-06
 #### Node.js, NPM, Development
 
-The other day I wrote a simple node module and thought it may be useful and digestible enough to look into and learn about some Node and NPM Basics. If you have some questions about this module, you can [open an issue](http://www.github.com/jlord/cli-boilerplate/issues) on the repo.
+The other day I wrote a simple node module and thought it may be useful and digestible enough to look into and learn about some Node and npm Basics. If you have some questions about this module, you can [open an issue](http://www.github.com/jlord/cli-boilerplate/issues) on the repo.
 
+Before anything, of course you'll need [Node.js](http://www.nodejs.org) and npm (which comes with the Node install).
 
-## The Need
+## Start with a Problem
 
 When I start a new website I usually go and dig up some boilerplate HTML. I wanted to make "dig up" a little less work and since the boilerplate isn't but a couple dozen lines or so I thought it would be nice if I could just type a command and have it copied to my clipboard so that I could paste it into a new file. This is how `cli-boilerplate` was born.
 
+In terminal there is already a command for sending text to the clipboard and with Node we can read contents of files and execute terminal commands. So, let's begin!
+
 ## Initialize
 
-[npm](http://www.npmjs.org) (nice people matter) is Node.js's package manager. It's what you use if you want publish your project so that others can easily use it. It's a registry of all the published modules and their versions, you can see the latest activity here [npmjs.org](https://www.npmjs.org) (at time of writing, 93,291 packages!). You can write projects in node and run it on your computer without npm, but if you intend to publish it, as we do, you'll use npm.
+[npm](http://www.npmjs.org) (nice people matter) is Node.js's package manager. It's what you use if you want publish your project so that others can easily use it. It's a registry of all the published modules and their versions. You can see the latest activity here [npmjs.org](https://www.npmjs.org) (at time of writing, 93,291 packages!). You can write projects in node and run it on your computer without npm, but if you intend to publish it as we do, you'll use npm.
 
-### Create a new folder project and npm init
+### npm init
 
-Because the project needs somewhere to live. Now in your terminal, navigate to that folder and run `npm init`. This kicks off a process that gets your `package.json` file started for you. This file is like the title page, glossary, index and copyright page of a book rolled into one. It's in the JSON format which you can read more about [here](), but you can easily get a sense of by checking out the `package.json` in existing projects (see here, here and here).
+Create a new folder for your project to live in. Now in your terminal, navigate to that folder and run `npm init`. This kicks off a process that gets your `package.json` file started for you.
+
+![npminit](http://f.cl.ly/items/170N1O2G1V0a263A2E37/Screen%20Shot%202014-09-07%20at%201.21.18%20PM.png)
+
+This file is like the title page, glossary, index and copyright page of a book rolled into one. You can get a sense of these files, and the JSON format, by checking out the `package.json` in existing projects (see [here](https://github.com/maxogden/dat/blob/master/package.json), [here](https://github.com/mikeal/request/blob/master/package.json) and [here](https://github.com/substack/node-optimist/blob/master/package.json)).
 
 ```bash
 # make a new folder
@@ -103,11 +110,13 @@ fs.readFile(path.join(__dirname, 'boilerplate.html'), function read(err, data) {
 
 ### The Environment
 
-#!/usr/bin/env node Remember in `package.json` we set "./index.js" as the file we wanted to run after someone types `boilme`? This is the finishing touch, so that your computer executes immediately `#!/` (shebang) the code in the file using node.
+At the very top we use `#!/usr/bin/env node`. Remember in `package.json` we set "./index.js" as the file we wanted to run after someone types `boilme`? Using this line at the top of `index.js` tells the computer when it starts to read it that it should execute — `#!/` (shebang) — the code below it and do so using Node.
 
 ### Require other modules
 
-Node.js comes with a [core set of modules](http://nodejs.org/api/) that help you do lots of things. If there is something that is outside of the scope of core, that's when you'll use NPM to find something created by someone else. This project, being simple, just uses core modules. In this section we are requiring the core modules we want and giving them a name:
+Node.js comes with a [core set of modules](http://nodejs.org/api/) that help you do lots of things. If there is something that is outside of the scope of core, that's when you'll use npm to find something created by someone else.
+
+This project, being simple, just uses core modules. In this section we are requiring the core modules we want and giving them a name:
 
 ```javascript
 var fs   = require('fs')
@@ -115,13 +124,13 @@ var path = require('path')
 var exec = require('child_process').exec
 ```
 
-When you require a module, all of the functions inside of it become accessible through the name you set for it. For instance, I can use the things that come with `fs` when I use the variable `fs` in my script. If you come to my house with cake, that cake is in my house so I can get to it, cut it and eat it...
+When you require a module, all of the functions inside of it become accessible to you in your code through the name you set for it. For instance, I can use the things that come with `fs` when I use the variable `fs` in my script.
 
-**fs** is a module for the file system this lets us read or write files (and more!) on a computer
+**fs** is a module for the file system, letting us read or write files (and more!) on a computer
 
-**path** is a utility for working with file paths
+**path** is a utility for working with file paths (locations)
 
-**child_process** allows us to run another process, outside of the one we're already in. Using the `exec` portion of it allows us to specifically run a shell (command line) process.
+**child_process** allows us to run another process, outside of the one we're already in. Using the `exec` part of it allows us to specifically run a shell (command line) process
 
 ### Action!
 
@@ -129,9 +138,9 @@ Next we'll actually use this modules to:
 
 1. Read the contents of the boilerplate HTML file.
 2. Create a _string_ of the command we'd type in terminal if we were manually giving it text to send to the clipboard.
-3. Use `exec` to create a shell process running independently and give it our command.
+3. Use `exec` to create a shell process and give it our command to run.
 
-Let's break it down some more.
+Let's break it down some more. Here is all the code:
 
 ```javascript
 fs.readFile(path.join(__dirname, 'boilerplate.html'), function read(err, data) {
@@ -162,6 +171,10 @@ Since `fs.readFile` returns a buffer of numbers, we'll use the JavaScript method
 
 Using `exec` we spawn a new independent shell process to which we can give our shell command. It also takes in a callback, a function for what to do after it's run that command. We want it to quit and print the error if there was an error, but if there was no error, print "Copied!".
 
+## A Possibly Non-Helpful Diagram
+
+[![diagram](http://f.cl.ly/items/1t1g2f0l222s382G3u3b/functions.png)](http://f.cl.ly/items/1t1g2f0l222s382G3u3b/functions.png)
+
 ## Try it out and Publish
 
 Now that the file is done, we can test it by running it on our computer. If we're in the `cli-clipboard` directory we can type `npm link` so that NPM will use this version we've made as the global module.
@@ -174,7 +187,7 @@ $ boilme
 # it should work!
 ```
 
-Next publish what you've done to your NPM account (if you don't have one, [set one up]()):
+Next publish what you've done to your NPM account (if you don't have one, [set one up](https://www.npmjs.org/signup)):
 
 ```bash
 $ npm publish
@@ -184,9 +197,21 @@ $ npm publish
 
 That's the whole thing! We have a `package.json` so that we can register our module with NPM and others can use it, we have our `boilerplate.html` file with our dream boilerplate, and we have the itty bitty `index.js` script to make what we want to happen, happen.
 
-This post is way longer than I thought it would be and hopefully that's not too distracting. I tried to save space and didn't mention it, but you should also being using Git when you're building something and checking-in often to save your work and push it to GitHub.
+This post is way longer than I thought it would be. I tried to save space and didn't mention it, but you should also being using Git when you're building something and checking-in often to save your work and push it to GitHub.
 
 
 ### Other files
 
 The project also has a `README.md` and `LICENSE.md` file. They're not required to make a module, but they're really important files to have in a project. The former tells people how to use your project and the later shows the license the project is under. Some places can't use un-licensed projects, so it's important to add one!
+
+## Links
+
+- [__dirname](http://nodejs.org/docs/latest/api/globals.html#globals_dirname)
+- [fs.readFile](http://nodejs.org/api/fs.html#fs_fs_readfile_filename_options_callback)
+- [child_process.exec](http://nodejs.org/api/child_process.html#child_process_child_process_exec_command_options_callback)
+- [npm](http://www.npmjs.org)
+- [Node](http://www.nodejs.org)
+- [cli-boilerplate on GitHub](http://www.github.com/jlord/cli-boilerplate)
+- [cli-boilerplate on npm](http://www.github.com/boilerplate)
+- [npm's package.json](https://www.npmjs.org/doc/files/package.json.html)
+- [Node's require](http://nodejs.org/api/modules.html#modules_modules)

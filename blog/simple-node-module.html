@@ -33,13 +33,17 @@
 </header>
 
       <div id="content">
-        <div class='post-header'><a href='simple-node-module.html'><h1>Node & npm Basics via a Simple Module</h1></a><ul><li>Jessica Lord</li> <li>2014-09-06</li> <li>Node.js, NPM, Development</li></ul></div><p>The other day I wrote a simple node module and thought it may be useful and digestible enough to look into and learn about some Node and NPM Basics. If you have some questions about this module, you can <a href="http://www.github.com/jlord/cli-boilerplate/issues">open an issue</a> on the repo.</p>
-<h2 id="the-need">The Need</h2>
+        <div class='post-header'><a href='simple-node-module.html'><h1>Node & npm Basics via a Simple Module</h1></a><ul><li>Jessica Lord</li> <li>2014-09-06</li> <li>Node.js, NPM, Development</li></ul></div><p>The other day I wrote a simple node module and thought it may be useful and digestible enough to look into and learn about some Node and npm Basics. If you have some questions about this module, you can <a href="http://www.github.com/jlord/cli-boilerplate/issues">open an issue</a> on the repo.</p>
+<p>Before anything, of course you&#39;ll need <a href="http://www.nodejs.org">Node.js</a> and npm (which comes with the Node install).</p>
+<h2 id="start-with-a-problem">Start with a Problem</h2>
 <p>When I start a new website I usually go and dig up some boilerplate HTML. I wanted to make &quot;dig up&quot; a little less work and since the boilerplate isn&#39;t but a couple dozen lines or so I thought it would be nice if I could just type a command and have it copied to my clipboard so that I could paste it into a new file. This is how <code>cli-boilerplate</code> was born.</p>
+<p>In terminal there is already a command for sending text to the clipboard and with Node we can read contents of files and execute terminal commands. So, let&#39;s begin!</p>
 <h2 id="initialize">Initialize</h2>
-<p><a href="http://www.npmjs.org">npm</a> (nice people matter) is Node.js&#39;s package manager. It&#39;s what you use if you want publish your project so that others can easily use it. It&#39;s a registry of all the published modules and their versions, you can see the latest activity here <a href="https://www.npmjs.org">npmjs.org</a> (at time of writing, 93,291 packages!). You can write projects in node and run it on your computer without npm, but if you intend to publish it, as we do, you&#39;ll use npm.</p>
-<h3 id="create-a-new-folder-project-and-npm-init">Create a new folder project and npm init</h3>
-<p>Because the project needs somewhere to live. Now in your terminal, navigate to that folder and run <code>npm init</code>. This kicks off a process that gets your <code>package.json</code> file started for you. This file is like the title page, glossary, index and copyright page of a book rolled into one. It&#39;s in the JSON format which you can read more about <a href="">here</a>, but you can easily get a sense of by checking out the <code>package.json</code> in existing projects (see here, here and here).</p>
+<p><a href="http://www.npmjs.org">npm</a> (nice people matter) is Node.js&#39;s package manager. It&#39;s what you use if you want publish your project so that others can easily use it. It&#39;s a registry of all the published modules and their versions. You can see the latest activity here <a href="https://www.npmjs.org">npmjs.org</a> (at time of writing, 93,291 packages!). You can write projects in node and run it on your computer without npm, but if you intend to publish it as we do, you&#39;ll use npm.</p>
+<h3 id="npm-init">npm init</h3>
+<p>Create a new folder for your project to live in. Now in your terminal, navigate to that folder and run <code>npm init</code>. This kicks off a process that gets your <code>package.json</code> file started for you.</p>
+<p><img src="http://f.cl.ly/items/170N1O2G1V0a263A2E37/Screen%20Shot%202014-09-07%20at%201.21.18%20PM.png" alt="npminit"></p>
+<p>This file is like the title page, glossary, index and copyright page of a book rolled into one. You can get a sense of these files, and the JSON format, by checking out the <code>package.json</code> in existing projects (see <a href="https://github.com/maxogden/dat/blob/master/package.json">here</a>, <a href="https://github.com/mikeal/request/blob/master/package.json">here</a> and <a href="https://github.com/substack/node-optimist/blob/master/package.json">here</a>).</p>
 <pre><code class="lang-bash"># make a new folder
 $ mkdir cli-boilerplate
 # go inside of folder
@@ -105,24 +109,25 @@ fs.readFile(path.join(__dirname, &#39;boilerplate.html&#39;), function read(err,
   })
 })</code></pre>
 <h3 id="the-environment">The Environment</h3>
-<h1 id="-usr-bin-env-node-remember-in-package-json-we-set-index-js-as-the-file-we-wanted-to-run-after-someone-types-boilme-this-is-the-finishing-touch-so-that-your-computer-executes-immediately-shebang-the-code-in-the-file-using-node-">!/usr/bin/env node Remember in <code>package.json</code> we set &quot;./index.js&quot; as the file we wanted to run after someone types <code>boilme</code>? This is the finishing touch, so that your computer executes immediately <code>#!/</code> (shebang) the code in the file using node.</h1>
+<p>At the very top we use <code>#!/usr/bin/env node</code>. Remember in <code>package.json</code> we set &quot;./index.js&quot; as the file we wanted to run after someone types <code>boilme</code>? Using this line at the top of <code>index.js</code> tells the computer when it starts to read it that it should execute — <code>#!/</code> (shebang) — the code below it and do so using Node.</p>
 <h3 id="require-other-modules">Require other modules</h3>
-<p>Node.js comes with a <a href="http://nodejs.org/api/">core set of modules</a> that help you do lots of things. If there is something that is outside of the scope of core, that&#39;s when you&#39;ll use NPM to find something created by someone else. This project, being simple, just uses core modules. In this section we are requiring the core modules we want and giving them a name:</p>
+<p>Node.js comes with a <a href="http://nodejs.org/api/">core set of modules</a> that help you do lots of things. If there is something that is outside of the scope of core, that&#39;s when you&#39;ll use npm to find something created by someone else.</p>
+<p>This project, being simple, just uses core modules. In this section we are requiring the core modules we want and giving them a name:</p>
 <pre><code class="lang-javascript">var fs   = require(&#39;fs&#39;)
 var path = require(&#39;path&#39;)
 var exec = require(&#39;child_process&#39;).exec</code></pre>
-<p>When you require a module, all of the functions inside of it become accessible through the name you set for it. For instance, I can use the things that come with <code>fs</code> when I use the variable <code>fs</code> in my script. If you come to my house with cake, that cake is in my house so I can get to it, cut it and eat it...</p>
-<p><strong>fs</strong> is a module for the file system this lets us read or write files (and more!) on a computer</p>
-<p><strong>path</strong> is a utility for working with file paths</p>
-<p><strong>child_process</strong> allows us to run another process, outside of the one we&#39;re already in. Using the <code>exec</code> portion of it allows us to specifically run a shell (command line) process.</p>
+<p>When you require a module, all of the functions inside of it become accessible to you in your code through the name you set for it. For instance, I can use the things that come with <code>fs</code> when I use the variable <code>fs</code> in my script.</p>
+<p><strong>fs</strong> is a module for the file system, letting us read or write files (and more!) on a computer</p>
+<p><strong>path</strong> is a utility for working with file paths (locations)</p>
+<p><strong>child_process</strong> allows us to run another process, outside of the one we&#39;re already in. Using the <code>exec</code> part of it allows us to specifically run a shell (command line) process</p>
 <h3 id="action-">Action!</h3>
 <p>Next we&#39;ll actually use this modules to:</p>
 <ol>
 <li>Read the contents of the boilerplate HTML file.</li>
 <li>Create a <em>string</em> of the command we&#39;d type in terminal if we were manually giving it text to send to the clipboard.</li>
-<li>Use <code>exec</code> to create a shell process running independently and give it our command.</li>
+<li>Use <code>exec</code> to create a shell process and give it our command to run.</li>
 </ol>
-<p>Let&#39;s break it down some more.</p>
+<p>Let&#39;s break it down some more. Here is all the code:</p>
 <pre><code class="lang-javascript">fs.readFile(path.join(__dirname, &#39;boilerplate.html&#39;), function read(err, data) {
   if (err) return console.log(err)
   var command = &quot;echo &#39;&quot; + data.toString() + &quot;&#39; | pbcopy&quot;
@@ -140,6 +145,8 @@ var exec = require(&#39;child_process&#39;).exec</code></pre>
 <p>We create a string to contain what the full command would be in terminal if we were doing this manually. In Mac terminals you can type <code>echo &quot;Hello World!&quot;</code> and it will print out the string you gave it. You can feed that text directly into another function using a &quot;pipe&quot; which is this &quot;|&quot; character. We want to feed it into the copy command which is <code>pbcopy</code> on Macs. So typing <code>echo &quot;Hello World!&quot; | pbcopy</code> will put &quot;Hello World&quot; in our clipboard and and the next time we paste, we&#39;ll get &quot;Hello World&quot;.</p>
 <p>Since <code>fs.readFile</code> returns a buffer of numbers, we&#39;ll use the JavaScript method <code>.toString()</code> to turn it into the letters and spaces we recognize.</p>
 <p>Using <code>exec</code> we spawn a new independent shell process to which we can give our shell command. It also takes in a callback, a function for what to do after it&#39;s run that command. We want it to quit and print the error if there was an error, but if there was no error, print &quot;Copied!&quot;.</p>
+<h2 id="a-possibly-non-helpful-diagram">A Possibly Non-Helpful Diagram</h2>
+<p><a href="http://f.cl.ly/items/1t1g2f0l222s382G3u3b/functions.png"><img src="http://f.cl.ly/items/1t1g2f0l222s382G3u3b/functions.png" alt="diagram"></a></p>
 <h2 id="try-it-out-and-publish">Try it out and Publish</h2>
 <p>Now that the file is done, we can test it by running it on our computer. If we&#39;re in the <code>cli-clipboard</code> directory we can type <code>npm link</code> so that NPM will use this version we&#39;ve made as the global module.</p>
 <pre><code class="lang-bash">$ cd cli-clipboard
@@ -147,13 +154,25 @@ $ npm link
 # it will print text about the linkage
 $ boilme
 # it should work!</code></pre>
-<p>Next publish what you&#39;ve done to your NPM account (if you don&#39;t have one, <a href="">set one up</a>):</p>
+<p>Next publish what you&#39;ve done to your NPM account (if you don&#39;t have one, <a href="https://www.npmjs.org/signup">set one up</a>):</p>
 <pre><code class="lang-bash">$ npm publish</code></pre>
 <h2 id="tada">Tada</h2>
 <p>That&#39;s the whole thing! We have a <code>package.json</code> so that we can register our module with NPM and others can use it, we have our <code>boilerplate.html</code> file with our dream boilerplate, and we have the itty bitty <code>index.js</code> script to make what we want to happen, happen.</p>
-<p>This post is way longer than I thought it would be and hopefully that&#39;s not too distracting. I tried to save space and didn&#39;t mention it, but you should also being using Git when you&#39;re building something and checking-in often to save your work and push it to GitHub.</p>
+<p>This post is way longer than I thought it would be. I tried to save space and didn&#39;t mention it, but you should also being using Git when you&#39;re building something and checking-in often to save your work and push it to GitHub.</p>
 <h3 id="other-files">Other files</h3>
 <p>The project also has a <code>README.md</code> and <code>LICENSE.md</code> file. They&#39;re not required to make a module, but they&#39;re really important files to have in a project. The former tells people how to use your project and the later shows the license the project is under. Some places can&#39;t use un-licensed projects, so it&#39;s important to add one!</p>
+<h2 id="links">Links</h2>
+<ul>
+<li><a href="http://nodejs.org/docs/latest/api/globals.html#globals_dirname">__dirname</a></li>
+<li><a href="http://nodejs.org/api/fs.html#fs_fs_readfile_filename_options_callback">fs.readFile</a></li>
+<li><a href="http://nodejs.org/api/child_process.html#child_process_child_process_exec_command_options_callback">child_process.exec</a></li>
+<li><a href="http://www.npmjs.org">npm</a></li>
+<li><a href="http://www.nodejs.org">Node</a></li>
+<li><a href="http://www.github.com/jlord/cli-boilerplate">cli-boilerplate on GitHub</a></li>
+<li><a href="http://www.github.com/boilerplate">cli-boilerplate on npm</a></li>
+<li><a href="https://www.npmjs.org/doc/files/package.json.html">npm&#39;s package.json</a></li>
+<li><a href="http://nodejs.org/api/modules.html#modules_modules">Node&#39;s require</a></li>
+</ul>
 
       </div>
 
