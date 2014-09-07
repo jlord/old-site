@@ -33,13 +33,13 @@
 </header>
 
       <div id="content">
-        <div class='post-header'><a href='simple-node-module.html'><h1>Node & NPM Basics via a Simple Module</h1></a><ul><li>Jessica Lord</li> <li>2014-09-06</li> <li>Node.js, NPM, Development</li></ul></div><p>The other day I wrote a simple node module and thought it may be useful and digestible enough to look into and learn about some Node and NPM Basics. If you have some questions about this module, you can <a href="http://www.github.com/jlord/cli-boilerplate/issues">open an issue</a> on the repo.</p>
+        <div class='post-header'><a href='simple-node-module.html'><h1>Node & npm Basics via a Simple Module</h1></a><ul><li>Jessica Lord</li> <li>2014-09-06</li> <li>Node.js, NPM, Development</li></ul></div><p>The other day I wrote a simple node module and thought it may be useful and digestible enough to look into and learn about some Node and NPM Basics. If you have some questions about this module, you can <a href="http://www.github.com/jlord/cli-boilerplate/issues">open an issue</a> on the repo.</p>
 <h2 id="the-need">The Need</h2>
 <p>When I start a new website I usually go and dig up some boilerplate HTML. I wanted to make &quot;dig up&quot; a little less work and since the boilerplate isn&#39;t but a couple dozen lines or so I thought it would be nice if I could just type a command and have it copied to my clipboard so that I could paste it into a new file. This is how <code>cli-boilerplate</code> was born.</p>
 <h2 id="initialize">Initialize</h2>
-<p><a href="http://www.npmjs.org">npm</a> (nice people matter) is Node.js&#39;s package manager. It&#39;s what you use if you want publish your project so that others can easily use it. It&#39;s a registry of all the published modules and their versions, you can see the latest activity here <a href="https://www.npmjs.org">npmjs.org</a> (at time of writing, 93,291 packages!). You can write projects in node and run it on your computer without NPM, but if you intend to publish it, as we do, you&#39;ll use NPM.</p>
+<p><a href="http://www.npmjs.org">npm</a> (nice people matter) is Node.js&#39;s package manager. It&#39;s what you use if you want publish your project so that others can easily use it. It&#39;s a registry of all the published modules and their versions, you can see the latest activity here <a href="https://www.npmjs.org">npmjs.org</a> (at time of writing, 93,291 packages!). You can write projects in node and run it on your computer without npm, but if you intend to publish it, as we do, you&#39;ll use npm.</p>
 <h3 id="create-a-new-folder-project-and-npm-init">Create a new folder project and npm init</h3>
-<p>Because the project needs somewhere to live. Now in your terminal, navigate to that folder and run <code>npm init</code>. This kicks off a process that gets your <code>package.json</code> file started for you. This file is like the title page, glossary, index and copyright page of a book rolled into one. It&#39;s in the JSON format which you can read more about here, but you can easily get a sense of by checking out the <code>package.json</code> in existing projects (see here, here and here).</p>
+<p>Because the project needs somewhere to live. Now in your terminal, navigate to that folder and run <code>npm init</code>. This kicks off a process that gets your <code>package.json</code> file started for you. This file is like the title page, glossary, index and copyright page of a book rolled into one. It&#39;s in the JSON format which you can read more about <a href="">here</a>, but you can easily get a sense of by checking out the <code>package.json</code> in existing projects (see here, here and here).</p>
 <pre><code class="lang-bash"># make a new folder
 $ mkdir cli-boilerplate
 # go inside of folder
@@ -48,7 +48,7 @@ $ cd cli-boilerplate
 $ npm init</code></pre>
 <p>You can fill out the information in terminal or hit enter and fill it out later in your text editor. When it&#39;s done you&#39;ll have a <code>package.json</code> file in your folder.</p>
 <h4 id="beyond-the-basics">Beyond the basics</h4>
-<p>Because I want to create a module that runs from the commandline, I need to add a section in my <code>package.json</code> called <code>bin</code> which will allow me to define what file gets run when <em>x</em> word (command) is typed into terminal. I chose <code>boilme</code>. Haaa. I also added where the repository and issues are on GitHub as well as keywords for when people search npmjs.org.</p>
+<p>Because I want to create a module that runs from the command line, I need to add a section in my <code>package.json</code> called <code>bin</code> which will allow me to define what file gets run when <em>x</em> word (command) is typed into terminal. I chose <code>boilme</code>. Haaa. I also added where the repository and issues are on GitHub as well as keywords for when people search npmjs.org.</p>
 <pre><code class="lang-javascript">{
   &quot;name&quot;: &quot;cli-boilerplate&quot;,
   &quot;version&quot;: &quot;1.0.1&quot;,
@@ -105,16 +105,16 @@ fs.readFile(path.join(__dirname, &#39;boilerplate.html&#39;), function read(err,
   })
 })</code></pre>
 <h3 id="the-environment">The Environment</h3>
-<p>Remember in <code>package.json</code> we set &quot;./index.js&quot; as the file we wanted to run after someone types <code>boilme</code>? This is the finishing touch, so that your computer executes immediately <code>#!/</code> (shebang) the code in the file using node.</p>
+<h1 id="-usr-bin-env-node-remember-in-package-json-we-set-index-js-as-the-file-we-wanted-to-run-after-someone-types-boilme-this-is-the-finishing-touch-so-that-your-computer-executes-immediately-shebang-the-code-in-the-file-using-node-">!/usr/bin/env node Remember in <code>package.json</code> we set &quot;./index.js&quot; as the file we wanted to run after someone types <code>boilme</code>? This is the finishing touch, so that your computer executes immediately <code>#!/</code> (shebang) the code in the file using node.</h1>
 <h3 id="require-other-modules">Require other modules</h3>
 <p>Node.js comes with a <a href="http://nodejs.org/api/">core set of modules</a> that help you do lots of things. If there is something that is outside of the scope of core, that&#39;s when you&#39;ll use NPM to find something created by someone else. This project, being simple, just uses core modules. In this section we are requiring the core modules we want and giving them a name:</p>
 <pre><code class="lang-javascript">var fs   = require(&#39;fs&#39;)
 var path = require(&#39;path&#39;)
 var exec = require(&#39;child_process&#39;).exec</code></pre>
 <p>When you require a module, all of the functions inside of it become accessible through the name you set for it. For instance, I can use the things that come with <code>fs</code> when I use the variable <code>fs</code> in my script. If you come to my house with cake, that cake is in my house so I can get to it, cut it and eat it...</p>
-<p><strong>fs</strong> is a module for the &quot;file system&quot; this lets us read or write files (and more!) on a computer
-<strong>path</strong> helps figure out the address (path) of where a file is located
-<strong>child_process</strong> allows us to run another process, outside of the one we&#39;re already in. Using the <code>exec</code> portion of it allows us to specifically run a shell (command line) process.</p>
+<p><strong>fs</strong> is a module for the file system this lets us read or write files (and more!) on a computer</p>
+<p><strong>path</strong> is a utility for working with file paths</p>
+<p><strong>child_process</strong> allows us to run another process, outside of the one we&#39;re already in. Using the <code>exec</code> portion of it allows us to specifically run a shell (command line) process.</p>
 <h3 id="action-">Action!</h3>
 <p>Next we&#39;ll actually use this modules to:</p>
 <ol>
