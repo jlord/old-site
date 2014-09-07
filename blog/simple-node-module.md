@@ -3,7 +3,7 @@
 #### 2014-09-06
 #### Node.js, NPM, Development
 
-The other day I wrote a simple node module and thought it may be useful and digestible enough to look into and learn about some Node and NPM Basics. If you have some questions about this module, you can [open an issue](http://www.github.com/jlord/cli-boilerplate/issues) on the repo jlord/cli-boilerplate.
+The other day I wrote a simple node module and thought it may be useful and digestible enough to look into and learn about some Node and NPM Basics. If you have some questions about this module, you can [open an issue](http://www.github.com/jlord/cli-boilerplate/issues) on the repo.
 
 ## The Need
 
@@ -15,7 +15,7 @@ When I start a new website I usually go and dig up some boilerplate HTML. I want
 
 ### Create a new folder project and npm init
 
-Because the project needs somewhere to live. Now in your terminal, navigate to that folder and run `npm init`. This kicks off a process that gets your `package.json` file started for you. This file is like the title page, glossary, index and copyright page of a book rolled into one. It's in the JSON format which you can read more about here, but you can easily get a sense of by checking out the `package.json` in existing files.
+Because the project needs somewhere to live. Now in your terminal, navigate to that folder and run `npm init`. This kicks off a process that gets your `package.json` file started for you. This file is like the title page, glossary, index and copyright page of a book rolled into one. It's in the JSON format which you can read more about here, but you can easily get a sense of by checking out the `package.json` in existing projects (see here, here and here).
 
 ```bash
 # make a new folder
