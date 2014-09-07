@@ -11,6 +11,7 @@ img {width: 100%;}
 pre { font-family: 'Andale Mono', Liberation Mono, monospace; white-space: pre-wrap; word-break: break-all; word-wrap: break-word; padding: 20px; background: #fafafa; -webkit-border-radius: 2px; line-height: 1.6em;}
 pre code {padding: 0; color: inherit; background-color: transparent; border: 0;}
 code {padding: 2px 4px; border: 1px solid #dadada; border-radius: 2px; font-family: 'Andale Mono', Liberation Mono, monospace; font-weight: 900; font-size: 12px;}
+p code {white-space: nowrap;}
 p { font-size: 15px; line-height: 1.6em; text-align: left; word-break: break-word;}
 h2, h3 {font-weight: 700; font-family: 'Playfair Display'; padding-top: 1.2em;}
 h1, h2, h3, h4 { font-family: 'Courier New', Helvetica, Arial, sans-serif; font-weight: 600; text-align: left;}
