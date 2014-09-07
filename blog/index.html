@@ -49,7 +49,110 @@ $ cd cli-boilerplate
 $ npm init</code></pre>
 <p>You can fill out the information in terminal or hit enter and fill it out later in your text editor. When it&#39;s done you&#39;ll have a <code>package.json</code> file in your folder.</p>
 <h4 id="beyond-the-basics">Beyond the basics</h4>
-<p>Because I want to create a module that runs from the commandline, I need to add a section in my <code>package.json</code></p>
+<p>Because I want to create a module that runs from the commandline, I need to add a section in my <code>package.json</code> called <code>bin</code> which will allow me to define what file gets run when <em>x</em> word (command) is typed into terminal. I chose <code>boilme</code>. Haaa. I also added where the repository and issues are on GitHub as well as keywords for when people search npmjs.org.</p>
+<pre><code class="lang-javascript">{
+  &quot;name&quot;: &quot;cli-boilerplate&quot;,
+  &quot;version&quot;: &quot;1.0.1&quot;,
+  &quot;description&quot;: &quot;add html boilerplate to you clipboard for pasting wins&quot;,
+  &quot;keywords&quot;: [&quot;HTML5&quot;, &quot;boilerplate&quot;, &quot;cli&quot;, &quot;command line&quot;],
+  &quot;repository&quot;: {
+    &quot;type&quot;: &quot;git&quot;,
+    &quot;url&quot;: &quot;http://github.com/jlord/cli-boilerplate.git&quot;
+  },
+  &quot;bugs&quot;: {
+    &quot;url&quot;: &quot;http://github.com/jlord/cli-boilerplate/issues&quot;
+  },
+  &quot;main&quot;: &quot;index.js&quot;,
+  &quot;bin&quot;: {
+    &quot;boilme&quot;: &quot;./index.js&quot;
+  },
+  &quot;scripts&quot;: {
+    &quot;test&quot;: &quot;echo \&quot;Error: no test specified\&quot; &amp;&amp; exit 1&quot;
+  },
+  &quot;author&quot;: &quot;Jessica Lord&quot;,
+  &quot;license&quot;: &quot;BSD&quot;
+}</code></pre>
+<h2 id="create-the-boilerplate">Create the boilerplate</h2>
+<p>We want to create the boilerplate HTML that we&#39;ll have copied to the clipboard for us when this module is used. This is easy as creating a new HTML file and filling it with the boilerplate:</p>
+<pre><code class="lang-HTML">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+    &lt;meta name=&quot;description&quot; content=&quot;&quot;&gt;
+    &lt;meta name=&quot;author&quot; content=&quot;&quot;&gt;
+    &lt;title&gt;Title&lt;/title&gt;
+    &lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; href=&quot;favicon.png&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;assets/style.css&quot;&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+<h2 id="write-the-code">Write the code</h2>
+<p>Now we&#39;ll create the actual code in a file named <code>index.js</code>, which is a common name for your main file. Below is the full code, it&#39;s pretty short! A lot of node modules are simple and do just one thing, like this one. We&#39;ll go through each part.</p>
+<pre><code class="lang-javascript">#!/usr/bin/env node
+
+var fs   = require(&#39;fs&#39;)
+var path = require(&#39;path&#39;)
+var exec = require(&#39;child_process&#39;).exec
+
+fs.readFile(path.join(__dirname, &#39;boilerplate.html&#39;), function read(err, data) {
+  if (err) return console.log(err)
+  var command = &quot;echo &#39;&quot; + data.toString() + &quot;&#39; | pbcopy&quot;
+  exec(command, function clipboarded(err, stdout, stdrr) {
+    if (err) return console.log(err)
+    console.log(&quot;Copied!&quot;)
+  })
+})</code></pre>
+<h3 id="the-environment">The Environment</h3>
+<p>Remember in <code>package.json</code> we set &quot;./index.js&quot; as the file we wanted to run after someone types <code>boilme</code>? This is the finishing touch, so that your computer executes immediately <code>#!/</code> (shebang) the code in the file using node.</p>
+<h3 id="require-other-modules">Require other modules</h3>
+<p>Node.js comes with a <a href="http://nodejs.org/api/">core set of modules</a> that help you do lots of things. If there is something that is outside of the scope of core, that&#39;s when you&#39;ll use NPM to find something created by someone else. This project, being simple, just uses core modules. In this section we are requiring the core modules we want and giving them a name:</p>
+<pre><code class="lang-javascript">var fs   = require(&#39;fs&#39;)
+var path = require(&#39;path&#39;)
+var exec = require(&#39;child_process&#39;).exec</code></pre>
+<p>When you require a module, all of the functions inside of it become accessible through the name you set for it. For instance, I can use the things that come with <code>fs</code> when I use the variable <code>fs</code> in my script. If you come to my house with cake, that cake is in my house so I can get to it, cut it and eat it...</p>
+<p><strong>fs</strong> is a module for the &quot;file system&quot; this lets us read or write files (and more!) on a computer
+<strong>path</strong> helps figure out the address (path) of where a file is located
+<strong>child_process</strong> allows us to run another process, outside of the one we&#39;re already in. Using the <code>exec</code> portion of it allows us to specifically run a shell (command line) process.</p>
+<h3 id="action-">Action!</h3>
+<p>Next we&#39;ll actually use this modules to:</p>
+<ol>
+<li>Read the contents of the boilerplate HTML file.</li>
+<li>Create a <em>string</em> of the command we&#39;d type in terminal if we were manually giving it text to send to the clipboard.</li>
+<li>Use <code>exec</code> to create a shell process running independently and give it our command.</li>
+</ol>
+<p>Let&#39;s break it down some more.</p>
+<pre><code class="lang-javascript">fs.readFile(path.join(__dirname, &#39;boilerplate.html&#39;), function read(err, data) {
+  if (err) return console.log(err)
+  var command = &quot;echo &#39;&quot; + data.toString() + &quot;&#39; | pbcopy&quot;
+  exec(command, function clipboarded(err, stdout, stdrr) {
+    if (err) return console.log(err)
+    console.log(&quot;Copied!&quot;)
+  })
+})</code></pre>
+<p>We use <code>fs</code> to read the file, it wants to know where the file is and what to do after it has read it, the callback. The callback is a function that is run after the main task (reading the file contents) has completed. It will automatically get passed in first an error, if there was one, and the the contents of the file, but buffered, which means numbers (we&#39;ll change that later). Here&#39;s what the basic format looks like: <code>fs.readFile(&#39;filelocation&#39;, callback)</code>.</p>
+<p>The <code>boilerplate.html</code> will be located wherever this module exists on the users computer, so we&#39;ll use <code>__dirname</code> to get the location of the module on the computer and <code>path.join</code> to add <code>boilerplate.html</code> to that. That gives us the full address of the file on the computer.</p>
+<p>Then we pass in our callback, a function we create called &#39;read&#39; because it&#39;s going to get run when the file has finished being read. Next is a common pattern in Node -- we check to see if there were any errors reading the file. If there were, we want give up because there&#39;s no use doing the rest of the work. So if there is an error, we return, but we print with <code>console.log()</code>out what the error was.</p>
+<p>But, if there were no errors, we&#39;ll move right along!</p>
+<p>We create a string to contain what the full command would be in terminal if we were doing this manually. In Mac terminals you can type <code>echo &quot;Hello World!&quot;</code> and it will print out the string you gave it. You can feed that text directly into another function using a &quot;pipe&quot; which is this &quot;|&quot; character. We want to feed it into the copy command which is <code>pbcopy</code> on Macs. So typing <code>echo &quot;Hello World!&quot; | pbcopy</code> will put &quot;Hello World&quot; in our clipboard and and the next time we paste, we&#39;ll get &quot;Hello World&quot;.</p>
+<p>Since <code>fs.readFile</code> returns a buffer of numbers, we&#39;ll use the JavaScript method <code>.toString()</code> to turn it into the letters and spaces we recognize.</p>
+<p>Using <code>exec</code> we spawn a new independent shell process to which we can give our shell command. It also takes in a callback, a function for what to do after it&#39;s run that command. We want it to quit and print the error if there was an error, but if there was no error, print &quot;Copied!&quot;.</p>
+<h2 id="try-it-out-and-publish">Try it out and Publish</h2>
+<p>Now that the file is done, we can test it by running it on our computer. If we&#39;re in the <code>cli-clipboard</code> directory we can type <code>npm link</code> so that NPM will use this version we&#39;ve made as the global module.</p>
+<pre><code class="lang-bash">$ cd cli-clipboard
+$ npm link
+# it will print text about the linkage
+$ boilme
+# it should work!</code></pre>
+<p>Next publish what you&#39;ve done to your NPM account (if you don&#39;t have one, <a href="">set one up</a>):</p>
+<pre><code class="lang-bash">$ npm publish</code></pre>
+<h2 id="tada">Tada</h2>
+<p>That&#39;s the whole thing! We have a <code>package.json</code> so that we can register our module with NPM and others can use it, we have our <code>boilerplate.html</code> file with our dream boilerplate, and we have the itty bitty <code>index.js</code> script to make what we want to happen, happen.</p>
+<p>This post is way longer than I thought it would be and hopefully that&#39;s not too distracting. I tried to save space and didn&#39;t mention it, but you should also being using Git when you&#39;re building something and checking-in often to save your work and push it to GitHub.</p>
+<h3 id="other-files">Other files</h3>
+<p>The project also has a <code>README.md</code> and <code>LICENSE.md</code> file. They&#39;re not required to make a module, but they&#39;re really important files to have in a project. The former tells people how to use your project and the later shows the license the project is under. Some places can&#39;t use un-licensed projects, so it&#39;s important to add one!</p>
 
         
           <div class="post-header"><a href="gh-one-year.html"><h1>365 days a GitHubber</h1></a><ul><li>Jessica Lord</li> <li>2014-05-15</li> <li>GitHub, Development</li></ul></div><p>I&#39;ve been at <a href="http://www.github.com/about">GitHub</a> a year! That&#39;s 365 days of learning, laughing and working on something I care about. That&#39;s lucky!</p>
