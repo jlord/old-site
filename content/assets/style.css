@@ -1,7 +1,7 @@
 /* GENERAL */
 /* ------------------------------------------------------------ */
-body {font-family: 'Source Sans Pro'; margin: 0 auto; color: #444; background: #fafafa;}
-a {color: #333; text-decoration: none; transition: color 0.2s ease; border-bottom: 1px solid #dadada;}
+body {font-family: 'Source Sans Pro', Franklin Gothic Book, Helvetica, Arial, sans-serif; margin: 0 auto; color: #444; background: #fafafa;}
+a {color: #333; text-decoration: none; transition: color 0.2s ease; border-bottom: 1px solid #307AFD;}
 /* #0091FF orange #FF5200 #FF6103 #FF4040 #FF3333 #FF585E #FF7216 #FF5333 red #FF3333 */
 /* blue #007aff */
 /* bright seafoam #44FFB4 */
@@ -11,11 +11,11 @@ img {width: 100%;}
 pre { font-family: 'Andale Mono', Liberation Mono, monospace; white-space: pre-wrap; word-break: break-all; word-wrap: break-word; padding: 20px; background: #fafafa; border: 2px solid #fff; -webkit-border-radius: 2px; line-height: 1.6em;}
 pre code {padding: 0; color: inherit; background-color: transparent; border: 0;}
 p code {white-space: nowrap;}
-code {padding: 2px 4px; border: 1px solid #dadada; border-radius: 2px; font-family: 'Source Code Pro', 'Andale Mono', Liberation Mono, monospace; font-weight: 500; font-size: 12px;}
+code {padding: 2px 4px; border: 1px solid #dadada; border-radius: 2px; font-family: 'Source Code Pro', 'Andale Mono', Liberation Mono, monospace; font-weight: 500; font-size: 12px; color: #307AFD;}
 p { font-size: 18px; line-height: 1.6em; text-align: left; word-break: break-word;}
 h2, h3 {font-weight: 700; font-family: 'Playfair Display'; padding-top: 1.2em;}
 h1, h2, h3, h4 { font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; font-weight: 600; text-align: left;}
-h1 {font-family: 'Source Sans Pro'; letter-spacing: .01em; text-align: center; font-weight: 900; color: #333; font-size: 340%; margin: 12px 0;}
+h1 {font-family: 'Source Sans Pro'; text-align: center; font-weight: 900; color: #333; font-size: 340%; margin: 12px 0;}
 blockquote {font-style: italic; font-family: 'Playfair Display'; margin: 30px 20px;}
 blockquote::before {content: "・"; color: #307AFD; float: left; padding-right: 10px; top: 4px; position: relative;}
 blockquote p {padding-left: 21px;}
