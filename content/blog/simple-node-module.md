@@ -5,7 +5,11 @@
 
 The other day I wrote a simple Node module and thought it may be useful and digestible enough to look into and learn about some Node and npm Basics. If you have some questions about this module, you can [open an issue](http://www.github.com/jlord/cli-boilerplate/issues) on the repo.
 
-Before anything, of course you'll need [Node.js](http://www.nodejs.org) and npm (which comes with the Node install).
+**Note:** _The module is [github.com/jlord/cli-boilerplate](https://github.com/jlord/cli-boilerplate) and since this posting it's been updated (more features!) so I created a branch called `tutorial` on the repository, [here](https://github.com/jlord/cli-boilerplate/tree/tutorial), that matches the state of the project at the time of this writing to refer to as you read._
+
+---
+
+Before anything, of course you'll need [Node.js](http://www.nodejs.org) and npm (which comes with the Node install). Now, begin!
 
 ## Start with a Problem
 

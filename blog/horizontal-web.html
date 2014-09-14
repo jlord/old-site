@@ -46,7 +46,8 @@
 <p>So I set empty span &#8220;markers&#8221; at the start <code>#theStart</code> and end <code>#theEnd</code> of the text in <code>#entries</code>. I then used jquery to find the distance between the two, adjusting for negative numbers if the page has been scrolled right and the remaining column width to the right of <code>#theEnd</code>.</p>
 <pre><code class="lang-JavaScript">var start = Math.abs($(&#39;#theStart&#39;).offset().left)
 var end = ($(&#39;#theEnd&#39;).offset().left) + 400
-var pageWidth = start + end</code></pre>
+var pageWidth = start + end
+</code></pre>
 <p>I use this the give <code>#videoWrapper</code> a width on load and when the video bar is toggled on and off (because when the text has more or less vertical space, it takes up more or less horizontal space).</p>
 <p>Also, forget having any control over things like particular columns or every other column or nth column&#8230;</p>
 <h4 id="issue-firefox">Issue: Firefox</h4>

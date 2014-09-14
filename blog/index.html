@@ -35,7 +35,9 @@
       <div id="content">
         
           <div class="post-header"><a href="simple-node-module.html"><h1>Node & npm Basics via a Simple Module</h1></a><ul><li>Jessica Lord</li> <li>2014-09-06</li> <li>Node.js, npm, Development</li></ul></div><p>The other day I wrote a simple Node module and thought it may be useful and digestible enough to look into and learn about some Node and npm Basics. If you have some questions about this module, you can <a href="http://www.github.com/jlord/cli-boilerplate/issues">open an issue</a> on the repo.</p>
-<p>Before anything, of course you&#39;ll need <a href="http://www.nodejs.org">Node.js</a> and npm (which comes with the Node install).</p>
+<p><strong>Note:</strong> <em>The module is <a href="https://github.com/jlord/cli-boilerplate">github.com/jlord/cli-boilerplate</a> and since this posting it&#39;s been updated (more features!) so I created a branch called <code>tutorial</code> on the repository, <a href="https://github.com/jlord/cli-boilerplate/tree/tutorial">here</a>, that matches the state of the project at the time of this writing to refer to as you read.</em></p>
+<hr>
+<p>Before anything, of course you&#39;ll need <a href="http://www.nodejs.org">Node.js</a> and npm (which comes with the Node install). Now, begin!</p>
 <h2 id="start-with-a-problem">Start with a Problem</h2>
 <p>When I start a new website I usually go and dig up some boilerplate HTML. I wanted to make &quot;dig up&quot; a little less work and since the boilerplate isn&#39;t but a couple dozen lines or so I thought it would be nice if I could just type a command and have it copied to my clipboard so that I could paste it into a new file. This is how <code>cli-boilerplate</code> was born.</p>
 <p>In terminal there is already a command for sending text to the clipboard and with Node we can read contents of files and execute terminal commands. So, let&#39;s begin!</p>
@@ -50,7 +52,8 @@ $ mkdir cli-boilerplate
 # go inside of folder
 $ cd cli-boilerplate
 # initialize!
-$ npm init</code></pre>
+$ npm init
+</code></pre>
 <p>You can fill out the information in terminal or hit enter and fill it out later in your text editor. When it&#39;s done you&#39;ll have a <code>package.json</code> file in your folder.</p>
 <h4 id="beyond-the-basics">Beyond the basics</h4>
 <p>Because I want to create a module that runs from the command line, I need to add a section in my <code>package.json</code> called <code>bin</code> which will allow me to define what file gets run when <em>x</em> word (command) is typed into terminal. I chose <code>boilme</code>. Haaa. I also added where the repository and issues are on GitHub as well as keywords for when people search npmjs.org.</p>
@@ -75,7 +78,8 @@ $ npm init</code></pre>
   },
   &quot;author&quot;: &quot;Jessica Lord&quot;,
   &quot;license&quot;: &quot;BSD&quot;
-}</code></pre>
+}
+</code></pre>
 <h2 id="create-the-boilerplate">Create the boilerplate</h2>
 <p>We want to create the boilerplate HTML that we&#39;ll have copied to the clipboard for us when this module is used. This is easy as creating a new HTML file and filling it with the boilerplate:</p>
 <pre><code class="lang-HTML">&lt;!DOCTYPE html&gt;
@@ -92,7 +96,8 @@ $ npm init</code></pre>
   &lt;/head&gt;
   &lt;body&gt;
   &lt;/body&gt;
-&lt;/html&gt;</code></pre>
+&lt;/html&gt;
+</code></pre>
 <h2 id="write-the-code">Write the code</h2>
 <p>Now we&#39;ll create the actual code in a file named <code>index.js</code>, which is a common name for your main file. Below is the full code, it&#39;s pretty short! A lot of node modules are simple and do just one thing, like this one. We&#39;ll go through each part.</p>
 <pre><code class="lang-javascript">#!/usr/bin/env node
@@ -108,7 +113,8 @@ fs.readFile(path.join(__dirname, &#39;boilerplate.html&#39;), function read(err,
     if (err) return console.log(err)
     console.log(&quot;Copied!&quot;)
   })
-})</code></pre>
+})
+</code></pre>
 <h3 id="the-environment">The Environment</h3>
 <p>At the very top we use <code>#!/usr/bin/env node</code>. Remember in <code>package.json</code> we set &quot;./index.js&quot; as the file we wanted to run after someone types <code>boilme</code>? Using this line at the top of <code>index.js</code> tells the computer when it starts to read it that it should execute — <code>#!/</code> (shebang) — the code below it and do so using Node.</p>
 <h3 id="require-other-modules">Require other modules</h3>
@@ -116,7 +122,8 @@ fs.readFile(path.join(__dirname, &#39;boilerplate.html&#39;), function read(err,
 <p>This project, being simple, just uses core modules. In this section we are requiring the core modules we want and giving them a name:</p>
 <pre><code class="lang-javascript">var fs   = require(&#39;fs&#39;)
 var path = require(&#39;path&#39;)
-var exec = require(&#39;child_process&#39;).exec</code></pre>
+var exec = require(&#39;child_process&#39;).exec
+</code></pre>
 <p>When you require a module, all of the functions inside of it become accessible to you in your code through the name you set for it. For instance, I can use the things that come with <code>fs</code> when I use the variable <code>fs</code> in my script.</p>
 <p><strong>fs</strong> is a module for the file system, letting us read or write files (and more!) on a computer</p>
 <p><strong>path</strong> is a utility for working with file paths (locations)</p>
@@ -136,7 +143,8 @@ var exec = require(&#39;child_process&#39;).exec</code></pre>
     if (err) return console.log(err)
     console.log(&quot;Copied!&quot;)
   })
-})</code></pre>
+})
+</code></pre>
 <h4 id="read-file">Read file</h4>
 <p>We use <code>fs</code> to read the file, it wants to know where the file is and what to do after it has read it, the callback. The callback is a function that is run after the main task (reading the file contents) has completed. It will automatically get passed in first an error, if there was one, and the the contents of the file, but buffered, which means numbers (we&#39;ll change that later). Here&#39;s what the basic format looks like: <code>fs.readFile(&#39;filelocation&#39;, callback)</code>.</p>
 <p>The <code>boilerplate.html</code> will be located wherever this module exists on the users computer, so we&#39;ll use <code>__dirname</code> to get the location of the module on the computer and <code>path.join</code> to add <code>boilerplate.html</code> to that. That gives us the full address of the file on the computer.</p>
@@ -154,9 +162,11 @@ var exec = require(&#39;child_process&#39;).exec</code></pre>
 $ npm link
 # it will print text about the linkage
 $ boilme
-# it should work!</code></pre>
+# it should work!
+</code></pre>
 <p>Next publish what you&#39;ve done to your npm account (if you don&#39;t have one, <a href="https://www.npmjs.org/signup">set one up</a>):</p>
-<pre><code class="lang-bash">$ npm publish</code></pre>
+<pre><code class="lang-bash">$ npm publish
+</code></pre>
 <h2 id="tada">Tada</h2>
 <p>That&#39;s the whole thing! We have a <code>package.json</code> so that we can register our module with npm and others can use it, we have our <code>boilerplate.html</code> file with our dream boilerplate, and we have the itty bitty <code>index.js</code> script to make what we want to happen, happen.</p>
 <p>This post is way longer than I thought it would be. I tried to save space and didn&#39;t mention it, but you should also being using Git when you&#39;re building something and checking-in often to save your work and push it to GitHub.</p>
@@ -198,13 +208,13 @@ See: <a href="http://jlord.github.io/sheetsee.js/demos/demo-table.html">table de
 <h4 id="maps-polygons-and-lines">Maps: Polygons and Lines</h4>
 <p>Maps now support polygons and lines. So long as you have the correct coordinate structure in your cells, Sheetsee will add them to the geoJSON it creates for your maps. More details for coordinates of lines and polygons in geoJSON are <a href="http://leafletjs.com/examples/geojson.html">here</a>, but briefly:</p>
 <p>A linestring:</p>
-<pre><code>[-122.41722106933594, 37.7663045891584], [-122.40477561950684, 37.77695634643178]</code></pre>
-<p>A polygon:</p>
-<pre><code>[-122.41790771484375, 37.740381166384914], [-122.41790771484375, 37.74520008134973], [-122.40966796874999, 37.74520008134973],[-122.40966796874999, 37.740381166384914], [-122.41790771484375, 37.740381166384914]</code></pre>
-<p>A Multipolygon:</p>
+<pre><code>[-122.41722106933594, 37.7663045891584], [-122.40477561950684, 37.77695634643178]
+</code></pre><p>A polygon:</p>
+<pre><code>[-122.41790771484375, 37.740381166384914], [-122.41790771484375, 37.74520008134973], [-122.40966796874999, 37.74520008134973],[-122.40966796874999, 37.740381166384914], [-122.41790771484375, 37.740381166384914]
+</code></pre><p>A Multipolygon:</p>
 <pre><code>[[-122.431640625, 37.79106586542567], [-122.431640625, 37.797441398913286], [-122.42666244506835, 37.797441398913286],[-122.42666244506835, 37.79106586542567], [-122.431640625, 37.79106586542567]],
-[[-122.43352890014648, 37.78197638783258], [-122.43352890014648, 37.789031004883654], [-122.42443084716797, 37.789031004883654], [-122.42443084716797, 37.78197638783258], [-122.43352890014648, 37.78197638783258]]</code></pre>
-<p>See: <a href="http://jlord.github.io/sheetsee.js/demos/demo-map.html">map demo</a>.</p>
+[[-122.43352890014648, 37.78197638783258], [-122.43352890014648, 37.789031004883654], [-122.42443084716797, 37.789031004883654], [-122.42443084716797, 37.78197638783258], [-122.43352890014648, 37.78197638783258]]
+</code></pre><p>See: <a href="http://jlord.github.io/sheetsee.js/demos/demo-map.html">map demo</a>.</p>
 <h3 id="documentation">Documentation</h3>
 <p>I redid the documentation and website for Sheetsee. Instead of one <em>gigantic</em> readme file/website, all of the different elements are given their own file/page. Now you can find docs, demos, tips and such all filed away nicely here in the <a href="http://www.github.com/jlord/sheetsee.js">repository</a> and on the <a href="http://jlord.github.io/sheetsee.js">website</a>.</p>
 <h3 id="modules">Modules</h3>
@@ -231,7 +241,8 @@ See: <a href="http://jlord.github.io/sheetsee.js/demos/demo-table.html">table de
 <p><img src="http://jlord.s3.amazonaws.com/wp-content/uploads/Screen-Shot-2013-09-15-at-6.49.19-PM.png" alt="spreadsheet"></p>
 <p>In the HTML template for the table on the <a href="http://jlord.github.io/hack-spots/">Hack-Spots page</a>, the button&#39;s links look like this:</p>
 <pre><code class="lang-HTML">&lt;a class=&quot;button&quot; href=&quot;https://maps.google.com/maps?q={{address}},{{city}},{{state}}&quot; target=&quot;_blank&quot;&gt;View in Google Maps&lt;/a&gt;
-&lt;a class=&quot;button&quot; href=&quot;http://www.yelp.com/search?find_desc={{name}}&amp;find_loc={{city}},{{state}}&quot; target=&quot;_blank&quot;&gt;Find on Yelp&lt;/a&gt;</code></pre>
+&lt;a class=&quot;button&quot; href=&quot;http://www.yelp.com/search?find_desc={{name}}&amp;find_loc={{city}},{{state}}&quot; target=&quot;_blank&quot;&gt;Find on Yelp&lt;/a&gt;
+</code></pre>
 <p><a href="https://github.com/jlord/hack-spots/blob/gh-pages/index.html#L62">Here</a> is the exact line of code on GitHub.</p>
 <p>We&#39;re inserting the <strong>address</strong>, <strong>city</strong>, and <strong>state</strong> details from the spreadsheet into the structure of a query string for Google maps and Yelp. You can figure out the query string of a service by just using it (type in an address in Google Maps) and looking at the resulting URL.</p>
 <p>With a some CSS and such, the resulting website has a table with the hack spots and a button for viewing in Google Maps or Yelp:</p>

@@ -48,7 +48,8 @@
 Host heroku.personal
  HostName heroku.com
  IdentityFile ~/.ssh/identity.heroku.personal
- IdentitiesOnly yes</code></pre>
+ IdentitiesOnly yes
+</code></pre>
 <h3 id="configure-your-git-repo">Configure your git repo</h3>
 <p>Now edit the <code>.git/config</code> files. Inside of your root directory for the repo, type <code>mate .git/config</code> to open the file. It will look something like this, but under <code>[remote &quot;heroku&quot;]</code> you will change the url from heroku.<strong>com</strong> to heroku.<strong>work</strong> (or whatever you&#39;re calling your different accounts).</p>
 <pre><code class="lang-shell">[core]
@@ -63,7 +64,8 @@ Host heroku.personal
  fetch = +refs/heads/*:refs/remotes/heroku/*
 [remote &quot;origin&quot;]
  url = git@github.com:jllord/splost-heroku.git
- fetch = +refs/heads/*:refs/remotes/origin/*</code></pre>
+ fetch = +refs/heads/*:refs/remotes/origin/*
+</code></pre>
 <h3 id="tell-heroku-which-keys-to-use">Tell Heroku which keys to use</h3>
 <p>In Terminal, navigate to the root directory for the repo and <code>heroku login</code> to the account associated with that repo. You&#39;ll need to tell heroku what key to use with that account.</p>
 <p><code>heroku keys:add ~/.ssh/identity.heroku.work.pub</code></p>

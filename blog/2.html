@@ -53,7 +53,8 @@
 Host heroku.personal
  HostName heroku.com
  IdentityFile ~/.ssh/identity.heroku.personal
- IdentitiesOnly yes</code></pre>
+ IdentitiesOnly yes
+</code></pre>
 <h3 id="configure-your-git-repo">Configure your git repo</h3>
 <p>Now edit the <code>.git/config</code> files. Inside of your root directory for the repo, type <code>mate .git/config</code> to open the file. It will look something like this, but under <code>[remote &quot;heroku&quot;]</code> you will change the url from heroku.<strong>com</strong> to heroku.<strong>work</strong> (or whatever you&#39;re calling your different accounts).</p>
 <pre><code class="lang-shell">[core]
@@ -68,7 +69,8 @@ Host heroku.personal
  fetch = +refs/heads/*:refs/remotes/heroku/*
 [remote &quot;origin&quot;]
  url = git@github.com:jllord/splost-heroku.git
- fetch = +refs/heads/*:refs/remotes/origin/*</code></pre>
+ fetch = +refs/heads/*:refs/remotes/origin/*
+</code></pre>
 <h3 id="tell-heroku-which-keys-to-use">Tell Heroku which keys to use</h3>
 <p>In Terminal, navigate to the root directory for the repo and <code>heroku login</code> to the account associated with that repo. You&#39;ll need to tell heroku what key to use with that account.</p>
 <p><code>heroku keys:add ~/.ssh/identity.heroku.work.pub</code></p>
@@ -112,7 +114,8 @@ Host heroku.personal
 &lt;body&gt;
   &lt;!-- this dude waits patiently to be filled with stuff --&gt;
   &lt;div id=&quot;instagram&quot;&gt;&lt;/div&gt;
-&lt;/body&gt;</code></pre>
+&lt;/body&gt;
+</code></pre>
 <p>The JS</p>
 <pre><code class="lang-javascript">&lt;script id=&quot;instagram&quot; type=&quot;text/html&quot;&gt;
   {{#rows}}
@@ -147,7 +150,8 @@ Host heroku.personal
   })
   document.getElementById(&#39;instagram&#39;).innerHTML = instagram;
   }
-&lt;/script&gt;</code></pre>
+&lt;/script&gt;
+</code></pre>
 <h3 id="later-ons">Later Ons</h3>
 <p>I&#8217;d like have my captions appear when hovering over the image and to cue up, say, just 20 photos at a time and have new photos automatically appear without refresh. Perhaps this will happen on the 12 hour plane ride I have tomorrow.</p>
 <p>&nbsp;</p>
