@@ -1,7 +1,7 @@
 /* GENERAL */
 /* ------------------------------------------------------------ */
-body {font-family: 'Source Sans Pro', Franklin Gothic Book, Helvetica, Arial, sans-serif; margin: 0 auto; color: #444; background: #fafafa;}
-a {color: #333; text-decoration: none; transition: color 0.2s ease; border-bottom: 1px solid #307AFD;}
+body {font-family: 'Courier New', Franklin Gothic Book, Helvetica, Arial, sans-serif; margin: 0 auto; color: #444; background: #fafafa;}
+a {color: #333; text-decoration: none; transition: color 0.2s ease; border-bottom: 1px solid #DBDBDB;}
 /* #0091FF orange #FF5200 #FF6103 #FF4040 #FF3333 #FF585E #FF7216 #FF5333 red #FF3333 */
 /* blue #007aff */
 /* bright seafoam #44FFB4 */
@@ -14,12 +14,12 @@ p code {white-space: nowrap;}
 code {padding: 2px 4px; border: 1px solid #dadada; border-radius: 2px; font-family: 'Source Code Pro', 'Andale Mono', Liberation Mono, monospace; font-weight: 500; font-size: 12px; color: #307AFD;}
 p { font-size: 18px; line-height: 1.6em; text-align: left; word-break: break-word;}
 h2, h3 {font-weight: 700; font-family: 'Playfair Display'; padding-top: 1.2em;}
-h1, h2, h3, h4 { font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; font-weight: 600; text-align: left;}
-h1 {font-family: 'Source Sans Pro'; text-align: center; font-weight: 900; color: #333; font-size: 340%; margin: 12px 0;}
+h1, h2, h3, h4 { font-family: 'Courier New', Helvetica, Arial, sans-serif; font-weight: 600; text-align: left;}
+h1 {font-family: 'Courier New'; text-align: center; font-weight: 900; color: #333; font-size: 340%; margin: 12px 0;}
 blockquote {font-style: italic; font-family: 'Playfair Display'; margin: 30px 20px;}
 blockquote::before {content: "・"; color: #307AFD; float: left; padding-right: 10px; top: 4px; position: relative;}
 blockquote p {padding-left: 21px;}
-blockquote p em {font-family: 'Source Sans Pro'; font-size: 11px; color: #777; letter-spacing: .1em; font-weight: 300; text-transform: uppercase; font-style: normal;}
+blockquote p em {font-family: 'Courier New'; font-size: 11px; color: #777; letter-spacing: .1em; font-weight: 300; text-transform: uppercase; font-style: normal;}
 blockquote p em:before {content: "\2014  "; display: inline;}
 
 /*hr {border: 0; border-bottom: 2px solid #CCC8C8; padding-top: 20px;}
@@ -72,7 +72,7 @@ header a:hover {color: #B0CCFF;}
 /* BODY */
 /* ------------------------------------------------------------ */
 
-.meta { margin: 0 auto; font-size: 11px; color: #777; letter-spacing: .1em; font-weight: 300; text-transform: uppercase;}
+.meta { margin: 0 auto; font-size: 11px; font-family: 'Source Sans Pro' ; color: #777; letter-spacing: .1em; font-weight: 300; text-transform: uppercase;}
 ul.meta {list-style: none; display: inline-block; text-align: center; margin: 0 auto; padding: 0 0 10px 0; }
 .meta li {float: left; padding-right: 10px;}
 #content {padding-top: 0px;}
@@ -86,10 +86,11 @@ ul.meta {list-style: none; display: inline-block; text-align: center; margin: 0 
 /* this is not a good idea */
 .post-header ul {
     list-style: none; text-align: center; color: red; margin: 0 auto; padding: 0px; font-size: 11px; color: #c6c6c6; letter-spacing: .1em; font-weight: 300; text-transform: uppercase;}
-.post-header li {display: inline-block;  margin: 0; color: #333;}
+.post-header li {display: inline-block;  margin: 0; color: #333; font-family: 'Source Sans Pro';}
 .post-header li+li {padding-right: 6px;}
 /*.content ul {text-align: left;}*/
 .post-header {border-top: 1px dotted #CCC8C8; display: table; margin: 60px auto; min-width: 314px; max-width: 530px; text-align: center;}
+.post-header h1 {font-family: 'Playfair Display';}
 
 
 /*#32ff00*/
@@ -101,7 +102,7 @@ ul.meta {list-style: none; display: inline-block; text-align: center; margin: 0 
 
 /* FOOTER */
 /* ------------------------------------------------------------ */
-footer {text-align: center; margin: 30px auto; width: 314px; /*display: table;*/ padding-top: 20px; auto; font-size: 11px; color: #777; letter-spacing: .1em; font-weight: 300; text-transform: uppercase; border-top: 1px dotted #CCC8C8;}
+footer {font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; text-align: center; margin: 30px auto; width: 314px; /*display: table;*/ padding-top: 20px; auto; font-size: 11px; color: #777; letter-spacing: .1em; font-weight: 300; text-transform: uppercase; border-top: 1px dotted #CCC8C8;}
 footer ul {list-style: none; padding: 0 15px; display: inline-block;
 vertical-align: top;}
 footer li {text-align: left;}
@@ -117,6 +118,7 @@ footer a {border: none;}
 /* HOME PAGE */
 /* ------------------------------------------------------------ */
 
+.home-header h1 {font-family: Playfair Display; }
 .home-header ul {
     list-style: none; text-align: center; color: red; margin: 0 auto; padding: 0px; font-size: 11px; color: #c6c6c6; letter-spacing: .1em; font-weight: 300; text-transform: uppercase;}
 .home-header li {display: inline-block; padding-right: 6px; margin: 0 auto; color: #333;}
