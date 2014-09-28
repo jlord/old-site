@@ -41,6 +41,7 @@ hr {border: 0; border-bottom: 2px solid #f4f4f4; margin: 40px 0;}
 
 .half {width: 47%; display: inline-block; vertical-align: top;}
 .whole {border-top: 1px dotted #CCC8C8; padding-bottom: 30px; overflow: auto;}
+.r {float: right;}
 
 /* header ------------------------------------------------------------------- */
 
@@ -66,12 +67,13 @@ header a:hover {color: #357efc; border-bottom: 1px solid #357efc;}
 
 /* instagram + tweet -------------------------------------------------------- */
 
-#instagram {margin: 0 auto; text-align: center; overflow: auto; padding-bottom: 20px;}
-.instaImgCirc {float: left;}
-.instaImgCirc img {border-radius: 1000px; margin: 10px; width: 186px; }
+#instagram {margin: 0 auto; overflow: auto; padding-bottom: 20px;}
+.instaImgCirc {float: left; padding-top: 10px;}
+.instaImgCirc + .instaImgCirc {padding-left: 20px;}
+.instaImgCirc img {border-radius: 1000px; width: 186px; }
 .instaImgCirc a {border: none;}
 
-#tweet p {text-align: center; font-weight: 500; font-size: 20px;}
+#tweet p {text-align: center; font-weight: 500; font-size: 20px; margin: 0 auto;}
 
 /* footer ------------------------------------------------------------------- */
 
@@ -121,8 +123,8 @@ a.button:hover {background-color: #307AFD; color: #fff;}
   letter-spacing: .15em; font-size: 11px;}
 
 .animated {
--webkit-animation-duration: 1s;
-animation-duration: 1s;
+-webkit-animation: 1s infinite;
+animation: 1s infinite;
 -webkit-animation-fill-mode: both;
 animation-fill-mode: both;
 }
