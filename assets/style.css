@@ -23,9 +23,10 @@ code {padding: 2px 4px; border: 1px solid #dadada; border-radius: 2px;
   font-family: 'Source Code Pro', 'Andale Mono', Liberation Mono, monospace;
   font-weight: 500; font-size: 12px; color: #848A8D;}
 
-blockquote {margin: 30px 20px; font-style: italic;}
-blockquote::before {content: "・"; color: #307AFD; float: left;
-  padding-right: 10px; top: 4px; position: relative;}
+blockquote {margin: 30px 20px; font-style: italic; border-left: 2px solid #357efc;
+  color: #848A8D;}
+/*blockquote::before {content: "・"; color: #307AFD; float: left;
+  padding-right: 10px; top: 4px; position: relative;}*/
 blockquote p {padding-left: 21px;}
 blockquote p em {font-family: 'Source Sans Pro'; font-size: 11px; color: #777;
   letter-spacing: .1em; font-weight: 300; text-transform: uppercase;
@@ -34,7 +35,7 @@ blockquote p em:before {content: "\2014  "; display: inline;}
 
 .half blockquote p {padding-left: 0px;}
 .half blockquote {margin: 0 20px 0 0;}
-.half blockquote::before {content: none;}
+.half blockquote {border: none; color: #333;}
 
 hr {border: 0; border-bottom: 2px solid #f4f4f4; margin: 40px 0;}
 
@@ -101,9 +102,18 @@ footer a {border: none;}
 #links + ul li {padding: 4px 8px; display: inline-block; border-radius: 2px;
   background: #fff; border: 1px solid #357efc; margin-bottom: 8px; margin-right: 4px; transition: background 0.2s;}
 #links + ul a {color: #357efc; border: none;}
-#links + ul a:hover {border: 1px solid transparent; background: #357efc; color: #fff; }
-#links + ul li:hover {border: 1px solid #transparent; background: #357efc;}
+#links + ul a:hover { }
+#links + ul li:hover {background: #357efc;}
+#links + ul li:hover a {color: #fff;}
 
+
+/* PAGINATION --------------------------------------------------------------- */
+
+.turn-page {margin: 30px auto; text-align: center; padding-top: 30px; max-width: 314px;}
+a.button {border: none; color: #fff;}
+a.button:hover {background-color: #307AFD; color: #fff;}
+.button {padding: 2px 6px; background-color: #333; border-radius: 2px; border: none; transition: background-color 0.2s ease;}
+.button:hover {background-color: #307AFD;}
 
 /* loading ------------------------------------------------------------------- */
 
