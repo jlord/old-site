@@ -1,6 +1,12 @@
-body {background: #f4f4f4; font-family: Laro, Georgia, Baskerville, serif; color: #333;}
+body {background: #f4f4f4; font-family: Lora, Georgia, Baskerville, serif; color: #333;}
 
-/* header */
+a {text-decoration: none; color: #777; border-bottom: 1px solid #f4f4f4;}
+
+.meta { margin: 0 auto; font-size: 11px; font-family: 'Source Sans Pro' ; color: #777; letter-spacing: .1em; font-weight: 300; text-transform: uppercase;}
+
+
+/* header ------------------------------------------------------------------- */
+
 header {font-family: Source Sans Pro, Franklin Gothic Book, Arial, sans-serif;
   letter-spacing: .15em; text-transform: uppercase; font-weight: bold;
   font-size: 11px; text-align: center;}
@@ -8,9 +14,69 @@ header {font-family: Source Sans Pro, Franklin Gothic Book, Arial, sans-serif;
   position: relative; top: -30px; vertical-align: middle;}
 .links.left {margin-right: -20px;}
 /*.links.right {margin-left: 20px;}*/
-.links a {padding: 8px 8px;}
+.links a {padding: 10px 0; margin: 0 8px; border: none;}
 header a {text-decoration: none; color: #333;}
+header a:hover {color: #357efc; border-bottom: 1px solid #357efc;}
+
+.sideways {-webkit-transform: rotate(-90deg); position: absolute; left: -90px;
+  top: 340px;}
 
 .main-container {max-width: 900px; margin: 0 auto; padding: 50px 0;}
-#content {background: #fff; padding: 30px;}
+#content {background: #fff; padding: 68px;}
 .meta {font-family: Source Sans Pro, Franklin Gothic Book, Arial, sans-serif;}
+
+/* instagram ---------------------------------------------------------------- */
+
+#instagram {margin: 0 auto; text-align: center; overflow: auto; padding-bottom: 20px;}
+.instaImgCirc {float: left;}
+.instaImgCirc img {border-radius: 1000px; margin: 10px; width: 186px; }
+.instaImgCirc a {border: none;}
+
+/* footer ------------------------------------------------------------------- */
+
+footer {font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  text-align: center; margin: 30px auto; width: 314px; /*display: table;*/
+  padding-top: 20px; auto; font-size: 11px; color: #777; letter-spacing: .1em;
+  font-weight: 300; text-transform: uppercase;}
+footer ul {list-style: none; padding: 0 15px; display: inline-block;
+vertical-align: top;}
+footer li {text-align: left;}
+footer a {border: none;}
+
+
+/* loading ------------------------------------------------------------------- */
+
+.load.animated {font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  letter-spacing: .15em; font-size: 11px;}
+
+.animated {
+-webkit-animation-duration: 1s;
+animation-duration: 1s;
+-webkit-animation-fill-mode: both;
+animation-fill-mode: both;
+}
+
+@-webkit-keyframes flash {
+  0%, 50%, 100% {
+    opacity: 1;
+  }
+
+  25%, 75% {
+    opacity: 0;
+  }
+}
+
+@keyframes flash {
+  0%, 50%, 100% {
+    opacity: 1;
+  }
+
+  25%, 75% {
+    opacity: 0;
+  }
+}
+
+.flash {
+  -webkit-animation-name: flash;
+  animation-name: flash;
+}
