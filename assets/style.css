@@ -40,7 +40,7 @@ blockquote p em:before {content: "\2014  "; display: inline;}
 hr {border: 0; border-bottom: 2px solid #f4f4f4; margin: 40px 0;}
 
 .half {width: 47%; display: inline-block; vertical-align: top;}
-.whole {border-top: 1px dotted #CCC8C8; padding-bottom: 30px; overflow: auto;}
+.whole {border-top: 2px solid #f4f4f4; padding-bottom: 30px; overflow: auto;}
 .r {float: right;}
 
 /* header ------------------------------------------------------------------- */
@@ -65,26 +65,34 @@ header a:hover {color: #357efc; border-bottom: 1px solid #357efc;}
 
 .latest-post-content {padding-bottom: 24px;}
 
+/* archive ------------------------------------------------------------------ */
+
+.archives-template h1 {margin-bottom: 10px;}
+.archives-template #content li {padding-bottom: 10px;}
+
 /* instagram + tweet -------------------------------------------------------- */
 
 #instagram {margin: 0 auto; overflow: auto; padding-bottom: 20px;}
 .instaImgCirc {float: left; padding-top: 10px;}
 .instaImgCirc + .instaImgCirc {padding-left: 20px;}
-.instaImgCirc img {border-radius: 1000px; width: 186px; }
+.instaImgCirc img {border-radius: 1000px; width: 176px; }
 .instaImgCirc a {border: none;}
 
-#tweet p {text-align: center; font-weight: 500; font-size: 20px; margin: 0 auto;}
+#tweet p {font-weight: 500; font-size: 20px; margin: 0 auto;
+  padding-top: 18px;}
 
 /* footer ------------------------------------------------------------------- */
 
 footer {font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-  text-align: center; margin: 30px auto; width: 314px; /*display: table;*/
+  text-align: center; margin: 30px auto;
   padding-top: 20px; auto; font-size: 11px; color: #777; letter-spacing: .1em;
   font-weight: 300; text-transform: uppercase;}
-footer ul {list-style: none; padding: 0 15px; display: inline-block;
-vertical-align: top; font-size: 11px;}
+footer ul {list-style: none; padding: 0 15px; display: inline-block; font-size: 11px;}
 footer li {text-align: left;}
-footer a {border: none;}
+footer a {border: none; color: #333; transition: color 0.2s;}
+footer a:hover {color: #357efc; border-color: #357efc;}
+.about-foot {max-width: 300px; display: inline-block; text-align: right;
+padding-right: 15px;}
 
 /* post --------------------------------------------------------------------- */
 
@@ -97,7 +105,7 @@ footer a {border: none;}
 /*.content ul {text-align: left;}*/
 .post-header {display: table; margin: 0 auto 40px auto; min-width: 314px;
   max-width: 530px; text-align: center;}
-.post-header a h1 {color: #333;}
+.post-header a h1 {color: #333; margin-bottom: 10px;}
 
 #links + ul {list-style: none; padding: 0; font-family: Source Sans Pro;
   font-size: 11px;}
@@ -159,7 +167,10 @@ animation-fill-mode: both;
   #content {padding: 20px;}
   .half {width: 100%}
   #work-photos {display: none;}
+  .about-foot {display: block; text-align: center; padding: 0;}
   .socials, .sideways {display: none;}
   footer, .home-header, .post-header {width: 100%; min-width: 100%;}
-  .instaImgCirc {float: none;}
+  #instagram {max-height: 176px; overflow: hidden;}
+  .instaImgCirc {float: none; text-align: center;}
+  .instaImgCirc + .instaImgCirc {padding-left: 0;}
 }

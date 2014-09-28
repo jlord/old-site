@@ -26,6 +26,6 @@
 
 <small class="meta">More on <a href="http://github.com/jlord" target="_blank">github/jlord</a> and <a href="http://www.npmjs.org/jlord">npm/jlord</a></small>
 
-## Coming Soon
+## More later
 
 For now, see my previous site: [jlord.us/work](http://jlord.us/hello). And there's a bit on <a href="http://dribbble.com/jlord">Dribbble</a>, too.

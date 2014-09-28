@@ -1,6 +1,6 @@
 function buildInsta(data) {
   var compiledTemplate = Handlebars.templates['instagram']
-  var html = compiledTemplate({"rows": getLast(data,3)}, {});
+  var html = compiledTemplate({"rows": getLast(data,4)}, {});
   document.getElementById('instagram').innerHTML = html
 }
 

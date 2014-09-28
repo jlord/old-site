@@ -13,7 +13,7 @@ I hail from the heart of Georgia but for now I live in Oakland, California. I lo
 
 ## Contact & History
 
-[to.jlord@gmail.com](mailto: to.jlord@gmail.com) | [twitter/jllord](http://www.twitter.com/jllord) | [github/jlord](http://www.github.com/jlord)
+<span class="meta">[to.jlord@gmail.com](mailto: to.jlord@gmail.com) | [twitter/jllord](http://www.twitter.com/jllord) | [github/jlord](http://www.github.com/jlord)</span>
 
 **IRC**: freenode, #nerdtracker, #stackvm
 
@@ -47,4 +47,4 @@ I hail from the heart of Georgia but for now I live in Oakland, California. I lo
 
 ## About the Site
 
-I built a [static site generator](http://www.github.com/jlord/balrog) and built [this site](http://www.github.com/jlord/jlord.github.io). It took forever. Types are Courier New or from Google Web Fonts, Playfair Display and Open Sans.
+I built a [static site generator](http://www.github.com/jlord/balrog) and built [this site](http://www.github.com/jlord/jlord.github.io). It took forever. Types are Lora, Source Sans Pro and Source Code Pro from Google Web Fonts.
