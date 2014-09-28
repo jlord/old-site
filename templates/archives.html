@@ -13,12 +13,12 @@
   <body class="archives-template">
     <div class="main-container">
       {{> header}}
-      <div class="post-header">
-        <h1>Post Archive</h1>
-        <span class="meta">Oldest ⟼ Newest<span>
-      </div>
 
       <div id="content">
+        <div class="post-header">
+          <h1>Post Archive</h1>
+          <span class="meta">Oldest ⟼ Newest<span>
+        </div>
         <ul>
         {{#rows}}
           <li><a href="/blog/{{url}}">{{title}}</a> <span class="meta">{{date}} // {{tags}}</spa</li>
