@@ -56,7 +56,7 @@ header {font-family: Source Sans Pro, Franklin Gothic Book, Arial, sans-serif;
 header a {text-decoration: none; color: #333;}
 header a:hover {color: #357efc; border-bottom: 1px solid #357efc;}
 
-.sideways {-webkit-transform: rotate(-90deg); position: absolute; left: -90px;
+.sideways {-webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); position: absolute; left: -90px;
   top: 340px;}
 
 .main-container {max-width: 900px; margin: 0 auto; padding: 50px 0;}
@@ -65,9 +65,9 @@ header a:hover {color: #357efc; border-bottom: 1px solid #357efc;}
 
 .latest-post-content {padding-bottom: 24px;}
 
-/* archive ------------------------------------------------------------------ */
+/* archive, about, work ----------------------------------------------------- */
 
-.archives-template h1 {margin-bottom: 10px;}
+.archives-template h1 {margin-bottom: 10px; margin-top: 0;}
 .archives-template #content li {padding-bottom: 10px;}
 
 /* instagram + tweet -------------------------------------------------------- */
@@ -103,9 +103,10 @@ padding-right: 15px;}
   font-family: 'Source Sans Pro';}
 .post-header li+li {padding-right: 6px;}
 /*.content ul {text-align: left;}*/
-.post-header {display: table; margin: 0 auto 40px auto; min-width: 314px;
-  max-width: 530px; text-align: center;}
-.post-header a h1 {color: #333; margin-bottom: 10px;}
+.post-header {margin: 0 auto 40px auto; text-align: center;}
+.post-header a h1 {color: #333; margin: 0 auto 10px auto; text-align: center;
+  max-width: 530px; min-width: 314px;}
+.feed-template .post-header:not(:first-child) {border: 0; border-top: 2px solid #f4f4f4; margin-top: 40px; padding-top: 40px;}
 
 #links + ul {list-style: none; padding: 0; font-family: Source Sans Pro;
   font-size: 11px;}
