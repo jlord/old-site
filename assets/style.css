@@ -57,7 +57,7 @@ header a {text-decoration: none; color: #333;}
 header a:hover {color: #357efc; border-bottom: 1px solid #357efc;}
 
 .sideways {-webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); position: absolute; left: -90px;
-  top: 340px;}
+  top: 330px;}
 
 .main-container {max-width: 900px; margin: 0 auto; padding: 50px 0;}
 #content {background: #fff; padding: 68px;}
@@ -161,6 +161,10 @@ animation-fill-mode: both;
 .flash {
   -webkit-animation-name: flash;
   animation-name: flash;
+}
+
+@media (max-width: 1000px) {
+  .sideways {display: none;}
 }
 
 @media (max-width: 550px) {
