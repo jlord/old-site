@@ -1,9 +1,45 @@
-body {background: #f4f4f4; font-family: Lora, Georgia, Baskerville, serif; color: #333;}
+body {background: #f4f4f4; font-family: Lora, Georgia, Baskerville, serif;
+  color: #333; margin: 0px; padding: 0px;}
 
-a {text-decoration: none; color: #777; border-bottom: 1px solid #f4f4f4;}
+a {text-decoration: none; color: #357efc; border-bottom: 1px solid #ECECEC; transition: color 0.2s;}
+a:hover {color: #357efc; border-color: #357efc; }
 
 .meta { margin: 0 auto; font-size: 11px; font-family: 'Source Sans Pro' ; color: #777; letter-spacing: .1em; font-weight: 300; text-transform: uppercase;}
+img {width: 100%;}
+p {line-height: 1.5em; font-size: 18px;}
 
+ol, ul {line-height: 1.5em; font-size: 18px;}
+ul {list-style: circle; padding-left: 18px;}
+
+h1 {font-size: 40px;}
+h3, h4, h5, h6 {font-family: Source Sans Pro, Franklin Gothic Book, Arial, sans-serif;}
+
+pre { font-family: 'Source Code Pro','Andale Mono', Liberation Mono, monospace; white-space: pre-wrap;
+  word-break: break-all; word-wrap: break-word; padding: 20px; background: #fafafa;
+  border: 2px solid #fff; -webkit-border-radius: 2px; line-height: 1.6em;}
+pre code {padding: 0; color: inherit; background-color: transparent; border: 0;}
+p code {white-space: nowrap;}
+code {padding: 2px 4px; border: 1px solid #dadada; border-radius: 2px;
+  font-family: 'Source Code Pro', 'Andale Mono', Liberation Mono, monospace;
+  font-weight: 500; font-size: 12px; color: #848A8D;}
+
+blockquote {margin: 30px 20px; font-style: italic;}
+blockquote::before {content: "・"; color: #307AFD; float: left;
+  padding-right: 10px; top: 4px; position: relative;}
+blockquote p {padding-left: 21px;}
+blockquote p em {font-family: 'Source Sans Pro'; font-size: 11px; color: #777;
+  letter-spacing: .1em; font-weight: 300; text-transform: uppercase;
+  font-style: normal;}
+blockquote p em:before {content: "\2014  "; display: inline;}
+
+.half blockquote p {padding-left: 0px;}
+.half blockquote {margin: 0 20px 0 0;}
+.half blockquote::before {content: none;}
+
+hr {border: 0; border-bottom: 2px solid #f4f4f4; margin: 40px 0;}
+
+.half {width: 47%; display: inline-block; vertical-align: top;}
+.whole {border-top: 1px dotted #CCC8C8; padding-bottom: 30px; overflow: auto;}
 
 /* header ------------------------------------------------------------------- */
 
@@ -23,14 +59,18 @@ header a:hover {color: #357efc; border-bottom: 1px solid #357efc;}
 
 .main-container {max-width: 900px; margin: 0 auto; padding: 50px 0;}
 #content {background: #fff; padding: 68px;}
-.meta {font-family: Source Sans Pro, Franklin Gothic Book, Arial, sans-serif;}
+.meta {font-family: Source Sans Pro, Franklin Gothic Book, Arial, sans-serif; color: #777;}
 
-/* instagram ---------------------------------------------------------------- */
+.latest-post-content {padding-bottom: 24px;}
+
+/* instagram + tweet -------------------------------------------------------- */
 
 #instagram {margin: 0 auto; text-align: center; overflow: auto; padding-bottom: 20px;}
 .instaImgCirc {float: left;}
 .instaImgCirc img {border-radius: 1000px; margin: 10px; width: 186px; }
 .instaImgCirc a {border: none;}
+
+#tweet p {text-align: center; font-weight: 500; font-size: 20px;}
 
 /* footer ------------------------------------------------------------------- */
 
@@ -39,9 +79,30 @@ footer {font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
   padding-top: 20px; auto; font-size: 11px; color: #777; letter-spacing: .1em;
   font-weight: 300; text-transform: uppercase;}
 footer ul {list-style: none; padding: 0 15px; display: inline-block;
-vertical-align: top;}
+vertical-align: top; font-size: 11px;}
 footer li {text-align: left;}
 footer a {border: none;}
+
+/* post --------------------------------------------------------------------- */
+
+.post-header ul {list-style: none; text-align: center; color: red;
+  margin: 0 auto; padding: 0px; font-size: 11px; color: #c6c6c6;
+  letter-spacing: .1em; font-weight: 300; text-transform: uppercase;}
+.post-header li {display: inline-block;  margin: 0;
+  font-family: 'Source Sans Pro';}
+.post-header li+li {padding-right: 6px;}
+/*.content ul {text-align: left;}*/
+.post-header {display: table; margin: 0 auto 40px auto; min-width: 314px;
+  max-width: 530px; text-align: center;}
+.post-header a h1 {color: #333;}
+
+#links + ul {list-style: none; padding: 0; font-family: Source Sans Pro;
+  font-size: 11px;}
+#links + ul li {padding: 4px 8px; display: inline-block; border-radius: 2px;
+  background: #fff; border: 1px solid #357efc; margin-bottom: 8px; margin-right: 4px; transition: background 0.2s;}
+#links + ul a {color: #357efc; border: none;}
+#links + ul a:hover {border: 1px solid transparent; background: #357efc; color: #fff; }
+#links + ul li:hover {border: 1px solid #transparent; background: #357efc;}
 
 
 /* loading ------------------------------------------------------------------- */
@@ -79,4 +140,14 @@ animation-fill-mode: both;
 .flash {
   -webkit-animation-name: flash;
   animation-name: flash;
+}
+
+@media (max-width: 550px) {
+  .main-container {padding: 20px 0;}
+  #content {padding: 20px;}
+  .half {width: 100%}
+  #work-photos {display: none;}
+  .socials, .sideways {display: none;}
+  footer, .home-header, .post-header {width: 100%; min-width: 100%;}
+  .instaImgCirc {float: none;}
 }
