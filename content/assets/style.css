@@ -80,6 +80,7 @@ header a:hover {color: #357efc; border-bottom: 1px solid #357efc;}
 
 #tweet p {font-weight: 500; font-size: 20px; margin: 0 auto;
   padding-top: 18px;}
+#tweet p a {white-space: nowrap;}
 
 /* footer ------------------------------------------------------------------- */
 
