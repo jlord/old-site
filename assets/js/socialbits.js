@@ -67,7 +67,7 @@ function linkMention(mentions) {
   if (!mentions) return
   var linkMentions = []
   mentions.forEach(function(mention){
-    var wrap = "<a href='http://www.twittter.com/" + mention + "' target='_blank'>" + mention + "</a>"
+    var wrap = "<a href='http://www.twitter.com/" + mention + "' target='_blank'>" + mention + "</a>"
     linkMentions.push(wrap)
   })
   return linkMentions
