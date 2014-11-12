@@ -134,6 +134,12 @@ a.button:hover {background-color: #307AFD; color: #fff;}
 .load.animated {font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
   letter-spacing: .15em; font-size: 11px;}
 
+/* home page ==--------------------------------------------------------------- */
+
+.guides-list {list-style: none; margin: 0; padding: 0;}
+.guides-list li {display: inline-block;}
+.guides-list li a { margin-right: 6px; border: none;}
+
 .animated {
 -webkit-animation: 1s infinite;
 animation: 1s infinite;
