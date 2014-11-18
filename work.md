@@ -28,4 +28,4 @@
 
 ## More later
 
-For now, see my previous site: [jlord.us/work](http://jlord.us/hello). And there's a bit on <a href="http://dribbble.com/jlord">Dribbble</a>, too.
+For now, see my previous site: [jlord.us/work](http://jlord.herokuapp.com/hello). And there's a bit on <a href="http://dribbble.com/jlord">Dribbble</a>, too.
