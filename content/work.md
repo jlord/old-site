@@ -16,7 +16,7 @@
 
 [**Git-it**](https://jlord.github.io/git-it) A terminal based interactive tutorial for learning Git and GitHub.
 
-[**Fork-n-Go**](https://jlord.github.io/forkngo) Building and showcasing web projects that can be forked and used and hosted with minimal effort.
+[**Fork-n-Go**](https://jlord.github.io/forkngo) Web sites that can be forked and used and hosted with minimal effort.
 
 [**Sheetdown**](https://github.com/jlord/sheetdown) Command line tool for converting Google Spreadsheets into Markdown tables.
 
