@@ -16,4 +16,4 @@ If you have a topic you'd like to hear about, [open an issue](http://github.com/
 ### Front-end Web Development
 
 - [Custom Instagram Feed](http://localhost:5567/blog/your-own-instagram.html) Using If This Than That (IFTTT), Tabletop.js and JavaScript to create a page with your Instagram photos as you like. My [example here](/instagram.html).
--- [Fork-n-Go](http://jlord.github.io/forkngo) Getting a website live pretty darn fast.
+- [Fork-n-Go](http://jlord.github.io/forkngo) Getting a website live pretty darn fast.
