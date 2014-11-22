@@ -3,10 +3,10 @@
 
 <div id="work-photos">
   <div class="half">
-    ![1](http://jlord.us/wp-content/uploads/speedfatality_thumb.jpg)
+    ![1](http://jlord.herokuapp.com/wp-content/uploads/speedfatality_thumb.jpg)
   </div>
   <div class="r half">
-    ![2](http://jlord.us/wp-content/uploads/stuart_thumb.jpg)
+    ![2](http://jlord.herokuapp.com/wp-content/uploads/stuart_thumb.jpg)
   </div>
 </div>
 
@@ -16,7 +16,7 @@
 
 [**Git-it**](https://jlord.github.io/git-it) A terminal based interactive tutorial for learning Git and GitHub.
 
-[**Fork-n-Go**](https://jlord.github.io/forkngo) Building and showcasing web projects that can be forked and used and hosted with minimal effort.
+[**Fork-n-Go**](https://jlord.github.io/forkngo) Web sites that can be forked and used and hosted with minimal effort.
 
 [**Sheetdown**](https://github.com/jlord/sheetdown) Command line tool for converting Google Spreadsheets into Markdown tables.
 
@@ -28,4 +28,4 @@
 
 ## More later
 
-For now, see my previous site: [jlord.us/work](http://jlord.us/hello). And there's a bit on <a href="http://dribbble.com/jlord">Dribbble</a>, too.
+For now, [see my previous site](http://jlord.herokuapp.com/hello). And there's a bit on <a href="http://dribbble.com/jlord">Dribbble</a>, too.
