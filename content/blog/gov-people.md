@@ -50,5 +50,3 @@ It&#8217;s sad and it&#8217;s frustrating how many situations boil down to lack 
 The best thing about the internet is the ease in which it allows us to share. Your friends on Twitter and Facebook may share **too** much, but nonetheless, social networks have made people and companies more accessible and accountable (if only for fear of Twitter storms). We want the same from our government &#8211; clear and simple ways to reach who we need.
 
 **I don&#8217;t expect or think that government should ever be on the bleeding edge of technology &#8211; that is not their role. But the current gulf is too great. I want a government a little more like the people: open source and distributed like nerds, agile and always looking to improve like a startup and connected and accountable like friends and family.**
-
- [1]: http://localhost:8888/wp-content/uploads/govgulf-02.png
