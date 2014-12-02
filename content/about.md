@@ -21,6 +21,8 @@ I hail from the heart of Georgia but for now I live in Oakland, California. I lo
 
 **Talks/Workshops/Panels**
 
+- **Mozilla Festival**, London, 2014
+- **JSDC**, Taipei, 2014
 - **Web Rebels**, Oslo, 2014
 - **JSFest**, San Francisco, 2014
 - **Mozilla Festival**, London, 2013
@@ -28,6 +30,10 @@ I hail from the heart of Georgia but for now I live in Oakland, California. I lo
 - **State of the Map**, Portland, 2012
 - [**Code for America Summit**](http://www.youtube.com/watch?v=Q76bKK229aM), San Francisco, 2012
 - **Farmhouse Conf**, Los Angeles, 2012
+
+
+- [Patchwork](https://github.com/blog/search?q=Patchwork) events at GitHub in various cities, teaching Git and GitHub to beginners. 
+- [NodeSchool](http://www.nodeschool.io) events in various cities, mentoring Node.js and Git concepts.
 
 **Work**
 
@@ -47,4 +53,4 @@ I hail from the heart of Georgia but for now I live in Oakland, California. I lo
 
 ## About the Site
 
-I built a [static site generator](http://www.github.com/jlord/balrog) and built [this site](http://www.github.com/jlord/jlord.github.io). It took forever. Types are Lora, Source Sans Pro and Source Code Pro from Google Web Fonts.
+I built a [static site generator](http://www.github.com/jlord/balrog) and built [this site](http://www.github.com/jlord/jlord.github.io). It took forever. Types are [Lora](https://www.google.com/fonts/specimen/Lora), [Source Sans Pro](https://www.google.com/fonts/specimen/Source+Sans+Pro) and [Source Code Pro](http://www.google.com/fonts/specimen/Source+Code+Pro) from Google Web Fonts.
