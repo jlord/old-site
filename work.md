@@ -24,7 +24,7 @@
 
 [**Hack Spots**](https://jlord.github.io/hack-spots) Fork-n-Go site for mapping and listing locations (of coffeeshops).
 
-<small class="meta">More on <a href="http://github.com/jlord" target="_blank">github/jlord</a> and <a href="http://www.npmjs.org/jlord">npm/jlord</a></small>
+<small class="meta">More on <a href="http://github.com/jlord" target="_blank">github/jlord</a> and <a href="http://www.npmjs.org/~jlord">npm/~jlord</a></small>
 
 ## More later
 
