@@ -191,7 +191,7 @@ animation-fill-mode: both;
   .instaImgCirc + .instaImgCirc {padding-left: 0;}
 }
 
-@media (max-width: 1536px) {
+@media (max-width: 1024px) { 
   #instagram {max-height: 176px; overflow: hidden;}
   .instaImgCirc {max-width: 176px;}
   .instaImgCirc + .instaImgCirc {padding-left: 50px;}
