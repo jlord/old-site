@@ -6,11 +6,13 @@
     <meta name="description" content="jlord">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>jlord</title>
-    <link rel="shortcut icon" href="assets/favicon.png">
-    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,900|Source+Code+Pro:500|Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='assets/style.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="../assets/favicon.png">
+    <link href='http://fonts.googleapis.com/css?family=Playfair+Display:900,400italic,700italic|Source+Sans+Pro:400,900|Source+Code+Pro:500' rel='stylesheet' type='text/css'>
+    <link href='../assets/style.css' rel='stylesheet'>
+    <link href='../assets/highlight.css' rel='stylesheet'>
+    <script src="../assets/js/highlight.js"></script>
   </head>
-  <body class="home-template">
+  <body class="post-template">
     <div class="sideways meta">Jessica Lord, open web developer—designer</div>
     <div class="main-container">
       <!-- <header>
@@ -77,82 +79,24 @@
 
 
       <div id="content">
-      <div class="whole latest-post" style="border: none;">
-        <h2 class="home-h-link"><a href="blog/patchwork-git-it-reporobot.html">Post</a></h2>
-
-        <h3>Patchwork Year! <span class="meta">2015-01-22</span></h3>
-        <div class="latest-post-content">
-          <p>A little over a year ago I volunteered to lead a community event at GitHub with the goal of helping new users make their first pull request. At GitHub we think a lot about how people learn to use Git/GitHub and as a not-so-weathered person in web development I think a lot, too, about how I can sh...
-        </div>
-        <div class="meta"><a href="blog/patchwork-git-it-reporobot.html">Read More</a> // <a href="blog">All Posts</a></div>
-      </div>
-      <div class="whole guides">
-        <h2 class="home-h-link"><a href="/guides.html">Guides</a></h2>
-        <ul class="guides-list">
-          <li><a class="button meta" href="/blog/simple-node-module.html">Node.js & npm basics</a></li>
-          <li><a class="button meta" href="https://github.com/jlord/git-it#readme">Git-it</a></li>
-          <li><a class="button meta" href="https://jlord.github.io/forkngo">Fork-n-Go</a></li>
-        </ul>
-      </div>
-      <div class="whole">
-        <h2 class="home-h-link"><a href="http://www.instagram.com/jlord" target="_blank">Instagram</a></h2>
-          <div id="instagram"><span class="load flash animated">LOADING...</span></div>
-          <!-- <div style="display: block;"></div> -->
-          <span class="meta"><a href="instagram.html">More</a></span>
-      </div>
-
-      <div class="whole">
-        <h2 class="home-h-link"><a href="http://www.twitter.com/jllord" target="_blank">Twitter</a></h2>
-        <div id="tweet"><span class="load flash animated">LOADING...</span></div>
-      </div>
-
-      <div class="whole">
-        <div class="r half">
-          <h2 class="home-h-link"><a href="http://jlord-reads.tumblr.com" target="_blank">Instapaper</a></h2>
-          <div id="pocket"><span class="load flash animated">LOADING...</span></div>
-        </div>
-
-        <div class="half">
-          <h2 class="home-h-link"><a href="http://jlord-reads.tumblr.com" target="_blank">Highlight</a></h2>
-          <div id="quote"><span class="load flash animated">LOADING...</span></div>
-        </div>
-      </div>
-
-      <script type="text/javascript" src="assets/js/sheetsee.js"></script>
-      <script type="text/javascript" src="assets/js/handlebars.js"></script>
-      <script type="text/javascript" src="assets/js/tabletop1.3.4.js"></script>
-      <script type="text/javascript" src="assets/js/templates.js"></script>
-      <script type="text/javascript" src="assets/js/socialbits.js"></script>
-
-      <script type="text/javascript">
-        document.addEventListener('DOMContentLoaded', function() {
-          var URL  = '0Ao5u1U6KYND7dG9CRWdjeVB6dGYyN3c3RktocExUV1E' // insta
-          var URL2 = '0Ao5u1U6KYND7dDd2RTBwajZrT3pEc2p2LVVWc0o0WVE' // tweet
-          var URL3 = '0Ao5u1U6KYND7dFR4aDRFb1RsZmlHRXc3ZnFHa3ltTXc' // quotes
-          var URL4 = '0Ao5u1U6KYND7dERheVpFZThEUkdPZnFXXzMxTzJ3dEE' // pocket
-          var URL5 = '1bR3IIL7WS5BVNXXmQCvtCmd3-ZB0G17Z32NFE2utDW8' // instapaper
-
-          Tabletop.init({ key: URL,  callback: buildInsta,  simpleSheet: true })
-          Tabletop.init({ key: URL2, callback: buildTweet,  simpleSheet: true })
-          Tabletop.init({ key: URL3, callback: buildQuote,  simpleSheet: true })
-          Tabletop.init({ key: URL5, callback: buildPocket, simpleSheet: true })
-        })
-      </script>
-      <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-        ga('create', 'UA-31423721-2', 'jlord.github.io');
-        ga('send', 'pageview');
-      </script>
+        <div class='post-header'><a href='patchwork-git-it-reporobot.html'><h1>Patchwork Year!</h1></a><ul><li>Jessica Lord</li> <li>2015-01-22</li> <li>github, open source, git-it, reporobot</li></ul></div><p>A little over a year ago I volunteered to lead a community event at GitHub with the goal of helping new users make their first pull request. At GitHub we think a lot about how people learn to use Git/GitHub and as a not-so-weathered person in web development I think a lot, too, about how I can share what I&#39;ve learned in a way that is meaningful to someone else starting out.  Helping others get into open source is rad.</p>
+<p>We called it Patchwork because each of us in open source contributes pieces to something bigger, quite literally and metaphorically we make quilts. Props to <a href="http://www.twitter.com/jlord/kelseyschimm">Kelsey</a> on this element.</p>
+<p><img src="https://s3.amazonaws.com/f.cl.ly/items/310g2d2U2Q0g2Y070k36/reporobotyear.png" alt="patches"></p>
+<p><small>@reporobot&#39;s quilt of patches</small></p>
+<p>Fresh off the heels of NodeConf 2013 and the first <a href="http://www.nodeschool.io">nodeschool.io</a> workshops, I decided to make a Git based workshop and thus <a href="https://github.com/jlord/git-it">Git-it</a> was born. But I couldn&#39;t teach people how to use GitHub without someone to collaborate with—and I couldn&#39;t feasibly review and merge each and every pull request that came in—so <a href="https://github.com/reporobot">@reporobot</a> was born. As of writing he&#39;s helped <strong>1493</strong> people on Git-it!</p>
+<p><img src="https://i.github-camo.com/5b47a379d1899b1e0004fd944eef30fe88e91dc4/687474703a2f2f636c2e6c792f696d6167652f3057304f33463338315132412f756e6e616d65642d312e6a7067" alt="patchworksf"></p>
+<p><small>photo by <a href="http://twitter.com/muanchoiu">@muanchoiu</a></small></p>
+<p>So it was that a year ago we held the first Patchwork at GitHub&#39;s office in SF. It was nerve wracking for me (@reporobot was my first server!) but it went well, <em>whew</em>! We then had 14 more over the course of the 2014. GitHubbers hosted them where they were and we held Patchworks in London, Edinburgh, Nashville, Chicago, Columbus, Atlanta, New York City, Phoenix, Taipei, Tokyo and Boulder. Over <strong>700</strong> attendees!</p>
+<p>We learned and iterated on the events. We used Git-it for some and then went web-based and command-line-free using the <a href="http://guides.github.com/activities/hello-world">Hello-World Guide</a>. Many props on content here to <a href="http://www.twitter.com/tenaciouscb">Chrissie</a> who works with more GitHub users than probably anyone.</p>
+<p>We added talks. An introduction from a GitHubber on their first pull request and how they got involved with open source—dispel any ideas that developers were born developers. We all started somewhere. A closing talk from a local open source developer to introduce projects and real world open source practices.</p>
+<p><img src="http://jlord.us/git-it/assets/imgs/branches.png" alt="branch"></p>
+<p><small>Branching</small></p>
+<p>I&#39;m really proud of Patchwork. It&#39;s a simple event with the goal of sharing skills and giving back. Locals volunteered their time to come out and mentor attendees, to sit down and talk about branching like someone once did with them, and I am ever so grateful to all of you! Equally thankful to all the GitHubbers who attended, hosted and helped pull these off.</p>
+<p>Patchwork will go forward in 2015 and be even better with full time dedication, so keep an eye out! I&#39;ll step back and cheer it on and continue in my spare time to maintain Git-it and @reporobot. More on that soon!</p>
 
       </div>
 
-
-    </div>
-    <footer>
+      <footer>
   <p class="about-foot meta">
     Jessica Lord is an open web developer, designer and urbanist in Oakland.
   </p>
@@ -174,5 +118,7 @@
   </ul>
 </footer>
 
+    </div>
+    <script>hljs.initHighlightingOnLoad();</script>
   </body>
 </html>
