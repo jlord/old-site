@@ -3,7 +3,7 @@
 #### 2015-01-22
 #### github, open source, git-it, reporobot
 
-A little over a year ago I volunteered to lead a community event at GitHub with the goal of helping new users make their first pull request. At GitHub we think a lot about how people learn to use Git/GitHub and as a not-so-weathered person in web development I think a lot, too, about how I can share what I've learned in a way that is meaningful to someone else starting out.  Helping others get into open source is rad.
+A little over a year ago I volunteered to lead a community event at GitHub with the goal of helping new users make their first pull request. At GitHub we think a lot about how people learn to use Git/GitHub and as a not-so-weathered person in web development I think a lot, too, about how I can share what I've learned in a way that is meaningful to someone else starting out.  I was excited about the challenge.
 
 We called it Patchwork because each of us in open source contributes pieces to something bigger, quite literally and metaphorically we make quilts. Props to [Kelsey](http://www.twitter.com/jlord/kelseyschimm) on this element.
 
@@ -27,6 +27,6 @@ We added talks. An introduction from a GitHubber on their first pull request and
 
 <small>Branching</small>
 
-I'm really proud of Patchwork. It's a simple event with the goal of sharing skills and giving back. Locals volunteered their time to come out and mentor attendees, to sit down and talk about branching like someone once did with them, and I am ever so grateful to all of you! Equally thankful to all the GitHubbers who attended, hosted and helped pull these off.
+I'm really proud of Patchwork. It's a simple event for sharing skills and giving back. Locals volunteered their time to come out and mentor attendees, to sit down and talk about branching like someone once did with them, and I am ever so grateful to all of you! Equally thankful to all the GitHubbers who attended, hosted and helped pull these off.
 
-Patchwork will go forward in 2015 and be even better with full time dedication, so keep an eye out! I'll step back and cheer it on and continue in my spare time to maintain Git-it and @reporobot. More on that soon!
+Patchwork keep going 2015 and be even better with full time dedication, so keep an eye out! I'll step back and cheer it on and continue in my spare time to maintain Git-it and @reporobot. More on that soon!
