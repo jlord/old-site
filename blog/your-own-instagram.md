@@ -6,7 +6,7 @@
 
 ![instagram ss](http://jlord.s3.amazonaws.com/wp-content/uploads/insta_ss.png)
 
-I  know Instagram's just come out with web profiles, but they&#8217;re not on *my* page and they&#8217;re not in circles. So quick and dirty (it took longer to write this post, see note on code) I put up my photos, [here][2], and in circles. Some weeks ago I started using an ifttt.com (which is so, so awesome) <a title="ifttt.com recipe" href="https://ifttt.com/recipes/65778" target="_blank">recipe</a> that sends my Instagram photos (dates and captions as well) to a Google Spreadsheet. I&#8217;m all about Google Spreadsheets. The same spreadsheet powers the Instagram portion on my <a title="Dashboard" href="http://jlord.us/dashboard" target="_blank">dashboard</a> page.
+I  know Instagram's just come out with web profiles, but they&#8217;re not on *my* page and they&#8217;re not in circles. So quick and dirty (it took longer to write this post, see note on code) I put up my photos, [here][1], and in circles. Some weeks ago I started using an ifttt.com (which is so, so awesome) <a title="ifttt.com recipe" href="https://ifttt.com/recipes/65778" target="_blank">recipe</a> that sends my Instagram photos (dates and captions as well) to a Google Spreadsheet. I&#8217;m all about Google Spreadsheets. The same spreadsheet powers the Instagram portion on my <a title="Dashboard" href="http://jlord.us/dashboard" target="_blank">dashboard</a> page.
 
 ### The Parts
 
@@ -60,10 +60,10 @@ The JS
         array = array.splice(cut) return array.reverse()
       }
     }
-  
+
   document.addEventListener('DOMContentLoaded', function() {
     loadSpreadsheet() })
-  
+
   showData = function(data) {
     var instagram = ich.instagram({
     "rows": getLast(data, 12)
@@ -80,5 +80,4 @@ I&#8217;d like have my captions appear when hovering over the image and to cue u
 
 &nbsp;
 
- [1]: http://localhost:8888/wp-content/uploads/insta_ss.png
- [2]: http://jlord.us/instagram "jlord instagram"
+ [1]: http://jlord.us/instagram "jlord instagram"
