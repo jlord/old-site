@@ -7,7 +7,7 @@ I am a developer and designer at [GitHub](http://www.github.com/about). I made m
 
 I [develop in the open](http://www.github.com/jlord) and try to [share](/blog) what I learn. My work from life before web development can be found [here](http://jlord.us/hello/).
 
-I hail from the heart of Georgia but for now I live in Oakland, California. I love open source, JavaScript & Node.js, and stories of Tudor England.
+I hail from the heart of Georgia but for now I live in Portland, Oregon. I love open source, JavaScript & Node.js, and stories of Tudor England.
 
 ---
 
@@ -17,7 +17,7 @@ I hail from the heart of Georgia but for now I live in Oakland, California. I lo
 
 **IRC**: freenode, #nerdtracker, #stackvm
 
-**IRL**: GitHub HQ, Oakland coffee shops
+**IRL**: Portlandia coffee shops, meetups
 
 **Talks/Workshops/Panels**
 
@@ -32,12 +32,12 @@ I hail from the heart of Georgia but for now I live in Oakland, California. I lo
 - **Farmhouse Conf**, Los Angeles, 2012
 
 
-- [Patchwork](https://github.com/blog/search?q=Patchwork) events at GitHub in various cities, teaching Git and GitHub to beginners. 
+- [Patchwork](https://github.com/blog/search?q=Patchwork) events at GitHub in various cities, teaching Git and GitHub to beginners.
 - [NodeSchool](http://www.nodeschool.io) events in various cities, mentoring Node.js and Git concepts.
 
 **Work**
 
-- **GitHub, Inc**, Internet Coder, San Francisco
+- **GitHub, Inc**, Internet Coder, SFO via PDX
 - **Mozilla-Knight Open News Code Sprint**, Sheetsee.js
 - **DIY.org**, Maker-in-Residence: Hacker Skills, San Francisco
 - **Code for America**, 2012 Fellow, San Francisco
@@ -53,4 +53,4 @@ I hail from the heart of Georgia but for now I live in Oakland, California. I lo
 
 ## About the Site
 
-I built a [static site generator](http://www.github.com/jlord/balrog) and built [this site](http://www.github.com/jlord/jlord.github.io). It took forever. Types are [Lora](https://www.google.com/fonts/specimen/Lora), [Source Sans Pro](https://www.google.com/fonts/specimen/Source+Sans+Pro) and [Source Code Pro](http://www.google.com/fonts/specimen/Source+Code+Pro) from Google Web Fonts.
+I built a [static site generator](http://www.github.com/jlord/balrog) and built [this site](http://www.github.com/jlord/jlord.github.io). It took forever. Typefaces are [Lora](https://www.google.com/fonts/specimen/Lora), [Source Sans Pro](https://www.google.com/fonts/specimen/Source+Sans+Pro) and [Source Code Pro](http://www.google.com/fonts/specimen/Source+Code+Pro) from Google Web Fonts.
