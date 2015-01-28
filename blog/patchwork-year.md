@@ -5,7 +5,7 @@
 
 A little over a year ago I volunteered to lead a community event at GitHub with the goal of helping new users make their first pull request. At GitHub we think a lot about how people learn to use Git/GitHub and as a stil-new-ish person in web development I think a lot too about how I can share what I've learned in a way that is meaningful to someone else starting out. I was excited about the challenge.
 
-We called it Patchwork because each of us in open source contributes pieces to something bigger, quite literally and metaphorically we make quilts. Props to [Kelsey](http://www.twitter.com/jlord/kelseyschimm) on this element.
+We called it Patchwork because each of us in open source contributes pieces to something bigger, quite literally and metaphorically we make quilts. Props to [Kelsey](http://www.twitter.com/kelseyschimm) on this element.
 
 ![patches](https://s3.amazonaws.com/f.cl.ly/items/310g2d2U2Q0g2Y070k36/reporobotyear.png)
 
