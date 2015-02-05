@@ -120,6 +120,8 @@ padding-right: 15px;}
 #links + ul li:hover {background: #357efc;}
 #links + ul li:hover a {color: #fff;}
 
+.post-body h1 {font-size: 26px; border-top: 1px solid #EFEFEF; border-bottom: 1px solid #EFEFEF; padding: 18px 0; text-align: center; line-height: 1.6; margin: 40px 0; font-style: italic; font-weight: 400;}
+
 
 /* PAGINATION --------------------------------------------------------------- */
 
@@ -191,7 +193,7 @@ animation-fill-mode: both;
   .instaImgCirc + .instaImgCirc {padding-left: 0;}
 }
 
-@media (max-width: 1024px) { 
+@media (max-width: 1024px) {
   #instagram {max-height: 176px; overflow: hidden;}
   .instaImgCirc {max-width: 176px;}
   .instaImgCirc + .instaImgCirc {padding-left: 50px;}
