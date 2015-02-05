@@ -61,7 +61,7 @@
 
 
       <div id="content">
-        <div class='post-header'><a href='your-own-instagram.html'><h1>Your Own Instagram Feed</h1></a><ul><li>By Jessica Lord</li> <li>2012-11-13</li> <li>web dev, spreadsheets, sheetsee, instagram</li></ul></div><p><img src="http://jlord.s3.amazonaws.com/wp-content/uploads/insta_ss.png" alt="instagram ss"></p>
+        <div class='post-header'><a href='your-own-instagram.html'><h1>Your Own Instagram Feed</h1></a><ul><li>By Jessica Lord</li> <li>2012-11-13</li> <li>web dev, spreadsheets, sheetsee, instagram</li></ul></div><div class='post-body'><p><img src="http://jlord.s3.amazonaws.com/wp-content/uploads/insta_ss.png" alt="instagram ss"></p>
 <p>I  know Instagram&#39;s just come out with web profiles, but they&#8217;re not on <em>my</em> page and they&#8217;re not in circles. So quick and dirty (it took longer to write this post, see note on code) I put up my photos, <a href="http://jlord.us/instagram" title="jlord instagram">here</a>, and in circles. Some weeks ago I started using an ifttt.com (which is so, so awesome) <a title="ifttt.com recipe" href="https://ifttt.com/recipes/65778" target="_blank">recipe</a> that sends my Instagram photos (dates and captions as well) to a Google Spreadsheet. I&#8217;m all about Google Spreadsheets. The same spreadsheet powers the Instagram portion on my <a title="Dashboard" href="http://jlord.us/dashboard" target="_blank">dashboard</a> page.</p>
 <h3 id="the-parts">The Parts</h3>
 <p>I use <a title="tabletop javascript" href="http://builtbybalance.com/Tabletop/" target="_blank">tabletop.js</a> to get my spreadsheet data into usable json. Once I&#8217;ve got that data, I tell <a title="mustache js" href="http://mustache.github.com" target="_blank">mustache.js</a> to take it, format each piece (I&#8217;m using just the url for the Instagram photo) into a div and then place all of those divs into the holder waiting patiently for it in my html. I use CSS to format it into circles.</p>
@@ -122,12 +122,12 @@
 <h3 id="later-ons">Later Ons</h3>
 <p>I&#8217;d like have my captions appear when hovering over the image and to cue up, say, just 20 photos at a time and have new photos automatically appear without refresh. Perhaps this will happen on the 12 hour plane ride I have tomorrow.</p>
 <p>&nbsp;</p>
-
+</div>
       </div>
 
       <footer>
   <p class="about-foot meta">
-    Jessica Lord is an open web developer, designer and urbanist in Oakland.
+    Jessica Lord is an open web developer, designer and urbanist in Portland.
   </p>
   <ul class="socials">
     <li><a href="http://www.twitter.com/jllord" target="_blank">@jllord</a></li>
