@@ -3,10 +3,10 @@
 
 <div id="work-photos">
   <div class="half">
-    ![1](http://jlord.herokuapp.com/wp-content/uploads/speedfatality_thumb.jpg)
+    ![1](https://raw.githubusercontent.com/jlord/jlord.github.io/master/assets/speedfatality.png)
   </div>
   <div class="r half">
-    ![2](http://jlord.herokuapp.com/wp-content/uploads/stuart_thumb.jpg)
+    ![2](https://raw.githubusercontent.com/jlord/jlord.github.io/master/assets/govdiagram.png)
   </div>
 </div>
 
