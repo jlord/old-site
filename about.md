@@ -21,6 +21,8 @@ I hail from the heart of Georgia but for now I live in Portland, Oregon. I love 
 
 **Talks/Workshops/Panels**
 
+- **Open Source Open Society**, New Zealand, 2015
+- **NICAR** workshop, Atlanta 2015
 - **Mozilla Festival**, London, 2014
 - **JSDC**, Taipei, 2014
 - **Web Rebels**, Oslo, 2014
