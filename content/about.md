@@ -7,7 +7,7 @@ I am a developer and designer at [GitHub](http://www.github.com/about). I made m
 
 I [develop in the open](http://www.github.com/jlord) and try to [share](/blog) what I learn. My work from life before web development can be found [here](http://jlord.us/hello/).
 
-I hail from the heart of Georgia but for now I live in Portland, Oregon. I love open source, JavaScript & Node.js, and stories of Tudor England.
+I hail from the [heart of Georgia](http://www.13wmaz.com) but for now I live in Portland, Oregon. I love open source, JavaScript & Node.js, and stories of Tudor England.
 
 ---
 
