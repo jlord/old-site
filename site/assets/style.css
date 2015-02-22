@@ -71,11 +71,8 @@ ul.meta {list-style: none; display: inline-block; text-align: center; margin: 0 
 /* POST */
 /* ------------------------------------------------------------ */
 
-/*h2:nth-of-type(1), h2:nth-of-type(2), h2:nth-of-type(3) {
-  color: red; display: inline-block; margin: 0 auto; font-family: Open Sans; font-size: 10px; color: #c6c6c6; letter-spacing: .1em; font-weight: 300; text-transform: uppercase;}*/
-/* this is not a good idea */
 .post-header ul {
-    list-style: none; text-align: center; color: red; margin: 0 auto; padding: 0px; font-family: Open Sans; font-size: 10px; color: #c6c6c6; letter-spacing: .1em; font-weight: 300; text-transform: uppercase;}
+    list-style: none; text-align: center; margin: 0 auto; padding: 0px; font-family: Open Sans; font-size: 10px; color: #c6c6c6; letter-spacing: .1em; font-weight: 300; text-transform: uppercase;}
 .post-header li {display: inline-block; padding-right: 6px; margin: 0 auto; color: #FF5200;}
 /*.content ul {text-align: left;}*/
 .post-header {border-top: 4px solid #FF5200; display: table; margin: 60px auto; min-width: 314px; text-align: center;}
@@ -104,7 +101,7 @@ footer a {border: none;}
 /* ------------------------------------------------------------ */
 
 .home-header ul {
-    list-style: none; text-align: center; color: red; margin: 0 auto; padding: 0px; font-family: Open Sans; font-size: 10px; color: #c6c6c6; letter-spacing: .1em; font-weight: 300; text-transform: uppercase;}
+    list-style: none; text-align: center; margin: 0 auto; padding: 0px; font-family: Open Sans; font-size: 10px; color: #c6c6c6; letter-spacing: .1em; font-weight: 300; text-transform: uppercase;}
 .home-header li {display: inline-block; padding-right: 6px; margin: 0 auto; color: #FF5200;}
 /*.content ul {text-align: left;}*/
 .home-header {border-top: 4px solid #FF5200; display: table; margin: 60px auto 0px; min-width: 314px; text-align: center;}
