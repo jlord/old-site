@@ -8,6 +8,7 @@ If you have a topic you'd like to hear about, [open an issue](http://github.com/
 ### Node.js & npm
 
 - [Node.js & npm Basics](/blog/simple-node-module.html) Learn some of the basics through an example module.
+- [Getting started]()
 
 ### Git & GitHub
 
@@ -17,3 +18,4 @@ If you have a topic you'd like to hear about, [open an issue](http://github.com/
 
 - [Custom Instagram Feed](/blog/your-own-instagram.html) Using If This Than That (IFTTT), Tabletop.js and JavaScript to create a page with your Instagram photos as you like. My [example here](/instagram.html).
 - [Fork-n-Go](http://jlord.github.io/forkngo) Getting a website live pretty darn fast.
+- [Getting started]()
