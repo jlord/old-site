@@ -3,7 +3,7 @@
 #### 2015-28-15
 #### Development, JS, Web, Node
 
-There are a lot of resources online for learning all the bits and bobs to do with web developement—aka making websites or web apps. I'm sure there are lots of good ones I've yet to see (let me know!) but I've been wanting for sometime to collect the ones I've found useful or well done into a guide. Hopefully the brief introductions will be helpful for the very new!
+There are a lot of resources online for learning all the bits and bobs to do with web developement—aka making websites or web apps. I'm sure there are lots of good ones I've yet to see but I've been wanting for sometime to collect the ones I've found useful or well done into one place. Hopefully the brief introductions will be helpful for the very new!
 
 <small class="meta">Jump to [Frontend]() // Jump to [Backend]()</small>
 
@@ -21,7 +21,9 @@ Web browsers (like [Chrome](http://chrome.com) and [Safari](http://safari.com)) 
 As you're learning about web development you're likely to come across GitHub.com. This website stores code for users that are using [Git](), a version control system, with their work. This is a type of system that allows you to track changes over time so that you can work efficiently, not lose work and go back in time when you've made a mistake! GitHub takes Git a step beyond by allowing you to view online the changes a project has seen (rather than reading terminal screens). It's a whole other thing to learn, however, with its own lingo, but you can do it:
 
 - [Hello World Guide]() A guide from GitHub to introduce you to the basic Git concepts and do them yourself just using the website.
-- [Git-it]() An app with lessons that teach you Git and GitHub on the command line (Terminal) [I wrote it!].
+- [Git-it]() An app with lessons that teach you Git and GitHub on the command line (Terminal). Also, I wrote it!
+
+## General: Open Source
 
 ---
 
@@ -42,6 +44,7 @@ Browsers understand HTML which organizes elements of a webpage, CSS which styles
 ### Markdown
 
 - [This is Markdown](http://thisismarkdown.com/) by @planetarycorp
+- [GitHub Guide to Markdown](https://guides.github.com/features/mastering-markdown/)
 
 ### JavaScript
 
