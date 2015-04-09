@@ -20,10 +20,13 @@ Web browsers (like [Chrome](http://chrome.com) and [Safari](http://safari.com)) 
 ## General: Keeping Track of Work, Version Control
 As you're learning about web development you're likely to come across GitHub.com. This website stores code for users that are using [Git](), a version control system, with their work. This is a type of system that allows you to track changes over time so that you can work efficiently, not lose work and go back in time when you've made a mistake! GitHub takes Git a step beyond by allowing you to view online the changes a project has seen (rather than reading terminal screens). It's a whole other thing to learn, however, with its own lingo, but you can do it:
 
-- [Hello World Guide]() A guide from GitHub to introduce you to the basic Git concepts and do them yourself just using the website.
-- [Git-it]() An app with lessons that teach you Git and GitHub on the command line (Terminal). Also, I wrote it!
+- [Hello World Guide](https://guides.github.com/activities/hello-world) A guide from GitHub to introduce you to the basic Git concepts and do them yourself just using the website.
+- [Git-it](http://github.com/jlord/git-it) An app with lessons that teach you Git and GitHub on the command line (Terminal). Also, I wrote it!
 
 ## General: Open Source
+Open source projects are ones that are free for anyone to use. On GitHub you'll find many that fit a common pattern which means including a readme, license and contributing file. These are some resources for getting the lay of the open-source-project land.
+
+- [Contributing to Open Source](https://guides.github.com/activities/contributing-to-open-source) A GitHub guide on the basic elements of open source projects and community.
 
 ---
 
@@ -50,6 +53,7 @@ Browsers understand HTML which organizes elements of a webpage, CSS which styles
 
 - [JS for Cats](http://www.jsforcats.com)
 - [Eloquent JavaScript](http://eloquentjavascript.net)
+- [Learn JS Data ](http://learnjsdata.com/) by @boucoup
 
 ## Backend: Node.js
 Servers can use many different types of languages, but the server side language I know is Node.js, JavaScript on a server, so my resources will relate to that.
