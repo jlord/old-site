@@ -38,7 +38,9 @@ Browsers understand HTML which organizes elements of a webpage, CSS which styles
 - [Screencasts on design and front-end development](http://designbytyping.com/) by @mrmrs
 - [HTML & CSS](http://learn.shayhowe.com/html-css/) by Shay Howe
 - [Learn CSS Layout](http://learnlayout.com/) by @boucoup
-
+- [WTF, HTML and CSS](http://wtfhtmlcss.com/) by @mdo
+- [WTF, forms](http://wtfforms.com/) by @mdo
+- [Code Guide](http://codeguide.co/) by @mdo
 ### Design & Assets
 
 - [Unsplash](https://unsplash.com/) Free high-res stock photos
