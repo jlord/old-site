@@ -41,10 +41,12 @@ Browsers understand HTML which organizes elements of a webpage, CSS which styles
 - [WTF, HTML and CSS](http://wtfhtmlcss.com/) by @mdo
 - [WTF, forms](http://wtfforms.com/) by @mdo
 - [Code Guide](http://codeguide.co/) by @mdo
+
 ### Design & Assets
 
 - [Unsplash](https://unsplash.com/) Free high-res stock photos
 - [Designer News](news.layervault.com)
+- [Typeography Cheatsheet](http://www.typewolf.com/cheatsheet) by Typewolf
 
 ### Markdown
 
