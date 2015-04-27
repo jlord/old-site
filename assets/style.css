@@ -12,7 +12,6 @@ ol, ul {line-height: 1.5em; font-size: 18px;}
 ul {list-style: circle; padding-left: 18px;}
 
 h1 {font-size: 40px;}
-h2, h3, h4, h5, h6 {font-family: Source Sans Pro, Franklin Gothic Book, Arial, sans-serif;}
 
 pre { font-family: 'Source Code Pro','Andale Mono', Liberation Mono, monospace; white-space: pre-wrap;
   word-break: break-all; word-wrap: break-word; padding: 20px; background: #fafafa;
@@ -131,7 +130,9 @@ h2#links {color: #357efc;}
 .post-body h2:first-of-type {margin-top: 0;}
 .post-body h3 {padding-top: 32px;}
 
-.post-body h2, .post-body h3, .post-body h4, .post-body h5, .post-body h6 {font-size: 1.5em;}
+.post-body h2, .post-body h3, .post-body h4, .post-body h5, .post-body h6 {
+  font-size: 1.5em; font-family: Source Sans Pro, Franklin Gothic Book, Arial, sans-serif;
+}
 
 /* em after an image is a caption */
 img + em, iframe + em {font-family: 'Source Sans Pro'; font-size: 11px; color: #c6c6c6;
@@ -206,14 +207,14 @@ animation-fill-mode: both;
   .about-foot {display: block; text-align: center; padding: 0;}
   .socials, .sideways {display: none;}
   footer, .home-header, .post-header {width: 100%; min-width: 100%;}
-  #instagram {max-height: 176px; overflow: hidden;}
+  #instagram {max-height: 156px; overflow: hidden;}
   .instaImgCirc {float: none; text-align: center;}
   .instaImgCirc + .instaImgCirc {padding-left: 0;}
   .post-body h1 {margin-right: 0; margin-left: 0;}
 }
 
 @media (max-width: 1024px) {
-  #instagram {max-height: 176px; overflow: hidden;}
-  .instaImgCirc {max-width: 176px;}
+  #instagram {max-height: 156px; overflow: hidden;}
+  .instaImgCirc {max-width: 156px;}
   .instaImgCirc + .instaImgCirc {padding-left: 50px;}
 }
