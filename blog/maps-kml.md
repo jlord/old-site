@@ -3,7 +3,7 @@
 #### 2015-04-26
 #### maps, web dev
 
-I wanted to make a map of a [little trek](https://jlord.exposure.co/rivendell-kaitoke) I did to Rivdendell in New Zealand (NBD!). Here is what I learned about getting map data out of Google Maps (KML) to create a [Mapbox](http://www.mapbox.com) map.
+I wanted to make a map of a [little trek](https://jlord.exposure.co/rivendell-kaitoke) I did to Rivendell in New Zealand (NBD!). Here is what I learned about getting map data out of Google Maps (KML) to create a [Mapbox](http://www.mapbox.com) map.
 
 <iframe width='100%' height='300px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/jllord.m08a6002/attribution,zoompan,geocoder,share.html?access_token=pk.eyJ1Ijoiamxsb3JkIiwiYSI6IkVwNUd4eWsifQ.dxpWPAYZle0eUvwXWGi8Cw'></iframe>
 _Map of train, bus, walking and hiking from Wellington to Kaitoke and Rivendell in Wellington, NZ_
