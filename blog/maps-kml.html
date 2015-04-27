@@ -9,8 +9,11 @@
     <link rel="shortcut icon" href="../assets/favicon.png">
     <link href='http://fonts.googleapis.com/css?family=Playfair+Display:900,400italic,700italic|Source+Sans+Pro:400,900|Source+Code+Pro:500' rel='stylesheet' type='text/css'>
     <link href='../assets/style.css' rel='stylesheet'>
+    <link href='../assets/highlight.css' rel='stylesheet'>
+    <script src="../assets/js/highlight.js"></script>
   </head>
-  <body class="archives-template">
+  <body class="post-template">
+    <div class="sideways meta">Jessica Lord, open web developer—designer</div>
     <div class="main-container">
       <header>
 		<div class="links left">
@@ -58,45 +61,29 @@
 
 
       <div id="content">
-        <div class="post-header">
-          <h1>Post Archive</h1>
-          <span class="meta">Oldest ⟼ Newest<span>
-        </div>
-        <ul>
-        
-          <li><a href="/blog/maps-kml.html">KML from Google Maps</a> <span class="meta">2015-04-26 // maps, web dev</spa</li>
-        
-          <li><a href="/blog/patchwork-year.html">Patchwork Year!</a> <span class="meta">2015-01-22 // github, open source, git-it, reporobot</spa</li>
-        
-          <li><a href="/blog/simple-node-module.html">Node &amp; npm Basics via a Simple Module</a> <span class="meta">2014-09-06 // Node.js, npm, Development</spa</li>
-        
-          <li><a href="/blog/gh-one-year.html">365 days a GitHubber</a> <span class="meta">2014-05-15 // GitHub, Development</spa</li>
-        
-          <li><a href="/blog/sheetsee-3.html">Sheetsee.js v3.0</a> <span class="meta">2014-02-28 // Open Source, Sheetsee.js</spa</li>
-        
-          <li><a href="/blog/sheetsee-tips.html">Sheetsee.js Tips</a> <span class="meta">2013-09-15 // web dev, open source, sheetsee.js</spa</li>
-        
-          <li><a href="/blog/fork-n-go.html">Fork-n-go</a> <span class="meta">2013-08-11 // github, pages, open source, sheetsee.js</spa</li>
-        
-          <li><a href="/blog/dat.html">Dat</a> <span class="meta">2013-07-03 // web dev, open data, science, gov</spa</li>
-        
-          <li><a href="/blog/sheetsee-2.html">Sheetsee.js v2.0</a> <span class="meta">2013-04-03 // web dev, sheetsee.js, spreadsheets, js</spa</li>
-        
-          <li><a href="/blog/gov-people.html">A Government More Like the People</a> <span class="meta">2013-04-01 // open gov</spa</li>
-        
-          <li><a href="/blog/horizontal-web.html">Horizontal Web</a> <span class="meta">2013-01-24 // web dev, design</spa</li>
-        
-          <li><a href="/blog/twenty-twelve.html">Twenty Twelve</a> <span class="meta">2012-12-31 // general</spa</li>
-        
-          <li><a href="/blog/san-franniversary.html">San Franniversary</a> <span class="meta">2012-11-26 // general</spa</li>
-        
-          <li><a href="/blog/multiple-heroku-accounts.html">Multiple Heroku Accounts</a> <span class="meta">2012-11-25 // heroku, web dev</spa</li>
-        
-          <li><a href="/blog/your-own-instagram.html">Your Own Instagram Feed</a> <span class="meta">2012-11-13 // web dev, spreadsheets, sheetsee, instagram</spa</li>
-        
-          <li><a href="/blog/wordpress-heroku.html">WordPress on Heroku and S3</a> <span class="meta">2012-11-09 // heroku, web dev, wordpress</spa</li>
-        
-        </ul>
+        <div class='post-header'><a href='maps-kml.html'><h1>KML from Google Maps</h1></a><ul><li>By Jessica Lord</li> <li>2015-04-26</li> <li>maps, web dev</li></ul></div><div class='post-body'><p>I wanted to make a map of a <a href="https://jlord.exposure.co/rivendell-kaitoke">little trek</a> I did to Rivdendell in New Zealand (NBD!). Here is what I learned about getting map data out of Google Maps (KML) to create a <a href="http://www.mapbox.com">Mapbox</a> map.</p>
+<p><iframe width='100%' height='300px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/jllord.m08a6002/attribution,zoompan,geocoder,share.html?access_token=pk.eyJ1Ijoiamxsb3JkIiwiYSI6IkVwNUd4eWsifQ.dxpWPAYZle0eUvwXWGi8Cw'></iframe>
+<em>Map of train, bus, walking and hiking from Wellington to Kaitoke and Rivendell in Wellington, NZ</em></p>
+<p>Mapbox makes great software and beautiful maps (see above!). This is why I didn&#39;t attempt to just do the whole thing in Google Maps. I used Mapbox&#39;s online map making tool, <a href="https://www.mapbox.com/editor/#welcome">Editor</a>, which accepts <code>kml</code>, the format that Google Maps use. However:</p>
+<p><em>You cannot export <code>kml</code> from regular maps.google.com.</em></p>
+<p>I learned that the only way to export <code>kml</code> from Google Maps was to log in and <a href="https://www.google.com/url?sa=t&amp;rct=j&amp;url=https%3A%2F%2Fmapsengine.google.com%2Fmap%2Fmp%3Fhl%3Den%26authuser%3D0%26state%3Dcreate&amp;source=maps&amp;ei=3JQ9Vbr4OsmyogTA3IGoDg&amp;usg=AFQjCNGErPyM4x5kFCq4MyvD9xRKN8C1zA&amp;sig2=65b8bK8VYjGHptwugnP0_A&amp;ved=0CAcQlTQoBQ">create a map in the My Maps</a> option. However:</p>
+<p><em>The maps in My Maps do not support transit directions.</em></p>
+<p>Which was a bummer because I was wanting to include the train and bus routes in my map. Fortunately the bus route was relatively simple so I opened it in Google Maps in one tab and then drew the route in My Maps by drawing lines that snap to roads (lines don&#39;t snap to roads in Mapbox Editor). I drew the train route with straight lines directly in Mapbox Editor.</p>
+<p>Next, I selected to export as <code>kml</code>. Then selected the layer I wanted to export.</p>
+<p><img src="https://s3.amazonaws.com/f.cl.ly/items/2R3h0H1J0Z3r0C241P2G/export-google-maps-kml.png" alt="kml"></p>
+<p>At this point you&#39;ll see that you actually get a compressed <code>kmz</code> rather than <code>kml</code>. You&#39;ll need to do a few things in order to get at that <code>kml</code>. Change the <code>kmz</code> extension to &#39;zip&#39; and unzip it. Inside you&#39;ll find a few files. You can do this via terminal:</p>
+<pre><code class="lang-bash"># copy it as a zip file, keeping original just in case
+cp downloadedMap.kml downloadedMap.zip
+# unzip it
+unzip downloadedMap.zip
+# rename it, if you want
+mv doc.kml myMap.kml
+</code></pre>
+<p>Now you have a couple image files and a <code>doc.kml</code>. The latter is the <code>kml</code> you want. You may want to rename it at this point (especially if you&#39;re doing this multiple times) and trash the images. Now you can import this <code>kml</code> into Mapbox Editor and style it, hurray!</p>
+<p><img src="https://s3.amazonaws.com/f.cl.ly/items/3w052f1T1E03460W0H0m/import-mapbox-editor.png" alt="import"></p>
+<p>I also ended up using the Google My Maps to trace a path from satellite images because the Mapbox tiles didn&#39;t zoom in as close as I wanted. There was a lot of trial and error in my discovering each of these things and the map took way longer than it should have, so I hope this helps someone else!</p>
+<p>Let me know if there are better ways of getting data from transit directions, snap-to-road lines and good satellite imagery (<a href="http://twitter.com/jllord">@jllord</a>).</p>
+</div>
       </div>
 
       <footer>
@@ -122,5 +109,6 @@
 </footer>
 
     </div>
+    <script>hljs.initHighlightingOnLoad();</script>
   </body>
 </html>

@@ -108,7 +108,7 @@ padding-right: 15px;}
 /*.content ul {text-align: left;}*/
 .post-header {margin: 0 auto 40px auto; text-align: center;}
 .post-header a h1 {color: #333; margin: 0 auto 20px auto; text-align: center;
-  max-width: 530px; min-width: 314px; font-size: 3em;}
+  min-width: 314px; font-size: 3em;}
 .feed-template .post-header:not(:first-child) {border: 0; border-top: 3px solid #333;
   margin-top: 40px; padding-top: 40px;}
 
@@ -134,7 +134,7 @@ h2#links {color: #357efc;}
 .post-body h2, .post-body h3, .post-body h4, .post-body h5, .post-body h6 {font-size: 1.5em;}
 
 /* em after an image is a caption */
-img + em {font-family: 'Source Sans Pro'; font-size: 11px; color: #c6c6c6;
+img + em, iframe + em {font-family: 'Source Sans Pro'; font-size: 11px; color: #c6c6c6;
 letter-spacing: .1em; font-weight: 300; text-transform: uppercase; font-style: normal;}
 
 /* PAGINATION --------------------------------------------------------------- */
