@@ -61,6 +61,30 @@
 
       <div id="content">
         
+          <div class="post-header"><a href="maps-kml.html"><h1>KML from Google Maps</h1></a><ul><li>By Jessica Lord</li> <li>2015-04-26</li> <li>maps, web dev</li></ul></div><div class="post-body"><p>I wanted to make a map of a <a href="https://jlord.exposure.co/rivendell-kaitoke">little trek</a> I did to Rivdendell in New Zealand (NBD!). Here is what I learned about getting map data out of Google Maps (KML) to create a <a href="http://www.mapbox.com">Mapbox</a> map.</p>
+<p><iframe width="100%" height="300px" frameBorder="0" src="https://a.tiles.mapbox.com/v4/jllord.m08a6002/attribution,zoompan,geocoder,share.html?access_token=pk.eyJ1Ijoiamxsb3JkIiwiYSI6IkVwNUd4eWsifQ.dxpWPAYZle0eUvwXWGi8Cw"></iframe>
+<em>Map of train, bus, walking and hiking from Wellington to Kaitoke and Rivendell in Wellington, NZ</em></p>
+<p>Mapbox makes great software and beautiful maps (see above!). This is why I didn&#39;t attempt to just do the whole thing in Google Maps. I used Mapbox&#39;s online map making tool, <a href="https://www.mapbox.com/editor/#welcome">Editor</a>, which accepts <code>kml</code>, the format that Google Maps use. However:</p>
+<p><em>You cannot export <code>kml</code> from regular maps.google.com.</em></p>
+<p>I learned that the only way to export <code>kml</code> from Google Maps was to log in and <a href="https://www.google.com/url?sa=t&amp;rct=j&amp;url=https%3A%2F%2Fmapsengine.google.com%2Fmap%2Fmp%3Fhl%3Den%26authuser%3D0%26state%3Dcreate&amp;source=maps&amp;ei=3JQ9Vbr4OsmyogTA3IGoDg&amp;usg=AFQjCNGErPyM4x5kFCq4MyvD9xRKN8C1zA&amp;sig2=65b8bK8VYjGHptwugnP0_A&amp;ved=0CAcQlTQoBQ">create a map in the My Maps</a> option. However:</p>
+<p><em>The maps in My Maps do not support transit directions.</em></p>
+<p>Which was a bummer because I was wanting to include the train and bus routes in my map. Fortunately the bus route was relatively simple so I opened it in Google Maps in one tab and then drew the route in My Maps by drawing lines that snap to roads (lines don&#39;t snap to roads in Mapbox Editor). I drew the train route with straight lines directly in Mapbox Editor.</p>
+<p>Next, I selected to export as <code>kml</code>. Then selected the layer I wanted to export.</p>
+<p><img src="https://s3.amazonaws.com/f.cl.ly/items/2R3h0H1J0Z3r0C241P2G/export-google-maps-kml.png" alt="kml"></p>
+<p>At this point you&#39;ll see that you actually get a compressed <code>kmz</code> rather than <code>kml</code>. You&#39;ll need to do a few things in order to get at that <code>kml</code>. Change the <code>kmz</code> extension to &#39;zip&#39; and unzip it. Inside you&#39;ll find a few files. You can do this via terminal:</p>
+<pre><code class="lang-bash"># copy it as a zip file, keeping original just in case
+cp downloadedMap.kml downloadedMap.zip
+# unzip it
+unzip downloadedMap.zip
+# rename it, if you want
+mv doc.kml myMap.kml
+</code></pre>
+<p>Now you have a couple image files and a <code>doc.kml</code>. The latter is the <code>kml</code> you want. You may want to rename it at this point (especially if you&#39;re doing this multiple times) and trash the images. Now you can import this <code>kml</code> into Mapbox Editor and style it, hurray!</p>
+<p><img src="https://s3.amazonaws.com/f.cl.ly/items/3w052f1T1E03460W0H0m/import-mapbox-editor.png" alt="import"></p>
+<p>I also ended up using the Google My Maps to trace a path from satellite images because the Mapbox tiles didn&#39;t zoom in as close as I wanted. There was a lot of trial and error in my discovering each of these things and the map took way longer than it should have, so I hope this helps someone else!</p>
+<p>Let me know if there are better ways of getting data from transit directions, snap-to-road lines and good satellite imagery (<a href="http://twitter.com/jllord">@jllord</a>).</p>
+</div>
+        
           <div class="post-header"><a href="patchwork-year.html"><h1>Patchwork Year!</h1></a><ul><li>Jessica Lord</li> <li>2015-01-22</li> <li>github, open source, git-it, reporobot</li></ul></div><div class="post-body"><p>A little over a year ago I volunteered to lead a community event at GitHub with the goal of helping new users make their first pull request. At GitHub we think a lot about how people learn to use Git/GitHub and as a stil-new-ish person in web development I think a lot too about how I can share what I&#39;ve learned in a way that is meaningful to someone else starting out. I was excited about the challenge.</p>
 <p>We called it Patchwork because each of us in open source contributes pieces to something bigger, quite literally and metaphorically we make quilts. Props to <a href="http://www.twitter.com/kelseyschimm">Kelsey</a> on this element.</p>
 <p><img src="https://s3.amazonaws.com/f.cl.ly/items/310g2d2U2Q0g2Y070k36/reporobotyear.png" alt="patches"></p>
@@ -273,24 +297,6 @@ See: <a href="http://jlord.github.io/sheetsee.js/demos/demo-table.html">table de
 <li><a href="http://www.github.com/jlord/sheetsee-core">sheetsee-core</a></li>
 <li><a href="http://www.github.com/jlord/sheetsee">sheetsee</a></li>
 </ul>
-</div>
-        
-          <div class="post-header"><a href="sheetsee-tips.html"><h1>Sheetsee.js Tips</h1></a><ul><li>Jessica Lord</li> <li>2013-09-15</li> <li>web dev, open source, sheetsee.js</li></ul></div><div class="post-body"><p><img src="http://jlord.s3.amazonaws.com/wp-content/uploads/querystring.png" alt="google maps"></p>
-<p>There are lots of ways you can take data from you Google Spreadsheet and use it in a website in cool ways. I&#8217;m going to do a few posts on such things. Neat!</p>
-<p>If your spreadsheet contains address information, using templates (<a href="http://jlord.github.io/sheetsee.js">Sheetsee.js</a> uses a form of <a href="https://github.com/janl/mustache.js">Mustache</a>), you can embed those elements into a Google Maps URL query string (this is the same URL that is generated when you type in an address into the search bar yourself) and create links/buttons that will open locations up directly in Google Maps on desktops and phones. Similarly you can put them in Yelp queries, too.</p>
-<p>The basic elements are: <em>a spreadsheet with address info + HTML template to create the query string</em>.</p>
-<h3 id="par-exemple">Par Exemple</h3>
-<p>The Sheetsee <a href="http://jlord.github.io/hack-spots/">Hack-Spots</a> is an does such a thing. Here is the <a href="https://docs.google.com/spreadsheet/ccc?key=0Ao5u1U6KYND7dFVkcnJRNUtHWUNKamxoRGg4ZzNiT3c#gid=0">spreadsheet</a>, with address information:</p>
-<p><img src="http://jlord.s3.amazonaws.com/wp-content/uploads/Screen-Shot-2013-09-15-at-6.49.19-PM.png" alt="spreadsheet"></p>
-<p>In the HTML template for the table on the <a href="http://jlord.github.io/hack-spots/">Hack-Spots page</a>, the button&#39;s links look like this:</p>
-<pre><code class="lang-HTML">&lt;a class=&quot;button&quot; href=&quot;https://maps.google.com/maps?q={{address}},{{city}},{{state}}&quot; target=&quot;_blank&quot;&gt;View in Google Maps&lt;/a&gt;
-&lt;a class=&quot;button&quot; href=&quot;http://www.yelp.com/search?find_desc={{name}}&amp;find_loc={{city}},{{state}}&quot; target=&quot;_blank&quot;&gt;Find on Yelp&lt;/a&gt;
-</code></pre>
-<p><a href="https://github.com/jlord/hack-spots/blob/gh-pages/index.html#L62">Here</a> is the exact line of code on GitHub.</p>
-<p>We&#39;re inserting the <strong>address</strong>, <strong>city</strong>, and <strong>state</strong> details from the spreadsheet into the structure of a query string for Google maps and Yelp. You can figure out the query string of a service by just using it (type in an address in Google Maps) and looking at the resulting URL.</p>
-<p>With a some CSS and such, the resulting website has a table with the hack spots and a button for viewing in Google Maps or Yelp:</p>
-<p><img src="http://jlord.s3.amazonaws.com/wp-content/uploads/Screen-Shot-2013-09-15-at-6.43.54-PM.png" alt="table"></p>
-<p>When the page builds, it creates the correct link for each row. When someone clicks on the buttons it takes them directly to the Google Map search result for that address. BAM!</p>
 </div>
         
             <div class="turn-page">
