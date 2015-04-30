@@ -28,9 +28,14 @@ Open source projects are ones that are free for anyone to use. On GitHub you'll 
 
 - [Contributing to Open Source](https://guides.github.com/activities/contributing-to-open-source) A GitHub guide on the basic elements of open source projects and community.
 
+## General: Command line
+Resources for using your computer's Terminal (or Bash) to complete tasks (copy files, move around folders, use git..)
+
+- [Command Line Tutorials & Basics](https://quickleft.com/blog/command-line-tutorials-summary-what-s-next/) by [@jessicard](http://www.twitter.com/jessiacard)
+
 ---
 
-### Frontend: CSS/HTML/Design, Markdown & JavaScript
+### CSS/HTML/Design, Markdown & JavaScript
 Browsers understand HTML which organizes elements of a webpage, CSS which styles those elements and JavaScript which enables interaction. I'm also including here a section on design resources and inspiration.
 
 #### HTML & CSS
