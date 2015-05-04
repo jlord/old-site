@@ -12,7 +12,6 @@ ol, ul {line-height: 1.5em; font-size: 18px;}
 ul {list-style: circle; padding-left: 18px;}
 
 h1 {font-size: 40px;}
-h3, h4, h5, h6 {font-family: Source Sans Pro, Franklin Gothic Book, Arial, sans-serif;}
 
 pre { font-family: 'Source Code Pro','Andale Mono', Liberation Mono, monospace; white-space: pre-wrap;
   word-break: break-all; word-wrap: break-word; padding: 20px; background: #fafafa;
@@ -60,7 +59,7 @@ header a:hover {color: #357efc; border-bottom: 1px solid #357efc;}
   top: 330px;}
 
 .main-container {max-width: 900px; margin: 0 auto; padding: 50px 0;}
-#content {background: #fff; padding: 68px;}
+#content {background: #fff; padding: 108px;}
 .meta {font-family: Source Sans Pro, Franklin Gothic Book, Arial, sans-serif; color: #777;}
 
 .latest-post-content {padding-bottom: 24px;}
@@ -75,7 +74,7 @@ header a:hover {color: #357efc; border-bottom: 1px solid #357efc;}
 #instagram {margin: 0 auto; overflow: auto; padding-bottom: 20px;}
 .instaImgCirc {float: left; padding-top: 15px;}
 .instaImgCirc + .instaImgCirc {padding-left: 20px;}
-.instaImgCirc img {border-radius: 1000px; width: 176px; }
+.instaImgCirc img {border-radius: 1000px; width: 156px; }
 .instaImgCirc a {border: none;}
 
 #tweet p {font-weight: 500; font-size: 20px; margin: 0 auto;
@@ -107,21 +106,37 @@ padding-right: 15px;}
 .post-header li+li {padding-right: 6px;}
 /*.content ul {text-align: left;}*/
 .post-header {margin: 0 auto 40px auto; text-align: center;}
-.post-header a h1 {color: #333; margin: 0 auto 10px auto; text-align: center;
-  max-width: 530px; min-width: 314px;}
-.feed-template .post-header:not(:first-child) {border: 0; border-top: 2px solid #f4f4f4; margin-top: 40px; padding-top: 40px;}
+.post-header a h1 {color: #333; margin: 0 auto 20px auto; text-align: center;
+  min-width: 314px; font-size: 3em;}
+.feed-template .post-header:not(:first-child) {border: 0; border-top: 3px solid #333;
+  margin-top: 40px; padding-top: 40px;}
 
 #links + ul {list-style: none; padding: 0; font-family: Source Sans Pro;
   font-size: 11px;}
 #links + ul li {padding: 4px 8px; display: inline-block; border-radius: 2px;
-  background: #fff; border: 1px solid #357efc; margin-bottom: 8px; margin-right: 4px; transition: background 0.2s;}
+  background: #fff; border: 1px solid #357efc; margin-bottom: 8px; margin-right: 4px;
+  transition: background 0.2s;}
 #links + ul a {color: #357efc; border: none;}
 #links + ul a:hover { }
 #links + ul li:hover {background: #357efc;}
 #links + ul li:hover a {color: #fff;}
+h2#links {color: #357efc;}
 
-.post-body h1 {font-size: 26px; border-top: 1px solid #EFEFEF; border-bottom: 1px solid #EFEFEF; padding: 18px 0; text-align: center; line-height: 1.6; margin: 40px 0; font-style: italic; font-weight: 400;}
+.post-body h1 {font-size: 3em; border-top: 1px solid #EFEFEF; border-bottom: 1px solid #EFEFEF;
+	padding: 18px 0; text-align: center; line-height: 1.6; margin: 40px -20px;
+  font-style: italic; font-weight: 400;}
+.post-body h2:not(#links) {padding: 20px 0; border-bottom: 3px solid #357efc;
+  margin-bottom: 40px; color: #357efc; margin-top: 82px; font-size: 2em; font-family: Lora;}
+.post-body h2:first-of-type {margin-top: 0;}
+.post-body h3 {padding-top: 32px;}
 
+.post-body h2, .post-body h3, .post-body h4, .post-body h5, .post-body h6 {
+  font-size: 1.5em; font-family: Source Sans Pro, Franklin Gothic Book, Arial, sans-serif;
+}
+
+/* em after an image is a caption */
+img + em, iframe + em {font-family: 'Source Sans Pro'; font-size: 11px; color: #c6c6c6;
+letter-spacing: .1em; font-weight: 300; text-transform: uppercase; font-style: normal;}
 
 /* PAGINATION --------------------------------------------------------------- */
 
@@ -180,6 +195,10 @@ animation-fill-mode: both;
   .sideways {display: none;}
 }
 
+@media (max-width: 750px) {
+  #content {padding: 68px;}
+}
+
 @media (max-width: 550px) {
   .main-container {padding: 20px 0;}
   #content {padding: 20px;}
@@ -188,13 +207,14 @@ animation-fill-mode: both;
   .about-foot {display: block; text-align: center; padding: 0;}
   .socials, .sideways {display: none;}
   footer, .home-header, .post-header {width: 100%; min-width: 100%;}
-  #instagram {max-height: 176px; overflow: hidden;}
+  #instagram {max-height: 156px; overflow: hidden;}
   .instaImgCirc {float: none; text-align: center;}
   .instaImgCirc + .instaImgCirc {padding-left: 0;}
+  .post-body h1 {margin-right: 0; margin-left: 0;}
 }
 
 @media (max-width: 1024px) {
-  #instagram {max-height: 176px; overflow: hidden;}
-  .instaImgCirc {max-width: 176px;}
+  #instagram {max-height: 156px; overflow: hidden;}
+  .instaImgCirc {max-width: 156px;}
   .instaImgCirc + .instaImgCirc {padding-left: 50px;}
 }

@@ -9,8 +9,6 @@ I [develop in the open](http://www.github.com/jlord) and try to [share](/blog) w
 
 I hail from the [heart of Georgia](http://www.13wmaz.com) but for now I live in Portland, Oregon. I love open source, JavaScript & Node.js, and stories of Tudor England.
 
----
-
 ## Contact & History
 
 <span class="meta">[to.jlord@gmail.com](mailto: to.jlord@gmail.com) | [twitter/jllord](http://www.twitter.com/jllord) | [github/jlord](http://www.github.com/jlord)</span>
@@ -50,8 +48,6 @@ I hail from the [heart of Georgia](http://www.13wmaz.com) but for now I live in 
 
 - **Georgia Institute of Technology**, 2007 Architecture
 - **Ecole d'Architecture de Paris LaVillette**, 2006
-
----
 
 ## About the Site
 

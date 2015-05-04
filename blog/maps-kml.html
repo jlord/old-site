@@ -6,12 +6,14 @@
     <meta name="description" content="jlord">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>jlord</title>
-    <link rel="shortcut icon" href="assets/favicon.png">
+    <link rel="shortcut icon" href="../assets/favicon.png">
     <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900|Source+Code+Pro:500' rel='stylesheet' type='text/css'>
-    <link href='assets/style.css' rel='stylesheet'>
+    <link href='../assets/style.css' rel='stylesheet'>
+    <link href='../assets/highlight.css' rel='stylesheet'>
+    <script src="../assets/js/highlight.js"></script>
   </head>
-  <body class="main-template">
+  <body class="post-template">
     <div class="sideways meta">Jessica Lord, open web developer—designer</div>
     <div class="main-container">
       <header>
@@ -60,25 +62,28 @@
 
 
       <div id="content">
-        <div class='post-header'><a href='work.html'><h1>Work</h1></a><ul><li>Where time goes</li></ul></div><div class='post-body'><div id="work-photos">
-  <div class="half">
-    <img src="https://raw.githubusercontent.com/jlord/jlord.github.io/master/assets/speedfatality.png" alt="1">
-  </div>
-  <div class="r half">
-    <img src="https://raw.githubusercontent.com/jlord/jlord.github.io/master/assets/govdiagram.png" alt="2">
-  </div>
-</div>
-
-<h2 id="webby">Webby</h2>
-<p><a href="https://jlord.github.io/sheetsee.js"><strong>Sheetsee.js</strong></a> A library for visualizing data from Google Spreadsheets.</p>
-<p><a href="https://jlord.github.io/git-it"><strong>Git-it</strong></a> A terminal based interactive tutorial for learning Git and GitHub.</p>
-<p><a href="https://jlord.github.io/forkngo"><strong>Fork-n-Go</strong></a> Web sites that can be forked and used and hosted with minimal effort.</p>
-<p><a href="https://github.com/jlord/sheetdown"><strong>Sheetdown</strong></a> Command line tool for converting Google Spreadsheets into Markdown tables.</p>
-<p><a href="https://jlord.github.io/lending-library"><strong>Lending Library</strong></a> Fork-n-Go site for sharing tools/things, Google Spreadsheet as database.</p>
-<p><a href="https://jlord.github.io/hack-spots"><strong>Hack Spots</strong></a> Fork-n-Go site for mapping and listing locations (of coffeeshops).</p>
-<p><small class="meta">More on <a href="http://github.com/jlord" target="_blank">github/jlord</a> and <a href="http://www.npmjs.org/~jlord">npm/~jlord</a></small></p>
-<h2 id="more-later">More later</h2>
-<p>For now, <a href="http://jlord.herokuapp.com/hello">see my previous site</a>. And there&#39;s a bit on <a href="http://dribbble.com/jlord">Dribbble</a>, too.</p>
+        <div class='post-header'><a href='maps-kml.html'><h1>KML from Google Maps</h1></a><ul><li>By Jessica Lord</li> <li>2015-04-26</li> <li>maps, web dev</li></ul></div><div class='post-body'><p>I wanted to make a map of a <a href="https://jlord.exposure.co/rivendell-kaitoke">little trek</a> I did to Rivendell in New Zealand (NBD!). Here is what I learned about getting map data out of Google Maps (KML) to create a <a href="http://www.mapbox.com">Mapbox</a> map.</p>
+<p><iframe width='100%' height='300px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/jllord.m08a6002/attribution,zoompan,geocoder,share.html?access_token=pk.eyJ1Ijoiamxsb3JkIiwiYSI6IkVwNUd4eWsifQ.dxpWPAYZle0eUvwXWGi8Cw'></iframe>
+<em>Map of train, bus, walking and hiking from Wellington to Kaitoke and Rivendell in Wellington, NZ</em></p>
+<p>Mapbox makes great software and beautiful maps (see above!). This is why I didn&#39;t attempt to just do the whole thing in Google Maps. I used Mapbox&#39;s online map making tool, <a href="https://www.mapbox.com/editor/#welcome">Editor</a>, which accepts <code>kml</code>, the format that Google Maps use. However:</p>
+<p><em>You cannot export <code>kml</code> from regular maps.google.com.</em></p>
+<p>I learned that the only way to export <code>kml</code> from Google Maps was to log in and <a href="https://www.google.com/url?sa=t&amp;rct=j&amp;url=https%3A%2F%2Fmapsengine.google.com%2Fmap%2Fmp%3Fhl%3Den%26authuser%3D0%26state%3Dcreate&amp;source=maps&amp;ei=3JQ9Vbr4OsmyogTA3IGoDg&amp;usg=AFQjCNGErPyM4x5kFCq4MyvD9xRKN8C1zA&amp;sig2=65b8bK8VYjGHptwugnP0_A&amp;ved=0CAcQlTQoBQ">create a map in the My Maps</a> option. However:</p>
+<p><em>The maps in My Maps do not support transit directions.</em></p>
+<p>Which was a bummer because I was wanting to include the train and bus routes in my map. Fortunately the bus route was relatively simple so I opened it in Google Maps in one tab and then drew the route in My Maps by drawing lines that snap to roads (lines don&#39;t snap to roads in Mapbox Editor). I drew the train route with straight lines directly in Mapbox Editor.</p>
+<p>Next, I selected to export as <code>kml</code>. Then selected the layer I wanted to export.</p>
+<p><img src="https://s3.amazonaws.com/f.cl.ly/items/2R3h0H1J0Z3r0C241P2G/export-google-maps-kml.png" alt="kml"></p>
+<p>At this point you&#39;ll see that you actually get a compressed <code>kmz</code> rather than <code>kml</code>. You&#39;ll need to do a few things in order to get at that <code>kml</code>. Change the <code>kmz</code> extension to &#39;zip&#39; and unzip it. Inside you&#39;ll find a few files. You can do this via terminal:</p>
+<pre><code class="lang-bash"># copy it as a zip file, keeping original just in case
+cp downloadedMap.kml downloadedMap.zip
+# unzip it
+unzip downloadedMap.zip
+# rename it, if you want
+mv doc.kml myMap.kml
+</code></pre>
+<p>Now you have a couple image files and a <code>doc.kml</code>. The latter is the <code>kml</code> you want. You may want to rename it at this point (especially if you&#39;re doing this multiple times) and trash the images. Now you can import this <code>kml</code> into Mapbox Editor and style it, hurray!</p>
+<p><img src="https://s3.amazonaws.com/f.cl.ly/items/3w052f1T1E03460W0H0m/import-mapbox-editor.png" alt="import"></p>
+<p>I also ended up using the Google My Maps to trace a path from satellite images because the Mapbox tiles didn&#39;t zoom in as close as I wanted. There was a lot of trial and error in my discovering each of these things and the map took way longer than it should have, so I hope this helps someone else!</p>
+<p>Let me know if there are better ways of getting data from transit directions, snap-to-road lines and good satellite imagery (<a href="http://twitter.com/jllord">@jllord</a>).</p>
 </div>
       </div>
 
@@ -105,5 +110,6 @@
 </footer>
 
     </div>
+    <script>hljs.initHighlightingOnLoad();</script>
   </body>
 </html>
