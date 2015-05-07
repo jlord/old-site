@@ -18,4 +18,4 @@ If you have a topic you'd like to hear about, [open an issue](http://github.com/
 
 - [Custom Instagram Feed](/blog/your-own-instagram.html) Using If This Than That (IFTTT), Tabletop.js and JavaScript to create a page with your Instagram photos as you like. My [example here](/instagram.html).
 - [Fork-n-Go](http://jlord.github.io/forkngo) Getting a website live pretty darn fast.
-- [Getting started]()
+- [Getting started](http://jlord.github.io/blog/getting-started.html) Lots of resources for starting out learning web development.
