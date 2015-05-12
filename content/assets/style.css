@@ -1,5 +1,5 @@
 body {background: #f4f4f4; font-family: Lora, Georgia, Baskerville, serif;
-  color: #333; margin: 0px; padding: 0px;}
+  color: #505050; margin: 0px; padding: 0px;}
 
 a {text-decoration: none; color: #357efc; border-bottom: 1px solid #ECECEC; transition: color 0.2s;}
 a:hover {color: #357efc; border-color: #357efc; }
@@ -34,7 +34,7 @@ blockquote p em:before {content: "\2014  "; display: inline;}
 
 .half blockquote p {padding-left: 0px;}
 .half blockquote {margin: 0 20px 0 0;}
-.half blockquote {border: none; color: #333;}
+.half blockquote {border: none; color: #505050;}
 
 hr {border: 0; border-bottom: 2px solid #f4f4f4; margin: 40px 0;}
 
@@ -52,7 +52,7 @@ header {font-family: Source Sans Pro, Franklin Gothic Book, Arial, sans-serif;
 .links.left {margin-right: -20px;}
 /*.links.right {margin-left: 20px;}*/
 .links a {padding: 10px 0; margin: 0 8px; border: none;}
-header a {text-decoration: none; color: #333;}
+header a {text-decoration: none; color: #505050;}
 header a:hover {color: #357efc; border-bottom: 1px solid #357efc;}
 
 .sideways {-webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); position: absolute; left: -90px;
@@ -91,7 +91,7 @@ footer {font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
   font-weight: 300; text-transform: uppercase;}
 footer ul {list-style: none; padding: 0 15px; display: inline-block; font-size: 11px;}
 footer li {text-align: left;}
-footer a {border: none; color: #333; transition: color 0.2s;}
+footer a {border: none; color: #505050; transition: color 0.2s;}
 footer a:hover {color: #357efc; border-color: #357efc;}
 .about-foot {max-width: 300px; display: inline-block; text-align: right;
 padding-right: 15px;}
@@ -106,10 +106,10 @@ padding-right: 15px;}
 .post-header li+li {padding-right: 6px;}
 /*.content ul {text-align: left;}*/
 .post-header {margin: 0 auto 40px auto; text-align: center;}
-.post-header a h1 {color: #333; margin: 0 auto 20px auto; text-align: center;
+.post-header a h1 {color: #505050; margin: 0 auto 20px auto; text-align: center;
   min-width: 314px; font-size: 3em;}
-.feed-template .post-header:not(:first-child) {border: 0; border-top: 3px solid #333;
-  margin-top: 40px; padding-top: 40px;}
+.feed-template .post-header:not(:first-child) {border: 0; border-top: 3px solid #f4f4f4;
+  margin-top: 60px; padding-top: 60px;}
 
 #links + ul {list-style: none; padding: 0; font-family: Source Sans Pro;
   font-size: 11px;}
@@ -143,7 +143,7 @@ letter-spacing: .1em; font-weight: 300; text-transform: uppercase; font-style: n
 .turn-page {margin: 30px auto; text-align: center; padding-top: 30px; max-width: 314px;}
 a.button {border: none; color: #fff;}
 a.button:hover {background-color: #307AFD; color: #fff;}
-.button {padding: 2px 6px; background-color: #333; border-radius: 2px; border: none; transition: background-color 0.2s ease;}
+.button {padding: 2px 6px; background-color: #505050; border-radius: 2px; border: none; transition: background-color 0.2s ease;}
 .button:hover {background-color: #307AFD;}
 
 /* loading ------------------------------------------------------------------- */
@@ -155,7 +155,7 @@ a.button:hover {background-color: #307AFD; color: #fff;}
 
 .guides-list {list-style: none; margin: 0; padding: 0;}
 .guides-list li {display: inline-block;}
-.guides-list li a {margin-right: 6px; border: none; color: #333; background: #f4f4f4;}
+.guides-list li a {margin-right: 6px; border: none; color: #505050; background: #f4f4f4;}
 .guides-list a.button:hover {background-color: #307AFD; color: #fff;}
 
 
