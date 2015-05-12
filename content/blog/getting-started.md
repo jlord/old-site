@@ -9,15 +9,22 @@ There are a lot of resources online for learning all the bits and bobs to do wit
 
 
 ## General: Find Answer on Anything
+
+![copy pasta](https://s3.amazonaws.com/f.cl.ly/items/2Z0l1o2l2X2o2y2q1H00/copypasta.png)
+
 Odds are you're not the first person to make a bug or get hung up somewhere—this is good! A Google search is every developer's best friend. Favor results from:
 
 - [Mozilla Developer Network](http://mdn.com) Mozilla have documented near everything.
 - [Stack Overflow](http://stackoverflow.com) Someone who had your same problem got help and it's here.
 
 ## General: Frontend and Backend
+
 Web browsers (like [Chrome](http://chrome.com) and [Safari](http://safari.com)) display information they receive from servers (basically computers in warehouses). Code you create to run in the browser is referred to as **frontend** or **client side** (clients are those visiting your website). Code that sits on servers to tell the server what to give browsers is called **backend** or **server side**. Sections on each are below.
 
 ## General: Version Control
+
+![version control](https://s3.amazonaws.com/f.cl.ly/items/2g372u3o1N3c0m2H2T1G/versioncontrol.png)
+
 As you're learning about web development you're likely to come across GitHub.com. This website stores code for users that are using [Git](), a version control system, with their work. This is a type of system that allows you to track changes over time so that you can work efficiently, not lose work and go back in time when you've made a mistake! GitHub takes Git a step beyond by allowing you to view online the changes a project has seen (rather than reading terminal screens). It's a whole other thing to learn, however, with its own lingo, but you can do it:
 
 - [Hello World Guide](https://guides.github.com/activities/hello-world) A guide from GitHub to introduce you to the basic Git concepts and do them yourself just using the website.
@@ -29,6 +36,9 @@ Open source projects are ones that are free for anyone to use. On GitHub you'll 
 - [Contributing to Open Source](https://guides.github.com/activities/contributing-to-open-source) A GitHub guide on the basic elements of open source projects and community.
 
 ## General: Command line
+
+![sammy](https://s3.amazonaws.com/f.cl.ly/items/13121T1z1L190L3s1T3l/sammy.png)
+
 Resources for using your computer's Terminal (or Bash) to complete tasks (copy files, move around folders, use git..)
 
 - [Command Line Tutorials & Basics](https://quickleft.com/blog/command-line-tutorials-summary-what-s-next/) by [@jessicard](http://www.twitter.com/jessiacard)
@@ -66,6 +76,10 @@ Browsers understand HTML which organizes elements of a webpage, CSS which styles
 - [Learn JS Data ](http://learnjsdata.com/) by [@boucoup](http://twitter.com/boucoup)
 
 ## Backend: Node.js
+
+![res req](https://s3.amazonaws.com/f.cl.ly/items/0V410t1E3l3A081o3807/req-res.png)
+
+
 Servers can use many different types of languages, but the server side language I know is Node.js, JavaScript on a server, so my resources will relate to that.
 
 ### Backend Basics: Servers, APIs
