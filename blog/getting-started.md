@@ -1,6 +1,6 @@
 # Getting Started Web Development Guide
 #### Jessica Lord
-#### 2015-28-15
+#### 2015-05-11 
 #### Development, JS, Web, Node
 
 There are a lot of resources online for learning all the bits and bobs to do with web developement—aka making websites or web apps. I'm sure there are lots of good ones I've yet to see but I've been wanting for sometime to collect the ones I've found useful or well done into one place. Hopefully the brief introductions will be helpful for the very new!
