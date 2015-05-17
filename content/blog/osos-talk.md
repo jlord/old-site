@@ -3,7 +3,7 @@
 #### 2015-05-18
 #### open source, talks
 
-_Note: This is the essay form of the talk I gave at OS//OS in New Zealand April 17th, 2015. It's the structured and grammar-checked version of my slide notes; most of what I actually said plus a few things I forgot._ _
+_Note: This is the essay form of the talk I gave at OS//OS in New Zealand April 17th, 2015. It's the structured and grammar-checked version of my slide notes; most of what I actually said plus a few things I forgot._
 
 I was asked to share my journey into open source. It is not a linear path and I'm thankful to be doing what I'm doing right now. But in talking about my journey I want to discuss how it highlights some of the inherent problems in open source and what we can—and ought to—do about it. open source is too important not to.
 
