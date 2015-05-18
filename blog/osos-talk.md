@@ -13,6 +13,9 @@ Today I'm a developer at GitHub. This is a bit crazy since three years and chang
 
 ### Urban Architect
 
+![stuart street](https://s3.amazonaws.com/f.cl.ly/items/3e080j3l2y2U1H0F3k3u/stuart-street-crop.jpg)
+_Height study for future development around Stuart Street in Boston_
+
 Urban Design is like architecture at city-scale and with my architecture degree, passion for urban systems and public sector work it was a dream to work for the City of Boston. I also love computers so I felt right at home as one of three in the Urban Design Technology Group.
 
 I worked on 3D models, shadow and height studies, sustainable neighborhood regulations and even got to tell Dunkin Doughnut what their sign options where.
@@ -23,13 +26,21 @@ Despite 'technology' being in the team's title, I wanted to see more technology 
 
 More than anything else, however, I felt cities should be using technology to share with each other. Every city is trying to do the same thing: Be the Best City. There would be so much we could learn from each other if we'd create a pool of _common knowledge_.
 
+<!-- ![cfa](https://www.codeforamerica.org/media/images/logos/CfA_logo_lg.png) -->
+
 I tried to incorporate new ideas and make some change but I ran into wall after wall. Then, in 2011, after 3 years at the City, I learned about [Code for America](http://www.codeforamerica.org). This new fellowship program was in its first year and Boston was one of three cities they were working with. I saw the fellows at City Hall and thought their mission—building better software for government—was great, but wasn't sure if a computer job was right for me (despite most of my working being done on the computer anyways). By the time the deadline rolled around I decided to give it a go because it was free to apply, so why not.  
+
+![ecab artboard](https://s3.amazonaws.com/f.cl.ly/items/2q0w1h333N0V42322u1e/ecab-artboard.png)
+_Illustrator artboard of diagrams for tutorials_
 
 The application asked for web projects and at the time I didn't have much to show. I did however have a [DIY blog](http://www.ecabonline.com) I'd pressured my friend into doing with me. It took a lot of time to document and compose posts on projects and she'd ask, "Why is it that we're doing this?" I'd say whole-heartedly, "Because we have to share what we know!" I believed we could also contribute to common knowledge.
 
 I was a bit embarrassed to put my _DIY blog_ on my application, but I also wanted to leave no text field blank, so in it went. Turns out this project stood out and helped me get the fellowship.
 
 ### Code for America Fellowship
+
+![cfa 2102 team](https://style.codeforamerica.org/media/images/big-data.jpg)
+_Me and my CfA 2102 fellow-mates in a completely staged scene_
 
 The first week of January 2012 saw me in San Francisco starting my fellowship at CfA. I learned the word _open source_. Finally, the term to describe the belief in common knowledge I'd had and finally, others who were just as excited about it as I was.
 
@@ -38,6 +49,9 @@ I also learned about GitHub and JavaScript and went to my first tech conferences
 # Put everything on GitHub.
 
 Because everything CfA does is open source I learned early on that the one and only way to do things is to _put all things on GitHub_. So I did. I worked, I learned and I put it all on GitHub. I learned JavaScript because I'd promised to build an app for my city that required it. By the end of the year I'd talked and/or tweeted to a lot of people about what I was working on and had everything up on GitHub.
+
+![githubbers](https://github.com/images/modules/about/about-header.jpg)
+_Myself among all the GitHubbers at our 2014 Summit_
 
 Someone at GitHub got wind of what I'd been working on and liked it. And that is how I became a developer at GitHub. No computer science degree, no real production programing experience but a GitHub portfolio. These are things we often hear touted in the tech community—degree requirements are flexible and you can use GitHub as your portfolio.
 
@@ -54,6 +68,9 @@ In order to learn JavaScript and contribute to open source (getting that GitHub 
 Making a living at open source is still more rare than the norm. How do people who don’t already have enough work constantly for nothing?
 
 # I got here because I had a community.
+
+![nodeconf](https://c1.staticflickr.com/3/2939/14394358649_6882983c20_z.jpg)
+_Myself amongst many lovely people at NodeConf 2014, photo by Matthew Bergman_
 
 Through developers at Code for America I was introduced to a community of other developers. And they were great. They supported me, encouraged me, gave me their time and most importantly made me feel safe. And since I was living in San Francisco where a lot of developers live, I came to know many in my community personally. I wasn't afraid to ask questions in real life or in chat rooms where some of the same people I knew personally hung out.
 
