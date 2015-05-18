@@ -152,7 +152,7 @@ And don't just make it a small link at the bottom of a site. Talk about it, have
 
 So others can see themselves in your community. There are small things you can start being mindful of on the path to making your community more diverse. Think about how you portray your community in panels and photographs.
 
-At GitHub I help with a community GitHub 101 workshop called Patchwork. Whenever we blog about an upcoming event we make sure to list the female Hubbers who will be attending. We also get female speakers (it's not that hard!). These are things that could be easily overlooked, but hopefully it enables someone else to see themselves there.
+At GitHub I help with a community GitHub 101 workshop called [Patchwork](http://patchwork.github.io). Whenever we blog about an upcoming event we make sure to list the female Hubbers who will be attending. We also get female speakers (it's not that hard!). These are things that could be easily overlooked, but hopefully it enables someone else to see themselves there.
 
 **Celebrate beginners**
 
