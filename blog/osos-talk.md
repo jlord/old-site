@@ -5,20 +5,20 @@
 
 _Note: This is the essay form of the talk I gave at OS//OS in New Zealand April 17th, 2015. It's the structured and grammar-checked version of my slide notes; most of what I actually said plus a few things I forgot._
 
-I was asked to share my journey into open source. It is not a linear path and I'm thankful to be doing what I'm doing right now. But in talking about my journey I want to discuss how it highlights some of the inherent problems in open source and what we can—and ought to—do about it. open source is too important not to.
+I was asked to share my journey into open source. It is not a linear path and I'm thankful to be doing what I'm doing right now. But in talking about my journey I want to discuss how it highlights some of the inherent problems in open source and what we can—and ought to—do about it. Open source is too important not to.
 
 ## Journey
 
-Today I'm a developer at GitHub. This is a bit crazy since three years and change ago I was an Urban Designer for the City of Boston.
+Today I'm a developer at GitHub. This is a bit crazy since three years and some change ago I was an Urban Designer for the City of Boston.
 
 ### Urban Architect
 
 ![stuart street](https://s3.amazonaws.com/f.cl.ly/items/3e080j3l2y2U1H0F3k3u/stuart-street-crop.jpg)
 _Height study for future development around Stuart Street in Boston_
 
-Urban Design is like architecture at city-scale and with my architecture degree, passion for urban systems and public sector work it was a dream to work for the City of Boston. I also love computers so I felt right at home as one of three in the Urban Design Technology Group.
+Urban Design is like architecture at city-scale and with my architecture degree, passion for urban systems and public sector work it was a dream to work for the City of Boston. I also love computers so I felt right at home as one of four in the Urban Design Technology Group.
 
-I worked on 3D models, shadow and height studies, sustainable neighborhood regulations and even got to tell Dunkin Doughnut what their sign options where.
+I worked on 3D models, shadow and height studies, sustainable neighborhood regulations and even got to tell Dunkin Doughnut what their sign options were.
 
 Despite 'technology' being in the team's title, I wanted to see more technology within the Planning Department. I don't mean shiny new things like infrared drones or something, I mean the technology that most of us take for granted. For instance, we were writing our own photo sorting software and shelling out hundreds of thousands of dollars for a custom, closed-source CMS (Content Management System) for our department's website. Things like Flickr, Wordpress and Google Spreadsheets solve many of these problems and are used by millions everyday but haven't made their way into government, and it was disheartening to know we'd spend time on our own, lesser versions of them.
 
@@ -33,7 +33,7 @@ I tried to incorporate new ideas and make some change but I ran into wall after 
 ![ecab artboard](https://s3.amazonaws.com/f.cl.ly/items/2q0w1h333N0V42322u1e/ecab-artboard.png)
 _Illustrator artboard of diagrams for tutorials_
 
-The application asked for web projects and at the time I didn't have much to show. I did however have a [DIY blog](http://www.ecabonline.com) I'd pressured my friend into doing with me. It took a lot of time to document and compose posts on projects and she'd ask, "Why is it that we're doing this?" I'd say whole-heartedly, "Because we have to share what we know!" I believed we could also contribute to common knowledge.
+The application asked for web projects and at the time I didn't have much to show. I did however have a [DIY blog](http://www.ecabonline.com) I'd pressured my friend into doing with me. It took a lot of time to document and compose posts on projects and she'd ask, "Why is it that we're doing this?" and I'd say whole-heartedly, "Because we have to share what we know!" I believed we could, in this small way, also contribute to common knowledge.
 
 I was a bit embarrassed to put my _DIY blog_ on my application, but I also wanted to leave no text field blank, so in it went. Turns out this project stood out and helped me get the fellowship.
 
@@ -53,7 +53,9 @@ Because everything CfA does is open source I learned early on that the one and o
 ![githubbers](https://github.com/images/modules/about/about-header.jpg)
 _Myself among all the GitHubbers at our 2014 Summit_
 
-Someone at GitHub got wind of what I'd been working on and liked it. And that is how I became a developer at GitHub. No computer science degree, no real production programing experience but a GitHub portfolio. These are things we often hear touted in the tech community—degree requirements are flexible and you can use GitHub as your portfolio.
+Someone at GitHub got wind of what I'd been working on and liked it. And that is how I became a developer at GitHub, a tool for and pool of common knowledge.
+
+No computer science degree, no real production programing experience but a GitHub portfolio. These are things we often hear touted in the tech community—degree requirements are flexible and you can use GitHub as your portfolio.
 
 ## Privilege and Community
 
@@ -72,7 +74,7 @@ Making a living at open source is still more rare than the norm. How do people w
 ![nodeconf](https://c1.staticflickr.com/3/2939/14394358649_6882983c20_z.jpg)
 _Myself amongst many lovely people at NodeConf 2014, photo by Matthew Bergman_
 
-Through developers at Code for America I was introduced to a community of other developers. And they were great. They supported me, encouraged me, gave me their time and most importantly made me feel safe. And since I was living in San Francisco where a lot of developers live, I came to know many in my community personally. I wasn't afraid to ask questions in real life or in chat rooms where some of the same people I knew personally hung out.
+Another reason I am here is because I had a community. Through developers at Code for America I was introduced to a community of other developers. And they were great. They supported me, encouraged me, gave me their time and most importantly made me feel safe. And since I was living in San Francisco where a lot of developers live, I came to know many in my community personally. I wasn't afraid to ask questions in real life or in chat rooms where some of the same people I knew personally hung out.
 
 Tech communities aren't exactly known for being welcoming and safe spaces. Without the personal introductions how long might it have taken me to find the right community? How much courage to ask questions to strangers? How many times would I be harassed or ignored before I found a safe space? What if I never joined a community because I never saw someone like myself there? How would I learn? How would I grow as a developer?
 
@@ -90,11 +92,13 @@ This passage is actually about when our ancestors were leaving Africa but when I
 
 # More ideas lead to more ideas.
 
-The value of common knowledge cannot be overestimated. We **need** to do better. We need **all the ideas** from **all the people**. That's what we should be aiming for.  We need an open source for everyone. Not just for the privileged and not even just for the developers.
+The value of common knowledge cannot be overestimated. We must to do better. **We need all the ideas from all the people**. That's what we should be aiming for.  
+
+We need an open source for everyone. Not just for the privileged and not even just for the developers.
 
 We need an open source for designers (who make documentation easier to read and give an identity to a project), journalists and scientists (who share their data), polyglots (who make projects accessible to not just those who speak English), note takers and editors (who can make resources and documentation better), organizers (who can triage the many issues created in open source projects), mappers and data wranglers and ...
 
-We also need an open source _whenever_.  Not enough people can or should be able to spare all of their time for open source work, and seeming this way really hurts us.
+We also need an open source _whenever_.  Not enough people can or should be able to spare all of their time for open source work, and appearing this way really hurts us.
 
 We need everything we can get and are thankful for all that you can contribute whether it is two hours a week, one logo a year, or a copy edit twice a year. You, too, are a first class open source citizen.
 
@@ -104,7 +108,7 @@ On my flight here to give this talk the person sitting next to me asked what I w
 
 # If open source is for everyone, it can look like anyone.
 
-Open source—the spread of ideas—is too important to not make changes for.
+Open source—the spread of ideas, common knowledge—is too important to not make changes for.
 
 ## Barriers
 
@@ -166,6 +170,7 @@ Let's make an open source for everyone.
 
 - [My Talk's Slides](https://github.com/jlord/osos/blob/gh-pages/os-os-talk.pdf)
 - [The Ethics of Unpaid Labor and the OSS Community](http://www.ashedryden.com/blog/the-ethics-of-unpaid-labor-and-the-oss-community)
+- [Open Source Male Privilege Checklist](http://geekfeminism.wikia.com/wiki/Open_Source_Male_Privilege_Checklist)
 - [The open source Identity Crisis](https://modelviewculture.com/pieces/the-open-source-identity-crisis)
 - [Stack Overflow Developer Survey 2015](http://stackoverflow.com/research/developer-survey-2015)
 - [On Accepting Privilege](http://rarlindseysmash.com/posts/on-accepting-privilege)
