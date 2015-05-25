@@ -87,7 +87,7 @@ header a:hover {color: #357efc; border-bottom: 1px solid #357efc;}
 
 footer {font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
   text-align: center; margin: 30px auto;
-  padding-top: 20px; auto; font-size: 11px; color: #777; letter-spacing: .1em;
+  padding-top: 20px; font-size: 11px; color: #777; letter-spacing: .1em;
   font-weight: 300; text-transform: uppercase;}
 footer ul {list-style: none; padding: 0 15px; display: inline-block; font-size: 11px;}
 footer li {text-align: left;}
@@ -135,8 +135,10 @@ h2#links {color: #357efc;}
 }
 
 /* em after an image is a caption */
-img + em, iframe + em {font-family: 'Source Sans Pro'; font-size: 11px; color: #c6c6c6;
-letter-spacing: .1em; font-weight: 300; text-transform: uppercase; font-style: normal;}
+img + em, iframe + em, .two-imgs + em, .three-imgs + em,
+.two-imgs-first-vert + em, .four-imgs + em, .two-imgs-second-vert + em  {
+  font-family: 'Source Sans Pro'; font-size: 11px; color: #c6c6c6;
+  letter-spacing: .1em; font-weight: 300; text-transform: uppercase; font-style: normal;}
 
 /* PAGINATION --------------------------------------------------------------- */
 
@@ -196,12 +198,12 @@ animation-fill-mode: both;
 }
 
 @media (max-width: 750px) {
-  #content {padding: 68px;}
+  #main-content {padding: 68px;}
 }
 
 @media (max-width: 550px) {
   .main-container {padding: 20px 0;}
-  #content {padding: 20px;}
+  #main-content {padding: 20px;}
   .half {width: 100%}
   #work-photos {display: none;}
   .about-foot {display: block; text-align: center; padding: 0;}
@@ -218,3 +220,47 @@ animation-fill-mode: both;
   .instaImgCirc {max-width: 156px;}
   .instaImgCirc + .instaImgCirc {padding-left: 50px;}
 }
+
+/* Photo Styles */
+
+.two-imgs img, .three-imgs img, .two-imgs-first-vert img,
+.four-imgs img, .two-imgs-second-vert img {
+  margin-left: 3%;
+}
+
+.two-imgs img:first-child, .three-imgs img:first-child,
+.two-imgs-first-vert img:first-child, .four-imgs img:first-child,
+.two-imgs-second-vert img:first-child {
+  margin-left: 0;
+}
+
+.two-imgs img {
+  width: 48%;
+}
+
+.three-imgs img {
+  width: 30.6666666667%;
+}
+
+.four-imgs img {
+  width: 22%;
+}
+
+.two-imgs-first-vert img {
+  width: 64%;
+}
+
+.two-imgs-first-vert img:first-child {
+  width: 32%;
+}
+
+.two-imgs-second-vert img {
+  width: 32%;
+}
+
+.two-imgs-second-vert img:first-child {
+  width: 64%;
+}
+
+/*.post-body img[alt~="fullspan"] {
+}*/
