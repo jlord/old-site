@@ -59,7 +59,8 @@ header a:hover {color: #357efc; border-bottom: 1px solid #357efc;}
   top: 330px;}
 
 .main-container {max-width: 900px; margin: 0 auto; padding: 50px 0;}
-#content {background: #fff; padding: 108px;}
+#content {padding-top: 108px; padding-bottom: 108px; }
+.wrapper {padding: 0 108px; background: #fff;}
 .meta {font-family: Source Sans Pro, Franklin Gothic Book, Arial, sans-serif; color: #777;}
 
 .latest-post-content {padding-bottom: 24px;}
@@ -214,6 +215,7 @@ animation-fill-mode: both;
   .instaImgCirc {float: none; text-align: center;}
   .instaImgCirc + .instaImgCirc {padding-left: 0;}
   .post-body h1 {margin-right: 0; margin-left: 0;}
+  .post-header a h1 {min-width: 280px;}
 }
 
 @media (max-width: 1024px) {
