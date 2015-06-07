@@ -58,8 +58,10 @@ header a:hover {color: #357efc; border-bottom: 1px solid #357efc;}
 .sideways {-webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); position: absolute; left: -90px;
   top: 330px;}
 
-.main-container {max-width: 900px; margin: 0 auto; padding: 50px 0; width: 100%; box-sizing: border-box;}
-.content {background: #fff; padding: 108px;}
+
+.main-container {max-width: 900px; margin: 0 auto; padding: 50px 0;}
+#content {padding-top: 108px; padding-bottom: 108px; }
+.wrapper {padding: 0 108px; background: #fff;}
 .meta {font-family: Source Sans Pro, Franklin Gothic Book, Arial, sans-serif; color: #777;}
 
 .latest-post-content {padding-bottom: 24px;}
@@ -204,15 +206,17 @@ animation-fill-mode: both;
 @media (max-width: 550px) {
   .main-container {padding: 20px 0;}
   #main-content {padding: 20px;}
+  #content {padding-right: 20px; padding-left: 20px;}
   .half {width: 100%}
   #work-photos {display: none;}
   .about-foot {display: block; text-align: center; padding: 0;}
   .socials, .sideways {display: none;}
   footer, .home-header, .post-header {width: 100%; min-width: 100%;}
-  #instagram {max-height: 156px; overflow: hidden;}
+  #instagram {max-width: 61.7%; overflow: hidden;}
   .instaImgCirc {float: none; text-align: center;}
   .instaImgCirc + .instaImgCirc {padding-left: 0;}
   .post-body h1 {margin-right: 0; margin-left: 0;}
+  .post-header a h1 {min-width: 280px;}
 }
 
 @media (max-width: 1024px) {
