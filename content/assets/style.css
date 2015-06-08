@@ -60,7 +60,7 @@ header a:hover {color: #357efc; border-bottom: 1px solid #357efc;}
 
 
 .main-container {max-width: 900px; margin: 0 auto; padding: 50px 0;}
-#content {padding-top: 108px; padding-bottom: 108px; }
+#content {padding-top: 108px; padding-bottom: 108px; background-color: #fff;}
 .wrapper {padding: 0 108px; background: #fff;}
 .meta {font-family: Source Sans Pro, Franklin Gothic Book, Arial, sans-serif; color: #777;}
 
@@ -108,8 +108,9 @@ padding-right: 15px;}
 .post-header li+li {padding-right: 6px;}
 /*.content ul {text-align: left;}*/
 .post-header {margin: 0 auto 40px auto; text-align: center;}
-.post-header a h1 {color: #505050; margin: 0 auto 20px auto; text-align: center;
-  min-width: 314px; font-size: 3em;}
+a h1.post-title {color: #505050; margin: 0 auto 20px auto; text-align: center;
+  min-width: 314px; font-size: 3em; border: none; font-style: normal; font-weight: 700;
+  line-height: inherit; padding: 0;}
 .feed-template .post-header:not(:first-child) {border: 0; border-top: 3px solid #f4f4f4;
   margin-top: 60px; padding-top: 60px;}
 
@@ -127,8 +128,8 @@ h2#links {color: #357efc;}
 .post-body h1 {font-size: 3em; border-top: 1px solid #EFEFEF; border-bottom: 1px solid #EFEFEF;
 	padding: 18px 0; text-align: center; line-height: 1.6; margin: 40px -20px;
   font-style: italic; font-weight: 400;}
-.post-body h2:not(#links) {padding: 20px 0; border-bottom: 3px solid #357efc;
-  margin-bottom: 40px; color: #357efc; margin-top: 82px; font-size: 2em; font-family: Lora;}
+.post-body h2:not(#links) {padding: 20px 0; margin-bottom: 20px; margin-top: 60px;
+  font-size: 2em; text-transform: uppercase;}
 .post-body h2:first-of-type {margin-top: 0;}
 .post-body h3 {padding-top: 32px;}
 

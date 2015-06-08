@@ -70,8 +70,9 @@
 </header>
 
 
-      <div id="content" class="wrapper">
-        <div class='post-header'><a href='maps-kml.html'><h1>KML from Google Maps</h1></a><ul><li>By Jessica Lord</li> <li>2015-04-26</li> <li>maps, web dev</li></ul></div><p>I wanted to make a map of a <a href="https://jlord.exposure.co/rivendell-kaitoke">little trek</a> I did to Rivendell in New Zealand (NBD!). Here is what I learned about getting map data out of Google Maps (KML) to create a <a href="http://www.mapbox.com">Mapbox</a> map.</p>
+      <div id="content">
+        <div class="wrapper post-body">
+        <div class='post-header'><a href='maps-kml.html'><h1 class='post-title'>KML from Google Maps</h1></a><ul><li>By Jessica Lord</li> <li>2015-04-26</li> <li>maps, web dev</li></ul></div><p>I wanted to make a map of a <a href="https://jlord.exposure.co/rivendell-kaitoke">little trek</a> I did to Rivendell in New Zealand (NBD!). Here is what I learned about getting map data out of Google Maps (KML) to create a <a href="http://www.mapbox.com">Mapbox</a> map.</p>
 <p><iframe width='100%' height='300px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/jllord.m08a6002/attribution,zoompan,geocoder,share.html?access_token=pk.eyJ1Ijoiamxsb3JkIiwiYSI6IkVwNUd4eWsifQ.dxpWPAYZle0eUvwXWGi8Cw'></iframe>
 <em>Map of train, bus, walking and hiking from Wellington to Kaitoke and Rivendell in Wellington, NZ</em></p>
 <p>Mapbox makes great software and beautiful maps (see above!). This is why I didn&#39;t attempt to just do the whole thing in Google Maps. I used Mapbox&#39;s online map making tool, <a href="https://www.mapbox.com/editor/#welcome">Editor</a>, which accepts <code>kml</code>, the format that Google Maps use. However:</p>
@@ -94,6 +95,7 @@ mv doc.kml myMap.kml
 <p>I also ended up using the Google My Maps to trace a path from satellite images because the Mapbox tiles didn&#39;t zoom in as close as I wanted. There was a lot of trial and error in my discovering each of these things and the map took way longer than it should have, so I hope this helps someone else!</p>
 <p>Let me know if there are better ways of getting data from transit directions, snap-to-road lines and good satellite imagery (<a href="http://twitter.com/jllord">@jllord</a>).</p>
 
+        </div>
       </div>
 
       <footer>

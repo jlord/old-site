@@ -282,3 +282,19 @@ animation-fill-mode: both;
 .journal-page img {
   padding: 20px 0;
 }
+
+@media (max-width: 550px) {
+  .two-imgs img, .three-imgs img, .four-imgs img,
+  .two-imgs-first-vert img, .two-imgs-first-vert img:first-child,
+  .two-imgs-second-vert img, .two-imgs-second-vert img:first-child {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media (max-width: 750px) {
+  .journal-page .wrapper {
+    max-width: 600px;
+    padding: 0 100px;
+  }
+}
