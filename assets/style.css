@@ -281,6 +281,10 @@ animation-fill-mode: both;
   padding: 20px 0;
 }
 
+#content h4 {
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+}
+
 
 /*.post-body img[alt~="fullspan"] {
 }*/
