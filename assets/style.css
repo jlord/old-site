@@ -123,7 +123,8 @@ padding-right: 15px;}
 #links + ul li:hover a {color: #fff;}
 h2#links {color: #357efc;}
 
-.post-body h1 {font-size: 3em; border-top: 1px solid #EFEFEF; border-bottom: 1px solid #EFEFEF;
+/* this is bad */
+#content p + h1 {font-size: 3em; border-top: 1px solid #EFEFEF; border-bottom: 1px solid #EFEFEF;
 	padding: 18px 0; text-align: center; line-height: 1.6; margin: 40px -20px;
   font-style: italic; font-weight: 400;}
 .post-body h2:not(#links) {padding: 20px 0; border-bottom: 3px solid #357efc;
