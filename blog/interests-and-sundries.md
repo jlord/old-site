@@ -1,28 +1,34 @@
 # Interests & Sundries
 #### Jessica Lord
-#### 2015-07-14
+#### 2015-07-05
 #### interests
 
-I thought I'd make a list of the things I'm into these days in case others had related suggestions or we've yet to meet but you like these things too and, better yet, you live in Portland and we'll become friends! Let's be friends!
+This is a kind of friend request. I've moved to a new town and am making a point to get off of the computer more. Also, I've  managed to not have a nearby girl friend for too many years—so let's be friends!
 
-## Hacking & Open Source
+Holler at me if you like some of these things, too.
 
-I like JavaScript and [Node.js](). I like making open source tools that lower the barrier for others to get started or have web tools at hand. If you like that too, let's hack! If you want to learn, I'll teach!
+<div class="circle-imgs">
+![nailconf](https://igcdn-photos-e-a.akamaihd.net/hphotos-ak-xpa1/t51.2885-15/10899220_466414860176772_1838839215_n.jpg)
+![Bogota](https://farm3.staticflickr.com/2430/3960742756_5784eb9416_b.jpg)
+![sewing](https://lh6.googleusercontent.com/_hkIMCO0qAmY/TcCyYlVzJrI/AAAAAAAACa0/f4qU__pLAIQ/s800/IMG_7192.JPG)
+</div>
 
-## Architecture, Industrial Design & Urban Systems
+#### JS & Open Source
+Building tools to lower barriers for others, let's hack together. [GitHub](http://github.com/jlord)!
 
-I fell out of love with the current state of the Architecture profession after getting a degree and working in it. I still, however, love the details in old architecture and even a few contemporary ones, too. Let's nerd out on chairs by Hans Wegner and look for midcentury Danish furniture.
+#### Architecture, Industrial Design & Urban Design
+My degree is in architecture and I love the science of cities. [Jan Gehl](http://gehlarchitects.com) and [Enrique Peñalosa](https://www.ted.com/talks/enrique_penalosa_why_buses_represent_democracy_in_action) are my heroes.
 
-I love cities. I love the science of how cities best work for people. [Jan Gehl]() is my hero. So is Enrique Peñolosa. I was an urban designer before I started programing and would love to bridge the two sometime.
+#### Cooking
+Heidi Swanson's [101 Cookbooks](http://www.101cookbooks.com) is my go-to and [Sarah Britton](http://mynewroots.org) (My New Roots) and [Anna Jones](http://annajones.co.uk), too.
 
-## Whole Foods
+#### Sewing & Making
+I love it. I love finding places like [Purl Bee](http://www.purlbee.com) that offer well documented guides and used to maintain a sewing blog, [ECAB](http://www.ecabonline.com).
 
-I've been better about cooking in the past and am trying to get back in the habbit. I love Heidi Swanson's (101 Cookbooks) approach and primarily use her recipes. I've recently come to rely on Sarah Britton (My New Roots) and Anna Jones, too.
+#### Fashion, Celebrities & Nails
+Red carpet gowns! Any dress from [Elie Saab](http://www.style.com/fashion-shows/fall-2014-couture/elie-saab). I zen out watching [Lisa Eldridge](http://www.lisaeldridge.com) [#nailconf](https://instagram.com/explore/tags/nailconf/)!
 
-## Sewing & Making
+#### Interiors and Shops
+I love [Remodelista](http://www.remodelista.com) and their shop guides are my first stop before visiting a new city.  
 
-Before I started programming, most of my free time was spent sewing. I love the mental challenges in construction (often having to figure how how to do something inside out and backwards so that when it flips right side it's how it should be). I love the texture of beautiful natural textiles and seek out resources for well documented techniques and examples craftsmanship. The Purl Bee is one of those. I'm planning to shut the computer and make more so if you want to sew or learn to, let's do it!
-
-## Fashion & Celebrities
-
-I don't use Facebook, but I feel the gap of visiting-a-site-too-many-times-a-day with people.com. I love gowns on the red carpet and the amazing designs of .
+#### Also—riding bikes, walking, coffee, flea markets, thinking about jogging but not jogging, BBC history podcasts, BBC history documentaries.
