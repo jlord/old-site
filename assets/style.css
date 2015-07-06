@@ -265,18 +265,5 @@ animation-fill-mode: both;
   width: 64%;
 }
 
-.circle-imgs img {
-  width: 200px;
-  height: 200px;
-  margin-right: 25px;
-  border-radius: 999px;
-}
-
-.circle-imgs {
-  padding: 30px 0;
-}
-
-h4 {font-family: Source Sans Pro, Arial, sans-seif;}
-
 /*.post-body img[alt~="fullspan"] {
 }*/
