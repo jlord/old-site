@@ -64,6 +64,7 @@ header a:hover {color: #357efc; border-bottom: 1px solid #357efc;}
 .meta {font-family: Source Sans Pro, Franklin Gothic Book, Arial, sans-serif; color: #777;}
 
 .latest-post-content {padding-bottom: 24px;}
+.latest-post h3 {font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;}
 
 /* archive, about, work ----------------------------------------------------- */
 
@@ -108,7 +109,7 @@ padding-right: 15px;}
 /*.content ul {text-align: left;}*/
 .post-header {margin: 0 auto 40px auto; text-align: center;}
 .post-header a h1 {color: #505050; margin: 0 auto 20px auto; text-align: center;
-  min-width: 314px; font-size: 3em;}
+  min-width: 314px; font-size: 3em; font-weight: 300;}
 .feed-template .post-header:not(:first-child) {border: 0; border-top: 3px solid #f4f4f4;
   margin-top: 60px; padding-top: 60px;}
 
@@ -124,7 +125,7 @@ padding-right: 15px;}
 h2#links {color: #357efc;}
 
 /* this is bad */
-#content p + h1 {font-size: 3em; border-top: 1px solid #EFEFEF; border-bottom: 1px solid #EFEFEF;
+#content p + h1 {font-size: 2.5em; border-top: 1px solid #EFEFEF; border-bottom: 1px solid #EFEFEF;
 	padding: 18px 0; text-align: center; line-height: 1.6; margin: 40px -20px;
   font-style: italic; font-weight: 400;}
 .post-body h2:not(#links) {padding: 20px 0; border-bottom: 3px solid #357efc;
