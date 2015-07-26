@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="jlord">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>jlord</title>
+    <link rel="shortcut icon" href="assets/favicon.png">
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900|Source+Code+Pro:500' rel='stylesheet' type='text/css'>
+    <link href='assets/style.css' rel='stylesheet'>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-31423721-2', 'jlord.github.io');
+      ga('send', 'pageview');
+    </script>
+  </head>
+  <body class="home-template">
+    <!-- <div class="sideways meta">Jessica Lord, open web developer—designer</div> -->
+    <div class="main-container">
+      {{> header}}
+      <div class="meta center">Hello. You're on the Internet. This is Jessica Lord's website.</div>
+      <div class="principle">
+        <h1>How we work together is more important than what we work on because the later. How we work together is more important than what we work on because the later.</h1>
+      </div>
+      <div class="biblio">
+        <div class="whole">
+          <div class="fourth border-top">
+            <!-- <div id="instagram"><span class="load flash animated">LOADING...</span></div> -->
+            <span class="instaImgCirc"><img src="/assets/instagram-sample.jpg"></span>
+          </div>
+          <div class="fourth border-top">
+            <h3><a href="">Guides</a></h3>
+            <ul class="guides-list">
+              <li><a class="button meta" href="/blog/simple-node-module.html">Node.js & npm basics</a></li>
+              <li><a class="button meta" href="https://github.com/jlord/git-it#readme">Git-it</a></li>
+              <li><a class="button meta" href="https://jlord.github.io/forkngo">Fork-n-Go</a></li>
+              <li><a class="button meta" href="https://jlord.github.io/blog/getting-started.html">Learn Web Dev</a></li>
+            </ul>
+          </div>
+          <div class="half border-top latest-post">
+            <h3><a href="blog/{{{url}}}">Latest Post</a></h3>
+
+            <h3>{{title}} <span class="meta">{{date}}</span></h3>
+            <div class="latest-post-content">
+              {{{fixed}}}
+            </div>
+            <div class="meta"><a href="blog/{{{url}}}">Read More</a> // <a href="blog">All Posts</a></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    {{> footer}}
+
+    <script type="text/javascript" src="assets/js/sheetsee.js"></script>
+    <script type="text/javascript" src="assets/js/handlebars.js"></script>
+    <script type="text/javascript" src="assets/js/tabletop1.3.4.js"></script>
+    <script type="text/javascript" src="assets/js/templates.js"></script>
+    <script type="text/javascript" src="assets/js/socialbits.js"></script>
+
+    <script type="text/javascript">
+      document.addEventListener('DOMContentLoaded', function() {
+        var URL  = '0Ao5u1U6KYND7dG9CRWdjeVB6dGYyN3c3RktocExUV1E' // insta
+        var URL2 = '16mfdUj9Zp1xddHegqLapjZDSbxq3so4wPnMmsXO1QE8' // tweet
+        var URL3 = '0Ao5u1U6KYND7dFR4aDRFb1RsZmlHRXc3ZnFHa3ltTXc' // quotes
+        var URL4 = '0Ao5u1U6KYND7dERheVpFZThEUkdPZnFXXzMxTzJ3dEE' // pocket
+        var URL5 = '1bR3IIL7WS5BVNXXmQCvtCmd3-ZB0G17Z32NFE2utDW8' // instapaper
+
+        Tabletop.init({ key: URL,  callback: buildInsta,  simpleSheet: true })
+        Tabletop.init({ key: URL2, callback: buildTweet,  simpleSheet: true })
+        Tabletop.init({ key: URL3, callback: buildQuote,  simpleSheet: true })
+        Tabletop.init({ key: URL5, callback: buildPocket, simpleSheet: true })
+      })
+    </script>
+  </body>
+</html>
