@@ -21,7 +21,7 @@
     </script>
   </head>
   <body class="home-template">
-    <!-- <div class="sideways meta">Jessica Lord, open web developer—designer</div> -->
+    <div class="sideways meta">Jessica Lord, open web developer—designer</div>
     <div class="main-container">
       <header>
 		<div class="links left">
@@ -67,36 +67,70 @@
 	</div>
 </header>
 
-      <div class="meta center">Hello. You're on the Internet. This is Jessica Lord's website.</div>
-      <div class="principle">
-        <h1>How we work together is more important than what we work on because the later. How we work together is more important than what we work on because the later.</h1>
-      </div>
-      <div class="biblio">
-        <div class="whole">
-          <div class="fourth border-top">
-            <!-- <div id="instagram"><span class="load flash animated">LOADING...</span></div> -->
-            <span class="instaImgCirc"><img src="/assets/instagram-sample.jpg"></span>
-          </div>
-          <div class="fourth border-top">
-            <h3><a href="">Guides</a></h3>
-            <ul class="guides-list">
-              <li><a class="button meta" href="/blog/simple-node-module.html">Node.js & npm basics</a></li>
-              <li><a class="button meta" href="https://github.com/jlord/git-it#readme">Git-it</a></li>
-              <li><a class="button meta" href="https://jlord.github.io/forkngo">Fork-n-Go</a></li>
-              <li><a class="button meta" href="https://jlord.github.io/blog/getting-started.html">Learn Web Dev</a></li>
-            </ul>
-          </div>
-          <div class="half border-top latest-post">
-            <h3><a href="blog/interests-and-sundries.html">Latest Post</a></h3>
 
-            <h3>Interests &amp; Sundries <span class="meta">2015-07-05</span></h3>
-            <div class="latest-post-content">
-              <p>This is a kind of friend request. I&#39;ve moved to a new town and am making a point to get off of the computer more. Also, I&#39;ve  managed to not have a nearby girl friend for too many years—so let&#39;s be friends…</p>
-            </div>
-            <div class="meta"><a href="blog/interests-and-sundries.html">Read More</a> // <a href="blog">All Posts</a></div>
-          </div>
+      <div id="content" class="wrapper">
+      <div class="whole latest-post" style="border: none;">
+        <h2 class="home-h-link"><a href="blog/interests-and-sundries.html">Post</a></h2>
 
+        <h3>Interests &amp; Sundries <span class="meta">2015-07-05</span></h3>
+        <div class="latest-post-content">
+          <p>This is a kind of friend request. I&#39;ve moved to a new town and am making a point to get off of the computer more. Also, I&#39;ve  managed to not have a nearby girl friend for too many years—so let&#39;s be friends…</p>
         </div>
+        <div class="meta"><a href="blog/interests-and-sundries.html">Read More</a> // <a href="blog">All Posts</a></div>
+      </div>
+      <div class="whole guides">
+        <h2 class="home-h-link"><a href="/guides.html">Guides</a></h2>
+        <ul class="guides-list">
+          <li><a class="button meta" href="/blog/simple-node-module.html">Node.js & npm basics</a></li>
+          <li><a class="button meta" href="https://github.com/jlord/git-it#readme">Git-it</a></li>
+          <li><a class="button meta" href="https://jlord.github.io/forkngo">Fork-n-Go</a></li>
+          <li><a class="button meta" href="https://jlord.github.io/blog/getting-started.html">Learn Web Dev</a></li>
+        </ul>
+      </div>
+      <div class="whole">
+        <h2 class="home-h-link"><a href="http://www.instagram.com/jlord" target="_blank">Instagram</a></h2>
+          <div id="instagram"><span class="load flash animated">LOADING...</span></div>
+          <!-- <div style="display: block;"></div> -->
+          <span class="meta"><a href="instagram.html">More</a></span>
+      </div>
+
+      <div class="whole">
+        <h2 class="home-h-link"><a href="http://www.twitter.com/jllord" target="_blank">Twitter</a></h2>
+        <div id="tweet"><span class="load flash animated">LOADING...</span></div>
+      </div>
+
+      <div class="whole">
+        <div class="r half">
+          <h2 class="home-h-link"><a href="http://jlord-reads.tumblr.com" target="_blank">Instapaper</a></h2>
+          <div id="pocket"><span class="load flash animated">LOADING...</span></div>
+        </div>
+
+        <div class="half">
+          <h2 class="home-h-link"><a href="http://jlord-reads.tumblr.com" target="_blank">Highlight</a></h2>
+          <div id="quote"><span class="load flash animated">LOADING...</span></div>
+        </div>
+      </div>
+
+      <script type="text/javascript" src="assets/js/sheetsee.js"></script>
+      <script type="text/javascript" src="assets/js/handlebars.js"></script>
+      <script type="text/javascript" src="assets/js/tabletop1.3.4.js"></script>
+      <script type="text/javascript" src="assets/js/templates.js"></script>
+      <script type="text/javascript" src="assets/js/socialbits.js"></script>
+
+      <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function() {
+          var URL  = '0Ao5u1U6KYND7dG9CRWdjeVB6dGYyN3c3RktocExUV1E' // insta
+          var URL2 = '1KooXpkel5RbJCzC8P1IFr4PDUdhyBtsAPW6vitaXbvE' // tweet
+          var URL3 = '0Ao5u1U6KYND7dFR4aDRFb1RsZmlHRXc3ZnFHa3ltTXc' // quotes
+          var URL4 = '0Ao5u1U6KYND7dERheVpFZThEUkdPZnFXXzMxTzJ3dEE' // pocket
+          var URL5 = '1bR3IIL7WS5BVNXXmQCvtCmd3-ZB0G17Z32NFE2utDW8' // instapaper
+
+          Tabletop.init({ key: URL,  callback: buildInsta,  simpleSheet: true })
+          Tabletop.init({ key: URL2, callback: buildTweet,  simpleSheet: true })
+          Tabletop.init({ key: URL3, callback: buildQuote,  simpleSheet: true })
+          Tabletop.init({ key: URL5, callback: buildPocket, simpleSheet: true })
+        })
+      </script>
       </div>
     </div>
     <footer>
@@ -121,26 +155,5 @@
   </ul>
 </footer>
 
-
-    <script type="text/javascript" src="assets/js/sheetsee.js"></script>
-    <script type="text/javascript" src="assets/js/handlebars.js"></script>
-    <script type="text/javascript" src="assets/js/tabletop1.3.4.js"></script>
-    <script type="text/javascript" src="assets/js/templates.js"></script>
-    <script type="text/javascript" src="assets/js/socialbits.js"></script>
-
-    <script type="text/javascript">
-      document.addEventListener('DOMContentLoaded', function() {
-        var URL  = '0Ao5u1U6KYND7dG9CRWdjeVB6dGYyN3c3RktocExUV1E' // insta
-        var URL2 = '16mfdUj9Zp1xddHegqLapjZDSbxq3so4wPnMmsXO1QE8' // tweet
-        var URL3 = '0Ao5u1U6KYND7dFR4aDRFb1RsZmlHRXc3ZnFHa3ltTXc' // quotes
-        var URL4 = '0Ao5u1U6KYND7dERheVpFZThEUkdPZnFXXzMxTzJ3dEE' // pocket
-        var URL5 = '1bR3IIL7WS5BVNXXmQCvtCmd3-ZB0G17Z32NFE2utDW8' // instapaper
-
-        Tabletop.init({ key: URL,  callback: buildInsta,  simpleSheet: true })
-        Tabletop.init({ key: URL2, callback: buildTweet,  simpleSheet: true })
-        Tabletop.init({ key: URL3, callback: buildQuote,  simpleSheet: true })
-        Tabletop.init({ key: URL5, callback: buildPocket, simpleSheet: true })
-      })
-    </script>
   </body>
 </html>
