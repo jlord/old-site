@@ -65,6 +65,7 @@ header a:hover {color: #357efc; border-bottom: 1px solid #357efc;}
 .meta {font-family: Source Sans Pro, Franklin Gothic Book, Arial, sans-serif; color: #777;}
 
 .latest-post-content {padding-bottom: 24px;}
+.latest-post h3 {font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;}
 
 /* archive, about, work ----------------------------------------------------- */
 
@@ -101,16 +102,15 @@ padding-right: 15px;}
 /* post --------------------------------------------------------------------- */
 
 .post-header ul {list-style: none; text-align: center;
-  margin: 0 auto; padding: 0px; font-size: 11px; color: #c6c6c6;
+  margin: 0 auto; padding: 0px; font-size: 11px; color: #9f9f9f;
   letter-spacing: .1em; font-weight: 300; text-transform: uppercase;}
 .post-header li {display: inline-block;  margin: 0;
   font-family: 'Source Sans Pro';}
 .post-header li+li {padding-right: 6px;}
 /*.content ul {text-align: left;}*/
 .post-header {margin: 0 auto 40px auto; text-align: center;}
-a h1.post-title {color: #505050; margin: 0 auto 20px auto; text-align: center;
-  min-width: 314px; font-size: 3em; border: none; font-style: normal; font-weight: 700;
-  line-height: inherit; padding: 0;}
+.post-header a h1 {color: #505050; margin: 0 auto 20px auto; text-align: center;
+  min-width: 314px; font-size: 3em; font-weight: 300;}
 .feed-template .post-header:not(:first-child) {border: 0; border-top: 3px solid #f4f4f4;
   margin-top: 60px; padding-top: 60px;}
 
@@ -125,7 +125,8 @@ a h1.post-title {color: #505050; margin: 0 auto 20px auto; text-align: center;
 #links + ul li:hover a {color: #fff;}
 h2#links {color: #357efc;}
 
-.post-body h1 {font-size: 3em; border-top: 1px solid #EFEFEF; border-bottom: 1px solid #EFEFEF;
+/* this is bad */
+#content p + h1 {font-size: 2.5em; border-top: 1px solid #EFEFEF; border-bottom: 1px solid #EFEFEF;
 	padding: 18px 0; text-align: center; line-height: 1.6; margin: 40px -20px;
   font-style: italic; font-weight: 400;}
 .post-body h2:not(#links) {padding: 20px 0; margin-bottom: 20px; margin-top: 60px;
@@ -266,6 +267,26 @@ animation-fill-mode: both;
 .two-imgs-second-vert img:first-child {
   width: 64%;
 }
+
+.circle-imgs img {
+  width: 200px;
+  height: 200px;
+  margin-left: 24px;
+  border-radius: 999px;
+}
+
+.circle-imgs img:first-child {
+  margin-left: 0;
+}
+
+.circle-imgs {
+  padding: 20px 0;
+}
+
+#content h4 {
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+}
+
 
 /*.post-body img[alt~="fullspan"] {
 }*/
