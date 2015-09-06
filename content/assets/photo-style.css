@@ -11,7 +11,7 @@ p {line-height: 1.5em; font-size: 18px;}
 ol, ul {line-height: 1.5em; font-size: 18px;}
 ul {list-style: circle; padding-left: 18px;}
 
-h1 {font-size: 40px;}
+h1 {font-size: 40px; font-weight: 300;}
 
 pre { font-family: 'Source Code Pro','Andale Mono', Liberation Mono, monospace; white-space: pre-wrap;
   word-break: break-all; word-wrap: break-word; padding: 20px; background: #fafafa;

@@ -41,6 +41,7 @@ hr {border: 0; border-bottom: 2px solid #f4f4f4; margin: 40px 0;}
 .half {width: 47%; display: inline-block; vertical-align: top;}
 .whole {border-top: 2px solid #f4f4f4; padding-bottom: 30px; overflow: auto;}
 .r {float: right;}
+.center {text-align: center;}
 
 /* header ------------------------------------------------------------------- */
 

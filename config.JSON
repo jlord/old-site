@@ -9,7 +9,7 @@
    "post": "/blog/*",
    "photos": "/journal/*",
    "home": "index.md",
-   "main": "/",
+   "main": ["/", "/journal/index.md"],
    "instagram": "instagram.md",
    "archives": "archive.html"
  },
