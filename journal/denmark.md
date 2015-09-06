@@ -11,7 +11,7 @@ We had a glorious 3 weeks in Copenhagen with the best summer weather. On the fir
 We stopped by palaces along the way of course. The [Hermitage](http://www.visitcopenhagen.com/copenhagen/the-hermitage-gdk492183) inside of what is now a park and deer roam free.
 
 <div class="three-imgs">
-![Hermitage](https://farm6.staticflickr.com/5636/20993226828_424fc3c33b_b.jpg)
+![Hermitage](https://farm1.staticflickr.com/743/20994706008_1c2b26060b_b.jpg)
 ![Hermitage deer](https://farm6.staticflickr.com/5767/20993227138_6804b5f42c_b.jpg)
 ![Hermitage ground](https://farm1.staticflickr.com/625/21181171565_1741abf5d4_b.jpg)
 </div>
