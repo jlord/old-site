@@ -1,4 +1,4 @@
 # Cities & Such
 
 
-- [Denmark](/denmark.md)
+- [Denmark](/journal/denmark.html)
