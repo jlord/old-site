@@ -1,3 +1,6 @@
+// note to self:
+// handlebars --data content/assets/js/handlebars/ -f content/assets/js/templates.js
+
 (function() {
   var template = Handlebars.template, templates = Handlebars.templates = Handlebars.templates || {};
 templates['instagram'] = template({"1":function(container,depth0,helpers,partials,data) {
