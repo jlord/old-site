@@ -76,8 +76,14 @@ header a:hover {color: #357efc; border-bottom: 1px solid #357efc;}
 /* instagram + tweet -------------------------------------------------------- */
 
 #instagram {margin: 0 auto; overflow: auto; padding-bottom: 20px;}
-.instaImgCirc {float: left; padding-top: 15px;}
-.instaImgCirc + .instaImgCirc {padding-left: 20px;}
+.instaImgCirc {
+  float: left;
+  background-size: 226px;
+  width: 156px;
+  height: 156px;
+  border-radius: 999px;
+}
+.instaImgCirc + .instaImgCirc {margin-left: 20px;}
 .instaImgCirc img {border-radius: 1000px; width: 156px; }
 .instaImgCirc a {border: none;}
 
