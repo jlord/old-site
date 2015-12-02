@@ -3,9 +3,9 @@
 
 ![chemex](assets/chemex-round.png)
 
-I am a developer and designer at [GitHub](http://www.github.com/about). I made my way here via open government development at [Code for America](http://codeforamerica.org/), urban design at the City of [Boston's Redevelopment Authority](http://www.bostonredevelopmentauthority.org/) and architecture in Atlanta and [Georgia Tech](http://www.coa.gatech.edu/). It all makes perfect sense.
+I am a developer and designer at [GitHub](http://www.github.com/about). I made my way here via open government development at [Code for America](http://codeforamerica.org/), urban design at the [City of Boston's Redevelopment Authority](http://www.bostonredevelopmentauthority.org/) and architecture in Atlanta and [Georgia Tech](http://www.coa.gatech.edu/). It all makes perfect sense.
 
-I [develop in the open](http://www.github.com/jlord) and try to [share](/blog) what I learn. My work from life before web development can be found [here](http://jlord.us/hello/).
+I [develop in the open](http://www.github.com/jlord) and try to [share](/blog) what I learn. My portfolio from life before web development can be found [here](http://jlord.herokuapp.com/hello).
 
 I hail from the [heart of Georgia](http://www.13wmaz.com) but for now I live in Portland, Oregon. I love open source, JavaScript & Node.js, and stories of Tudor England.
 
@@ -19,6 +19,8 @@ I hail from the [heart of Georgia](http://www.13wmaz.com) but for now I live in 
 
 **Talks/Workshops/Panels**
 
+- **Mozilla Festival**, London, 2015
+- **GitHub Universe**, San Francisco, 2015
 - **Open Source Open Society**, New Zealand, 2015
 - **NICAR** workshop, Atlanta 2015
 - **Mozilla Festival**, London, 2014
@@ -37,9 +39,9 @@ I hail from the [heart of Georgia](http://www.13wmaz.com) but for now I live in 
 
 **Work**
 
-- **GitHub, Inc**, Internet Coder, SFO via PDX
+- **GitHub, Inc**, Engineer, SFO via PDX
 - **Mozilla-Knight Open News Code Sprint**, Sheetsee.js
-- **DIY.org**, Maker-in-Residence: Hacker Skills, San Francisco
+- **DIY.org**, Maker-in-Residence, 3mos: Hacker Skills, San Francisco
 - **Code for America**, 2012 Fellow, San Francisco
 - **Jr. Urban Designer**, Boston Redevelopment Auth., City of Boston
 - **Intern Architect**, Rutledge-Alcock Architects, Atlanta
