@@ -19,6 +19,7 @@ I hail from the [heart of Georgia](http://www.13wmaz.com) but for now I live in 
 
 **Talks/Workshops/Panels**
 
+- [**Node Interactive**](https://www.youtube.com/watch?v=kdComTp7KsA), Portland, 2015
 - **Mozilla Festival**, London, 2015
 - **GitHub Universe**, San Francisco, 2015
 - **Open Source Open Society**, New Zealand, 2015
