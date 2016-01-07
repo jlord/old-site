@@ -132,7 +132,7 @@ Stack Overflow is not enough. A lot times you’ll hear people boast that everyt
 
 **Work for free is not enough**
 
-Open source is too important to have it solely be free work in spare time—make it a viable way to earn a living for more people by providing paid internships, contracting out people who are already donating a lot of time to your project, by choosing a way to donate to the projects your company depends on.
+Open source is too important to have it solely be free work in spare time—make it a viable way to earn a living for more people by proving paid internships, contracting out people who are already donating a lot of time to your project, by choosing a way to donate to the projects your company depends on.
 
 ### Community
 
