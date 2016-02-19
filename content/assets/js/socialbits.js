@@ -23,7 +23,7 @@ function buildQuote(data) {
 
 function buildPocket(data) {
   var template = Handlebars.templates['pocket']
-  var html = template({"rows": getLast(data,  3)}, {});
+  var html = template({"rows": getLast(data,  4)}, {});
   document.getElementById('pocket').innerHTML = html
 }
 
