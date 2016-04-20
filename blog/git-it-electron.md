@@ -10,7 +10,7 @@ It's hard to believe it's been more than two years!  A lot about Git-it is actua
 ![completers](https://cloud.githubusercontent.com/assets/1305617/14665471/5684b864-0688-11e6-9dcb-ff4dfad25300.png)
 _People who have completed Git-it_
 
-The [original Git-it](http://github.com/jlord/git-it), which runs in terminal and is built on the [workshopper](http://github.com/rvagg/workshopper) paired with a web guide, will stay up for posterity. I've turned off Issues (relevant ones have been ported over to the new repository) and updated the `readme` to point to the new app. I still link to the original `readme` there because if you're still interested, please check it out and use it—still works.
+The [original Git-it](http://github.com/jlord/git-it), which runs in terminal and is built on the [workshopper](http://github.com/rvagg/workshopper) paired with a web guide, will stay up for posterity. I've turned off Issues (relevant ones have been ported over to the new repository) and updated the `readme` to direct people to the new app. You can of course still use it and find the original readme still in the project—it all still works!
 
 ![platforms](https://cloud.githubusercontent.com/assets/1305617/14665194/0c398390-0686-11e6-900a-36181bccd29f.png)
 _Screenshots from Linux, Mac and Windows_
@@ -22,7 +22,9 @@ _A passing challenge_
 
 ## Building it on Electron
 
-Building this on Electron was a great. The app was already a set of Node.js files and web files, which exactly what Electron apps are comprised of. I started by just dumping them all into a [barebones Electron app](https://github.com/electron/electron-quick-start) and built it up from there. Since the bulk of copy and verifying scripts were already there, most of the work was spent wiring up the verifying with all the new UI comonents (what things should happen after verified? After passing? After not passing? If the internet or request is slow? If they are partially done with challenges?) and tweaking the UI components.
+Building this on Electron was a great. The app was already a set of Node.js files and web files, which is exactly what Electron apps are comprised of. I started by just dumping them all into a [barebones Electron app](https://github.com/electron/electron-quick-start) and built it up from there.
+
+Since the bulk of copy and verifying scripts were already there, most of the work was spent wiring up the verifying with all the new UI components (What things should happen after verified? After passing? After not passing? If the internet or request is slow? If they are partially done with challenges?) and tweaking the UI components.
 
 ![welcome screen](https://cloud.githubusercontent.com/assets/1305617/14665757/458cd3d2-068a-11e6-81c5-b02a25dc86d1.png)
 _Welcome screen_
