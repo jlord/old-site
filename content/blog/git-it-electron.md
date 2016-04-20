@@ -1,6 +1,6 @@
 # Git-it Electron
 #### Jessica Lord
-#### 2016-04-19
+#### 2016-04-20
 #### Git-it, Development
 
 It's a great new Git-it day! Today I retire the original Git-it and (finally) release the new Git-it, a desktop app built with [Electron](), and make it the one I maintain henceforth.
