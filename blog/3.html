@@ -74,7 +74,11 @@
          Blog Feed Below // <a href="/journal">Photo Journal Here</a>
         </div>
         
-          <div class="post-header"><a href="multiple-heroku-accounts.html"><h1 class="post-title">Multiple Heroku Accounts</h1></a><ul><li>By Jessica Lord </li> <li>2012-11-25</li> <li>heroku, web dev</li></ul></div><p>I finally actually sat down to tackle my multiple Heroku accounts problem. I started by following Chris&#39;s <a title="comment" href="http://jlord.us/wordpress-on-heroku-and-s3/#comment-21" target="_blank">comment</a> and using a <a title="heroku accounts on github" href="https://github.com/ddollar/heroku-accounts" target="_blank">plugin</a>. Something went awry, probably my fault, but I eneded up uninstalling it (which turns out to be a pain) and figuring out how to do what it does <a href="http://stackoverflow.com/a/8856271" target="_blank">manually</a>.</p>
+          <div class="post-header"><a href="san-franniversary.html"><h1>San Franniversary</h1></a><ul><li>By Jessica Lord </li> <li>2012-11-26</li> <li>general</li></ul></div><div class="post-body"><p><img src="http://farm9.staticflickr.com/8486/8221049917_abc97c6b2a_c.jpg" alt="san franniversary"></p>
+<p>It&#8217;s my San Franniversary! A year ago today I flew to California for the first time to do this <a title="Code for America" href="http://www.codeforamerica.org" target="_blank">CfA</a> thing. Of course, I now live in the warmer, flatter, node.js-ier and according to me, all around nicer Oakland, but that doesn&#8217;t play as nicely with &#8216;anniversary&#8217;. Also, what a year!</p>
+</div>
+        
+          <div class="post-header"><a href="multiple-heroku-accounts.html"><h1>Multiple Heroku Accounts</h1></a><ul><li>By Jessica Lord </li> <li>2012-11-25</li> <li>heroku, web dev</li></ul></div><div class="post-body"><p>I finally actually sat down to tackle my multiple Heroku accounts problem. I started by following Chris&#39;s <a title="comment" href="http://jlord.us/wordpress-on-heroku-and-s3/#comment-21" target="_blank">comment</a> and using a <a title="heroku accounts on github" href="https://github.com/ddollar/heroku-accounts" target="_blank">plugin</a>. Something went awry, probably my fault, but I eneded up uninstalling it (which turns out to be a pain) and figuring out how to do what it does <a href="http://stackoverflow.com/a/8856271" target="_blank">manually</a>.</p>
 <h3 id="create-new-keys-for-accounts">Create new keys for accounts</h3>
 <p>First, create new keys for each of the accounts you&#8217;re setting up. For me that&#8217;s a work account and personal account.</p>
 <pre>ssh-keygen -t rsa -C "your@email.com"</pre>
@@ -128,9 +132,9 @@ Host heroku.personal
       <a title="Keys in Heroku" href="https://devcenter.heroku.com/articles/keys" target="_blank">Keys</a> in Heroku Dev
     </li>
   </ol>
-</div>
+</div></div>
         
-          <div class="post-header"><a href="your-own-instagram.html"><h1 class="post-title">Your Own Instagram Feed</h1></a><ul><li>By Jessica Lord</li> <li>2012-11-13</li> <li>web dev, spreadsheets, sheetsee, instagram</li></ul></div><p><img src="http://jlord.s3.amazonaws.com/wp-content/uploads/insta_ss.png" alt="instagram ss"></p>
+          <div class="post-header"><a href="your-own-instagram.html"><h1>Your Own Instagram Feed</h1></a><ul><li>By Jessica Lord</li> <li>2012-11-13</li> <li>web dev, spreadsheets, sheetsee, instagram</li></ul></div><div class="post-body"><p><img src="http://jlord.s3.amazonaws.com/wp-content/uploads/insta_ss.png" alt="instagram ss"></p>
 <p>I  know Instagram&#39;s just come out with web profiles, but they&#8217;re not on <em>my</em> page and they&#8217;re not in circles. So quick and dirty (it took longer to write this post, see note on code) I put up my photos, <a href="http://jlord.us/instagram" title="jlord instagram">here</a>, and in circles. Some weeks ago I started using an ifttt.com (which is so, so awesome) <a title="ifttt.com recipe" href="https://ifttt.com/recipes/65778" target="_blank">recipe</a> that sends my Instagram photos (dates and captions as well) to a Google Spreadsheet. I&#8217;m all about Google Spreadsheets. The same spreadsheet powers the Instagram portion on my <a title="Dashboard" href="http://jlord.us/dashboard" target="_blank">dashboard</a> page.</p>
 <h3 id="the-parts">The Parts</h3>
 <p>I use <a title="tabletop javascript" href="http://builtbybalance.com/Tabletop/" target="_blank">tabletop.js</a> to get my spreadsheet data into usable json. Once I&#8217;ve got that data, I tell <a title="mustache js" href="http://mustache.github.com" target="_blank">mustache.js</a> to take it, format each piece (I&#8217;m using just the url for the Instagram photo) into a div and then place all of those divs into the holder waiting patiently for it in my html. I use CSS to format it into circles.</p>
@@ -191,9 +195,9 @@ Host heroku.personal
 <h3 id="later-ons">Later Ons</h3>
 <p>I&#8217;d like have my captions appear when hovering over the image and to cue up, say, just 20 photos at a time and have new photos automatically appear without refresh. Perhaps this will happen on the 12 hour plane ride I have tomorrow.</p>
 <p>&nbsp;</p>
-
+</div>
         
-          <div class="post-header"><a href="wordpress-heroku.html"><h1 class="post-title">WordPress on Heroku and S3</h1></a><ul><li>By Jessica Lord</li> <li>2012-11-09</li> <li>heroku, web dev, wordpress</li></ul></div><p>The other week I moved two WordPress sites to Heroku and their media uploads to S3. How happy it&#8217;s made me!</p>
+          <div class="post-header"><a href="wordpress-heroku.html"><h1>WordPress on Heroku and S3</h1></a><ul><li>By Jessica Lord</li> <li>2012-11-09</li> <li>heroku, web dev, wordpress</li></ul></div><div class="post-body"><p>The other week I moved two WordPress sites to Heroku and their media uploads to S3. How happy it&#8217;s made me!</p>
 <p>For the first I used this <a title="Install WordPress on Heroku in 2 Minutes" href="http://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0CDAQFjAA&url=http%3A%2F%2Fwpnyc.org%2Fvideo%2Finstall-wordpress-on-heroku-in-two-minutes%2F&ei=Y0CcUIbbEqTD0QXDtYDgCg&usg=AFQjCNED1BcBQsljGybnb4kmHuuZwpSWaQ" target="_blank">tutorial</a>, which sets up WordPress with Postgres using <a title="Wordpress-Heroku Github Repo" href="https://github.com/mhoofman/wordpress-heroku" target="_blank">this Github repo</a> - but then I moved the other site (this one!) with this <a title="Migrating a WordPress blog to Heroku" href="http://blog.pardner.com/2012/04/migrating-a-wordpress-blog-to-heroku/" target="_blank">tutorial</a> and used  the new-ish on Heroku ClearDB for mySQL. I used the <a title="tantan-s3" href="http://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0CC4QFjAA&url=http%3A%2F%2Fwordpress.org%2Fextend%2Fplugins%2Ftantan-s3%2F&ei=-UGcUOb4GcmGhQerkYCoBQ&usg=AFQjCNE1M27-xI4UMbhHGCyUSYUzivDgAA" target="_blank">tantan-s3</a> Wordpress plugin to connect to a bucket on my S3 account. And BAM.</p>
 <p>A couple of notes:</p>
 <ul>
@@ -227,7 +231,7 @@ Host heroku.personal
       <a title="Custom Domans - Heroku" href="https://devcenter.heroku.com/articles/custom-domains" target="_blank">Custom Domains</a> on Heroku
     </li>
   </ol>
-</div>
+</div></div>
         
             <div class="turn-page">
     <a class="turn-previous button meta" href="2.html">Previous</a>
