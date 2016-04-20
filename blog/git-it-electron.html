@@ -72,7 +72,34 @@
 
       <div id="content">
         <div class="wrapper post-body">
-        <div class='post-header'><a href='git-it-electron.html'><h1>Git-it Electron</h1></a><ul><li>Jessica Lord</li> <li>2016-04-19</li> <li>Git-it, Development</li></ul></div><div class='post-body'><p>lallalal</p>
+        <div class='post-header'><a href='git-it-electron.html'><h1>Git-it Electron</h1></a><ul><li>Jessica Lord</li> <li>2016-04-19</li> <li>Git-it, Development</li></ul></div><div class='post-body'><p>It&#39;s a great new Git-it day! Today I retire the original Git-it and (finally) release the new Git-it, a desktop app built with <a href="">Electron</a>, and make it the one I maintain henceforth.</p>
+<p>It&#39;s hard to believe it&#39;s been more than two years!  A lot about Git-it is actually staying the same. The challenges and the <a href="http://jlord.us">page of Git-it completers</a>—that&#39;s all still the same. Over 8,000 have completed Git-it!</p>
+<p><img src="https://cloud.githubusercontent.com/assets/1305617/14665471/5684b864-0688-11e6-9dcb-ff4dfad25300.png" alt="completers">
+<em>People who have completed Git-it</em></p>
+<p>The <a href="http://github.com/jlord/git-it">original Git-it</a>, which runs in terminal and is built on the <a href="http://github.com/rvagg/workshopper">workshopper</a> paired with a web guide, will stay up for posterity. I&#39;ve turned off Issues (relevant ones have been ported over to the new repository) and updated the <code>readme</code> to point to the new app. I still link to the original <code>readme</code> there because if you&#39;re still interested, please check it out and use it—still works.</p>
+<p><img src="https://cloud.githubusercontent.com/assets/1305617/14665194/0c398390-0686-11e6-900a-36181bccd29f.png" alt="platforms">
+<em>Screenshots from Linux, Mac and Windows</em></p>
+<p>But the new one is great! This new Git-it is a desktop app that works on Mac, Windows and Linux because it&#39;s now built on <a href="http://electron.atom.io">Electron</a>. The web guide has essentially become the app—though it&#39;s been refreshed and polished—with the verifying built in.</p>
+<p><img src="https://cloud.githubusercontent.com/assets/1305617/14665714/fe00e30a-0689-11e6-8fb9-6c7378025aef.png" alt="verified">
+<em>A passing challenge</em></p>
+<h2 id="building-it-on-electron">Building it on Electron</h2>
+<p>Building this on Electron was a great. The app was already a set of Node.js files and web files, which exactly what Electron apps are comprised of. I started by just dumping them all into a <a href="https://github.com/electron/electron-quick-start">barebones Electron app</a> and built it up from there. Since the bulk of copy and verifying scripts were already there, most of the work was spent wiring up the verifying with all the new UI comonents (what things should happen after verified? After passing? After not passing? If the internet or request is slow? If they are partially done with challenges?) and tweaking the UI components.</p>
+<p><img src="https://cloud.githubusercontent.com/assets/1305617/14665757/458cd3d2-068a-11e6-81c5-b02a25dc86d1.png" alt="welcome screen">
+<em>Welcome screen</em></p>
+<h2 id="so-much-more">So Much More</h2>
+<p>There are dozens of things I still want to add or improve in this project. If I had to rattle off a few (the scopes vary wildly):</p>
+<ul>
+<li>Take this and make a generalized tutorial-making app.</li>
+<li>Make it a faster loading single page app.</li>
+<li>Clean up all my horrible code.</li>
+<li>Update the language views. They still work but they have the old styles.</li>
+<li>Make it easier to add languages.</li>
+<li>Tweak the CSS so that it feels more like a desktop app and less like a website.</li>
+</ul>
+<p><img src="https://cloud.githubusercontent.com/assets/1305617/14666822/87857432-0690-11e6-9294-40a6f2b50f66.png" alt="app details">
+<em>App details</em></p>
+<h2 id="labor-of-love">Labor of Love</h2>
+<p>I&#39;ve worked on this in spurts. I&#39;ve come close to burning out on open source and have tried to give myself many more evenings to do anything else. But I really believe in Git-it. I think there still aren&#39;t a lot of great tools for learning Git and GitHub. I still believe in the philosophy behind Git-it, to teach by having you do (rather than read or have it done for you) and by using the real tools (rather than emulating them). So it&#39;s been slow and it&#39;s not as polished and pristine as I&#39;d like but I am still quite proud of it. Thank you for everyone who has used it or contributed! &lt;3</p>
 </div>
         </div>
       </div>
