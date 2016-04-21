@@ -3,7 +3,7 @@
 #### 2016-04-20
 #### Git-it, Development
 
-It's a great new Git-it day! Today I retire the original Git-it and (finally) release the new Git-it, a desktop app built with [Electron](), and make it the one I maintain henceforth.
+It's a great [new Git-it](https://github.com/jlord/git-it-electron) day! Today I retire the original Git-it and (finally) release the new Git-it, a desktop app built with [Electron](https://electron.atom.io), and make it the one I maintain henceforth.
 
 It's hard to believe it's been more than two years!  A lot about Git-it is actually staying the same. The challenges and the [page of Git-it completers](http://jlord.us)—that's all still the same. Over 8,000 have completed Git-it!
 
@@ -46,3 +46,5 @@ _App details_
 ## Labor of Love
 
 I've worked on this in spurts. I've come close to burning out on open source and have tried to give myself many more evenings to do anything else. But I really believe in Git-it. I think there still aren't a lot of great tools for learning Git and GitHub. I still believe in the philosophy behind Git-it, to teach by having you do (rather than read or have it done for you) and by using the real tools (rather than emulating them). So it's been slow and it's not as polished and pristine as I'd like but I am still quite proud of it. Thank you to everyone who has used, recommended or contributed! <3
+
+[Git-it on the Desktop](https://github.com/jlord/git-it-electron)!
