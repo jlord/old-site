@@ -22,7 +22,7 @@ _A passing challenge_
 
 ## Building it on Electron
 
-Building this on Electron was a great. The app was already a set of Node.js files and web files, which is exactly what Electron apps are comprised of. I started by just dumping them all into a [barebones Electron app](https://github.com/electron/electron-quick-start) and built it up from there.
+Building this on Electron was great. The app was already a set of Node.js files and web files, which is exactly what Electron apps are comprised of. I started by just dumping them all into a [barebones Electron app](https://github.com/electron/electron-quick-start) and built it up from there.
 
 Since the bulk of copy and verifying scripts were already there, most of the work was spent wiring up the verifying with all the new UI components (What things should happen after verified? After passing? After not passing? If the internet or request is slow? If they are partially done with challenges?) and tweaking the UI components.
 
