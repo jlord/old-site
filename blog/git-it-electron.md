@@ -1,4 +1,4 @@
-# Git-it Electron
+# Git-it Desktop
 #### Jessica Lord
 #### 2016-04-20
 #### Git-it, Development
