@@ -19,6 +19,7 @@ I hail from the [heart of Georgia](http://www.13wmaz.com) but for now I live in 
 
 **Talks/Workshops/Panels**
 
+- **GitHub Satellite**, Amsterdam 2016
 - [**Node Interactive**](https://www.youtube.com/watch?v=kdComTp7KsA), Portland, 2015
 - **Mozilla Festival**, London, 2015
 - **GitHub Universe**, San Francisco, 2015
@@ -34,9 +35,10 @@ I hail from the [heart of Georgia](http://www.13wmaz.com) but for now I live in 
 - [**Code for America Summit**](http://www.youtube.com/watch?v=Q76bKK229aM), San Francisco, 2012
 - **Farmhouse Conf**, Los Angeles, 2012
 
-
-- [Patchwork](https://github.com/blog/search?q=Patchwork) events at GitHub in various cities, teaching Git and GitHub to beginners.
-- [NodeSchool](http://www.nodeschool.io) events in various cities, mentoring Node.js and Git concepts.
+**Extracurricular**
+- StreetWise, Board member
+- [Patchwork](http://patchwork.github.io) teaching Git and GitHub to beginners.
+- [NodeSchool](http://www.nodeschool.io) teaching Node.js and Git concepts.
 
 **Work**
 
