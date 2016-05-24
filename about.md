@@ -37,8 +37,8 @@ I hail from the [heart of Georgia](http://www.13wmaz.com) but for now I live in 
 
 **Extracurricular**
 - StreetWise, Board member
-- [Patchwork](http://patchwork.github.io) teaching Git and GitHub to beginners.
-- [NodeSchool](http://www.nodeschool.io) teaching Node.js and Git concepts.
+- [Patchwork](http://patchwork.github.io), teaching Git and GitHub to beginners.
+- [NodeSchool](http://www.nodeschool.io), teaching Node.js and Git concepts.
 
 **Work**
 
