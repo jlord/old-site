@@ -223,7 +223,7 @@ animation-fill-mode: both;
   footer, .home-header, .post-header {width: 100%; min-width: 100%;}
   #instagram {max-width: 61.7%; overflow: hidden;}
   .instaImgCirc {float: none; text-align: center;}
-  .instaImgCirc + .instaImgCirc {padding-left: 0;}
+  .instaImgCirc + .instaImgCirc {display: none;}
   .post-body h1 {margin-right: 0; margin-left: 0;}
   .post-header a h1 {min-width: 280px;}
 }
