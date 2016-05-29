@@ -1,6 +1,12 @@
 # Graphics
 ## A sundry of work from the last few years
 
+![grid system](https://s3.amazonaws.com/jlord/streetsystem.png)
+<small class="meta">Grid vs Artery</small>
+
+![macon map](https://s3.amazonaws.com/jlord/misc_transitmap.png)
+<small class="meta">Macon Transit map inspired by <a href="https://www.etsy.com/shop/lineposters" target="_blank">Line Posters</a></small>
+
 ![boston map detail](https://s3.amazonaws.com/jlord/bostonmap_zoom.jpg)
 <small class="meta">Detail from map of Boston</small>
 
@@ -13,9 +19,6 @@
 ![supplies](https://s3.amazonaws.com/jlord/ecab_photo.jpg)
 <small class="meta">Supplies</small>
 
-![grid system](https://s3.amazonaws.com/jlord/streetsystem.png)
-<small class="meta">Grid vs Artery</small>
-
 ![wedding](https://s3.amazonaws.com/jlord/nola.png)
 <small class="meta">Wedding Invites</small>
 
@@ -27,9 +30,6 @@
 
 ![hackathon](https://s3.amazonaws.com/jlord/poster_pdxhack.jpg)
 <small class="meta">Hackathon poster</small>
-
-![macon map](https://s3.amazonaws.com/jlord/misc_transitmap.png)
-<small class="meta">Macon Transit</small>
 
 ![travel map](https://s3.amazonaws.com/jlord/misc_cfayearmap.png)
 <small class="meta">A year of travel</small>

@@ -3,19 +3,17 @@
 
 ![chemex](assets/chemex-round.png)
 
-I am a developer and designer at [GitHub](http://www.github.com/about). I made my way here via open government development at [Code for America](http://codeforamerica.org/), urban design at the [City of Boston's Redevelopment Authority](http://www.bostonredevelopmentauthority.org/) and architecture in Atlanta and [Georgia Tech](http://www.coa.gatech.edu/). It all makes perfect sense.
+I am an engineer at [GitHub](http://www.github.com/about) on the [Electron](http://electron.atom.io) team. I made my way here via open government development at [Code for America](http://codeforamerica.org/), urban design at the [City of Boston's Redevelopment Authority](http://www.bostonredevelopmentauthority.org/) and architecture in Atlanta and [Georgia Tech](http://www.coa.gatech.edu/). It all makes perfect sense.
 
-I [develop in the open](http://www.github.com/jlord) and try to [share](/blog) what I learn. My portfolio from life before web development can be found [here](http://jlord.herokuapp.com/hello).
+I [develop in the open](http://www.github.com/jlord) and try to [share](/blog) what I learn. Mosey on over to [see more of my work](/work.html), if you'd like.
 
-I hail from the [heart of Georgia](http://www.13wmaz.com) but for now I live in Portland, Oregon. I love open source, JavaScript & Node.js, and stories of Tudor England.
+I hail from the [heart of Georgia](http://www.13wmaz.com) but for now live in Portland, Oregon. I love open knowledge sharing systems, urban systems, walking and English comedians.
+
+Very much about me: my feelings on [privilege, community and open source](http://localhost:5567/blog/osos-talk.html).
 
 ## Contact & History
 
-<span class="meta">[to.jlord@gmail.com](mailto: to.jlord@gmail.com) | [twitter/jllord](http://www.twitter.com/jllord) | [github/jlord](http://www.github.com/jlord)</span>
-
-**IRC**: freenode, #nerdtracker, #stackvm
-
-**IRL**: Portlandia coffee shops, meetups
+<span class="meta">[to.jlord@gmail.com](mailto: to.jlord@gmail.com) | [twitter/jllord](http://www.twitter.com/jllord) | [github/jlord](http://www.github.com/jlord) | [IRC](https://www.irccloud.com): freenode, #nerdtracker, #stackvm </span>
 
 **Talks/Workshops/Panels**
 
@@ -39,13 +37,13 @@ I hail from the [heart of Georgia](http://www.13wmaz.com) but for now I live in 
 **Extracurricular**
 - StreetWise, Board member
 - [Patchwork](http://patchwork.github.io), teaching Git and GitHub to beginners.
-- [NodeSchool](http://www.nodeschool.io), teaching Node.js and Git concepts.
+- [NodeSchool](http://www.nodeschool.io), teaching Node.js and Git fundamentals.
 
 **Work**
 
-- **GitHub, Inc**, Engineer, SFO via PDX
+- **GitHub, Inc**, Engineer, 2013-present
 - **Mozilla-Knight Open News Code Sprint**, Sheetsee.js
-- **DIY.org**, Maker-in-Residence, 3mos: Hacker Skills, San Francisco
+- **DIY.org**, Maker-in-Residence, 3mos, Hacker Skills, San Francisco
 - **Code for America**, 2012 Fellow, San Francisco
 - **Jr. Urban Designer**, Boston Redevelopment Auth., City of Boston
 - **Intern Architect**, Rutledge-Alcock Architects, Atlanta

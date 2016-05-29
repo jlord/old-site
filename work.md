@@ -13,23 +13,23 @@
 
 ## Development
 
-Below are a few selected personal projects. Some are small tools, some are larger projects—much more can be found on [my GitHub](https://github.com/jlord).
+During the day I work at GitHub on [Electron](http://electron.atom.io). Outside of that I'm still building. Below are a few personal projects—much more can be found on [my GitHub](https://github.com/jlord).
 
-[**Git-it**](https://jlord.github.io/git-it-electron) A terminal based interactive tutorial for learning Git and GitHub.
+[**Git-it**](https://jlord.github.io/git-it-electron) An interactive desktop app for learning Git and GitHub.
 
 [**Sheetsee.js**](https://jlord.github.io/sheetsee.js) A library for visualizing data from Google Spreadsheets.
 
-[**Fork-n-Go**](https://jlord.github.io/forkngo) Web sites that can be forked and used and hosted with minimal effort.
+[**Fork-n-Go**](https://jlord.github.io/forkngo) Web sites that can be forked, reused and hosted with minimal effort.
 
 [**Sheetdown**](https://github.com/jlord/sheetdown) CLI for converting Google Spreadsheets into Markdown tables.
 
 [**Lending Library**](https://jlord.github.io/lending-library) Fork-n-Go site for sharing things—spreadsheet as database.
 
-[**Hack Spots**](https://jlord.github.io/hack-spots) Fork-n-Go site for mapping and listing locations (of coffeeshops).
+[**Hack Spots**](https://jlord.github.io/hack-spots) Fork-n-Go site for mapping and listing locations.
 
 <small class="meta">More on <a href="http://github.com/jlord" target="_blank">github/jlord</a> and <a href="http://www.npmjs.org/~jlord">npm/~jlord</a></small>
 
-## Urban Design & Architecture
+## Urban Design, Architecture & CFA
 
 <div class="no-line">
   <div class="half">
@@ -40,7 +40,7 @@ Below are a few selected personal projects. Some are small tools, some are large
   </div>
 </div>
 
-Here are some [selected projects](arch-urban-design.html) from my work in architecture and urban design.
+Here are some [selected projects](arch-urban-design.html) from my work in architecture, urban design and year as a Code for America fellow.
 
 ## Graphics
 
