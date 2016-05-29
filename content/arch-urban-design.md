@@ -1,5 +1,12 @@
-# Architecture & Urban Design
-## Life before Code for America & GitHub
+# Architecture & Cities
+## Code for America, City of Boston, Rutledge-Alcock Architects
+
+## Code for America
+<b>Code for America Fellowship, 2012</b>
+
+In my year as a Code for America Fellow I worked with the City of Macon, Georgia (from whence I came!) and built a site to visualize government spending (later to become [sheetsee.js](http://jlord.us/sheetsee.js)) and a transit map. In the video below I talk about the work.
+
+<iframe width="684" height="385" src="https://www.youtube.com/embed/Q76bKK229aM?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## Urban Design
 <b>Boston Redevelopment Authority, City of Boston, 2008-2011</b>

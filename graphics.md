@@ -31,5 +31,8 @@
 ![macon map](https://s3.amazonaws.com/jlord/misc_transitmap.png)
 <small class="meta">Macon Transit</small>
 
-![travel map](http://jlord.herokuapp.com/work/more-maps/#)
+![travel map](https://s3.amazonaws.com/jlord/misc_cfayearmap.png)
 <small class="meta">A year of travel</small>
+
+![bpma](https://s3.amazonaws.com/jlord/bpma_brochure.jpg)
+<small class="meta">Boston Public Market Assets</small>

@@ -22,13 +22,14 @@ I hail from the [heart of Georgia](http://www.13wmaz.com) but for now I live in 
 - **GitHub Satellite**, Amsterdam 2016
 - [**Node Interactive**](https://www.youtube.com/watch?v=kdComTp7KsA), Portland, 2015
 - **Mozilla Festival**, London, 2015
-- **GitHub Universe**, San Francisco, 2015
-- **Open Source Open Society**, New Zealand, 2015
+- [**GitHub Universe**](https://www.youtube.com/watch?v=_dkeD3OZ218), San Francisco, 2015
+- [**Open Source Open Society**](https://www.youtube.com/watch?v=0kWix0Krc9c), New Zealand, 2015
 - **NICAR** workshop, Atlanta 2015
 - **Mozilla Festival**, London, 2014
 - **JSDC**, Taipei, 2014
 - **Web Rebels**, Oslo, 2014
 - **JSFest**, San Francisco, 2014
+- [**She++ TechStories**](https://www.youtube.com/watch?v=eHOGE00ar4U), 2014
 - **Mozilla Festival**, London, 2013
 - [**Aspen Institute, FOCAS**](http://www.aspeninstitute.org/policy-work/communications-society/FOCAS2013), Aspen, 2013
 - **State of the Map**, Portland, 2012

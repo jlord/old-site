@@ -13,7 +13,7 @@
 
 ## Development
 
-Below are a few selected personal projects. Some are small tools, some are larger projects for fork-able sites with spreasheetes as databases.
+Below are a few selected personal projects. Some are small tools, some are larger projects—much more can be found on [my GitHub](https://github.com/jlord).
 
 [**Git-it**](https://jlord.github.io/git-it-electron) A terminal based interactive tutorial for learning Git and GitHub.
 
