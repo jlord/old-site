@@ -219,7 +219,7 @@ animation-fill-mode: both;
   #main-content {padding: 20px;}
   #content {padding-right: 20px; padding-left: 20px;}
   .half {width: 100%}
-  #work-photos {display: none;}
+  .hide-work-photo {display: none;}
   .about-foot {display: block; text-align: center; padding: 0;}
   .socials, .sideways {display: none;}
   footer, .home-header, .post-header {width: 100%; min-width: 100%;}
@@ -296,6 +296,6 @@ animation-fill-mode: both;
   font-family: 'Source Sans Pro', Arial, sans-serif;
 }
 
-
-/*.post-body img[alt~="fullspan"] {
-}*/
+#cfa-video {
+  width: 100%;
+}
