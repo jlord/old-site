@@ -3,6 +3,7 @@ body {background: #f4f4f4; font-family: Lora, Georgia, Baskerville, serif;
 
 a {text-decoration: none; color: #357efc; border-bottom: 1px solid #ECECEC; transition: color 0.2s;}
 a:hover {color: #357efc; border-color: #357efc; }
+.no-line a {border: none;} /*ugh*/
 
 .meta { margin: 0 auto; font-size: 11px; font-family: 'Source Sans Pro' ; color: #777; letter-spacing: .1em; font-weight: 300; text-transform: uppercase;}
 img {width: 100%;}
@@ -12,6 +13,7 @@ ol, ul {line-height: 1.5em; font-size: 18px;}
 ul {list-style: circle; padding-left: 18px;}
 
 h1 {font-size: 40px;}
+
 
 pre { font-family: 'Source Code Pro','Andale Mono', Liberation Mono, monospace; white-space: pre-wrap;
   word-break: break-all; word-wrap: break-word; padding: 20px; background: #fafafa;

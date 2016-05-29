@@ -31,28 +31,28 @@ Below are a few selected personal projects. Some are small tools, some are large
 
 ## Urban Design & Architecture
 
-Selected projects from my work in architecture and urban design.
-
-<div>
+<div class="no-line">
   <div class="half">
-    ![1](https://raw.githubusercontent.com/jlord/jlord.github.io/master/assets/speedfatality.png)
+    [![stuar street ](https://cloud.githubusercontent.com/assets/1305617/15631232/91f92f9e-2512-11e6-95e5-115acb920021.png)](arch-urban-design.html#stuart-street)
   </div>
   <div class="r half">
-    ![2](https://cloud.githubusercontent.com/assets/1305617/15630111/5afd6dbe-24e2-11e6-8ebe-38c0d08dee59.png)
+    [![apa guide](https://cloud.githubusercontent.com/assets/1305617/15631231/919e849a-2512-11e6-92b6-22601b25eb27.png)](arch-urban-design.html#apa-planner-s-guide)
   </div>
 </div>
+
+Here are some [selected projects](arch-urban-design.html) from my work in architecture and urban design.
 
 ## Graphics
 
-Most all of my work in some capacity involves graphics, but sometimes I graphic just for fun. Here are a few samples.
-
-<div>
+<div class="no-line">
   <div class="half">
-    ![1](https://raw.githubusercontent.com/jlord/jlord.github.io/master/assets/speedfatality.png)
+    [![grid system](https://cloud.githubusercontent.com/assets/1305617/15631273/460fe69c-2515-11e6-9cf9-db83170e890a.png)](graphics.html)
   </div>
   <div class="r half">
-    ![2](https://cloud.githubusercontent.com/assets/1305617/15630111/5afd6dbe-24e2-11e6-8ebe-38c0d08dee59.png)
+    [![gov diagram](https://raw.githubusercontent.com/jlord/jlord.github.io/master/assets/govdiagram.png)](graphics.html)
   </div>
 </div>
+
+Most all of my work in some capacity involves graphics, but sometimes I graphic just for fun. Here are a [few samples](graphics.html).
 
 <small class="meta">A bit more on <a href="http://dribbble.com/jlord">Dribbble</a>.</small>
