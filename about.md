@@ -9,7 +9,7 @@ I [develop in the open](http://www.github.com/jlord) and try to [share](/blog) w
 
 I hail from the [heart of Georgia](http://www.13wmaz.com) but for now live in Portland, Oregon. I love open knowledge sharing systems, urban systems, walking and English comedians.
 
-Very much about me: my feelings on [privilege, community and open source](http://localhost:5567/blog/osos-talk.html).
+Very much about me: my feelings on [privilege, community and open source](/blog/osos-talk.html).
 
 ## Contact & History
 
@@ -17,6 +17,7 @@ Very much about me: my feelings on [privilege, community and open source](http:/
 
 **Talks/Workshops/Panels**
 
+- [**Hanselminutes Podcast**](http://hanselminutes.com/534/creating-cross-platform-electron-apps-with-jessica-lord), June 2106
 - **GitHub Satellite**, Amsterdam 2016
 - [**Node Interactive**](https://www.youtube.com/watch?v=kdComTp7KsA), Portland, 2015
 - **Mozilla Festival**, London, 2015
