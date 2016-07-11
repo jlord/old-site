@@ -15,7 +15,7 @@
 
 During the day I work at GitHub on [Electron](http://electron.atom.io). Outside of that I'm still building. Below are a few personal projects—much more can be found on [my GitHub](https://github.com/jlord).
 
-[**Git-it**](https://jlord.github.io/git-it-electron) An interactive desktop app for learning Git and GitHub.
+[**Git-it**](https://github.com/jlord/git-it-electron) An interactive desktop app for learning Git and GitHub.
 
 [**Sheetsee.js**](https://jlord.github.io/sheetsee.js) A library for visualizing data from Google Spreadsheets.
 
