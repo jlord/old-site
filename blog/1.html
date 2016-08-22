@@ -74,6 +74,22 @@
          Blog Feed Below // <a href="/journal">Photo Journal Here</a>
         </div> -->
         
+          <div class="post-header"><a href="patchwork-year.html"><h1>Patchwork Year!</h1></a><ul><li>Jessica Lord</li> <li>2015-01-22</li> <li>github, open source, git-it, reporobot</li></ul></div><div class="post-body"><p>A little over a year ago I volunteered to lead a community event at GitHub with the goal of helping new users make their first pull request. At GitHub we think a lot about how people learn to use Git/GitHub and as a stil-new-ish person in web development I think a lot too about how I can share what I&#39;ve learned in a way that is meaningful to someone else starting out. I was excited about the challenge.</p>
+<p>We called it Patchwork because each of us in open source contributes pieces to something bigger, quite literally and metaphorically we make quilts. Props to <a href="http://www.twitter.com/kelseyschimm">Kelsey</a> on this element.</p>
+<p><img src="https://s3.amazonaws.com/f.cl.ly/items/310g2d2U2Q0g2Y070k36/reporobotyear.png" alt="patches">
+<em>@reporobot&#39;s quilt of patches</em></p>
+<p>Fresh off the heels of NodeConf 2013 and the first <a href="http://www.nodeschool.io">nodeschool.io</a> workshops, I decided to make a Git based workshop and thus <a href="https://github.com/jlord/git-it">Git-it</a> was born. But I couldn&#39;t teach people how to use GitHub without someone to collaborate with—and I couldn&#39;t feasibly review and merge each and every pull request that came in—so <a href="https://github.com/reporobot">@reporobot</a> was born. As of writing he&#39;s helped <strong>1493</strong> people on Git-it!</p>
+<p><img src="https://i.github-camo.com/5b47a379d1899b1e0004fd944eef30fe88e91dc4/687474703a2f2f636c2e6c792f696d6167652f3057304f33463338315132412f756e6e616d65642d312e6a7067" alt="patchworksf">
+<em>photo by <a href="http://twitter.com/muanchoiu">@muanchoiu</a></em></p>
+<p>So it was that a year ago we held the first Patchwork at GitHub&#39;s office in SF. It was nerve wracking for me (@reporobot was my first server!) but it went well, <em>whew</em>! We then had 14 more over the course of the 2014. GitHubbers hosted them where they were and we held Patchworks in London, Edinburgh, Nashville, Chicago, Columbus, Atlanta, New York City, Phoenix, Taipei, Tokyo and Boulder. Over <strong>700</strong> attendees!</p>
+<p>We learned and iterated on the events. We used Git-it for some and then went web-based and command-line-free using the <a href="http://guides.github.com/activities/hello-world">Hello-World Guide</a>. Many props on content here to <a href="http://www.twitter.com/tenaciouscb">Chrissie</a> who works with more GitHub users than probably anyone.</p>
+<p>We added talks. An introduction from a GitHubber on their first pull request and how they got involved with open source—dispel any ideas that developers were born developers. We all started somewhere. A closing talk from a local open source developer to introduce projects and real world open source practices.</p>
+<p><img src="http://jlord.us/git-it/assets/imgs/branches.png" alt="branch">
+<em>Branching</em></p>
+<p>I&#39;m really proud of Patchwork. It&#39;s a simple event for sharing skills and giving back. Locals volunteered their time to come out and mentor attendees, to sit down and talk about branching like someone once did with them, and I am ever so grateful to all of you! Equally thankful to all the GitHubbers who attended, hosted and helped pull these off.</p>
+<p>Patchwork keep going 2015 and be even better with full time dedication, so keep an eye out! I&#39;ll step back and cheer it on and continue in my spare time to maintain Git-it and @reporobot. More on that soon!</p>
+</div>
+        
           <div class="post-header"><a href="simple-node-module.html"><h1>Node & npm Basics via a Simple Module</h1></a><ul><li>Jessica Lord</li> <li>2014-09-06</li> <li>Node.js, npm, Development</li></ul></div><div class="post-body"><p>The other day I wrote a simple Node module and thought it may be useful and digestible enough to look into and learn about some Node and npm Basics. If you have some questions about this module, you can <a href="http://www.github.com/jlord/cli-boilerplate/issues">open an issue</a> on the repo.</p>
 <p><strong>Note:</strong> <em>The module is <a href="https://github.com/jlord/cli-boilerplate">github.com/jlord/cli-boilerplate</a> and since this posting it&#39;s been updated (more features!) so I created a branch called</em> <code>tutorial</code> <em>on the repository, <a href="https://github.com/jlord/cli-boilerplate/tree/tutorial">here</a>, that matches the state of the project at the time of this writing to refer to as you read.</em></p>
 <hr>
@@ -288,32 +304,6 @@ See: <a href="http://jlord.github.io/sheetsee.js/demos/demo-table.html">table de
 <p>With a some CSS and such, the resulting website has a table with the hack spots and a button for viewing in Google Maps or Yelp:</p>
 <p><img src="http://jlord.s3.amazonaws.com/wp-content/uploads/Screen-Shot-2013-09-15-at-6.43.54-PM.png" alt="table"></p>
 <p>When the page builds, it creates the correct link for each row. When someone clicks on the buttons it takes them directly to the Google Map search result for that address. BAM!</p>
-</div>
-        
-          <div class="post-header"><a href="fork-n-go.html"><h1>Fork-n-go</h1></a><ul><li>Jessica Lord</li> <li>2013-08-11</li> <li>github, pages, open source, sheetsee.js</li></ul></div><div class="post-body"><p><img src="http://jlord.s3.amazonaws.com/wp-content/uploads/forkngoheader.png" alt="fork-n-go"></p>
-<p>I began <a href="http://jlord.github.io/sheetsee.js">Sheetsee</a> last year as an effort to make wider use of existing, free and easy to use web technologies. I&#39;m always hacking on it and always trying to make it easier to use.</p>
-<p><img src="http://jlord.s3.amazonaws.com/wp-content/uploads/ss-diagram.png" alt="ss diagram"></p>
-<p>I think that using a Google Spreadsheet as a database can quickly and easily solve a lot of the initial barriers to getting-going that prevent even savy developers from starting even a simple website if it requires a database. More so I think that using Google Spreadsheet as a database can bring simple and easy control to many people.</p>
-<p>Because you can easily pick contributors, viewers; share raw or connect to a Google Form - collaborating on information can become really, really easy. When connected to a templated website, the information becomes more meaningful.</p>
-<p>Currently there is <a href="http://www.github.com/jlord/sheetsee-cache">sheetsee-cache</a>, a node.js caching version, <a href="http://jlord.github.io/sheetsee.js">Sheetsee</a>, the basic client-side version which is much more accessible. Recently I&#39;ve started getting excited about an iteration even more approachable, making use of the free and easy hosting through <a href="http://pages.github.com">GitHub Pages</a>.</p>
-<p><strong>All it takes to get a website going for a repository on GitHub is a branch named gh-pages containing web files. You also don&#8217;t need a master branch, you can have a repo with just one branch named gh-pages. Here is what I think is really cool, if you fork a project with just a gh-pages branch, you&#8217;re only a commit away from having a live version yourself. If this repo being forked is using sheetsee.js then everyone is a fork, commit and spreadsheet away from having a live website connected to an easy (a familiar spreadsheet UI and no &#39;publish&#39; flow because Google autosaves) to use database that they manage (control permissions, review revision history).</strong></p>
-<h3 id="hack-spots">Hack Spots</h3>
-<p><img src="http://jlord.s3.amazonaws.com/wp-content/uploads/hack-spots-ss.png" alt="hack-spots"></p>
-<p>For example, I made <a href="http://jlord.github.io/hack-spots">this website</a> to collect hack spots all over the world from friends and friends of friends (the spreadsheet is wide open, so you can add some, too!). It&#39;s using sheetsee to power the table, map and other elements of the page. Its source is in <a href="http://www.github.com/jlord/hack-spots">this repo</a>, with just a gh-pages branch. To create an instance of this site for yourself all you need to do:</p>
-<ul>
-<li>Create a Google spreadsheet with the same headers (just copy and paste header row from the original).</li>
-<li>Fork the original source.</li>
-<li>Edit the HTML file directly on GitHub.com to replace the original spreadsheet&#8217;s unique key with your spreadsheet&#8217;s key (found in your spreadsheet&#8217;s URL).</li>
-<li>Commit your change.</li>
-</ul>
-<p>Now you have the same site connected to a spreadsheet that you manage - it&#39;s live and can be found at <em>yourGitHubName.github.io/theReposName</em>.</p>
-<p><img src="http://jlord.s3.amazonaws.com/wp-content/uploads/forkcommit1.png" alt="fork and commit"> </p>
-<h3 id="potential">Potential</h3>
-<p>I think there could be many potential uses for web developers and designers to use this for small projects that catch their fancy, but I&#39;m really interested in this as a way to make creating a live website with collaborative data available to people who think setting up a website is far beyond their grasp (or not free). All it takes is a designer/developer to create one working version for a use case to enable many to easily replicate it. Could this help civic organizers? Cities? Neighborhood groups?</p>
-<p><img src="http://jlord.s3.amazonaws.com/wp-content/uploads/lending-ss.png" alt="tool lending"></p>
-<p>So I&#39;m wondering, what are the possible use cases? For instance, I&#39;m currently working on a site for <a href="http://www.github.com/jlord/sheetsee-tool-lending">managing lending tools</a> in a group of friends or neighborhood. This information can be easily stored in a spreadsheet but made much more useable through a website. Any group could use the steps mentioned above and get this going for themselves in minutes. No installation and after one person forks the site, all other collaborators only need interact with the spreadsheet.</p>
-<p><em>Edit:</em> Also! There are lots of  automation into Google spreadsheets possibilities through <a href="https://ifttt.com/">ifttt.com</a> (which I use for the Pocket reads and Instagrams on the <a href="http://jlord.us">front</a> of my site).</p>
-<p>Hit me up on <a href="http://www.twitter.com/jllord">Twitter</a>, <a href="mailto:to.jlord@gmail.com">email</a> or on <a href="http://www.github.com/jlord">GitHub</a> if you&#39;ve got thoughts or ideas for this!</p>
 </div>
         
             <div class="turn-page">
