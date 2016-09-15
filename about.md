@@ -17,7 +17,7 @@ Very much about me: my feelings on [privilege, community and open source](/blog/
 
 **Talks/Workshops/Panels**
 
-- [**Hanselminutes Podcast**](http://hanselminutes.com/534/creating-cross-platform-electron-apps-with-jessica-lord), June 2016
+- [**Hanselminutes Podcast**](http://hanselminutes.com/534/creating-cross-platform-electron-apps-with-jessica-lord), June 2106
 - **GitHub Satellite**, Amsterdam 2016
 - [**Node Interactive**](https://www.youtube.com/watch?v=kdComTp7KsA), Portland, 2015
 - **Mozilla Festival**, London, 2015
