@@ -3,27 +3,43 @@
 
 ![chemex](assets/chemex-round.png)
 
-I am an engineer at [GitHub](http://www.github.com/about) on the [Electron](http://electron.atom.io) team. I made my way here via open government development at [Code for America](http://codeforamerica.org/), urban design at the [City of Boston's Redevelopment Authority](http://www.bostonredevelopmentauthority.org/) and architecture in Atlanta and [Georgia Tech](http://www.coa.gatech.edu/). It all makes perfect sense.
+I'm an urban designer turned open web developer—which isn't as odd as it sounds. I use technology to build tools (and sometimes visuals) so that information—be it urban systems, code, or government—is more accessible.
 
-I [develop in the open](http://www.github.com/jlord) and try to [share](/blog) what I learn. Mosey on over to [see more of my work](/work.html), if you'd like.
+I champion open knowledge, documentation, and kindness. I also believe [open source is a privilege](/blog/osos-talk.html).
 
-I hail from the [heart of Georgia](http://www.13wmaz.com) but for now live in Portland, Oregon. I love open knowledge sharing systems, urban systems, walking and English comedians.
 
-Very much about me: my feelings on [privilege, community and open source](/blog/osos-talk.html).
+---
+
+Most recently I was a Node engineer at [GitHub](https://github.com) where I started the [Electron](http://electron.atom.io) team. During my 3+ years at GitHub I also worked on [Atom](http://atom.io), [github.com](https://github.com), and supporting sites such as [government.github.com](http://government.github.com). In 2013 I started the [Patchwork](http://patchwork.github.com) community event to teach Git and GitHub to beginners.
+
+My work as a full-time developer began in 2012 when, during my fellowship year with [Code for America](https://codeforamerica.org), I built open source tools for city government. One project would later become [Sheetsee.js](http://jlord.us/sheetsee.js) through a News Sprint Grant from <span style="white-space: nowrap;">Knight-Mozilla's</span> [OpenNews](https://www.opennews.org).
+
+I have a background in design thanks to a degree (and many sleepless nights) in architecture from [Georgia Tech](http://www.arch.gatech.edu). After graduation I worked at <span style="white-space: nowrap;">Rutledge-Alcock</span> Architects before joining the [City of Boston's Urban Design Technology Group](http://www.bostonplans.org). For three years at the City I worked on design reviews, crafted neighborhood plans, and created digital models, maps and other visual elements.
+
+I used to be a [baby](https://www.instagram.com/p/BKjt6hPjv2f/?taken-by=jlord) and teenager in the [heart of Georgia](https://en.wikipedia.org/wiki/Warner_Robins,_Georgia). I'm currently in Portland, Oregon. Should we [work together](mailto: jess.lord@gmail.com)?!
+
+<ul id="links">
+  <li><a href="http://jlord.us/work">Selected projects and design</a></li>
+  <li><a href="https://github.com/jlord">All projects on GitHub</a></li>
+  <li><a href="https://dl.dropboxusercontent.com/u/13746566/jlord-resume.pdf">Resume</a></li>
+</ul>
 
 ## Contact & History
 
-<span class="meta">[to.jlord@gmail.com](mailto: to.jlord@gmail.com) | [twitter/jllord](http://www.twitter.com/jllord) | [github/jlord](http://www.github.com/jlord) | [IRC](https://www.irccloud.com): freenode, #nerdtracker, #stackvm </span>
+[jess.lord@gmail.com](mailto: jess.lord@gmail.com) | [twitter/jllord](http://www.twitter.com/jllord) | [github/jlord](http://www.github.com/jlord) | [IRC](https://www.irccloud.com): freenode, #stackvm
 
-**Talks/Workshops/Panels**
+### Talks/Workshops/Panels
 
-- [**Hanselminutes Podcast**](http://hanselminutes.com/534/creating-cross-platform-electron-apps-with-jessica-lord), June 2106
-- **GitHub Satellite**, Amsterdam 2016
+- [**JSConf Australia**](http://2016.jsconfau.com/interviews/jessica-lord) — Melbourne, Australia, December, 2016
+- [**CSSConf**](https://youtu.be/H6IDoraEpO0), Boston, September 2016
+- [**JavaScript Air**](https://javascriptair.com/episodes/2016-07-06), Podcast, July, 2016
+- [**Hanselminutes**](http://hanselminutes.com/534/creating-cross-platform-electron-apps-with-jessica-lord), Podcast, June, 2106
+- [**GitHub Satellite**](https://www.youtube.com/watch?v=WVb2OD49pUA), Amsterdam, May, 2016
 - [**Node Interactive**](https://www.youtube.com/watch?v=kdComTp7KsA), Portland, 2015
 - **Mozilla Festival**, London, 2015
 - [**GitHub Universe**](https://www.youtube.com/watch?v=_dkeD3OZ218), San Francisco, 2015
 - [**Open Source Open Society**](https://www.youtube.com/watch?v=0kWix0Krc9c), New Zealand, 2015
-- **NICAR** workshop, Atlanta 2015
+- **NICAR** workshop, Atlanta, 2015
 - **Mozilla Festival**, London, 2014
 - **JSDC**, Taipei, 2014
 - **Web Rebels**, Oslo, 2014
@@ -36,18 +52,18 @@ Very much about me: my feelings on [privilege, community and open source](/blog/
 - **Farmhouse Conf**, Los Angeles, 2012
 
 **Extracurricular**
-- StreetWise, Board member
+- StreetWise, transportation data non-profit, Board Member
 - [Patchwork](http://patchwork.github.io), teaching Git and GitHub to beginners.
 - [NodeSchool](http://www.nodeschool.io), teaching Node.js and Git fundamentals.
 
 **Work**
 
-- **GitHub, Inc**, Engineer, 2013-present
-- **Mozilla-Knight Open News Code Sprint**, Sheetsee.js
-- **DIY.org**, Maker-in-Residence, 3mos, Hacker Skills, San Francisco
-- **Code for America**, 2012 Fellow, San Francisco
-- **Jr. Urban Designer**, Boston Redevelopment Auth., City of Boston
-- **Intern Architect**, Rutledge-Alcock Architects, Atlanta
+- **GitHub, Inc**, Engineer, 2013-2016
+- **Mozilla-Knight Open News Code Sprint**, 2013, 2 mos, Sheetsee.js
+- **DIY.org**, 2013, Maker-in-Residence, Skills curriculum, 3 mos, San Francisco
+- **Code for America**, 2012 Fellow, 1 yr, San Francisco
+- **Jr. Urban Designer**, 3 yrs, Boston Redevelopment Auth., City of Boston
+- **Intern Architect**, 1 yr, Rutledge-Alcock Architects, Atlanta
 
 **Edu**
 
