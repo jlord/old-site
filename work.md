@@ -13,7 +13,9 @@
 
 ## Development
 
-During the day I work at GitHub on [Electron](http://electron.atom.io). Outside of that I'm still building. Below are a few personal projects—much more can be found on [my GitHub](https://github.com/jlord).
+Below are a few personal projects—much more can be found on [my GitHub](https://github.com/jlord).
+
+[**Essential Electron**](https://jlord.github.io/essential-electron) Concise plain-speak about Electron.
 
 [**Git-it**](https://github.com/jlord/git-it-electron) An interactive desktop app for learning Git and GitHub.
 
