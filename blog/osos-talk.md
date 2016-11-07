@@ -39,7 +39,7 @@ I was a bit embarrassed to put my _DIY blog_ on my application, but I also wante
 
 ### Code for America Fellowship
 
-![cfa 2102 team](https://style.codeforamerica.org/media/images/big-data.jpg)
+![cfa 2102 team](http://style.codeforamerica.org/media/images/big-data.jpg)
 _Me and my CfA 2102 fellow-mates in a completely staged scene_
 
 The first week of January 2012 saw me in San Francisco starting my fellowship at CfA. I learned the word _open source_. Finally, the term to describe the belief in common knowledge I'd had and finally, others who were just as excited about it as I was.
