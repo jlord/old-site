@@ -7,8 +7,14 @@ I'm an urban designer turned open web developer—which isn't as odd as it sound
 
 I champion open knowledge, documentation, and kindness. I also believe [open source is a privilege](/blog/osos-talk.html).
 
+<span class="meta">Lil Update</span>
+
+**I've recently left GitHub and am taking a little break from work and open source for a couple of months and then getting back into the swing of things at the new year.**
+
 
 ---
+
+## Work History
 
 Most recently I was a Node engineer at [GitHub](https://github.com) where I started the [Electron](http://electron.atom.io) team. During my 3+ years at GitHub I also worked on [Atom](http://atom.io), [github.com](https://github.com), and supporting sites such as [government.github.com](http://government.github.com). In 2013 I started the [Patchwork](http://patchwork.github.com) community event to teach Git and GitHub to beginners.
 
@@ -24,7 +30,7 @@ I used to be a [baby](https://www.instagram.com/p/BKjt6hPjv2f/?taken-by=jlord) a
   <li><a href="https://dl.dropboxusercontent.com/u/13746566/jlord-resume.pdf">Resume</a></li>
 </ul>
 
-## Contact & History
+### Get in touch
 
 [jess.lord@gmail.com](mailto: jess.lord@gmail.com) | [twitter/jllord](http://www.twitter.com/jllord) | [github/jlord](http://www.github.com/jlord) | [IRC](https://www.irccloud.com): freenode, #stackvm
 
