@@ -3,11 +3,11 @@
 
 ![chemex](assets/chemex-round.png)
 
-I'm an urban designer turned open web developer—which isn't as odd as it sounds. I use technology to build tools (and sometimes visuals) so that information—be it urban systems, code, or government—is more accessible.
+I'm an urban designer turned open web developer—which isn't as odd as it sounds. I use technology to build tools and visuals so that information—be it urban systems, code, or government—is more accessible.
 
 I champion open knowledge, documentation, and kindness. I also believe [open source is a privilege](/blog/osos-talk.html).
 
-<span class="meta">Lil Update</span>
+<span class="meta">A Little Update</span>
 
 **I've recently left GitHub and am taking a little break from work and open source for a couple of months and then getting back into the swing of things at the new year.**
 
@@ -16,13 +16,20 @@ I champion open knowledge, documentation, and kindness. I also believe [open sou
 
 ## Work History
 
-Most recently I was a Node engineer at [GitHub](https://github.com) where I started the [Electron](http://electron.atom.io) team. During my 3+ years at GitHub I also worked on [Atom](http://atom.io), [github.com](https://github.com), and supporting sites such as [government.github.com](http://government.github.com). In 2013 I started the [Patchwork](http://patchwork.github.com) community event to teach Git and GitHub to beginners.
+Most recently I was a desktop application Node.js engineer at [GitHub](https://github.com) where I started the [Electron](http://electron.atom.io) team. During my 3+ years at GitHub I also worked on [Atom](http://atom.io), [github.com](https://github.com), and front-end design projects on supporting sites such as [government.github.com](http://government.github.com). In 2013 I started the [Patchwork](http://patchwork.github.com) community event to teach Git and GitHub to beginners.
 
-My work as a full-time developer began in 2012 when, during my fellowship year with [Code for America](https://codeforamerica.org), I built open source tools for city government. One project would later become [Sheetsee.js](http://jlord.us/sheetsee.js) through a News Sprint Grant from <span style="white-space: nowrap;">Knight-Mozilla's</span> [OpenNews](https://www.opennews.org).
+<!-- <span class="meta">Tools: Git, GitHub, Node.js, JS, HTML, CSS, JSON, Illustrator, Photoshop, Jekyll, Heroku</span> -->
 
-I have a background in design thanks to a degree (and many sleepless nights) in architecture from [Georgia Tech](http://www.arch.gatech.edu). After graduation I worked at <span style="white-space: nowrap;">Rutledge-Alcock</span> Architects before joining the [City of Boston's Urban Design Technology Group](http://www.bostonplans.org). For three years at the City I worked on design reviews, crafted neighborhood plans, and created digital models, maps and other visual elements.
 
-I used to be a [baby](https://www.instagram.com/p/BKjt6hPjv2f/?taken-by=jlord) and teenager in the [heart of Georgia](https://en.wikipedia.org/wiki/Warner_Robins,_Georgia). I'm currently in Portland, Oregon. Should we [work together](mailto: jess.lord@gmail.com)?!
+My work as a full-time developer began in 2012 when, during my fellowship year with [Code for America](https://codeforamerica.org). I built open source tools for city government. One project, for visualizing spreadsheet data on websites, would later become [Sheetsee.js](http://jlord.us/sheetsee.js) through a News Sprint Grant from <span style="white-space: nowrap;">Knight-Mozilla's</span> [OpenNews](https://www.opennews.org).
+
+<!-- <span class="meta">Tools: Git, GitHub, JS, HTML, CSS, Shapefiles, QGIS, Mapbox, D3, Wordpress, Illustrator, Photoshop, Heroku</span> -->
+
+I have a background in design thanks to a degree (and many sleepless nights) in architecture from [Georgia Tech](http://www.arch.gatech.edu). After graduation I worked at <span style="white-space: nowrap;">Rutledge-Alcock</span> Architects before joining the [City of Boston's Urban Design Technology Group](http://www.bostonplans.org). For three years at the City I worked on design reviews, crafted neighborhood plans, and created digital models, maps and other visual elements. Here are [some examples](http://jlord.us/arch-urban-design.html).
+
+<!-- <span class="meta">Tools: Illustrator, Photoshop, Shapefiles, Sketchup, AutoCAD, Revit, Wordpress, HTML, CSS</span> -->
+
+Before all of this, I was a [baby](https://www.instagram.com/p/BKjt6hPjv2f/?taken-by=jlord) and teenager in the [heart of Georgia](https://en.wikipedia.org/wiki/Warner_Robins,_Georgia). I'm currently in Portland, Oregon (and missing the east coast). Should we [work together](mailto: jess.lord@gmail.com)?!
 
 <ul id="links">
   <li><a href="http://jlord.us/work">Selected projects and design</a></li>
@@ -58,7 +65,7 @@ I used to be a [baby](https://www.instagram.com/p/BKjt6hPjv2f/?taken-by=jlord) a
 - **Farmhouse Conf**, Los Angeles, 2012
 
 **Extracurricular**
-- StreetWise, transportation data non-profit, Board Member
+- [StreetSmart](http://welcome.thinkstreetsmart.org), transportation data non-profit, Board Member
 - [Patchwork](http://patchwork.github.io), teaching Git and GitHub to beginners.
 - [NodeSchool](http://www.nodeschool.io), teaching Node.js and Git fundamentals.
 

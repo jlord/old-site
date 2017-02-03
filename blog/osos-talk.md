@@ -18,7 +18,7 @@ _Height study for future development around Stuart Street in Boston_
 
 Urban Design is like architecture at city-scale and with my architecture degree, passion for urban systems and public sector work it was a dream to work for the City of Boston. I also love computers so I felt right at home as one of four in the Urban Design Technology Group.
 
-I worked on 3D models, shadow and height studies, sustainable neighborhood regulations and even got to tell Dunkin Donuts what their sign options were.
+I worked on 3D models, shadow and height studies, sustainable neighborhood regulations and even got to tell Dunkin Doughnut what their sign options were.
 
 Despite 'technology' being in the team's title, I wanted to see more technology within the Planning Department. I don't mean shiny new things like infrared drones or something, I mean the technology that most of us take for granted. For instance, we were writing our own photo sorting software and shelling out hundreds of thousands of dollars for a custom, closed-source CMS (Content Management System) for our department's website. Things like Flickr, Wordpress and Google Spreadsheets solve many of these problems and are used by millions everyday but haven't made their way into government, and it was disheartening to know we'd spend time on our own, lesser versions of them.
 
