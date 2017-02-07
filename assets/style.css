@@ -14,6 +14,18 @@ ul {list-style: circle; padding-left: 18px;}
 
 h1 {font-size: 40px;}
 
+.sans-serif {
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.grey {
+  color: #777;
+}
+
+.grey a {
+  color: #777;
+}
+
 
 pre { font-family: 'Source Code Pro','Andale Mono', Liberation Mono, monospace; white-space: pre-wrap;
   word-break: break-all; word-wrap: break-word; padding: 20px; background: #fafafa;

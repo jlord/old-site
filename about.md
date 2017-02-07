@@ -18,14 +18,23 @@ I champion open knowledge, documentation, and kindness. I also believe [open sou
 
 Most recently I was a desktop application Node.js engineer at [GitHub](https://github.com) where I started the [Electron](http://electron.atom.io) team. During my 3+ years at GitHub I also worked on [Atom](http://atom.io), [github.com](https://github.com), and front-end design projects on supporting sites such as [government.github.com](http://government.github.com). In 2013 I started the [Patchwork](http://patchwork.github.com) community event to teach Git and GitHub to beginners.
 
+<small class="meta">Neat-o</small><br>
+<small class="sans-serif grey">My Git and GitHub tutorial app, [Git-it](https://github.com/jlord/git-it-electron), has over 12,000 completions. My [repository](http://jlord.github.io/jlord/patchwork) for it is the [4th most contributed to project on GitHub](https://octoverse.github.com), surrounded by organizations like npm, Docker and Facebook.</small>
+
 <!-- <span class="meta">Tools: Git, GitHub, Node.js, JS, HTML, CSS, JSON, Illustrator, Photoshop, Jekyll, Heroku</span> -->
 
 
-My work as a full-time developer began in 2012 when, during my fellowship year with [Code for America](https://codeforamerica.org). I built open source tools for city government. One project, for visualizing spreadsheet data on websites, would later become [Sheetsee.js](http://jlord.us/sheetsee.js) through a News Sprint Grant from <span style="white-space: nowrap;">Knight-Mozilla's</span> [OpenNews](https://www.opennews.org).
+My work as a full-time developer began in 2012 when, during my fellowship year with [Code for America](https://codeforamerica.org), I built open source tools for city government.
+
+<small class="meta">Neat-o</small><br>
+<small class="sans-serif grey">After the fellowship, my main project for visualizing spreadsheet data on websites would later become [Sheetsee.js](http://jlord.us/sheetsee.js) through a News Sprint Grant from <span style="white-space: nowrap;">Knight-Mozilla's</span> [OpenNews](https://www.opennews.org).</small>
 
 <!-- <span class="meta">Tools: Git, GitHub, JS, HTML, CSS, Shapefiles, QGIS, Mapbox, D3, Wordpress, Illustrator, Photoshop, Heroku</span> -->
 
 I have a background in design thanks to a degree (and many sleepless nights) in architecture from [Georgia Tech](http://www.arch.gatech.edu). After graduation I worked at <span style="white-space: nowrap;">Rutledge-Alcock</span> Architects before joining the [City of Boston's Urban Design Technology Group](http://www.bostonplans.org). For three years at the City I worked on design reviews, crafted neighborhood plans, and created digital models, maps and other visual elements. Here are [some examples](http://jlord.us/arch-urban-design.html).
+
+<small class="meta">Neat-o</small><br>
+<small class="sans-serif grey">During this period I became LEED BD+C (Building Design and Construction) accredited and was a part of the first groups to test for and earn the LEED ND (Neighborhood Development) accreditation (they have since lapsed, of course, as I've been in web development).</small>
 
 <!-- <span class="meta">Tools: Illustrator, Photoshop, Shapefiles, Sketchup, AutoCAD, Revit, Wordpress, HTML, CSS</span> -->
 
@@ -65,7 +74,7 @@ Before all of this, I was a [baby](https://www.instagram.com/p/BKjt6hPjv2f/?take
 - **Farmhouse Conf**, Los Angeles, 2012
 
 **Extracurricular**
-- [StreetSmart](http://welcome.thinkstreetsmart.org), transportation data non-profit, Board Member
+- [StreetSmart](http://welcome.thinkstreetsmart.org), transportation data nonprofit, Board of Directors
 - [Patchwork](http://patchwork.github.io), teaching Git and GitHub to beginners.
 - [NodeSchool](http://www.nodeschool.io), teaching Node.js and Git fundamentals.
 
