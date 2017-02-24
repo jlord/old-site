@@ -38,7 +38,7 @@ I have a background in design thanks to a degree (and many sleepless nights) in 
 
 <!-- <span class="meta">Tools: Illustrator, Photoshop, Shapefiles, Sketchup, AutoCAD, Revit, Wordpress, HTML, CSS</span> -->
 
-Before all of this, I was a [baby](https://www.instagram.com/p/BKjt6hPjv2f/?taken-by=jlord) and teenager in the [heart of Georgia](https://en.wikipedia.org/wiki/Warner_Robins,_Georgia). I'm currently in Portland, Oregon (and missing the east coast). Should we [work together](mailto: jess.lord@gmail.com)?!
+Before all of this, I was a [baby](https://www.instagram.com/p/BKjt6hPjv2f/?taken-by=jlord) and teenager in the [heart of Georgia](https://en.wikipedia.org/wiki/Warner_Robins,_Georgia). Should we [work together](mailto: jess.lord@gmail.com)?!
 
 <ul id="links">
   <li><a href="http://jlord.us/work">Selected projects and design</a></li>
