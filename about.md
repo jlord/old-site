@@ -43,7 +43,7 @@ Before all of this, I was a [baby](https://www.instagram.com/p/BKjt6hPjv2f/?take
 <ul id="links">
   <li><a href="http://jlord.us/work">Selected projects and design</a></li>
   <li><a href="https://github.com/jlord">All projects on GitHub</a></li>
-  <li><a href="https://dl.dropboxusercontent.com/u/13746566/jlord-resume.pdf">Resume</a></li>
+  <li><a href="https://www.dropbox.com/s/wpxio5f0s321pqf/jlord-resume.pdf?dl=0">Resume</a></li>
 </ul>
 
 ### Get in touch
