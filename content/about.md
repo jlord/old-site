@@ -52,6 +52,7 @@ Before all of this, I was a [baby](https://www.instagram.com/p/BKjt6hPjv2f/?take
 
 ### Talks/Workshops/Panels
 
+- [**Render Conf**](http://2017.render-conf.com) — Oxford, England, March, 2017
 - [**JSConf Australia**](http://2016.jsconfau.com/interviews/jessica-lord) — Melbourne, Australia, December, 2016
 - [**CSSConf**](https://youtu.be/H6IDoraEpO0), Boston, September 2016
 - [**JavaScript Air**](https://javascriptair.com/episodes/2016-07-06), Podcast, July, 2016
