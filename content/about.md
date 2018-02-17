@@ -16,7 +16,7 @@ I champion open knowledge, documentation, and kindness. [Open source is a privil
 **Talks/Workshops/Panels**
 
 - [**EmpireConf**](http://2017.empireconf.org) — (Emcee) New York, October 2017
-- [**Greater Than Code**]() — Podcast, July 2017
+- [**Greater Than Code**](https://www.greaterthancode.com/podcast/040-fck-it-and-be-nice) — Podcast, July 2017
 - [**CSSConf EU**](http://2017.cssconf.eu) — (Emcee) Berlin, Germany, May 2017
 - [**Render Conf**](http://2017.render-conf.com) — Oxford, England, March, 2017
 - [**JSConf Australia**](http://2016.jsconfau.com/interviews/jessica-lord) — Melbourne, Australia, December, 2016
@@ -47,6 +47,7 @@ I champion open knowledge, documentation, and kindness. [Open source is a privil
 
 **Work**
 
+- **MongoDB**, Engineer, 2017-Present
 - **GitHub, Inc**, Engineer, 2013-2016
 - **Mozilla-Knight Open News Code Sprint**, 2013, 2 mos, Sheetsee.js
 - **DIY.org**, 2013, Maker-in-Residence, Skills curriculum, 3 mos, San Francisco
