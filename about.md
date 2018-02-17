@@ -15,6 +15,7 @@ I champion open knowledge, documentation, and kindness. [Open source is a privil
 
 **Talks/Workshops/Panels**
 
+- [**EmpireConf**](http://2017.empireconf.org) — (Emcee) New York, October 2017
 - [**CSSConf EU**](http://2017.cssconf.eu) — (Emcee) Berlin, Germany, May 2017
 - [**Render Conf**](http://2017.render-conf.com) — Oxford, England, March, 2017
 - [**JSConf Australia**](http://2016.jsconfau.com/interviews/jessica-lord) — Melbourne, Australia, December, 2016
