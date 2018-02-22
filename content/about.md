@@ -16,6 +16,7 @@ I champion open knowledge, documentation, and kindness. [Open source is a privil
 **Talks/Workshops/Panels**
 
 - [**EmpireConf**](http://2017.empireconf.org) — (Emcee) New York, October 2017
+- [**ColdFront Conf**](https://www.youtube.com/watch?v=XWyIN7DUJOk) — Copenhagen, September 2017
 - [**Greater Than Code**](https://www.greaterthancode.com/podcast/040-fck-it-and-be-nice) — Podcast, July 2017
 - [**CSSConf EU**](http://2017.cssconf.eu) — (Emcee) Berlin, Germany, May 2017
 - [**Render Conf**](http://2017.render-conf.com) — Oxford, England, March, 2017
@@ -42,22 +43,22 @@ I champion open knowledge, documentation, and kindness. [Open source is a privil
 
 **Extracurricular**
 - [StreetSmart](http://welcome.thinkstreetsmart.org), transportation data nonprofit, Board of Directors
-- [Patchwork](http://patchwork.github.io), teaching Git and GitHub to beginners.
-- [NodeSchool](http://www.nodeschool.io), teaching Node.js and Git fundamentals.
+- [Patchwork](http://patchwork.github.io), Git and GitHub for beginners, mentor.
+- [NodeSchool](http://www.nodeschool.io), Node.js fundamentals, mentor.
 
 **Work**
 
 - **MongoDB**, Engineer, 2017-Present
 - **GitHub, Inc**, Engineer, 2013-2016
-- **Mozilla-Knight Open News Code Sprint**, 2013, 2 mos, Sheetsee.js
-- **DIY.org**, 2013, Maker-in-Residence, Skills curriculum, 3 mos, San Francisco
-- **Code for America**, 2012 Fellow, 1 yr, San Francisco
-- **Jr. Urban Designer**, 3 yrs, Boston Redevelopment Auth., City of Boston
-- **Intern Architect**, 1 yr, Rutledge-Alcock Architects, Atlanta
+- **Mozilla-Knight Open News Code Sprint**, 2013, 2 months, Sheetsee.js
+- **DIY.org**, 2013, Maker-in-Residence, Skills curriculum, 3 months, San Francisco
+- **Code for America**, 2012, Fellow, San Francisco
+- **Boston Planning & Development Agency**, 2008-2011, Jr. Urban Designer, City of Boston
+- **Rutledge-Alcock Architects**, 2007-2008, Intern Architect, Atlanta
 
 **Edu**
 
-- **Georgia Institute of Technology**, 2007 Architecture
+- **Georgia Institute of Technology**, 2007 Bachelor of Science, Architecture
 - **Ecole d'Architecture de Paris LaVillette**, 2006
 
 ### About the Site
