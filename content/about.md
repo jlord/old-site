@@ -53,10 +53,10 @@ I champion open knowledge, documentation, and kindness. [Open source is a privil
 - **Mozilla-Knight Open News Code Sprint**, 2013, 2 months, Sheetsee.js
 - **DIY.org**, 2013, Maker-in-Residence, Skills curriculum, 3 months, San Francisco
 - **Code for America**, 2012, Fellow, San Francisco
-- **Boston Planning & Development Agency**, 2008-2011, Jr. Urban Designer, City of Boston
+- **Boston Planning & Development**, 2008-2011, Jr. Urban Designer, City of Boston
 - **Rutledge-Alcock Architects**, 2007-2008, Intern Architect, Atlanta
 
-**Edu**
+**Education**
 
 - **Georgia Institute of Technology**, 2007 Bachelor of Science, Architecture
 - **Ecole d'Architecture de Paris LaVillette**, 2006
