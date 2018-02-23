@@ -11,7 +11,7 @@ I champion open knowledge, documentation, and kindness. [Open source is a privil
 
 ### Get in touch
 
-[jess.lord@gmail.com](mailto: jess.lord@gmail.com) | [twitter/jllord](http://www.twitter.com/jllord) | [github/jlord](http://www.github.com/jlord) | [IRC](https://www.irccloud.com): freenode, #stackvm
+[jess.lord@gmail.com](mailto: jess.lord@gmail.com) | [twitter/jllord](http://www.twitter.com/jllord) | [github/jlord](http://www.github.com/jlord) | [IRC](https://www.irccloud.com): freenode, jlord
 
 **Talks/Workshops/Panels**
 
@@ -58,7 +58,7 @@ I champion open knowledge, documentation, and kindness. [Open source is a privil
 
 **Education**
 
-- **Georgia Institute of Technology**, 2007 Bachelor of Science, Architecture
+- **Georgia Institute of Technology**, 2007, Bachelor of Science, Architecture
 - **Ecole d'Architecture de Paris LaVillette**, 2006
 
 ### About the Site
