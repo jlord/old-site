@@ -48,9 +48,9 @@ I champion open knowledge, documentation, and kindness. [Open source is a privil
 
 **Work**
 
-- **MongoDB**, Engineer, 2017-Present
-- **GitHub, Inc**, Engineer, 2013-2016
-- **Mozilla-Knight Open News Code Sprint**, 2013, 2 months, Sheetsee.js
+- **MongoDB**, 2017-Present, Engineer
+- **GitHub, Inc**, 2013-2016, Engineer
+- **Mozilla-Knight Open News Code Sprint**, 2013, 2-month grant, Sheetsee.js
 - **DIY.org**, 2013, Maker-in-Residence, Skills curriculum, 3 months, San Francisco
 - **Code for America**, 2012, Fellow, San Francisco
 - **Boston Planning & Development**, 2008-2011, Jr. Urban Designer, City of Boston
