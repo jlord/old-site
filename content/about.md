@@ -5,7 +5,9 @@
 
 I'm an urban designer turned open web developer—which isn't as odd as it sounds. I use technology to build tools to make the web more approachable.
 
-I champion open knowledge, documentation, and kindness. [Open source is a privilege](/blog/osos-talk.html).
+Most recently I've been working with Node.js and built up the Electron team while at GitHub. Here's my [resume](https://www.dropbox.com/s/wpxio5f0s321pqf/jlord-resume.pdf?dl=0)!
+
+I champion open knowledge, documentation, and kindness. Also: [open source is a privilege](/blog/osos-talk.html).
 
 ---
 
