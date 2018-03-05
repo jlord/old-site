@@ -9,6 +9,8 @@ Most recently I've been working with Node.js and built up the Electron team whil
 
 I champion open knowledge, documentation, and kindness. Also: [open source is a privilege](/blog/osos-talk.html).
 
+Ok, lastly, I saw [all the paintings by Vermeer](http://jlord.us/vermeer/index.html)! 
+
 ---
 
 ### Get in touch
