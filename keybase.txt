@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/jlord
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://jlord.us
+  * I am jlord (https://keybase.io/jlord) on keybase.
+  * I have a public key ASBSJeZNmZvTacL9OGpXi9vRl9Jbpm_bHGvaFXzlAnLpxgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01205225e64d999bd369c2fd386a578bdbd197d25ba66fdb1c6bda157ce50272e9c60a",
+      "host": "keybase.io",
+      "kid": "01205225e64d999bd369c2fd386a578bdbd197d25ba66fdb1c6bda157ce50272e9c60a",
+      "uid": "60ca4b41e93ae0b6b036b22b003c2819",
+      "username": "jlord"
+    },
+    "merkle_root": {
+      "ctime": 1523386556,
+      "hash": "1b63057fc12c087b6055d728987499f136ebc0d22256e0ecab05225d9ac5368378434beff39c2cdad9c06ee11a23c5ff06dd6254fd2b01e5549ecaaaad2bdfcc",
+      "hash_meta": "3711ba25a36e246b7604a5ee5b22376b175235286de86fae69bbe8ba126fd3f2",
+      "seqno": 2366326
+    },
+    "service": {
+      "entropy": "tMoYfIKJq5uc/ps3AK+KCvNk",
+      "hostname": "jlord.us",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.47"
+  },
+  "ctime": 1523386563,
+  "expire_in": 504576000,
+  "prev": "1cce6606770c07c292a5c9151e5081dd174ef802ead3308e233e22f0c1ff6d96",
+  "seqno": 8,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgUiXmTZmb02nC/ThqV4vb0ZfSW6Zv2xxr2hV85QJy6cYKp3BheWxvYWTESpcCCMQgHM5mBncMB8KSpckVHlCB3RdO+ALq0zCOIz4i8MH/bZbEIB4wda6r+3jvum6hhzejFCTMc5wo7TMaPQZckWwCdeGbAgHCo3NpZ8RAgHi5nf64KrO+7R9K4y9GZ3yb3VWl/c/p/80sn2ZV8QxfFjuI5QZq0db3VshGKMUTEwM2YToisIYkBPYYv1RhBqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIKKPJMuqNzV2eBPu/t5sCZc59IVV/bUXQ6MzHxy+W1Iuo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jlord
+
+==================================================================
