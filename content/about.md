@@ -5,11 +5,9 @@
 
 I'm an urban designer turned open web developer—which isn't as odd as it sounds. I use technology to build tools to make the web more approachable.
 
-Most recently I've been working with Node.js and built up the Electron team while at GitHub. Here's my [resume](https://www.dropbox.com/s/wpxio5f0s321pqf/jlord-resume.pdf?dl=0)!
-
 I champion open knowledge, documentation, and kindness. Also: [open source is a privilege](/blog/osos-talk.html).
 
-Ok, lastly, I saw [all the paintings by Vermeer](http://jlord.us/vermeer/index.html)! 
+Also, also! I saw [all the paintings by Vermeer](http://jlord.us/vermeer/index.html)!
 
 ---
 
@@ -52,7 +50,8 @@ Ok, lastly, I saw [all the paintings by Vermeer](http://jlord.us/vermeer/index.h
 
 **Work**
 
-- **MongoDB**, 2017-Present, Engineer
+- **Splice**, 2018-Present, Backend Engineer
+- **MongoDB**, 2017-2018, Engineer
 - **GitHub, Inc**, 2013-2016, Engineer
 - **Mozilla-Knight Open News Code Sprint**, 2013, 2-month grant, Sheetsee.js
 - **DIY.org**, 2013, Maker-in-Residence, Skills curriculum, 3 months, San Francisco
