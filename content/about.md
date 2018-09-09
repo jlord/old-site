@@ -5,7 +5,7 @@
 
 I'm an urban designer turned open web developer—which isn't as odd as it sounds.
 
-I'm a backend engineer at [Splice](). Before that I worked on a bunch of things at [GitHub](https://github.com), last was starting the [Electron](https://electronjs.org) team. The year that changed everything was being a [Code for America](https://www.codeforamerica.org) fellow in 2012.
+I'm a backend engineer at [Splice](https://splice.com). Before that I worked on a bunch of things at [GitHub](https://github.com), last was starting the [Electron](https://electronjs.org) team. The year that changed everything was being a [Code for America](https://www.codeforamerica.org) fellow in 2012.
 
 I did the fellowship after working at the City of Boston's Urban Design Technology group and an architecture firm. Before that I was in college, Georgia Tech, graduating with an architecture degree. Before all that I was an awkward teen in Middle Georgia and a baby!
 
