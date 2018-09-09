@@ -3,9 +3,13 @@
 
 ![chemex](assets/chemex-round.png)
 
-I'm an urban designer turned open web developer—which isn't as odd as it sounds. I use technology to build tools to make the web more approachable.
+I'm an urban designer turned open web developer—which isn't as odd as it sounds.
 
-I champion open knowledge, documentation, and kindness. Also: [open source is a privilege](/blog/osos-talk.html).
+I'm a backend engineer at [Splice](). Before that I worked on a bunch of things at [GitHub](https://github.com), last was starting the [Electron](https://electronjs.org) team. The year that changed everything was being a [Code for America](https://www.codeforamerica.org) fellow in 2012.
+
+I did the fellowship after working at the City of Boston's Urban Design Technology group and an architecture firm. Before that I was in college, Georgia Tech, graduating with an architecture degree. Before all that I was an awkward teen in Middle Georgia and a baby!
+
+I champion open knowledge, documentation, and kindness. Also: [open source is a privilege](/blog/osos-talk.html). Selected side projects are on my [work](/work.html) page.
 
 Also, also! I saw [all the paintings by Vermeer](http://jlord.us/vermeer/index.html)!
 
@@ -17,6 +21,9 @@ Also, also! I saw [all the paintings by Vermeer](http://jlord.us/vermeer/index.h
 
 **Talks/Workshops/Panels**
 
+- [**JAMstack_conf**](https://jamstackconf.com) — SF, October 2018
+- [**Write Speak Code**](http://www.writespeakcode.com/2018/) — (Workshop mentor) New York City, August 2018
+- [**WebRebels**](http://https://webrebels.org) — (Emcee) Oslo, June 2018
 - [**EmpireConf**](http://2017.empireconf.org) — (Emcee) New York, October 2017
 - [**ColdFront Conf**](https://www.youtube.com/watch?v=XWyIN7DUJOk) — Copenhagen, September 2017
 - [**Greater Than Code**](https://www.greaterthancode.com/podcast/040-fck-it-and-be-nice) — Podcast, July 2017
