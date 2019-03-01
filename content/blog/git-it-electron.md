@@ -5,7 +5,7 @@
 
 It's a great [new Git-it](https://github.com/jlord/git-it-electron) day! Today I retire the original Git-it and (finally) release the new Git-it, a desktop app built with [Electron](https://electron.atom.io), and make it the one I maintain henceforth.
 
-It's hard to believe it's been more than two years!  A lot about Git-it is actually staying the same. The challenges and the [page of Git-it completers](http://jlord.us)—that's all still the same. Over 8,000 have completed Git-it!
+It's hard to believe it's been more than two years!  A lot about Git-it is actually staying the same. The challenges and the [page of Git-it completers](http://jlord.dev)—that's all still the same. Over 8,000 have completed Git-it!
 
 ![completers](https://cloud.githubusercontent.com/assets/1305617/14665471/5684b864-0688-11e6-9dcb-ff4dfad25300.png)
 _People who have completed Git-it_

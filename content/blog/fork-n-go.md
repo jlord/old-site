@@ -40,6 +40,6 @@ I think there could be many potential uses for web developers and designers to u
 
 So I'm wondering, what are the possible use cases? For instance, I'm currently working on a site for [managing lending tools](http://www.github.com/jlord/sheetsee-tool-lending) in a group of friends or neighborhood. This information can be easily stored in a spreadsheet but made much more useable through a website. Any group could use the steps mentioned above and get this going for themselves in minutes. No installation and after one person forks the site, all other collaborators only need interact with the spreadsheet.
 
-*Edit:* Also! There are lots of  automation into Google spreadsheets possibilities through [ifttt.com](https://ifttt.com/) (which I use for the Pocket reads and Instagrams on the [front](http://jlord.us) of my site).
+*Edit:* Also! There are lots of  automation into Google spreadsheets possibilities through [ifttt.com](https://ifttt.com/) (which I use for the Pocket reads and Instagrams on the [front](http://jlord.dev) of my site).
 
 Hit me up on [Twitter](http://www.twitter.com/jllord), [email](mailto:to.jlord@gmail.com)</a> or on [GitHub](http://www.github.com/jlord) if you've got thoughts or ideas for this!

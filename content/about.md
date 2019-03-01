@@ -11,7 +11,7 @@ I did the fellowship after working at the City of Boston's Urban Design Technolo
 
 I champion open knowledge, documentation, and kindness. Also: [open source is a privilege](/blog/osos-talk.html). Selected side projects are on my [work](/work.html) page.
 
-Also, also! I saw [all the paintings by Vermeer](http://jlord.us/vermeer/index.html)!
+Also, also! I saw [all the paintings by Vermeer](http://jlord.dev/vermeer/index.html)!
 
 ---
 

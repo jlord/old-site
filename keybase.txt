@@ -4,7 +4,7 @@ https://keybase.io/jlord
 
 I hereby claim:
 
-  * I am an admin of https://jlord.us
+  * I am an admin of https://jlord.dev
   * I am jlord (https://keybase.io/jlord) on keybase.
   * I have a public key ASBSJeZNmZvTacL9OGpXi9vRl9Jbpm_bHGvaFXzlAnLpxgo
 
@@ -27,7 +27,7 @@ To do so, I am signing this object:
     },
     "service": {
       "entropy": "tMoYfIKJq5uc/ps3AK+KCvNk",
-      "hostname": "jlord.us",
+      "hostname": "jlord.dev",
       "protocol": "https:"
     },
     "type": "web_service_binding",
