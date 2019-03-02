@@ -6,7 +6,7 @@ I hereby claim:
 
   * I am an admin of https://jlord.dev
   * I am jlord (https://keybase.io/jlord) on keybase.
-  * I have a public key ASBSJeZNmZvTacL9OGpXi9vRl9Jbpm_bHGvaFXzlAnLpxgo
+  * I have a public key with fingerprint 78CF 00D4 B40F 8F2A 8522  397A 847B 5235 6906 6811
 
 To do so, I am signing this object:
 
@@ -14,39 +14,71 @@ To do so, I am signing this object:
   "body": {
     "key": {
       "eldest_kid": "01205225e64d999bd369c2fd386a578bdbd197d25ba66fdb1c6bda157ce50272e9c60a",
+      "fingerprint": "78cf00d4b40f8f2a8522397a847b523569066811",
       "host": "keybase.io",
-      "kid": "01205225e64d999bd369c2fd386a578bdbd197d25ba66fdb1c6bda157ce50272e9c60a",
+      "key_id": "847b523569066811",
+      "kid": "0101dac7c9e1ea609b98fe3bc38a283ca655d35c9170113b3dca9a5617f810f35baa0a",
       "uid": "60ca4b41e93ae0b6b036b22b003c2819",
       "username": "jlord"
     },
     "merkle_root": {
-      "ctime": 1523386556,
-      "hash": "1b63057fc12c087b6055d728987499f136ebc0d22256e0ecab05225d9ac5368378434beff39c2cdad9c06ee11a23c5ff06dd6254fd2b01e5549ecaaaad2bdfcc",
-      "hash_meta": "3711ba25a36e246b7604a5ee5b22376b175235286de86fae69bbe8ba126fd3f2",
-      "seqno": 2366326
+      "ctime": 1551540037,
+      "hash_meta": "cf0098d41e59b1f3798ba0d44ff26b19f414fd746957317f0e6bf03ca22f5ec7",
+      "seqno": 4862768
+    },
+    "revoke": {
+      "sig_ids": [
+        "08b83b153fd2cc8216bb7720f2eac9fa0495d223b57466f547c95c9a64f0ed450f"
+      ]
     },
     "service": {
-      "entropy": "tMoYfIKJq5uc/ps3AK+KCvNk",
       "hostname": "jlord.dev",
       "protocol": "https:"
     },
     "type": "web_service_binding",
-    "version": 2
+    "version": 1
   },
-  "client": {
-    "name": "keybase.io go client",
-    "version": "1.0.47"
-  },
-  "ctime": 1523386563,
-  "expire_in": 504576000,
-  "prev": "1cce6606770c07c292a5c9151e5081dd174ef802ead3308e233e22f0c1ff6d96",
-  "seqno": 8,
+  "ctime": 1551540046,
+  "expire_in": 157680000,
+  "prev": "295702cf31bfa98ca9e43940e686d3fc72f9e9ce719d10f88e5b0902ed8ed8ed",
+  "seqno": 9,
   "tag": "signature"
 }
 
 which yields the signature:
 
-hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgUiXmTZmb02nC/ThqV4vb0ZfSW6Zv2xxr2hV85QJy6cYKp3BheWxvYWTESpcCCMQgHM5mBncMB8KSpckVHlCB3RdO+ALq0zCOIz4i8MH/bZbEIB4wda6r+3jvum6hhzejFCTMc5wo7TMaPQZckWwCdeGbAgHCo3NpZ8RAgHi5nf64KrO+7R9K4y9GZ3yb3VWl/c/p/80sn2ZV8QxfFjuI5QZq0db3VshGKMUTEwM2YToisIYkBPYYv1RhBqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIKKPJMuqNzV2eBPu/t5sCZc59IVV/bUXQ6MzHxy+W1Iuo3RhZ80CAqd2ZXJzaW9uAQ==
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.0
+Comment: https://keybase.io/crypto
+
+yMP+AnicbZMNbBRFFMdbKBBaoCBa2oJotlapXOjsx8zu3AEWCKigEKigaPGY2Zlt
+l2tvj7trSzmKIcdXKMiHKU2UIgEJlS8tJICgKfKp1GiBEApIAIFQoqRURLEUcLaR
+aIybTTYz+977/9/vzRzp3TUhOXFhbAq0uxf1S2w85JQmFMz9eGJMog6rkLwxKcA7
+P7yY8UjUH7CZ5JWArACoKJAjjWGMKVMRNhWLqQYiUDcoo0zGOlMgJQhZjMomoozI
+UDc5BIqucGwiQCSPZNnBQh4Ohe1gVJTVDdMCgGlUA5ZhKcQQGirWiaHpFCoqRBgg
+ZMiySCxyIm6GMEdJhA+zHbEnFv5Oe/8T/9g3kBkxdRNzmRMEMMWGxVVqqgZRDNUk
+CEKmQhPLOpBllarMJJhAJOuWIQNLFf2QTt+lneUQMIkwK3OsEg4ookBFVFEoAKqp
+GDJ2AyM8HCQlXETPKnbCTKr0SCU8HCjm/rDjRF2yZtR2/8sQylATqbrojkSK/CU8
+SkSaiwQbTKhATGVL1bFBiYCkWZaCqIwtTdYspmsIQ10VRgFH1BIGiKJYkJu6MBHh
+s4OO5NUMpOjIEA7CvMwJcFc8YhcKZhHJ+44EDGqoVIaqxRTTNBQZUarrCrAUTkxs
+EaBhyMRAKBRiyIKawChQEaQJTaZBYEkzKl2xcJltdhZ3h/Tv5ocxXibshMJO1DGd
+YrFdFI2GIl4XSrQi5MaVc+r/u4Kf2kEmzofIKOPhiO0EBSQR+R9eGvJIfE7IDnO/
+7UZA0SIQj6sj5LySIsAAxbRUmVoEG2KiXFOxJjgZiKmWqSsWFgeS6zJmYsiGwSEF
+GCicGZ3vPwCxsEkKRUlBLUiipWEuVR76uiApITE5oXu3Lu69SUju2ffxbWKbUh+O
+WFVxNbajZk9tWnVx/O7zG568FL1t1Tc+V3Orf0fXtopHax7a66/xq825AzLABDPt
+vfHDY9t2hbbFmi6u9rXvfDvl6LKHuzoSRy9ZuK5u0eqJ3tmTSi9VlbW2312/KONo
+fmvFZwl3Fpff33yqoam+z299X55zk9n9+7ftaDs6d2puyqohjS+9EOyWurH9/RwY
+q8+pW5A0pnrS8ZRf87a3eMuTMuPjTt5t3fvpnsyzN2+cr5tCCgN3Msc+k5Vz9UzP
+tAfTArnLZi5fMfrC/t5yydDBowb5arPjNTmb42ktJTevGBHPayOyy1+vqmqZg0LX
+t670D0+tnbUyL/uUb3r3IZu8LbtnnN/3yk+T+320fMvuy96RJ8794P3gQcdm6/S8
+rFnbe9066DRXxTLaO7Sm4gbPvrW0pNl3HO9d//1A+saMT+Y95aP5Qzd6xiRvbNze
+y4xv/ar296ZnRpLkpydcVtdknXviUcbW/JpvV4wbPDPpwz2f97jXY9C6lFd7/nxu
+w/3UqP7nkm/Gj6htmL64Ie+L6ndX5BX5fsS+qYFd6RdvN6+7cCQpLb+gtSl9g+9Y
+dh2In3/LmN9x5t7+yQ9yUndm5i44sWVIW/3BaUuz37zSI/Hs4W5DX9wRGHUtdP3A
+YTnty5PpfeavrS6Nr544ZuzAPw52WdbcKyvpu2djww+k712qjV/c21/k6fLLtCMF
+m274Y8d2V7YPyDz9F4DC9nU=
+=umyz
+-----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
