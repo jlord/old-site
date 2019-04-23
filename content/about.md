@@ -21,6 +21,7 @@ Also, also! I saw [all the paintings by Vermeer](http://jlord.dev/vermeer/index.
 
 **Talks/Workshops/Panels**
 
+- [**CSSConf EU**](http://2018.cssconf.eu) — (Emcee) Berlin, Germany, May 2019
 - [**JSConf Hawaii**](https://jsconfhi.com) — Honolulu, February 2019
 - [**JAMstack_conf**](https://jamstackconf.com) — SF, October 2018
 - [**Write Speak Code**](http://www.writespeakcode.com/2018/) — (Workshop mentor) New York City, August 2018
@@ -52,6 +53,7 @@ Also, also! I saw [all the paintings by Vermeer](http://jlord.dev/vermeer/index.
 - **Farmhouse Conf**, Los Angeles, 2012
 
 **Extracurricular**
+- [Gehl Institute](http://gehlinstitute.org), Data Fellow for [Public Life Data Protocol](https://github.com/gehl-institute/pldp)
 - [StreetSmart](http://welcome.thinkstreetsmart.org), transportation data nonprofit, Board of Directors
 - [Patchwork](http://patchwork.github.io), Git and GitHub for beginners, mentor.
 - [NodeSchool](http://www.nodeschool.io), Node.js fundamentals, mentor.
