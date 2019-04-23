@@ -21,6 +21,7 @@ Also, also! I saw [all the paintings by Vermeer](http://jlord.dev/vermeer/index.
 
 **Talks/Workshops/Panels**
 
+- [**JSConf Hawaii**](https://jsconfhi.com) — Honolulu, February 2019
 - [**JAMstack_conf**](https://jamstackconf.com) — SF, October 2018
 - [**Write Speak Code**](http://www.writespeakcode.com/2018/) — (Workshop mentor) New York City, August 2018
 - [**WebRebels**](http://https://webrebels.org) — (Emcee) Oslo, June 2018
