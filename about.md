@@ -3,20 +3,30 @@
 
 ![chemex](assets/chemex-round.png)
 
-I'm an urban designer turned open web developer—which isn't as odd as it sounds. I use technology to build tools to make the web more approachable.
+I'm an urban designer turned open web developer—which isn't as odd as it sounds.
 
-I champion open knowledge, documentation, and kindness. [Open source is a privilege](/blog/osos-talk.html).
+I'm a backend engineer at [Splice](https://splice.com). Before that I worked on a bunch of things at [GitHub](https://github.com), last was starting the [Electron](https://electronjs.org) team. The year that changed everything was being a [Code for America](https://www.codeforamerica.org) fellow in 2012.
+
+I did the fellowship after working at the City of Boston's Urban Design Technology group and an architecture firm. Before that I was in college, Georgia Tech, graduating with an architecture degree. Before all that I was an awkward teen in Middle Georgia and a baby!
+
+I champion open knowledge, documentation, and kindness. Also: [open source is a privilege](/blog/osos-talk.html). Selected side projects are on my [work](/work.html) page.
+
+Also, also! I saw [all the paintings by Vermeer](http://jlord.dev/vermeer/index.html)!
 
 ---
 
 ### Get in touch
 
-[jess.lord@gmail.com](mailto: jess.lord@gmail.com) | [twitter/jllord](http://www.twitter.com/jllord) | [github/jlord](http://www.github.com/jlord) | [IRC](https://www.irccloud.com): freenode, #stackvm
+[jess.lord@gmail.com](mailto: jess.lord@gmail.com) | [twitter/jllord](http://www.twitter.com/jllord) | [github/jlord](http://www.github.com/jlord) | [IRC](https://www.irccloud.com): freenode, jlord
 
 **Talks/Workshops/Panels**
 
+- [**JAMstack_conf**](https://jamstackconf.com) — SF, October 2018
+- [**Write Speak Code**](http://www.writespeakcode.com/2018/) — (Workshop mentor) New York City, August 2018
+- [**WebRebels**](http://https://webrebels.org) — (Emcee) Oslo, June 2018
 - [**EmpireConf**](http://2017.empireconf.org) — (Emcee) New York, October 2017
-- [**Greater Than Code**]() — Podcast, July 2017
+- [**ColdFront Conf**](https://www.youtube.com/watch?v=XWyIN7DUJOk) — Copenhagen, September 2017
+- [**Greater Than Code**](https://www.greaterthancode.com/podcast/040-fck-it-and-be-nice) — Podcast, July 2017
 - [**CSSConf EU**](http://2017.cssconf.eu) — (Emcee) Berlin, Germany, May 2017
 - [**Render Conf**](http://2017.render-conf.com) — Oxford, England, March, 2017
 - [**JSConf Australia**](http://2016.jsconfau.com/interviews/jessica-lord) — Melbourne, Australia, December, 2016
@@ -42,21 +52,24 @@ I champion open knowledge, documentation, and kindness. [Open source is a privil
 
 **Extracurricular**
 - [StreetSmart](http://welcome.thinkstreetsmart.org), transportation data nonprofit, Board of Directors
-- [Patchwork](http://patchwork.github.io), teaching Git and GitHub to beginners.
-- [NodeSchool](http://www.nodeschool.io), teaching Node.js and Git fundamentals.
+- [Patchwork](http://patchwork.github.io), Git and GitHub for beginners, mentor.
+- [NodeSchool](http://www.nodeschool.io), Node.js fundamentals, mentor.
 
 **Work**
 
-- **GitHub, Inc**, Engineer, 2013-2016
-- **Mozilla-Knight Open News Code Sprint**, 2013, 2 mos, Sheetsee.js
-- **DIY.org**, 2013, Maker-in-Residence, Skills curriculum, 3 mos, San Francisco
-- **Code for America**, 2012 Fellow, 1 yr, San Francisco
-- **Jr. Urban Designer**, 3 yrs, Boston Redevelopment Auth., City of Boston
-- **Intern Architect**, 1 yr, Rutledge-Alcock Architects, Atlanta
+- **Glitch**, 2019-Present, Developer Tools Lead
+- **Splice**, 2018-2019, Backend Engineer
+- **MongoDB**, 2017-2018, Engineer
+- **GitHub, Inc**, 2013-2016, Engineer
+- **Mozilla-Knight Open News Code Sprint**, 2013, 2-month grant, Sheetsee.js
+- **DIY.org**, 2013, Maker-in-Residence, Skills curriculum, 3 months, San Francisco
+- **Code for America**, 2012, Fellow, San Francisco
+- **Boston Planning & Development**, 2008-2011, Jr. Urban Designer, City of Boston
+- **Rutledge-Alcock Architects**, 2007-2008, Intern Architect, Atlanta
 
-**Edu**
+**Education**
 
-- **Georgia Institute of Technology**, 2007 Architecture
+- **Georgia Institute of Technology**, 2007, Bachelor of Science, Architecture
 - **Ecole d'Architecture de Paris LaVillette**, 2006
 
 ### About the Site

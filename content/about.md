@@ -57,7 +57,8 @@ Also, also! I saw [all the paintings by Vermeer](http://jlord.dev/vermeer/index.
 
 **Work**
 
-- **Splice**, 2018-Present, Backend Engineer
+- **Glitch**, 2019-Present, Developer Tools Lead
+- **Splice**, 2018-2019, Backend Engineer
 - **MongoDB**, 2017-2018, Engineer
 - **GitHub, Inc**, 2013-2016, Engineer
 - **Mozilla-Knight Open News Code Sprint**, 2013, 2-month grant, Sheetsee.js
