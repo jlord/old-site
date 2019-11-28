@@ -21,6 +21,7 @@ Also, also! I saw [all the paintings by Vermeer](http://jlord.dev/vermeer/index.
 
 **Talks/Workshops/Panels**
 
+- [**JSConf Colombia**](https://jsconf.co) — Medellín, Colombia, October 2019
 - [**CSSConf EU**](http://2018.cssconf.eu) — (Emcee) Berlin, Germany, May 2019
 - [**JSConf Hawaii**](https://jsconfhi.com) — Honolulu, February 2019
 - [**JAMstack_conf**](https://jamstackconf.com) — SF, October 2018
@@ -60,7 +61,7 @@ Also, also! I saw [all the paintings by Vermeer](http://jlord.dev/vermeer/index.
 
 **Work**
 
-- **Glitch**, 2019-Present, Developer Tools Lead
+- **Glitch**, 2019-Present, Developer Tools Engineering Lead
 - **Splice**, 2018-2019, Backend Engineer
 - **MongoDB**, 2017-2018, Engineer
 - **GitHub, Inc**, 2013-2016, Engineer
