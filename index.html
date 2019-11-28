@@ -90,12 +90,13 @@
           <li><a class="button meta" href="https://jlord.github.io/blog/getting-started.html">Learn Web Dev</a></li>
         </ul>
       </div>
-      <div class="whole">
-        <h2 class="home-h-link"><a href="http://www.instagram.com/jlord" rel="me" target="_blank">Instagram</a></h2>
-          <div id="instagram"><span class="load flash animated">LOADING...</span></div>
+      <!-- Instagram changed their URL paths and this is broken now :( -->
+      <!-- <div class="whole"> -->
+        <!-- <h2 class="home-h-link"><a href="http://www.instagram.com/jlord" rel="me" target="_blank">Instagram</a></h2> -->
+          <!-- <div id="instagram"><span class="load flash animated">LOADING...</span></div> -->
           <!-- <div style="display: block;"></div> -->
           <!-- <span class="meta"><a href="instagram.html">More</a></span> -->
-      </div>
+      <!-- </div> -->
 
       <div class="whole">
         <h2 class="home-h-link"><a href="http://www.twitter.com/jllord" rel="me" target="_blank">Twitter</a></h2>
@@ -122,13 +123,13 @@
 
       <script type="text/javascript">
         document.addEventListener('DOMContentLoaded', function() {
-          var URL  = '1E7pSwj2VxAuKDOa53zR0UPux-gjb9ixmfDkhu-LCoiI' // insta
+          // var URL  = '1E7pSwj2VxAuKDOa53zR0UPux-gjb9ixmfDkhu-LCoiI' // insta
           var URL2 = '1VuFb5HDAuLZlLoYtMcVsG9L9LKwN9WblUPYWIq3gti8' // tweet
           var URL3 = '1BHgM03pl-yyhrGR8q28d3OzCIUAP5Krq8yYmy2w5QeQ' // quotes
           var URL4 = '0Ao5u1U6KYND7dERheVpFZThEUkdPZnFXXzMxTzJ3dEE' // pocket
           var URL5 = '1yaHnf7RTYbqUzRD3xvbRt3RuPsAnOOsXKej2IPVkCpI' // instapaper
 
-          Tabletop.init({ key: URL,  callback: buildInsta,  simpleSheet: true })
+          // Tabletop.init({ key: URL,  callback: buildInsta,  simpleSheet: true })
           Tabletop.init({ key: URL2, callback: buildTweet,  simpleSheet: true })
           Tabletop.init({ key: URL3, callback: buildQuote,  simpleSheet: true })
           Tabletop.init({ key: URL5, callback: buildPocket, simpleSheet: true })
