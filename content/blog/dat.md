@@ -15,7 +15,7 @@ The diagram above illustrates that Dat will be an ecosystem of modules that can 
 
 Dat is being built to solve a problem that exists today without a good solution: collaborating on really large datasets and sharing data transformations. While Dat can be used by anyone and government certainly fits the *anyone* bucket, it isn't *a new tool for government*. It is a **new tool for those who work everyday with data**, government or other.
 
-Because Dat will be a platform that works with **any** type of tabular data, it prefers no one type, it is completely **independent of the government data standards and liberation efforts** that are ongoing. And yes, this effort is a cultural effort. I [know this to be very true](http://jlord.dev/a-government-more-like-the-people/) as I've been involved with government all of my career from the City of Boston to Code for America ([apply now](http://www.codeforamerica.org/apply)!) and am still active in this important cultural shift.
+Because Dat will be a platform that works with **any** type of tabular data, it prefers no one type, it is completely **independent of the government data standards and liberation efforts** that are ongoing. And yes, this effort is a cultural effort. I [know this to be very true](http://jlord.us/a-government-more-like-the-people/) as I've been involved with government all of my career from the City of Boston to Code for America ([apply now](http://www.codeforamerica.org/apply)!) and am still active in this important cultural shift.
 
 Dat will exist outside of and in parallel to whatever comes of this effort and therefore will work no matter what standards emerge from the effort; that's awesome!
 

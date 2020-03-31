@@ -3,7 +3,7 @@
 #### 2012-11-25
 #### heroku, web dev
 
-I finally actually sat down to tackle my multiple Heroku accounts problem. I started by following Chris's <a title="comment" href="http://jlord.dev/wordpress-on-heroku-and-s3/#comment-21" target="_blank">comment</a> and using a <a title="heroku accounts on github" href="https://github.com/ddollar/heroku-accounts" target="_blank">plugin</a>. Something went awry, probably my fault, but I eneded up uninstalling it (which turns out to be a pain) and figuring out how to do what it does <a href="http://stackoverflow.com/a/8856271" target="_blank">manually</a>.
+I finally actually sat down to tackle my multiple Heroku accounts problem. I started by following Chris's <a title="comment" href="http://jlord.us/wordpress-on-heroku-and-s3/#comment-21" target="_blank">comment</a> and using a <a title="heroku accounts on github" href="https://github.com/ddollar/heroku-accounts" target="_blank">plugin</a>. Something went awry, probably my fault, but I eneded up uninstalling it (which turns out to be a pain) and figuring out how to do what it does <a href="http://stackoverflow.com/a/8856271" target="_blank">manually</a>.
 
 ### Create new keys for accounts
 

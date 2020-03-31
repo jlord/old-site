@@ -21,7 +21,7 @@ We learned and iterated on the events. We used Git-it for some and then went web
 
 We added talks. An introduction from a GitHubber on their first pull request and how they got involved with open source—dispel any ideas that developers were born developers. We all started somewhere. A closing talk from a local open source developer to introduce projects and real world open source practices.
 
-![branch](http://jlord.dev/git-it/assets/imgs/branches.png)
+![branch](http://jlord.us/git-it/assets/imgs/branches.png)
 _Branching_
 
 I'm really proud of Patchwork. It's a simple event for sharing skills and giving back. Locals volunteered their time to come out and mentor attendees, to sit down and talk about branching like someone once did with them, and I am ever so grateful to all of you! Equally thankful to all the GitHubbers who attended, hosted and helped pull these off.

@@ -5,7 +5,7 @@
 
 ![penny](http://jlord.s3.amazonaws.com/wp-content/uploads/pennyzoom.png)
 
-I've just updated [Sheetsee.js](http://www.github.com/jlord/sheetsee.js) with new features and all new docs. I've been waiting to ship this, it feels like, for far too long. I&#8217;m hoping now Sheetsee is at a solid enough place that I can focus spare time on making more [fork-n-go](http://www.jlord.dev/fork-n-go) examples.
+I've just updated [Sheetsee.js](http://www.github.com/jlord/sheetsee.js) with new features and all new docs. I've been waiting to ship this, it feels like, for far too long. I&#8217;m hoping now Sheetsee is at a solid enough place that I can focus spare time on making more [fork-n-go](http://www.jlord.us/fork-n-go) examples.
 
 I'll get straight to the most exciting point: the new [sample data](https://docs.google.com/spreadsheet/ccc?key=0Ao5u1U6KYND7dGN5QngweVJUWE16bTRob0d2a3dCbnc&amp;usp=drive_web&amp;pli=1#gid=0) for the demos is of my [flattened penny collection](http://www.flickr.com/photos/jessllord/sets/72157640471928365/). Below are the other things.
 
